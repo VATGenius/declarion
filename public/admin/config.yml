@@ -1,0 +1,134 @@
+# Decap CMS Configuration
+# Documentation: https://decapcms.org/docs/
+
+backend:
+  name: github
+  repo: OWNER/REPO  # Replace with your GitHub username/repo
+  branch: main
+  # For local development, comment out the above and use:
+  # name: git-gateway
+
+# Enable Editorial Workflow for PR-based content review
+publish_mode: editorial_workflow
+
+# Media configuration
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+# Site URL for preview
+site_url: https://vatgenius.com
+
+# Logo for the CMS
+logo_url: /images/logo.png
+
+# Collections
+collections:
+  # News Collection
+  - name: news
+    label: News
+    label_singular: News Article
+    folder: content/news
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+      - label: Date
+        name: date
+        widget: datetime
+        required: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        required: true
+        hint: A short summary of the article (150-200 characters)
+      - label: Hero Image
+        name: heroImage
+        widget: image
+        required: false
+        hint: Featured image for the article
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        hint: Comma-separated tags
+      - label: Body
+        name: body
+        widget: markdown
+        required: true
+
+  # Knowledge Collection
+  - name: knowledge
+    label: Knowledge Hub
+    label_singular: Knowledge Article
+    folder: content/knowledge
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+      - label: Date
+        name: date
+        widget: datetime
+        required: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        required: true
+        hint: A short summary of the article (150-200 characters)
+      - label: Hero Image
+        name: heroImage
+        widget: image
+        required: false
+        hint: Featured image for the article
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        hint: Comma-separated tags
+      - label: Body
+        name: body
+        widget: markdown
+        required: true
+
+  # Pages Collection (Optional)
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: content/pages
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+      - label: Slug
+        name: slug
+        widget: string
+        required: true
+        hint: URL path for this page (e.g., about-us)
+      - label: SEO Title
+        name: seoTitle
+        widget: string
+        required: false
+        hint: Custom title for search engines
+      - label: SEO Description
+        name: seoDescription
+        widget: text
+        required: false
+        hint: Description for search engines (150-160 characters)
+      - label: Body
+        name: body
+        widget: markdown
+        required: true
