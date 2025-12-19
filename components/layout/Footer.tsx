@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Container } from './Container';
 
@@ -21,7 +22,16 @@ const footerLinks = {
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-100 bg-gray-50">
+    <footer className="relative border-t border-gray-100 bg-gray-50">
+      {/* Brand Background Image */}
+      <div className="absolute inset-0 -z-10 overflow-hidden">
+        <Image
+          src="/images/brand-footer.png"
+          alt=""
+          fill
+          className="object-cover opacity-5"
+        />
+      </div>
       <Container>
         <div className="py-12 md:py-16">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">

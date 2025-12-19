@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Section } from '@/components/layout';
 import { ArticleCard } from '@/components/content';
 import { getAllNews } from '@/lib/content';
@@ -17,7 +18,18 @@ export default function NewsPage() {
   const news = getAllNews();
 
   return (
-    <Section background="white" className="pt-20">
+    <Section background="white" className="relative overflow-hidden pt-20">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src="/images/hero-knowledge.png"
+          alt=""
+          fill
+          className="object-cover opacity-10"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white" />
+      </div>
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           News & Updates
