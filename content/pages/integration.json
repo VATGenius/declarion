@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "title": "Seamless API Integration",
+    "description": "The success of our partnership hinges on the speed of implementation. Our solution is designed as a low-code, plug-and-play service, ensuring minimal strain on your internal development resources and a rapid time-to-market.",
+    "heroImage": "/images/hero-integration.png"
+  },
+  "pillars": {
+    "title": "The Three Integration Pillars",
+    "description": "Our service connects to your platform via a secure RESTful API, enabling automatic data flow and minimizing manual intervention. The integration requires focusing only on three core data exchange points:",
+    "items": [
+      {
+        "title": "Customer Onboarding Hook",
+        "description": "A simple click to activate the VAT reclaim service for a specific business customer.",
+        "icon": "userPlus"
+      },
+      {
+        "title": "Transaction Data Feed",
+        "description": "A secure feed of relevant foreign expense transactions.",
+        "icon": "database"
+      },
+      {
+        "title": "Approval, Status & Payout",
+        "description": "A webhook to receive notifications on approvals, real-time updates on claim status and final refund payments.",
+        "icon": "checkCircle"
+      }
+    ]
+  },
+  "lowCode": {
+    "title": "Low Code, High Value",
+    "description": "We understand that speed and efficiency are paramount. We deliver:",
+    "items": [
+      {
+        "title": "Robust Documentation",
+        "description": "Comprehensive, easy-to-follow API documentation and SDKs for popular languages to accelerate your development cycle."
+      },
+      {
+        "title": "Dedicated Sandbox Environment",
+        "description": "A fully functional testing environment allows your team to prototype and validate the integration without affecting live production."
+      },
+      {
+        "title": "Minimal Maintenance",
+        "description": "We handle all ongoing compliance updates, foreign tax authority changes, and system maintenance. Zero technical debt for your platform."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Time-to-Market Estimate",
+    "description": "We project a rapid implementation timeline, allowing you to launch this new premium feature quickly:",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "description": "API Access & Sandbox Testing",
+        "duration": "2 Weeks",
+        "effort": "Minimal (1 Developer)"
+      },
+      {
+        "phase": "Phase 2",
+        "description": "Data Flow Integration & Validation",
+        "duration": "4-6 Weeks",
+        "effort": "Low to Moderate"
+      },
+      {
+        "phase": "Phase 3",
+        "description": "Compliance Review & Pilot Launch",
+        "duration": "1 Week",
+        "effort": "None (Internal Review)"
+      }
+    ],
+    "total": {
+      "label": "Total",
+      "description": "Time to Pilot",
+      "duration": "~6-8 Weeks",
+      "effort": "Limited"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Integration?",
+    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "buttonLink": "/demo"
+  }
+}

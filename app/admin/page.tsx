@@ -1,30 +1,24 @@
-'use client';
+import { Metadata } from 'next';
 
-import { useEffect } from 'react';
+export const metadata: Metadata = {
+  title: 'Content Manager | VATGenius',
+  robots: 'noindex',
+};
 
 export default function AdminPage() {
-  useEffect(() => {
-    // Load Decap CMS
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
-    <html>
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Content Manager | VATGenius</title>
-      </head>
-      <body>
-        <div id="nc-root" />
-      </body>
-    </html>
+    <iframe
+      src="/admin/cms.html"
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100vw',
+        height: '100vh',
+        border: 'none',
+        zIndex: 9999,
+      }}
+      title="Content Manager"
+    />
   );
 }

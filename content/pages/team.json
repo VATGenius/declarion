@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "title": "The VAT Refund Specialists for Your Business Customers",
+    "description": "We empower companies that use innovative financial solutions, especially those that work with neobanks, to seamlessly reclaim their maximum refundable VAT through the input tax refund process.",
+    "heroImage": "/images/hero-team.png"
+  },
+  "niche": {
+    "title": "Our Niche & Expertise",
+    "items": [
+      {
+        "title": "The Challenge",
+        "description": "Traditional VAT refund processes are often difficult to integrate efficiently into the unique infrastructure and documentation of digital neobanks. This can lead to missed applications, delays, or administrative overhead."
+      },
+      {
+        "title": "Our Solution",
+        "description": "We have tailored our process to this reality. We specialize in handling the input tax refund process and have in-depth knowledge of neobank documentation, enabling us to ensure faster, more compliant, and more successful VAT refunds."
+      },
+      {
+        "title": "Our Promise",
+        "description": "We maximize the liquidity of your business customers by ensuring that they successfully recover every euro of VAT to which they are entitled. Our proprietary technology bridges the gap between legal VAT requirements and the agility of digital banking."
+      }
+    ]
+  },
+  "team": {
+    "title": "The Team",
+    "members": [
+      {
+        "name": "Dr. Philipp Tranacher",
+        "role": "Tax & Legal",
+        "bio": "PhD, CPA, CTA, Lawyer. 15+ years in international tax.",
+        "image": "/images/team/philipp.jpg"
+      },
+      {
+        "name": "Charles Watkins",
+        "role": "Product Dev. & Sales",
+        "bio": "Master's degree in Psychology. 10+ years in international sales.",
+        "image": "/images/team/charles.png"
+      },
+      {
+        "name": "Nils Löwe",
+        "role": "IT & Product Development",
+        "bio": "Master's degree in Computer & Electrical Engineering and Information Technology. 10+ years in software development.",
+        "image": "/images/team/nils.png"
+      },
+      {
+        "name": "Dr. Juliane Tranacher",
+        "role": "Marketing & Sales",
+        "bio": "PhD in German literature. 15 years of experience in marketing, press, and public relations with a focus on the financial and real estate industries.",
+        "image": "/images/team/juliane.png"
+      },
+      {
+        "name": "Helena Ziani",
+        "role": "Business Operations",
+        "bio": "Master in Business Informatics. 8 years of experience in scaling high-growth startups in the US, UK, France and Germany.",
+        "image": "/images/team/helena.png"
+      }
+    ]
+  },
+  "values": {
+    "title": "Our Values",
+    "items": [
+      {
+        "title": "Precision",
+        "subtitle": "Ensuring absolute accuracy to maximize recoverable VAT and minimize audit risk.",
+        "description": "We guarantee absolute accuracy and compliance with international tax laws, minimizing risks and maximizing the refundable VAT amount for your customers. Our processes are designed to manage complex data from different jurisdictions with flawless precision."
+      },
+      {
+        "title": "Digital First",
+        "subtitle": "Transform complex processes into a seamless, scalable, API-driven digital experience.",
+        "description": "Using API-driven integrations and advanced automation, we transform the manual, paper-intensive process of VAT refunds into a seamless, fully digital experience. This ensures speed, scalability, and minimal operational overhead for your banking platform."
+      },
+      {
+        "title": "Customer Focus",
+        "subtitle": "Design a seamless service that enhances your customers' global banking experience.",
+        "description": "Our services are tailored to the needs of your business customers, offering a seamless service that is easy to understand and accessible directly through your banking interface, thereby increasing customer loyalty and satisfaction."
+      },
+      {
+        "title": "Transparency",
+        "subtitle": "Providing real-time transparency and clear communication throughout the entire reimbursement cycle.",
+        "description": "We provide a clear, real-time audit trail for every transaction and refund status. Our fees and process steps are clearly outlined from the outset to ensure complete trust and transparency between us, the neobank, and the end customer."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Work with Us?",
+    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "buttonLink": "/demo"
+  }
+}

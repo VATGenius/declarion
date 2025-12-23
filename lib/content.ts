@@ -115,3 +115,15 @@ export function getAllKnowledgeSlugs(): string[] {
 export function getPageBySlug(slug: string): ContentItem | null {
   return getContentBySlug('pages', slug);
 }
+
+// JSON Page Content functions
+export function getPageContent<T>(pageName: string): T {
+  const filePath = path.join(contentDirectory, 'pages', `${pageName}.json`);
+
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Page content not found: ${pageName}`);
+  }
+
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(fileContents) as T;
+}

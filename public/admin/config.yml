@@ -1,12 +1,13 @@
 # Decap CMS Configuration
 # Documentation: https://decapcms.org/docs/
 
+# Local backend for development (run: npx decap-server)
+local_backend: true
+
 backend:
   name: github
   repo: Lionizers/vatgenius
   branch: main
-  # For local development, comment out the above and use:
-  # name: git-gateway
 
 # Enable Editorial Workflow for PR-based content review
 publish_mode: editorial_workflow
@@ -99,36 +100,311 @@ collections:
         widget: markdown
         required: true
 
-  # Pages Collection (Optional)
+  # Pages Collection - File-based editing for structured page content
   - name: pages
     label: Pages
-    label_singular: Page
-    folder: content/pages
-    create: true
-    slug: "{{slug}}"
-    extension: mdx
-    format: frontmatter
-    fields:
-      - label: Title
-        name: title
-        widget: string
-        required: true
-      - label: Slug
-        name: slug
-        widget: string
-        required: true
-        hint: URL path for this page (e.g., about-us)
-      - label: SEO Title
-        name: seoTitle
-        widget: string
-        required: false
-        hint: Custom title for search engines
-      - label: SEO Description
-        name: seoDescription
-        widget: text
-        required: false
-        hint: Description for search engines (150-160 characters)
-      - label: Body
-        name: body
-        widget: markdown
-        required: true
+    files:
+      # Home Page
+      - name: home
+        label: Home Page
+        file: content/pages/home.json
+        fields:
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Title Highlight, name: titleHighlight, widget: string, hint: "Text highlighted in brand color" }
+              - { label: Title End, name: titleEnd, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Secondary Description, name: secondaryDescription, widget: text }
+              - { label: CTA Text, name: ctaText, widget: string }
+              - { label: CTA Link, name: ctaLink, widget: string }
+              - { label: Hero Image, name: heroImage, widget: image }
+          - label: Platform Section
+            name: platform
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["code", "lightbulb", "document"] }
+          - label: Benefits Section
+            name: benefits
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["currency", "heart", "lightning"] }
+          - label: Security Section
+            name: security
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                field: { label: Feature, name: feature, widget: string }
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+
+      # Product Page
+      - name: product
+        label: Product Page
+        file: content/pages/product.json
+        fields:
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Solution Text, name: solutionText, widget: text }
+              - { label: Hero Image, name: heroImage, widget: image }
+          - label: How It Works Section
+            name: howItWorks
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Steps
+                name: steps
+                widget: list
+                fields:
+                  - { label: Step Number, name: step, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Customer Benefit Section
+            name: customerBenefit
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Compliance Section
+            name: compliance
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Sections
+                name: sections
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Text, name: text, widget: string }
+          - label: Secure API Section
+            name: secureApi
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: string }
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+
+      # Why Us Page
+      - name: why-us
+        label: Why Us Page
+        file: content/pages/why-us.json
+        fields:
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Title Highlight, name: titleHighlight, widget: string, hint: "Text highlighted in brand color" }
+              - { label: Hero Image, name: heroImage, widget: image }
+              - label: Benefits
+                name: benefits
+                widget: list
+                field: { label: Benefit, name: benefit, widget: string }
+          - label: Implementation Section
+            name: implementation
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["lightning", "support", "chart"] }
+          - label: Why Partner Section
+            name: whyPartner
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+
+      # Integration Page
+      - name: integration
+        label: Integration Page
+        file: content/pages/integration.json
+        fields:
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Hero Image, name: heroImage, widget: image }
+          - label: Pillars Section
+            name: pillars
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["userPlus", "database", "checkCircle"] }
+          - label: Low Code Section
+            name: lowCode
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Timeline Section
+            name: timeline
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Phases
+                name: phases
+                widget: list
+                fields:
+                  - { label: Phase, name: phase, widget: string }
+                  - { label: Description, name: description, widget: string }
+                  - { label: Duration, name: duration, widget: string }
+                  - { label: Your Dev Effort, name: effort, widget: string }
+              - label: Total
+                name: total
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Description, name: description, widget: string }
+                  - { label: Duration, name: duration, widget: string }
+                  - { label: Effort, name: effort, widget: string }
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+
+      # Team Page
+      - name: team
+        label: Team Page
+        file: content/pages/team.json
+        fields:
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Hero Image, name: heroImage, widget: image }
+          - label: Our Niche Section
+            name: niche
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Team Section
+            name: team
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Members
+                name: members
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Role, name: role, widget: string }
+                  - { label: Bio, name: bio, widget: text }
+                  - { label: Image, name: image, widget: image }
+          - label: Values Section
+            name: values
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Subtitle, name: subtitle, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }

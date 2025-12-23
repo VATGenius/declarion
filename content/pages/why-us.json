@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "title": "The VATGenius Partner Benefits:",
+    "titleHighlight": "Revenue, Retention, Differentiation",
+    "heroImage": "/images/hero-why-us.png",
+    "benefits": [
+      "Fees are only incurred when VAT is actually refunded. No financial risk for the customer.",
+      "You only incur costs for integration. Your income can exceed these costs many times over.",
+      "The service justifies a higher price point for the business account.",
+      "Increase customer loyalty. High-value service makes switching less attractive.",
+      "Option to label VAT recovery as your own service or third-party service.",
+      "Traditional accounts leave money on the table. You can improve your market position.",
+      "Plug-and-Play Integration. Go Live in Weeks."
+    ]
+  },
+  "implementation": {
+    "title": "Partnership Implementation & Go-to-Market",
+    "items": [
+      {
+        "title": "Integration",
+        "description": "Ready for Pilot in 4-8 Weeks. Very low technical debt and resources needed from your side.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Operational Support",
+        "description": "We handle all legal, compliance, and customer support related to the VAT process. Your workload is minimal.",
+        "icon": "support"
+      },
+      {
+        "title": "Marketing & Sales Enablement",
+        "description": "We provide materials and training to help your sales team effectively promote the new service.",
+        "icon": "chart"
+      }
+    ]
+  },
+  "whyPartner": {
+    "title": "Why Partner with Us?",
+    "items": [
+      {
+        "title": "Neobank Integration Expertise",
+        "description": "We are experts in handling transaction data, statements, and documentation formats from leading Neobanks, significantly reducing preparation time and errors."
+      },
+      {
+        "title": "Pan-European Service",
+        "description": "Full support for cross-border Input Tax Reimbursement Claims (8th and 13th Directive VAT Refunds). We handle submission to final payout."
+      },
+      {
+        "title": "Speed & Efficiency",
+        "description": "Our streamlined, digital-first approach means quicker claim filing and faster processing compared to manual, paper-based methods."
+      },
+      {
+        "title": "Success-Based Model",
+        "description": "We often operate on a \"No Win, No Fee\" basis, ensuring our success is directly tied to yours."
+      },
+      {
+        "title": "Compliance & Assurance",
+        "description": "We ensure every claim is 100% compliant with local and EU-wide regulations, protecting your business from future audits."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Partner with VATGenius?",
+    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "buttonLink": "/demo"
+  }
+}
