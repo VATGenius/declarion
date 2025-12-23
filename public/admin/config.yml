@@ -410,3 +410,30 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
+
+      # Privacy Policy
+      - name: privacy
+        label: Privacy Policy
+        file: content/pages/privacy.json
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Last Updated, name: lastUpdated, widget: string }
+          - { label: Content, name: body, widget: markdown }
+
+      # Terms of Service
+      - name: terms
+        label: Terms of Service
+        file: content/pages/terms.json
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Last Updated, name: lastUpdated, widget: string }
+          - { label: Content, name: body, widget: markdown }
+
+      # Imprint
+      - name: imprint
+        label: Imprint
+        file: content/pages/imprint.json
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Content, name: body, widget: markdown }

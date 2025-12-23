@@ -5,8 +5,531 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Content Manager | VATGenius</title>
+    <!-- Import Inter font to match website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* ========================================
+         WYSIWYG Editor Styles (Slate Editor)
+         Match VATGenius website design
+         ======================================== */
+
+      /* Editor container */
+      [data-slate-editor] {
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #4b5563;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding: 1rem;
+        max-width: 100%;
+      }
+
+      /* Headings */
+      [data-slate-editor] h1,
+      [data-slate-editor] h2,
+      [data-slate-editor] h3,
+      [data-slate-editor] h4,
+      [data-slate-editor] h5,
+      [data-slate-editor] h6 {
+        color: #111827;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+      }
+
+      [data-slate-editor] h1 { font-size: 2.25rem; margin-top: 0; }
+      [data-slate-editor] h2 { font-size: 1.875rem; }
+      [data-slate-editor] h3 { font-size: 1.5rem; font-weight: 600; }
+      [data-slate-editor] h4 { font-size: 1.25rem; font-weight: 600; }
+
+      [data-slate-editor] p { margin-bottom: 1rem; color: #4b5563; }
+
+      [data-slate-editor] a { color: #0d9488; text-decoration: none; font-weight: 500; }
+      [data-slate-editor] a:hover { color: #0f766e; text-decoration: underline; }
+
+      [data-slate-editor] ul, [data-slate-editor] ol {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+        color: #4b5563;
+      }
+
+      [data-slate-editor] li { margin-bottom: 0.375rem; }
+
+      [data-slate-editor] blockquote {
+        border-left: 4px solid #0d9488;
+        padding: 0.75rem 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        color: #6b7280;
+        background-color: #f9fafb;
+      }
+
+      [data-slate-editor] code {
+        background-color: #f3f4f6;
+        padding: 0.125rem 0.375rem;
+        border-radius: 0.25rem;
+        font-family: monospace;
+        font-size: 0.875em;
+      }
+
+      [data-slate-editor] pre {
+        background-color: #1f2937;
+        color: #f9fafb;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        margin: 1rem 0;
+      }
+
+      [data-slate-editor] pre code {
+        background: none;
+        padding: 0;
+        color: inherit;
+      }
+
+      [data-slate-editor] strong, [data-slate-editor] b {
+        color: #111827;
+        font-weight: 600;
+      }
+
+      [data-slate-editor] hr {
+        border: none;
+        border-top: 1px solid #e5e7eb;
+        margin: 1.5rem 0;
+      }
+
+      [data-slate-editor] img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+      }
+    </style>
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/marked@^9.0.0/marked.min.js"></script>
+    <script>
+      // Register preview styles
+      CMS.registerPreviewStyle('/admin/preview.css');
+
+      // Helper to parse markdown to HTML
+      const parseMarkdown = (markdown) => {
+        if (!markdown) return '';
+        return marked.parse(markdown);
+      };
+
+      // ========================================
+      // PREVIEW TEMPLATES
+      // ========================================
+
+      // Legal Pages Preview (Privacy, Terms, Imprint)
+      const LegalPreview = createClass({
+        render: function() {
+          const entry = this.props.entry;
+          const title = entry.getIn(['data', 'title']) || 'Untitled';
+          const lastUpdated = entry.getIn(['data', 'lastUpdated']);
+          const subtitle = entry.getIn(['data', 'subtitle']);
+          const body = entry.getIn(['data', 'body']) || '';
+
+          return h('div', { className: 'preview-wrapper' },
+            h('div', { className: 'preview-container' },
+              // Header
+              h('header', { className: 'preview-header' },
+                h('div', { className: 'preview-logo' },
+                  h('svg', { width: 32, height: 32, viewBox: '0 0 32 32', fill: 'none' },
+                    h('rect', { width: 32, height: 32, rx: 8, fill: '#0d9488' }),
+                    h('path', { d: 'M8 16L14 22L24 10', stroke: 'white', strokeWidth: 3, strokeLinecap: 'round', strokeLinejoin: 'round' })
+                  ),
+                  h('span', {}, 'VATGenius')
+                )
+              ),
+              // Content
+              h('main', { className: 'preview-main' },
+                h('div', { className: 'preview-content legal-content' },
+                  h('h1', {}, title),
+                  subtitle && h('p', { className: 'preview-subtitle' }, subtitle),
+                  lastUpdated && h('p', { className: 'preview-meta' }, 'Last updated: ' + lastUpdated),
+                  h('div', {
+                    className: 'preview-body',
+                    dangerouslySetInnerHTML: { __html: parseMarkdown(body) }
+                  })
+                )
+              ),
+              // Footer
+              h('footer', { className: 'preview-footer' },
+                h('p', {}, '© 2025 VATGenius. All rights reserved.')
+              )
+            )
+          );
+        }
+      });
+
+      // News Article Preview
+      const NewsPreview = createClass({
+        render: function() {
+          const entry = this.props.entry;
+          const title = entry.getIn(['data', 'title']) || 'Untitled';
+          const date = entry.getIn(['data', 'date']);
+          const excerpt = entry.getIn(['data', 'excerpt']) || '';
+          const heroImage = entry.getIn(['data', 'heroImage']);
+          const tags = entry.getIn(['data', 'tags']);
+          const body = entry.getIn(['data', 'body']) || '';
+
+          const formattedDate = date ? new Date(date).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          }) : '';
+
+          const getAsset = this.props.getAsset;
+          const imageUrl = heroImage ? getAsset(heroImage).toString() : null;
+
+          return h('div', { className: 'preview-wrapper' },
+            h('div', { className: 'preview-container' },
+              // Header
+              h('header', { className: 'preview-header' },
+                h('div', { className: 'preview-logo' },
+                  h('svg', { width: 32, height: 32, viewBox: '0 0 32 32', fill: 'none' },
+                    h('rect', { width: 32, height: 32, rx: 8, fill: '#0d9488' }),
+                    h('path', { d: 'M8 16L14 22L24 10', stroke: 'white', strokeWidth: 3, strokeLinecap: 'round', strokeLinejoin: 'round' })
+                  ),
+                  h('span', {}, 'VATGenius')
+                )
+              ),
+              // Content
+              h('main', { className: 'preview-main' },
+                h('article', { className: 'preview-content article-content' },
+                  // Hero section
+                  h('div', { className: 'article-hero' },
+                    formattedDate && h('p', { className: 'article-date' }, formattedDate),
+                    h('h1', {}, title),
+                    excerpt && h('p', { className: 'article-excerpt' }, excerpt),
+                    tags && tags.size > 0 && h('div', { className: 'article-tags' },
+                      tags.map((tag, i) => h('span', { key: i, className: 'article-tag' }, tag))
+                    )
+                  ),
+                  // Hero image
+                  imageUrl && h('div', { className: 'article-image' },
+                    h('img', { src: imageUrl, alt: title })
+                  ),
+                  // Body
+                  h('div', {
+                    className: 'preview-body',
+                    dangerouslySetInnerHTML: { __html: parseMarkdown(body) }
+                  })
+                )
+              ),
+              // Footer
+              h('footer', { className: 'preview-footer' },
+                h('p', {}, '© 2025 VATGenius. All rights reserved.')
+              )
+            )
+          );
+        }
+      });
+
+      // Knowledge Article Preview (same as News)
+      const KnowledgePreview = NewsPreview;
+
+      // Register preview templates
+      // For folder-based collections (news, knowledge)
+      CMS.registerPreviewTemplate('news', NewsPreview);
+      CMS.registerPreviewTemplate('knowledge', KnowledgePreview);
+
+      // For file-based collections (pages), register with the collection name
+      // The same template handles all page types
+      CMS.registerPreviewTemplate('pages', LegalPreview);
+    </script>
+
+    <style>
+      /* ========================================
+         Preview Template Styles
+         ======================================== */
+      .preview-wrapper {
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #fff;
+        min-height: 100vh;
+      }
+
+      .preview-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      /* Header */
+      .preview-header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        border-bottom: 1px solid #f3f4f6;
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(8px);
+        padding: 1rem 1.5rem;
+      }
+
+      .preview-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #111827;
+      }
+
+      /* Main content */
+      .preview-main {
+        flex: 1;
+        padding: 3rem 1.5rem;
+      }
+
+      .preview-content {
+        max-width: 48rem;
+        margin: 0 auto;
+      }
+
+      .preview-content h1 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: #111827;
+        line-height: 1.2;
+        letter-spacing: -0.025em;
+        margin-bottom: 1rem;
+      }
+
+      .preview-subtitle {
+        font-size: 1.125rem;
+        color: #6b7280;
+        margin-bottom: 0.5rem;
+      }
+
+      .preview-meta {
+        font-size: 0.875rem;
+        color: #9ca3af;
+        margin-bottom: 2rem;
+      }
+
+      /* Legal content */
+      .legal-content .preview-body {
+        margin-top: 2rem;
+      }
+
+      /* Article content */
+      .article-hero {
+        margin-bottom: 2rem;
+      }
+
+      .article-date {
+        font-size: 0.875rem;
+        color: #0d9488;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+      }
+
+      .article-excerpt {
+        font-size: 1.25rem;
+        color: #4b5563;
+        line-height: 1.6;
+        margin-top: 1rem;
+      }
+
+      .article-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .article-tag {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        background-color: #f0fdfa;
+        color: #0d9488;
+        font-size: 0.75rem;
+        font-weight: 500;
+        border-radius: 9999px;
+      }
+
+      .article-image {
+        margin: 2rem 0;
+      }
+
+      .article-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.75rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Body content (markdown) */
+      .preview-body {
+        color: #4b5563;
+        line-height: 1.75;
+      }
+
+      .preview-body h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #111827;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .preview-body h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #111827;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .preview-body h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #111827;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .preview-body h4 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #111827;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .preview-body p {
+        margin-bottom: 1.25rem;
+      }
+
+      .preview-body a {
+        color: #0d9488;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .preview-body a:hover {
+        text-decoration: underline;
+      }
+
+      .preview-body ul,
+      .preview-body ol {
+        margin-bottom: 1.25rem;
+        padding-left: 1.5rem;
+      }
+
+      .preview-body ul {
+        list-style-type: disc;
+      }
+
+      .preview-body ol {
+        list-style-type: decimal;
+      }
+
+      .preview-body li {
+        margin-bottom: 0.5rem;
+      }
+
+      .preview-body blockquote {
+        border-left: 4px solid #0d9488;
+        padding: 1rem 1.25rem;
+        margin: 1.5rem 0;
+        background-color: #f9fafb;
+        border-radius: 0 0.5rem 0.5rem 0;
+        font-style: italic;
+        color: #6b7280;
+      }
+
+      .preview-body blockquote p {
+        margin-bottom: 0;
+      }
+
+      .preview-body code {
+        background-color: #f3f4f6;
+        padding: 0.125rem 0.375rem;
+        border-radius: 0.25rem;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.875em;
+        color: #111827;
+      }
+
+      .preview-body pre {
+        background-color: #1f2937;
+        color: #f9fafb;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+        font-size: 0.875rem;
+      }
+
+      .preview-body pre code {
+        background: none;
+        padding: 0;
+        color: inherit;
+      }
+
+      .preview-body hr {
+        border: none;
+        border-top: 1px solid #e5e7eb;
+        margin: 2rem 0;
+      }
+
+      .preview-body img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        margin: 1.5rem 0;
+      }
+
+      .preview-body strong {
+        color: #111827;
+        font-weight: 600;
+      }
+
+      .preview-body table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.875rem;
+      }
+
+      .preview-body th,
+      .preview-body td {
+        border: 1px solid #e5e7eb;
+        padding: 0.75rem;
+        text-align: left;
+      }
+
+      .preview-body th {
+        background-color: #f9fafb;
+        font-weight: 600;
+        color: #111827;
+      }
+
+      /* Footer */
+      .preview-footer {
+        border-top: 1px solid #f3f4f6;
+        background-color: #f9fafb;
+        padding: 2rem 1.5rem;
+        text-align: center;
+      }
+
+      .preview-footer p {
+        font-size: 0.875rem;
+        color: #6b7280;
+        margin: 0;
+      }
+    </style>
   </body>
 </html>
