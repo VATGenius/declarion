@@ -8,6 +8,9 @@ backend:
   name: github
   repo: Lionizers/vatgenius
   branch: main
+  # PKCE auth works on Vercel without Netlify
+  auth_type: pkce
+  app_id: Ov23lialFwjh1e3pUAvM  # Replace with your GitHub OAuth App Client ID
 
 # Enable Editorial Workflow for PR-based content review
 publish_mode: editorial_workflow

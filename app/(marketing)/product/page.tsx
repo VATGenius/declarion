@@ -20,6 +20,7 @@ interface ProductContent {
       title: string;
       description: string;
     }>;
+    processImage?: string;
   };
   customerBenefit: {
     title: string;
@@ -98,26 +99,18 @@ export default function ProductPage() {
         </div>
       </Section>
 
-      {/* How It Works Section */}
-      <Section background="gray">
-        <h2 className="text-center text-3xl font-bold text-gray-900">
-          {content.howItWorks.title}
-        </h2>
-
-        <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {content.howItWorks.steps.map((item) => (
-            <div key={item.step} className="relative rounded-lg bg-white p-6 shadow-sm">
-              <div className="absolute -top-4 left-6 flex h-8 w-8 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
-                {item.step}
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-gray-600">{item.description}</p>
-            </div>
-          ))}
-        </div>
-      </Section>
+      {/* Process Image Section */}
+      {content.howItWorks.processImage && (
+        <Section background="gray">
+          <Image
+            src={content.howItWorks.processImage}
+            alt="VATGenius Process Flow"
+            width={1200}
+            height={400}
+            className="mx-auto rounded-lg"
+          />
+        </Section>
+      )}
 
       {/* Customer Benefit Section */}
       <Section background="white">

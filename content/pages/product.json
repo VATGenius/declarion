@@ -28,7 +28,8 @@
         "title": "Pay-Out",
         "description": "Funds are received and disbursed seamlessly, directly impacting your business customers results."
       }
-    ]
+    ],
+    "processImage": "/images/process-image.png"
   },
   "customerBenefit": {
     "title": "Your Customer Benefit",
