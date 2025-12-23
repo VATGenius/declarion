@@ -20,7 +20,7 @@ media_folder: public/images/uploads
 public_folder: /images/uploads
 
 # Site URL for preview
-site_url: https://vatgenius.vercel.app
+site_url: https://vatgenius.cloud
 
 # Logo for the CMS
 logo_url: /images/logo.png
