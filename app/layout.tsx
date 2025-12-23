@@ -1,7 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Header, Footer } from '@/components/layout';
 import { ConsentBanner, AnalyticsProvider } from '@/components/consent';
 import { JsonLd } from '@/components/seo';
 import {
@@ -64,9 +63,7 @@ export default function RootLayout({
         <JsonLd data={generateWebsiteJsonLd()} />
       </head>
       <body className="flex min-h-screen flex-col bg-white font-sans text-gray-900 antialiased">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {children}
         <ConsentBanner />
         <AnalyticsProvider />
       </body>
