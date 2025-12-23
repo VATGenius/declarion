@@ -23,13 +23,25 @@ const team = [
     name: 'Charles Watkins',
     role: 'Product Dev. & Sales',
     bio: "Master's degree in Psychology. 10+ years in international sales.",
-    image: '/images/team/charles.jpg',
+    image: '/images/team/charles.png',
   },
   {
-    name: 'Nils Lowe',
+    name: 'Nils Löwe',
     role: 'IT & Product Development',
     bio: "Master's degree in Computer & Electrical Engineering and Information Technology. 10+ years in software development.",
-    image: '/images/team/nils.jpg',
+    image: '/images/team/nils.png',
+  },
+  {
+    name: 'Dr. Juliane Tranacher',
+    role: 'Marketing & Sales',
+    bio: 'PhD in German literature. 15 years of experience in marketing, press, and public relations with a focus on the financial and real estate industries.',
+    image: '/images/team/juliane.png',
+  },
+  {
+    name: 'Helena Ziani',
+    role: 'Business Operations',
+    bio: 'Master in Business Informatics. 8 years of experience in scaling high-growth startups in the US, UK, France and Germany.',
+    image: '/images/team/helena.png',
   },
 ];
 
@@ -68,17 +80,17 @@ export default function TeamPage() {
   return (
     <>
       {/* Hero Section */}
-      <Section background="white" className="relative overflow-hidden pt-20">
+      <Section background="transparent" className="relative overflow-hidden pt-20">
         {/* Hero Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
             src="/images/hero-team.png"
             alt=""
             fill
-            className="object-cover opacity-15"
+            className="object-cover opacity-40"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white" />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/20 to-white/90" />
         </div>
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -141,14 +153,17 @@ export default function TeamPage() {
           The Team
         </h2>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {team.map((member) => (
             <div key={member.name} className="text-center">
               <div className="mx-auto h-40 w-40 overflow-hidden rounded-full bg-gray-200">
-                {/* Placeholder for team photos */}
-                <div className="flex h-full w-full items-center justify-center text-4xl font-bold text-gray-400">
-                  {member.name.charAt(0)}
-                </div>
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  width={160}
+                  height={160}
+                  className="h-full w-full object-cover"
+                />
               </div>
               <h3 className="mt-6 text-xl font-semibold text-gray-900">
                 {member.name}

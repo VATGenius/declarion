@@ -6,7 +6,7 @@ interface SectionProps {
   className?: string;
   containerSize?: 'sm' | 'md' | 'lg' | 'xl';
   id?: string;
-  background?: 'white' | 'gray' | 'brand';
+  background?: 'white' | 'gray' | 'brand' | 'transparent';
 }
 
 export function Section({
@@ -20,6 +20,7 @@ export function Section({
     white: 'bg-white',
     gray: 'bg-gray-50',
     brand: 'bg-brand text-white',
+    transparent: '',
   };
 
   return (

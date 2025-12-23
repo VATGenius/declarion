@@ -16,17 +16,17 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <Section background="white" className="relative overflow-hidden pt-20 md:pt-28">
+      <Section background="transparent" className="relative overflow-hidden pt-20 md:pt-28">
         {/* Hero Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
             src="/images/hero-home.png"
             alt=""
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-40"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white" />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/20 to-white/90" />
         </div>
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
