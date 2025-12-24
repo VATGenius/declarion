@@ -25,31 +25,31 @@
     "title": "The Team",
     "members": [
       {
-        "name": "Dr. Philipp Tranacher",
+        "name": "Philipp",
         "role": "Tax & Legal",
         "bio": "PhD, CPA, CTA, Lawyer. 15+ years in international tax.",
         "image": "/images/team/philipp.jpg"
       },
       {
-        "name": "Charles Watkins",
+        "name": "Charles",
         "role": "Product Dev. & Sales",
         "bio": "Master's degree in Psychology. 10+ years in international sales.",
         "image": "/images/team/charles.png"
       },
       {
-        "name": "Nils Löwe",
+        "name": "Nils",
         "role": "IT & Product Development",
         "bio": "Master's degree in Computer & Electrical Engineering and Information Technology. 10+ years in software development.",
         "image": "/images/team/nils.png"
       },
       {
-        "name": "Dr. Juliane Tranacher",
+        "name": "Juliane",
         "role": "Marketing & Sales",
-        "bio": "PhD in German literature. 15 years of experience in marketing, press, and public relations with a focus on the financial and real estate industries.",
+        "bio": "PhD. 15 years of experience in marketing, press, and public relations with a focus on financial/real estate sector.",
         "image": "/images/team/juliane.png"
       },
       {
-        "name": "Helena Ziani",
+        "name": "Helena",
         "role": "Business Operations",
         "bio": "Master in Business Informatics. 8 years of experience in scaling high-growth startups in the US, UK, France and Germany.",
         "image": "/images/team/helena.png"
