@@ -1,0 +1,41 @@
+---
+title: "Update on German E-Invoicing: New Draft Guidance from the Federal
+  Ministry of Finance"
+date: 2025-06-30T17:57:00.000+02:00
+excerpt: The German Federal Ministry of Finance (BMF) has released a draft
+  letter updating the legal framework for mandatory B2B e-invoicing. It
+  clarifies technical requirements for the EN 16931 standard, provides guidance
+  on handling syntax errors, and outlines the integration of these rules into
+  the VAT Application Decree (UStAE).
+---
+Core Essentials of the BMF Draft
+
+1. Implementation Timeline & Scope Since January 1, 2025, all German companies must be able to receive e-invoices. The obligation to issue them starts in phases:
+
+2027: Companies with >€800,000 turnover.
+
+2028: All other companies (excluding small businesses).
+
+2028: EDI-transmitted invoices must also comply with the EN 16931 standard.
+
+2. Handling Errors & Compliance
+
+Syntax Errors: Invoices failing the technical structured format (EN 16931) will be classified as "other invoices," potentially risking input VAT deductions after transitional periods.
+
+Content Errors: Errors in the data itself result in an "incorrect e-invoice." These cannot be fixed by simply referencing unstructured attachments.
+
+Validation: Companies are encouraged to use validation applications to ensure compliance with "business rules" (completeness and consistency of mandatory fields).
+
+3. Key Procedural Changes
+
+No Consent Needed: Issuing e-invoices for low-value amounts, tickets, or to small businesses does not require the recipient's consent.
+
+Attachments: Supplementary info (e.g., timesheets) must be embedded within the e-invoice file, not linked externally.
+
+Contracts as Invoices: A contract only counts as an e-invoice if it meets the full semantic data model of EN 16931. Otherwise, a separate e-invoice must be issued to correct it.
+
+Hybrid Formats: In ZUGFeRD-style files, if the human-readable PDF differs from the XML data, it may lead to additional tax liabilities under Sec. 14c UStG.
+
+4. Storage (GoBD Updates) As of July 2025, for e-invoices, it is generally sufficient to store only the structured data part. The human-readable part only needs to be archived if it contains additional tax-relevant information not present in the XML.
+
+5. Status of the Document This is currently a draft subject to change. The final version is expected in Q4 2025 and is intended to apply to all transactions carried out after December 31, 2024.
