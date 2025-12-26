@@ -11,28 +11,30 @@ tags:
   - BMF
   - VAT compliance
 ---
-## General
+## Essential Summary
 
-The new letter deals with the e-invoicing obligation for transactions between entrepreneurs resident in Germany. This obligation has been considered a passive obligation (receipt of invoices) since 2025, but is not to be introduced as an active obligation until 2027 or 2028.
 
-The new letter is essentially intended to transfer the letter of 2024 to the VAT Circular, but without repealing this letter, which instead amends and supplements it in some points.
+Here is the essential summary of the changes to the 2024 BMF letter regarding e-invoices:
 
-## Changes to the 2024 Letter
 
-The letter provides a comprehensive overview of the errors identified in the e-invoice. Firstly, it differentiates between format errors and format-specific business rule errors:
+### 1. Classification of Errors
 
-* **Format errors:** Invoice files which do not comply with the permitted syntaxes or their technical specifications may contain format errors.
-* **Business rules** are technical regulations which govern the logical dependencies of the information contained in an e-invoice.
+* Format Errors: Occur when technical specifications are not met. The document is then downgraded to an "other invoice" and must be replaced by a new e-invoice.
+* Business Rule Errors: Relate to logical dependencies or incomplete mandatory data. The document remains an e-invoice but requires a formal correction of the specific mandatory information.
+* Validation: Both can be checked via validation apps. A successful check (with a saved report) protects the entrepreneur under "due diligence" rules. Content errors (e.g., wrong service description) still require manual review.
 
-According to the BMF, both categories of errors can be checked with a suitable validation application.
+### 2. Mandatory Structured Data
 
-## Key Takeaways
+* No External References: All mandatory VAT information must be in the structured part of the file.
+* Attachments: Supplements are allowed as embedded files (not links), but they cannot replace mandatory data.
+* Strictness: References to external contracts or delivery notes for performance dates are generally no longer sufficient. Even common phrases like "performance date equals invoice date" must now be part of the structured data.
 
-* Format errors can result in invoices not meeting e-invoice requirements.
-* Errors in business rules can lead to an e-invoice being present but not in order.
-* Validation applications can help identify both types of errors.
-* The introduction of e-invoicing is of utmost importance for German economic operators.
+### 3. Invoice Types & Consent
 
-  ## Note
+* Small-Value/Travel Tickets: E-invoicing is not mandatory but allowed without recipient consent.
+* Other Electronic Formats: For any format that is not a standard e-invoice (e.g., simple PDF), the recipient's consent is still required.
 
-The complex regulations and questions of doubt cannot be presented here in any way exhaustive – it is recommended to seek tax advice on this issue.
+### 4. Corrections and Specific Cases
+
+* Service Changes: Require an invoice correction or a specific credit note referencing the original invoice. Mere price reductions do not necessarily require a correction.
+* Tax Exemptions: If a VAT exemption is waived (option to tax), the obligation to issue a structured e-invoice applies.
