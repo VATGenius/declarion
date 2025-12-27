@@ -31,12 +31,6 @@
         "image": "/images/team/philipp.jpg"
       },
       {
-        "name": "Charles",
-        "role": "Product Dev. & Sales",
-        "bio": "Master's degree in Psychology. 10+ years in international sales.",
-        "image": "/images/team/charles.png"
-      },
-      {
         "name": "Nils",
         "role": "IT & Product Development",
         "bio": "Master's degree in Computer & Electrical Engineering and Information Technology. 10+ years in software development.",
@@ -47,12 +41,6 @@
         "role": "Marketing & Sales",
         "bio": "PhD. 15 years of experience in marketing, press, and public relations with a focus on financial/real estate sector.",
         "image": "/images/team/juliane.png"
-      },
-      {
-        "name": "Helena ",
-        "role": "Business Operations",
-        "bio": "Master in Business Informatics. 8 years of experience in scaling high-growth startups in the US, UK, France and Germany.",
-        "image": "/images/team/helena.png"
       }
     ]
   },
