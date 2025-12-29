@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { rateLimit, getClientIp } from '@/lib/rateLimit';
+import { sendDemoRequestNotification } from '@/lib/mail';
 
 // Validation schema
 const demoRequestSchema = z.object({
@@ -74,23 +75,22 @@ export async function POST(request: Request) {
       );
     }
 
-    // Here you would integrate with your CRM/webhook
-    // Example: Send to webhook, save to database, send email notification
-    //
-    // await fetch(process.env.WEBHOOK_URL, {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({
-    //     fullName: data.fullName,
-    //     email: data.email,
-    //     company: data.company,
-    //     jobTitle: data.jobTitle,
-    //     country: data.country,
-    //     submittedAt: new Date().toISOString(),
-    //   }),
-    // });
+    // Send email notification
+    const emailResult = await sendDemoRequestNotification({
+      fullName: data.fullName,
+      email: data.email,
+      company: data.company,
+      jobTitle: data.jobTitle,
+      country: data.country,
+    });
 
-    // Log submission (replace with actual integration)
+    if (!emailResult.success) {
+      console.error('[Demo Request] Failed to send email notification:', emailResult.error);
+      // Still return success to user - we don't want to expose email failures
+      // but log it for monitoring
+    }
+
+    // Log submission
     console.log('[Demo Request]', {
       fullName: data.fullName,
       email: data.email,
@@ -98,6 +98,7 @@ export async function POST(request: Request) {
       jobTitle: data.jobTitle,
       country: data.country,
       timestamp: new Date().toISOString(),
+      emailSent: emailResult.success,
     });
 
     return NextResponse.json({ ok: true });
