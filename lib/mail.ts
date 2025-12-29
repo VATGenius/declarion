@@ -22,7 +22,15 @@ function createTransporter() {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
 
+  console.log('[Mail] SMTP Config:', {
+    host,
+    port,
+    user: user ? `${user.substring(0, 5)}...` : 'NOT SET',
+    pass: pass ? '***SET***' : 'NOT SET',
+  });
+
   if (!user || !pass) {
+    console.error('[Mail] SMTP_USER or SMTP_PASS not configured');
     return null;
   }
 
@@ -44,16 +52,21 @@ export async function sendEmail({
   html,
   replyTo,
 }: SendEmailParams): Promise<{ success: boolean; error?: string }> {
+  console.log('[Mail] Attempting to send email to:', to);
+
   const transporter = createTransporter();
   const from = process.env.SMTP_FROM || process.env.SMTP_USER;
 
+  console.log('[Mail] From address:', from || 'NOT SET');
+
   if (!transporter || !from) {
-    console.error('[Mail] Missing SMTP configuration');
+    console.error('[Mail] Missing SMTP configuration - transporter:', !!transporter, 'from:', !!from);
     return { success: false, error: 'Email service not configured' };
   }
 
   try {
-    await transporter.sendMail({
+    console.log('[Mail] Sending email...');
+    const result = await transporter.sendMail({
       from,
       to,
       subject,
@@ -61,6 +74,7 @@ export async function sendEmail({
       html,
       replyTo,
     });
+    console.log('[Mail] Email sent successfully:', result.messageId);
 
     return { success: true };
   } catch (error) {

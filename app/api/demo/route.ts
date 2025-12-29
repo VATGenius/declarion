@@ -15,6 +15,7 @@ const demoRequestSchema = z.object({
 });
 
 export async function POST(request: Request) {
+  console.log('[Demo API] Received request');
   try {
     // Rate limiting
     const clientIp = getClientIp(request);
