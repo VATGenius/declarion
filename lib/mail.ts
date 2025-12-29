@@ -1,5 +1,3 @@
-import nodemailer from 'nodemailer';
-
 interface SendEmailParams {
   to: string;
   subject: string;
@@ -16,35 +14,6 @@ interface DemoRequestData {
   country: string;
 }
 
-function createTransporter() {
-  const host = process.env.SMTP_HOST || 'smtp.eu.mailgun.net';
-  const port = parseInt(process.env.SMTP_PORT || '587', 10);
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASS;
-
-  console.log('[Mail] SMTP Config:', {
-    host,
-    port,
-    user: user ? `${user.substring(0, 5)}...` : 'NOT SET',
-    pass: pass ? '***SET***' : 'NOT SET',
-  });
-
-  if (!user || !pass) {
-    console.error('[Mail] SMTP_USER or SMTP_PASS not configured');
-    return null;
-  }
-
-  return nodemailer.createTransport({
-    host,
-    port,
-    secure: port === 465,
-    auth: {
-      user,
-      pass,
-    },
-  });
-}
-
 export async function sendEmail({
   to,
   subject,
@@ -52,30 +21,63 @@ export async function sendEmail({
   html,
   replyTo,
 }: SendEmailParams): Promise<{ success: boolean; error?: string }> {
-  console.log('[Mail] Attempting to send email to:', to);
+  const apiKey = process.env.MAILGUN_API_KEY;
+  const domain = process.env.MAILGUN_DOMAIN;
+  const from = process.env.MAILGUN_FROM || process.env.SMTP_FROM;
+  const region = process.env.MAILGUN_REGION || 'eu'; // 'eu' or 'us'
 
-  const transporter = createTransporter();
-  const from = process.env.SMTP_FROM || process.env.SMTP_USER;
+  console.log('[Mail] Config:', {
+    domain: domain || 'NOT SET',
+    from: from || 'NOT SET',
+    apiKey: apiKey ? '***SET***' : 'NOT SET',
+    region,
+  });
 
-  console.log('[Mail] From address:', from || 'NOT SET');
-
-  if (!transporter || !from) {
-    console.error('[Mail] Missing SMTP configuration - transporter:', !!transporter, 'from:', !!from);
+  if (!apiKey || !domain || !from) {
+    console.error('[Mail] Missing Mailgun configuration');
     return { success: false, error: 'Email service not configured' };
   }
 
-  try {
-    console.log('[Mail] Sending email...');
-    const result = await transporter.sendMail({
-      from,
-      to,
-      subject,
-      text,
-      html,
-      replyTo,
-    });
-    console.log('[Mail] Email sent successfully:', result.messageId);
+  const baseUrl = region === 'eu'
+    ? 'https://api.eu.mailgun.net/v3'
+    : 'https://api.mailgun.net/v3';
 
+  const url = `${baseUrl}/${domain}/messages`;
+
+  const formData = new URLSearchParams();
+  formData.append('from', from);
+  formData.append('to', to);
+  formData.append('subject', subject);
+  formData.append('text', text);
+  if (html) {
+    formData.append('html', html);
+  }
+  if (replyTo) {
+    formData.append('h:Reply-To', replyTo);
+  }
+
+  console.log('[Mail] Sending to:', to, 'via', url);
+
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        Authorization: `Basic ${Buffer.from(`api:${apiKey}`).toString('base64')}`,
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: formData.toString(),
+    });
+
+    const responseText = await response.text();
+    console.log('[Mail] Response status:', response.status);
+    console.log('[Mail] Response body:', responseText);
+
+    if (!response.ok) {
+      console.error('[Mail] Mailgun error:', responseText);
+      return { success: false, error: `Mailgun error: ${response.status}` };
+    }
+
+    console.log('[Mail] Email sent successfully');
     return { success: true };
   } catch (error) {
     console.error('[Mail] Error sending email:', error);
