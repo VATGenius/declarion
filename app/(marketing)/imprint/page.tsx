@@ -5,17 +5,24 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface LegalContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   title: string;
   lastUpdated?: string;
   subtitle?: string;
   body: string;
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Imprint',
-  description: 'VATGenius legal information and imprint.',
-  path: '/imprint',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<LegalContent>('imprint');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/imprint',
+  });
+}
 
 export default function ImprintPage() {
   const content = getPageContent<LegalContent>('imprint');

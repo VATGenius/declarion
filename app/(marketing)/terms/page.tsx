@@ -5,18 +5,24 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface LegalContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   title: string;
   lastUpdated?: string;
   subtitle?: string;
   body: string;
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Terms of Service',
-  description:
-    'VATGenius Terms of Service. Read our terms and conditions for using our services.',
-  path: '/terms',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<LegalContent>('terms');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/terms',
+  });
+}
 
 export default function TermsPage() {
   const content = getPageContent<LegalContent>('terms');

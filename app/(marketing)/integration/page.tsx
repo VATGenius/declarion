@@ -6,6 +6,10 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface IntegrationContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   hero: {
     title: string;
     description: string;
@@ -51,12 +55,14 @@ interface IntegrationContent {
   };
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Integration',
-  description:
-    'Seamless API Integration. Low-code, plug-and-play service with minimal strain on your development resources.',
-  path: '/integration',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<IntegrationContent>('integration');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/integration',
+  });
+}
 
 const iconMap: Record<string, React.ReactNode> = {
   userPlus: (
@@ -105,7 +111,7 @@ export default function IntegrationPage() {
       </Section>
 
       {/* Three Pillars Section */}
-      <Section background="gray">
+      <Section background="soft-green">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.pillars.title}
         </h2>
@@ -154,7 +160,7 @@ export default function IntegrationPage() {
       </Section>
 
       {/* Timeline Section */}
-      <Section background="gray">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.timeline.title}
         </h2>

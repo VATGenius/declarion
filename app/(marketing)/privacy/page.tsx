@@ -5,18 +5,24 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface LegalContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   title: string;
   lastUpdated?: string;
   subtitle?: string;
   body: string;
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Privacy Policy',
-  description:
-    'VATGenius Privacy Policy. Learn how we collect, use, and protect your personal information.',
-  path: '/privacy',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<LegalContent>('privacy');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/privacy',
+  });
+}
 
 export default function PrivacyPage() {
   const content = getPageContent<LegalContent>('privacy');

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { formatDate, truncateText } from '@/lib/utils';
 import type { ContentMeta } from '@/lib/content';
+import { slugifyTag } from '@/lib/content';
 
 interface ArticleCardProps {
   article: ContentMeta;
@@ -37,12 +38,13 @@ export function ArticleCard({ article, basePath }: ArticleCardProps) {
         {article.tags && article.tags.length > 0 && (
           <div className="mt-4 flex flex-wrap gap-2">
             {article.tags.slice(0, 3).map((tag) => (
-              <span
+              <Link
                 key={tag}
-                className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600"
+                href={`/news/tag/${slugifyTag(tag)}`}
+                className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600 transition-colors hover:bg-brand/10 hover:text-brand"
               >
                 {tag}
-              </span>
+              </Link>
             ))}
           </div>
         )}

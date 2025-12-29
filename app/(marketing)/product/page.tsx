@@ -7,6 +7,10 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface ProductContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   hero: {
     title: string;
     description: string;
@@ -15,12 +19,12 @@ interface ProductContent {
   };
   howItWorks: {
     title: string;
-    steps: Array<{
+    processImage?: string;
+    processSteps?: Array<{
       step: string;
       title: string;
       description: string;
     }>;
-    processImage?: string;
   };
   customerBenefit: {
     title: string;
@@ -56,12 +60,14 @@ interface ProductContent {
   };
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Product',
-  description:
-    'Monetizing Foreign VAT Reclaim for Business Customers. A fully automated, compliance-assured platform for B2B VAT recovery.',
-  path: '/product',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<ProductContent>('product');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/product',
+  });
+}
 
 export default function ProductPage() {
   const content = getPageContent<ProductContent>('product');
@@ -89,7 +95,7 @@ export default function ProductPage() {
             {content.hero.description.split('(')[0]}
             (
             <Link href="/knowledge/vat-refund-basics" className="text-brand hover:underline">
-              Basics of the VAT refund procedure
+              Navigating Foreign VAT Refunds
             </Link>
             ).
           </p>
@@ -101,7 +107,10 @@ export default function ProductPage() {
 
       {/* Process Image Section */}
       {content.howItWorks.processImage && (
-        <Section background="gray">
+        <Section background="soft-green">
+          <h2 className="mb-8 text-center text-3xl font-bold text-gray-900">
+            {content.howItWorks.title}
+          </h2>
           <Image
             src={content.howItWorks.processImage}
             alt="VATGenius Process Flow"
@@ -109,6 +118,24 @@ export default function ProductPage() {
             height={400}
             className="mx-auto rounded-lg"
           />
+          {content.howItWorks.processSteps && (
+            <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              {content.howItWorks.processSteps.map((step) => (
+                <div
+                  key={step.step}
+                  className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm"
+                >
+                  <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-brand text-lg font-bold text-white">
+                    {step.step}
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    {step.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-600">{step.description}</p>
+                </div>
+              ))}
+            </div>
+          )}
         </Section>
       )}
 
@@ -130,7 +157,7 @@ export default function ProductPage() {
       </Section>
 
       {/* Compliance Section */}
-      <Section background="gray">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.compliance.title}
         </h2>

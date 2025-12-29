@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "metaTitle": "Product",
+    "metaDescription": "Monetizing Foreign VAT Reclaim for Business Customers. A fully automated, compliance-assured platform for B2B VAT recovery."
+  },
   "hero": {
     "title": "Monetizing Foreign VAT Reclaim for Business Customers",
     "description": "Foreign business expenses (travel, trade shows, services) of your business customers are increasing, but many recoverable foreign VAT amounts are not claimed due to complexity, varying country regulations, documentation requirements, compliance concerns, and manual processing.",
@@ -7,29 +11,29 @@
   },
   "howItWorks": {
     "title": "How it Works (The 4-Step Integration Flow)",
-    "steps": [
+    "processImage": "/images/process-image-2.png",
+    "processSteps": [
       {
         "step": "1",
         "title": "Data Acquisition",
-        "description": "Automated transaction data transfer via the VATGenius API."
+        "description": "Automated transaction data via VATGenius"
       },
       {
         "step": "2",
         "title": "Processing",
-        "description": "The VATGenius Engine automatically checks documents, compiles them, calculates VAT refund amounts, and reports to business customers."
+        "description": "The VATGenius Engine automatically checks documents, compiles them, calculates VAT refund amounts and reports to business customers"
       },
       {
         "step": "3",
         "title": "Filing",
-        "description": "The VATGenius TAX API files the complex application to the relevant foreign tax authority."
+        "description": "The VATGenius TAX API files the complex application to the relevant foreign tax authority"
       },
       {
         "step": "4",
         "title": "Pay-Out",
         "description": "Funds are received and disbursed seamlessly, directly impacting your business customers results."
       }
-    ],
-    "processImage": "/images/process-image.png"
+    ]
   },
   "customerBenefit": {
     "title": "Your Customer Benefit",

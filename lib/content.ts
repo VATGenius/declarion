@@ -21,6 +21,7 @@ export interface ContentMeta {
   excerpt: string;
   heroImage?: string;
   tags?: string[];
+  type?: 'news' | 'knowledge';
 }
 
 function getContentFromDirectory(directory: string): ContentMeta[] {
@@ -115,6 +116,72 @@ export function getAllKnowledgeSlugs(): string[] {
 export function getPageBySlug(slug: string): ContentItem | null {
   return getContentBySlug('pages', slug);
 }
+
+// Tag functions
+export interface TagInfo {
+  tag: string;
+  slug: string;
+  count: number;
+}
+
+function slugifyTag(tag: string): string {
+  return tag
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+}
+
+export function getAllTags(): TagInfo[] {
+  const news = getAllNews();
+  const knowledge = getAllKnowledge();
+  const allArticles = [...news, ...knowledge];
+
+  const tagCounts = new Map<string, number>();
+
+  allArticles.forEach((article) => {
+    article.tags?.forEach((tag) => {
+      tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+    });
+  });
+
+  return Array.from(tagCounts.entries())
+    .map(([tag, count]) => ({
+      tag,
+      slug: slugifyTag(tag),
+      count,
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getAllTagSlugs(): string[] {
+  return getAllTags().map((t) => t.slug);
+}
+
+export function getTagBySlug(slug: string): string | null {
+  const tags = getAllTags();
+  const found = tags.find((t) => t.slug === slug);
+  return found?.tag || null;
+}
+
+export function getArticlesByTag(tag: string): ContentMeta[] {
+  const news = getAllNews().map((a) => ({ ...a, type: 'news' as const }));
+  const knowledge = getAllKnowledge().map((a) => ({ ...a, type: 'knowledge' as const }));
+  const allArticles = [...news, ...knowledge];
+
+  return allArticles
+    .filter((article) =>
+      article.tags?.some((t) => t.toLowerCase() === tag.toLowerCase())
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function getArticlesByTagSlug(slug: string): ContentMeta[] {
+  const tag = getTagBySlug(slug);
+  if (!tag) return [];
+  return getArticlesByTag(tag);
+}
+
+export { slugifyTag };
 
 // JSON Page Content functions
 export function getPageContent<T>(pageName: string): T {

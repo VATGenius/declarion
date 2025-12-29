@@ -85,7 +85,7 @@ export function generateOrganizationJsonLd() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@vatgenius.com',
+      email: 'info@vatgenius.tech',
     },
     sameAs: [],
   };

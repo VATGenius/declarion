@@ -6,6 +6,10 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface WhyUsContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   hero: {
     title: string;
     titleHighlight: string;
@@ -34,12 +38,14 @@ interface WhyUsContent {
   };
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Why Us',
-  description:
-    'The VATGenius Partner Benefits: Revenue, Retention, Differentiation. Discover why leading neobanks choose VATGenius.',
-  path: '/why-us',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<WhyUsContent>('why-us');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/why-us',
+  });
+}
 
 const iconMap: Record<string, React.ReactNode> = {
   lightning: (
@@ -111,7 +117,7 @@ export default function WhyUsPage() {
       </Section>
 
       {/* Implementation Section */}
-      <Section background="gray">
+      <Section background="soft-green">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.implementation.title}
         </h2>

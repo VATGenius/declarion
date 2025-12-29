@@ -6,7 +6,7 @@ interface SectionProps {
   className?: string;
   containerSize?: 'sm' | 'md' | 'lg' | 'xl';
   id?: string;
-  background?: 'white' | 'gray' | 'brand' | 'transparent';
+  background?: 'white' | 'gray' | 'soft-green' | 'soft-blue' | 'brand' | 'transparent';
 }
 
 export function Section({
@@ -18,7 +18,9 @@ export function Section({
 }: SectionProps) {
   const backgrounds = {
     white: 'bg-white',
-    gray: 'bg-gray-50',
+    gray: 'bg-soft-green', // Legacy: map gray to soft-green
+    'soft-green': 'bg-soft-green',
+    'soft-blue': 'bg-soft-blue',
     brand: 'bg-brand text-white',
     transparent: '',
   };

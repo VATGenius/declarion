@@ -7,6 +7,10 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface TeamContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   hero: {
     title: string;
     description: string;
@@ -26,6 +30,7 @@ interface TeamContent {
       role: string;
       bio: string;
       image: string;
+      linkedin?: string;
     }>;
   };
   values: {
@@ -43,12 +48,14 @@ interface TeamContent {
   };
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'Team',
-  description:
-    'The VAT Refund Specialists for Your Business Customers. Meet the VATGenius team.',
-  path: '/team',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<TeamContent>('team');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/team',
+  });
+}
 
 export default function TeamPage() {
   const content = getPageContent<TeamContent>('team');
@@ -76,7 +83,7 @@ export default function TeamPage() {
             {content.hero.description.split('(')[0]}
             (
             <Link href="/knowledge/vat-refund-basics" className="text-brand hover:underline">
-              Basics of the VAT refund procedure
+              Navigating Foreign VAT Refunds
             </Link>
             ).
           </p>
@@ -84,7 +91,7 @@ export default function TeamPage() {
       </Section>
 
       {/* Our Niche Section */}
-      <Section background="gray">
+      <Section background="soft-green">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.niche.title}
         </h2>
@@ -107,9 +114,9 @@ export default function TeamPage() {
           {content.team.title}
         </h2>
 
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <div className="mt-12 flex flex-wrap justify-center gap-12">
           {content.team.members.map((member) => (
-            <div key={member.name} className="text-center">
+            <div key={member.name} className="flex w-64 flex-col text-center">
               <div className="mx-auto h-40 w-40 overflow-hidden rounded-full bg-gray-200">
                 <Image
                   src={member.image}
@@ -123,14 +130,32 @@ export default function TeamPage() {
                 {member.name}
               </h3>
               <p className="text-brand">{member.role}</p>
-              <p className="mt-2 text-sm text-gray-600">{member.bio}</p>
+              <p className="mt-2 flex-grow text-sm text-gray-600">{member.bio}</p>
+              {member.linkedin && (
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center justify-center gap-2 text-sm text-gray-500 transition-colors hover:text-brand"
+                >
+                  <svg
+                    className="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                  LinkedIn
+                </a>
+              )}
             </div>
           ))}
         </div>
       </Section>
 
       {/* Values Section */}
-      <Section background="gray">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.values.title}
         </h2>

@@ -7,6 +7,10 @@ import { generateSeoMetadata } from '@/lib/seo';
 import { getPageContent } from '@/lib/content';
 
 interface HomeContent {
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+  };
   hero: {
     title: string;
     titleHighlight: string;
@@ -47,12 +51,14 @@ interface HomeContent {
   };
 }
 
-export const metadata: Metadata = generateSeoMetadata({
-  title: 'VATGenius | Automated VAT Refund Solutions for Neobanks',
-  description:
-    'Unlock Foreign VAT Refunds: A Frictionless Revenue Stream for Your Business Accounts. Empower your business customers to claim back foreign Input VAT automatically.',
-  path: '/',
-});
+export function generateMetadata(): Metadata {
+  const content = getPageContent<HomeContent>('home');
+  return generateSeoMetadata({
+    title: content.seo.metaTitle,
+    description: content.seo.metaDescription,
+    path: '/',
+  });
+}
 
 const iconMap: Record<string, React.ReactNode> = {
   code: (
@@ -115,7 +121,7 @@ export default function HomePage() {
             {content.hero.description.split('(')[0]}
             (
             <Link href="/knowledge/vat-refund-basics" className="text-brand hover:underline">
-              Basics of the VAT refund procedure
+              Navigating Foreign VAT Refunds
             </Link>
             ). {content.hero.description.split(').')[1] || ''}
           </p>
@@ -131,7 +137,7 @@ export default function HomePage() {
       </Section>
 
       {/* How It Works Section */}
-      <Section background="gray">
+      <Section background="soft-green">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900">
             {content.platform.title}
@@ -188,7 +194,7 @@ export default function HomePage() {
       </Section>
 
       {/* Security Section */}
-      <Section background="gray">
+      <Section background="soft-blue">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Section } from '@/components/layout';
 import { RichText } from '@/components/content';
 import { JsonLd } from '@/components/seo';
-import { getKnowledgeBySlug, getAllKnowledgeSlugs } from '@/lib/content';
+import { getKnowledgeBySlug, getAllKnowledgeSlugs, slugifyTag } from '@/lib/content';
 import { generateSeoMetadata, generateArticleJsonLd } from '@/lib/seo';
 import { formatDate } from '@/lib/utils';
 
@@ -95,12 +95,13 @@ export default async function KnowledgeArticlePage({ params }: Props) {
             {article.tags && article.tags.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-2">
                 {article.tags.map((tag) => (
-                  <span
+                  <Link
                     key={tag}
-                    className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600"
+                    href={`/news/tag/${slugifyTag(tag)}`}
+                    className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 transition-colors hover:bg-brand/10 hover:text-brand"
                   >
                     {tag}
-                  </span>
+                  </Link>
                 ))}
               </div>
             )}

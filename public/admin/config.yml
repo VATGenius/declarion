@@ -111,6 +111,13 @@ collections:
         label: Home Page
         file: content/pages/home.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - label: Hero Section
             name: hero
             widget: object
@@ -172,6 +179,13 @@ collections:
         label: Product Page
         file: content/pages/product.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - label: Hero Section
             name: hero
             widget: object
@@ -185,8 +199,9 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - label: Steps
-                name: steps
+              - { label: Process Image, name: processImage, widget: image }
+              - label: Process Steps
+                name: processSteps
                 widget: list
                 fields:
                   - { label: Step Number, name: step, widget: string }
@@ -246,6 +261,13 @@ collections:
         label: Why Us Page
         file: content/pages/why-us.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - label: Hero Section
             name: hero
             widget: object
@@ -293,6 +315,13 @@ collections:
         label: Integration Page
         file: content/pages/integration.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - label: Hero Section
             name: hero
             widget: object
@@ -360,6 +389,13 @@ collections:
         label: Team Page
         file: content/pages/team.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - label: Hero Section
             name: hero
             widget: object
@@ -391,6 +427,7 @@ collections:
                   - { label: Role, name: role, widget: string }
                   - { label: Bio, name: bio, widget: text }
                   - { label: Image, name: image, widget: image }
+                  - { label: LinkedIn URL, name: linkedin, widget: string, required: false, hint: "Full LinkedIn profile URL (e.g. https://www.linkedin.com/in/username/)" }
           - label: Values Section
             name: values
             widget: object
@@ -416,6 +453,13 @@ collections:
         label: Privacy Policy
         file: content/pages/privacy.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - { label: Title, name: title, widget: string }
           - { label: Last Updated, name: lastUpdated, widget: string }
           - { label: Content, name: body, widget: markdown }
@@ -425,6 +469,13 @@ collections:
         label: Terms of Service
         file: content/pages/terms.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - { label: Title, name: title, widget: string }
           - { label: Last Updated, name: lastUpdated, widget: string }
           - { label: Content, name: body, widget: markdown }
@@ -434,6 +485,13 @@ collections:
         label: Imprint
         file: content/pages/imprint.json
         fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
+              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
           - { label: Content, name: body, widget: markdown }

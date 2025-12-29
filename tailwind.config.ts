@@ -24,10 +24,19 @@ const config: Config = {
         },
         // VATGenius brand green
         brand: {
-          DEFAULT: '#0d9488',
-          light: '#14b8a6',
-          dark: '#0f766e',
+          DEFAULT: '#00A86A',
+          light: '#00C77B',
+          dark: '#008F5A',
         },
+        // Accent Aqua - for links, hover states, UI elements
+        accent: {
+          DEFAULT: '#2BB0E6',
+          light: '#5CC4ED',
+          dark: '#1A9BD4',
+        },
+        // Section backgrounds
+        'soft-green': '#ECFDF5',
+        'soft-blue': '#E6F7FF',
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],

@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "metaTitle": "Team",
+    "metaDescription": "Meet the VATGenius team. VAT refund specialists empowering companies with innovative financial solutions to reclaim their maximum refundable VAT."
+  },
   "hero": {
     "title": "The VAT Refund Specialists for Your Business Customers",
     "description": "We empower companies that use innovative financial solutions, especially those that work with neobanks, to seamlessly reclaim their maximum refundable VAT through the input tax refund process.",
@@ -28,19 +32,22 @@
         "name": "Philipp Tranacher",
         "role": "Tax & Legal",
         "bio": "PhD, CPA, CTA, Lawyer. 15+ years in international tax.",
-        "image": "/images/team/philipp.jpg"
+        "image": "/images/team/philipp.jpg",
+        "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
         "name": "Nils Löwe",
         "role": "IT & Product Development",
         "bio": "Master's degree in Computer & Electrical Engineering and Information Technology. 10+ years in software development.",
-        "image": "/images/team/nils.png"
+        "image": "/images/team/nils.png",
+        "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
         "name": "Juliane Tranacher",
         "role": "Marketing & Sales",
         "bio": "PhD. 15 years of experience in marketing, press, and public relations with a focus on financial/real estate sector.",
-        "image": "/images/team/juliane.png"
+        "image": "/images/team/juliane.png",
+        "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
     ]
   },
