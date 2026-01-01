@@ -88,7 +88,15 @@ export async function sendEmail({
 export async function sendDemoRequestNotification(
   data: DemoRequestData
 ): Promise<{ success: boolean; error?: string }> {
-  const NOTIFICATION_EMAIL = process.env.NOTIFICATION_EMAIL || 'tranacher@tranacher.de';
+  const NOTIFICATION_EMAIL_1 = process.env.NOTIFICATION_EMAIL_1;
+  const NOTIFICATION_EMAIL_2 = process.env.NOTIFICATION_EMAIL_2;
+
+  const recipients = [NOTIFICATION_EMAIL_1, NOTIFICATION_EMAIL_2].filter(Boolean) as string[];
+
+  if (recipients.length === 0) {
+    console.error('[Mail] No notification email addresses configured');
+    return { success: false, error: 'No notification email addresses configured' };
+  }
 
   const subject = `New Demo Request from ${data.company}`;
 
@@ -155,11 +163,25 @@ Submitted at: ${new Date().toISOString()}
 </html>
 `;
 
-  return sendEmail({
-    to: NOTIFICATION_EMAIL,
-    subject,
-    text,
-    html,
-    replyTo: data.email,
-  });
+  const results = await Promise.all(
+    recipients.map((to) =>
+      sendEmail({
+        to,
+        subject,
+        text,
+        html,
+        replyTo: data.email,
+      })
+    )
+  );
+
+  const failures = results.filter((r) => !r.success);
+  if (failures.length > 0) {
+    console.error('[Mail] Some emails failed to send:', failures.map((f) => f.error));
+    if (failures.length === results.length) {
+      return { success: false, error: 'All notification emails failed' };
+    }
+  }
+
+  return { success: true };
 }
