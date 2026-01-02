@@ -88,10 +88,10 @@ export async function sendEmail({
 export async function sendDemoRequestNotification(
   data: DemoRequestData
 ): Promise<{ success: boolean; error?: string }> {
-  const NOTIFICATION_EMAIL_1 = process.env.NOTIFICATION_EMAIL_1;
+  const NOTIFICATION_EMAIL = process.env.NOTIFICATION_EMAIL;
   const NOTIFICATION_EMAIL_2 = process.env.NOTIFICATION_EMAIL_2;
 
-  const recipients = [NOTIFICATION_EMAIL_1, NOTIFICATION_EMAIL_2].filter(Boolean) as string[];
+  const recipients = [NOTIFICATION_EMAIL, NOTIFICATION_EMAIL_2].filter(Boolean) as string[];
 
   if (recipients.length === 0) {
     console.error('[Mail] No notification email addresses configured');
