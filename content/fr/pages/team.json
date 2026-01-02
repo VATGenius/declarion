@@ -1,0 +1,84 @@
+{
+  "seo": {
+    "metaTitle": "Equipe",
+    "metaDescription": "Rencontrez l'equipe VATGenius. Specialistes du remboursement de TVA qui accompagnent les entreprises avec des solutions financieres innovantes pour recuperer le maximum de TVA remboursable."
+  },
+  "hero": {
+    "title": "Les specialistes du remboursement de TVA pour vos clients professionnels",
+    "description": "Nous accompagnons les entreprises qui utilisent des solutions financieres innovantes, notamment celles qui travaillent avec des neobanques, pour recuperer de maniere transparente le maximum de TVA remboursable via la procedure de remboursement de TVA deductible.",
+    "heroImage": "/images/hero-team.png"
+  },
+  "niche": {
+    "title": "Notre niche et expertise",
+    "items": [
+      {
+        "title": "Le defi",
+        "description": "Les processus traditionnels de remboursement de TVA sont souvent difficiles a integrer efficacement dans l'infrastructure et la documentation uniques des neobanques numeriques. Cela peut entrainer des demandes manquees, des retards ou une surcharge administrative."
+      },
+      {
+        "title": "Notre solution",
+        "description": "Nous avons adapte notre processus a cette realite. Nous sommes specialises dans le traitement de la procedure de remboursement de TVA deductible et avons une connaissance approfondie de la documentation des neobanques, ce qui nous permet d'assurer des remboursements de TVA plus rapides, plus conformes et plus efficaces."
+      },
+      {
+        "title": "Notre promesse",
+        "description": "Nous maximisons la liquidite de vos clients professionnels en garantissant qu'ils recuperent avec succes chaque euro de TVA auquel ils ont droit. Notre technologie proprietaire comble le fosse entre les exigences legales de TVA et l'agilite de la banque numerique."
+      }
+    ]
+  },
+  "team": {
+    "title": "L'equipe",
+    "members": [
+      {
+        "name": "Philipp Tranacher",
+        "role": "Fiscalite et juridique",
+        "bio": "Doctorat, Expert-comptable, Conseiller fiscal, Avocat. Plus de 15 ans en fiscalite internationale.",
+        "image": "/images/team/philipp.jpg",
+        "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
+      },
+      {
+        "name": "Nils Lowe",
+        "role": "IT et developpement produit",
+        "bio": "Master en informatique, genie electrique et technologies de l'information. Plus de 10 ans en developpement logiciel.",
+        "image": "/images/team/nils.png",
+        "linkedin": "https://www.linkedin.com/in/nilsloewe/"
+      },
+      {
+        "name": "Juliane Tranacher",
+        "role": "Marketing et ventes",
+        "bio": "Doctorat. 15 ans d'experience en marketing, presse et relations publiques avec une specialisation dans le secteur financier/immobilier.",
+        "image": "/images/team/juliane.png",
+        "linkedin": "https://www.linkedin.com/in/julianetranacher/"
+      }
+    ]
+  },
+  "values": {
+    "title": "Nos valeurs",
+    "items": [
+      {
+        "title": "Precision",
+        "subtitle": "Garantir une exactitude absolue pour maximiser la TVA recuperable et minimiser le risque d'audit.",
+        "description": "Nous garantissons une exactitude absolue et une conformite aux lois fiscales internationales, minimisant les risques et maximisant le montant de TVA remboursable pour vos clients. Nos processus sont con\u00e7us pour gerer des donnees complexes provenant de differentes juridictions avec une precision sans faille."
+      },
+      {
+        "title": "Numerique d'abord",
+        "subtitle": "Transformer des processus complexes en une experience numerique fluide, evolutive et pilotee par API.",
+        "description": "En utilisant des integrations pilotees par API et une automatisation avancee, nous transformons le processus manuel et papier des remboursements de TVA en une experience entierement numerique et fluide. Cela garantit rapidite, evolutivite et une surcharge operationnelle minimale pour votre plateforme bancaire."
+      },
+      {
+        "title": "Orientation client",
+        "subtitle": "Concevoir un service fluide qui ameliore l'experience bancaire mondiale de vos clients.",
+        "description": "Nos services sont adaptes aux besoins de vos clients professionnels, offrant un service fluide, facile a comprendre et accessible directement via votre interface bancaire, augmentant ainsi la fidelite et la satisfaction client."
+      },
+      {
+        "title": "Transparence",
+        "subtitle": "Fournir une transparence en temps reel et une communication claire tout au long du cycle de remboursement.",
+        "description": "Nous fournissons une piste d'audit claire et en temps reel pour chaque transaction et statut de remboursement. Nos frais et etapes de processus sont clairement definis des le depart pour assurer une confiance et une transparence totales entre nous, la neobanque et le client final."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pret a travailler avec nous ?",
+    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "buttonLink": "/demo"
+  }
+}

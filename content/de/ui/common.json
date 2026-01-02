@@ -1,0 +1,44 @@
+{
+  "navigation": {
+    "product": "Produkt",
+    "whyUs": "Warum wir",
+    "integration": "Integration",
+    "team": "Team",
+    "newsKnowledge": "News & Wissen",
+    "signIn": "Anmelden",
+    "requestDemo": "Demo anfragen"
+  },
+  "footer": {
+    "description": "Automatisierte Umsatzsteuer-Rückerstattungslösungen für Neobanken und deren Geschäftskunden.",
+    "productTitle": "Produkt",
+    "companyTitle": "Unternehmen",
+    "legalTitle": "Rechtliches",
+    "contactUs": "Kontakt",
+    "copyright": "VATGenius. Alle Rechte vorbehalten.",
+    "productLinks": [
+      { "name": "Produkt", "href": "/product" },
+      { "name": "Integration", "href": "/integration" },
+      { "name": "Warum wir", "href": "/why-us" }
+    ],
+    "companyLinks": [
+      { "name": "Team", "href": "/team" },
+      { "name": "News", "href": "/news" },
+      { "name": "Wissensdatenbank", "href": "/knowledge" }
+    ],
+    "legalLinks": [
+      { "name": "Datenschutz", "href": "/privacy" },
+      { "name": "AGB", "href": "/terms" },
+      { "name": "Impressum", "href": "/imprint" }
+    ]
+  },
+  "articles": {
+    "backToNews": "Zurück zu News",
+    "backToKnowledge": "Zurück zur Wissensdatenbank",
+    "noNewsYet": "Noch keine News-Artikel vorhanden. Schauen Sie bald wieder vorbei!",
+    "noKnowledgeYet": "Noch keine Wissensartikel vorhanden. Schauen Sie bald wieder vorbei!",
+    "newsTitle": "News & Wissen",
+    "newsSubtitle": "Bleiben Sie auf dem Laufenden mit den neuesten USt-News, regulatorischen Updates und Einblicken.",
+    "knowledgeTitle": "Wissensdatenbank",
+    "knowledgeSubtitle": "Erfahren Sie mehr über Umsatzsteuer-Rückerstattungen, EU-Richtlinien, Compliance-Anforderungen und Best Practices für internationale Steuerrückforderungen."
+  }
+}

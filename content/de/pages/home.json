@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "metaTitle": "VATGenius | Automatisierte USt-Erstattungsloesungen fuer Neobanken",
+    "metaDescription": "Erschliessen Sie auslaendische USt-Erstattungen: Eine reibungslose Einnahmequelle fuer Ihre Geschaeftskonten. Ermoeglichen Sie Ihren Geschaeftskunden die automatische Rueckforderung auslaendischer Vorsteuer."
+  },
+  "hero": {
+    "title": "Erschliessen Sie auslaendische USt-Erstattungen:",
+    "titleHighlight": "Eine reibungslose Einnahmequelle",
+    "titleEnd": "fuer Ihre Geschaeftskonten",
+    "description": "Ermoeglichen Sie Ihren Geschaeftskunden die automatische und digitale Rueckforderung auslaendischer Vorsteuer. Unsere Loesung integriert sich nahtlos in Ihre Plattform und bietet einen muhelosen End-to-End-Erstattungsservice.\n\n",
+    "secondaryDescription": "Steigern Sie die Kundenbindung, erhoehen Sie das Transaktionsvolumen und bieten Sie ein leistungsstarkes neues Finanzinstrument ohne administrativen Aufwand fuer Ihre Bank.",
+    "ctaText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "ctaLink": "/demo",
+    "heroImage": "/images/hero-home.png"
+  },
+  "platform": {
+    "title": "Die VATGenius-Plattform",
+    "description": "Eine moderne Grafik, die den nahtlosen Datenfluss von Ihrer Neobank-App-Oberflaeche in die USt-Erstattungs-Engine zeigt",
+    "features": [
+      {
+        "title": "VATGenius Bank API",
+        "description": "Einfache Integration mit API fuer automatisierten Datentransfer aus Ihrem Banksystem. Erfasst, organisiert, verarbeitet und validiert Daten aus allen Rechnungen und Belegen Ihrer Geschaeftskunden.",
+        "icon": "code"
+      },
+      {
+        "title": "VATGenius Engine",
+        "description": "KI-gestuetzte Rechnungs-Compliance-Bewertung, Berechnung potenzieller auslaendischer USt-Erstattungsbetraege, Automatische Einholung der Kundenautorisierung, Bearbeitung von Anfragen auslaendischer Steuerbehoerden, Echtzeit-Statusanzeige",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "VATGenius TAX API",
+        "description": "Reicht inlaendische und auslaendische USt-Erstattungsantraege vollautomatisch und digital bei den Steuerportalen der jeweiligen Laender ein.",
+        "icon": "document"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Ihre Vorteile & Nutzen auf einen Blick",
+    "items": [
+      {
+        "title": "Einnahmen",
+        "description": "Neue, passive Einnahmequelle durch Gewinnbeteiligung.",
+        "icon": "currency"
+      },
+      {
+        "title": "Kundenbindung",
+        "description": "Liefert Ihren Geschaeftskunden greifbare finanzielle Ertraege und staerkt die Loyalitaet.",
+        "icon": "heart"
+      },
+      {
+        "title": "Differenzierung",
+        "description": "Bieten Sie einen einzigartigen Premium-Service, den Wettbewerber nicht haben.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "security": {
+    "title": "Sicherheit und Compliance",
+    "description": "Bei VATGenius ist die Implementierung wirksamer Cybersicherheitsmassnahmen grundlegend fuer den Schutz sensibler Daten und damit fuer die Sicherung des Vertrauens unserer Kunden.",
+    "features": [
+      "Verschluesselungsprotokolle und Multi-Faktor-Authentifizierung fuer Zugriffskontrollen",
+      "Sorgfaeltige Pruefung aller Aspekte der Datenverarbeitung",
+      "DSGVO-konforme Datenspeicherung und -verarbeitung"
+    ]
+  },
+  "cta": {
+    "title": "Bereit, neue Einnahmequellen zu erschliessen?",
+    "description": "Schliessen Sie sich fuehrenden Neobanken an und bieten Sie Ihren Geschaeftskunden automatisierte USt-Erstattungsdienste.",
+    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "buttonLink": "/demo"
+  }
+}

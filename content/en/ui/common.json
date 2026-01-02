@@ -1,0 +1,44 @@
+{
+  "navigation": {
+    "product": "Product",
+    "whyUs": "Why Us",
+    "integration": "Integration",
+    "team": "Team",
+    "newsKnowledge": "News & Knowledge",
+    "signIn": "Sign In",
+    "requestDemo": "Request Demo"
+  },
+  "footer": {
+    "description": "Automated VAT refund solutions for neobanks and their business customers.",
+    "productTitle": "Product",
+    "companyTitle": "Company",
+    "legalTitle": "Legal",
+    "contactUs": "Contact Us",
+    "copyright": "VATGenius. All rights reserved.",
+    "productLinks": [
+      { "name": "Product", "href": "/product" },
+      { "name": "Integration", "href": "/integration" },
+      { "name": "Why Us", "href": "/why-us" }
+    ],
+    "companyLinks": [
+      { "name": "Team", "href": "/team" },
+      { "name": "News", "href": "/news" },
+      { "name": "Knowledge Hub", "href": "/knowledge" }
+    ],
+    "legalLinks": [
+      { "name": "Privacy Policy", "href": "/privacy" },
+      { "name": "Terms of Service", "href": "/terms" },
+      { "name": "Imprint", "href": "/imprint" }
+    ]
+  },
+  "articles": {
+    "backToNews": "Back to News",
+    "backToKnowledge": "Back to Knowledge Hub",
+    "noNewsYet": "No news articles yet. Check back soon!",
+    "noKnowledgeYet": "No knowledge articles yet. Check back soon!",
+    "newsTitle": "News & Knowledge",
+    "newsSubtitle": "Stay up to date with the latest VAT news, regulatory updates, and insights.",
+    "knowledgeTitle": "Knowledge Hub",
+    "knowledgeSubtitle": "Learn about VAT refunds, EU directives, compliance requirements, and best practices for international tax recovery."
+  }
+}

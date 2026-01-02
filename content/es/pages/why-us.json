@@ -1,0 +1,70 @@
+{
+  "seo": {
+    "metaTitle": "Por qué nosotros",
+    "metaDescription": "Los beneficios de asociarse con VATGenius: Ingresos, retención, diferenciación. Descubra por qué los neobancos líderes eligen VATGenius para soluciones automatizadas de reembolso de IVA."
+  },
+  "hero": {
+    "title": "Los beneficios de asociarse con VATGenius:",
+    "titleHighlight": "Ingresos, retención, diferenciación",
+    "heroImage": "/images/hero-why-us.png",
+    "benefits": [
+      "Las comisiones solo se generan cuando el IVA se reembolsa efectivamente. Sin riesgo financiero para el cliente.",
+      "Usted solo incurre en costos de integración. Sus ingresos pueden superar estos costos muchas veces.",
+      "El servicio justifica un precio más alto para la cuenta empresarial.",
+      "Aumente la fidelidad del cliente. Un servicio de alto valor hace que cambiar sea menos atractivo.",
+      "Opción de etiquetar la recuperación de IVA como su propio servicio o servicio de terceros.",
+      "Las cuentas tradicionales dejan dinero sobre la mesa. Usted puede mejorar su posición en el mercado.",
+      "Integración Plug-and-Play. En funcionamiento en semanas."
+    ]
+  },
+  "implementation": {
+    "title": "Implementación de la asociación y salida al mercado",
+    "items": [
+      {
+        "title": "Integración",
+        "description": "Listo para piloto en 4-8 semanas. Muy poca deuda técnica y recursos necesarios de su parte.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Soporte operativo",
+        "description": "Nos encargamos de todo lo legal, cumplimiento y soporte al cliente relacionado con el proceso de IVA. Su carga de trabajo es mínima.",
+        "icon": "support"
+      },
+      {
+        "title": "Habilitación de marketing y ventas",
+        "description": "Proporcionamos materiales y capacitación para ayudar a su equipo de ventas a promover eficazmente el nuevo servicio.",
+        "icon": "chart"
+      }
+    ]
+  },
+  "whyPartner": {
+    "title": "¿Por qué asociarse con nosotros?",
+    "items": [
+      {
+        "title": "Experiencia en integración con Neobancos",
+        "description": "Somos expertos en el manejo de datos de transacciones, extractos y formatos de documentación de los principales Neobancos, reduciendo significativamente el tiempo de preparación y los errores."
+      },
+      {
+        "title": "Servicio paneuropeo",
+        "description": "Soporte completo para reclamaciones de reembolso de impuesto soportado transfronterizo (Reembolsos de IVA de la 8ª y 13ª Directiva). Nos encargamos desde la presentación hasta el pago final."
+      },
+      {
+        "title": "Velocidad y eficiencia",
+        "description": "Nuestro enfoque optimizado y digital-first significa una presentación de reclamaciones más rápida y un procesamiento más ágil en comparación con los métodos manuales basados en papel."
+      },
+      {
+        "title": "Modelo basado en el éxito",
+        "description": "Frecuentemente operamos con un modelo \"Sin éxito, sin comisión\", asegurando que nuestro éxito esté directamente vinculado al suyo."
+      },
+      {
+        "title": "Cumplimiento y garantía",
+        "description": "Garantizamos que cada reclamación cumple al 100% con las regulaciones locales y de toda la UE, protegiendo su negocio de futuras auditorías."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para asociarse con VATGenius?",
+    "buttonText": "Solicite una demostración en vivo y consulta de asociación",
+    "buttonLink": "/demo"
+  }
+}

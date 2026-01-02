@@ -1,26 +1,37 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Container } from './Container';
+import { type Locale } from '@/lib/i18n/config';
 
-const footerLinks = {
-  product: [
-    { name: 'Product', href: '/product' },
-    { name: 'Integration', href: '/integration' },
-    { name: 'Why Us', href: '/why-us' },
-  ],
-  company: [
-    { name: 'Team', href: '/team' },
-    { name: 'News', href: '/news' },
-    { name: 'Knowledge Hub', href: '/knowledge' },
-  ],
-  legal: [
-    { name: 'Privacy Policy', href: '/privacy' },
-    { name: 'Terms of Service', href: '/terms' },
-    { name: 'Imprint', href: '/imprint' },
-  ],
-};
+interface FooterLink {
+  name: string;
+  href: string;
+}
 
-export function Footer() {
+export interface FooterUI {
+  description: string;
+  productTitle: string;
+  companyTitle: string;
+  legalTitle: string;
+  contactUs: string;
+  copyright: string;
+  productLinks: FooterLink[];
+  companyLinks: FooterLink[];
+  legalLinks: FooterLink[];
+}
+
+interface FooterProps {
+  locale: Locale;
+  ui: FooterUI;
+}
+
+export function Footer({ locale, ui }: FooterProps) {
+  const prefixLinks = (links: FooterLink[]) =>
+    links.map((link) => ({
+      ...link,
+      href: `/${locale}${link.href}`,
+    }));
+
   return (
     <footer className="relative border-t border-gray-100 bg-gray-50">
       {/* Brand Background Image */}
@@ -37,36 +48,23 @@ export function Footer() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {/* Brand Column */}
             <div className="lg:col-span-1">
-              <Link href="/" className="flex items-center gap-2">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  className="text-brand"
-                >
-                  <rect width="32" height="32" rx="8" fill="currentColor" />
-                  <path
-                    d="M8 16L14 22L24 10"
-                    stroke="white"
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <span className="text-xl font-bold text-gray-900">
-                  VATGenius
-                </span>
+              <Link href={`/${locale}`} className="flex items-center gap-2">
+                <Image
+                  src="/images/logo.png"
+                  alt="VATGenius"
+                  width={120}
+                  height={30}
+                  className="h-8 w-auto"
+                />
               </Link>
-              <p className="mt-4 text-sm text-gray-600">
-                Automated VAT refund solutions for neobanks and their business
-                customers.
-              </p>
+              <p className="mt-4 text-sm text-gray-600">{ui.description}</p>
               <div className="mt-6">
-                <p className="text-sm font-semibold text-gray-900">Contact Us</p>
+                <p className="text-sm font-semibold text-gray-900">
+                  {ui.contactUs}
+                </p>
                 <a
                   href="mailto:info@vatgenius.tech"
-                  className="block mt-1 text-sm text-gray-600 hover:text-brand"
+                  className="mt-1 block text-sm text-gray-600 hover:text-brand"
                 >
                   info@vatgenius.tech
                 </a>
@@ -91,9 +89,11 @@ export function Footer() {
 
             {/* Product Links */}
             <div>
-              <h3 className="text-sm font-semibold text-gray-900">Product</h3>
+              <h3 className="text-sm font-semibold text-gray-900">
+                {ui.productTitle}
+              </h3>
               <ul className="mt-4 space-y-3">
-                {footerLinks.product.map((link) => (
+                {prefixLinks(ui.productLinks).map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
@@ -108,9 +108,11 @@ export function Footer() {
 
             {/* Company Links */}
             <div>
-              <h3 className="text-sm font-semibold text-gray-900">Company</h3>
+              <h3 className="text-sm font-semibold text-gray-900">
+                {ui.companyTitle}
+              </h3>
               <ul className="mt-4 space-y-3">
-                {footerLinks.company.map((link) => (
+                {prefixLinks(ui.companyLinks).map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
@@ -125,9 +127,11 @@ export function Footer() {
 
             {/* Legal Links */}
             <div>
-              <h3 className="text-sm font-semibold text-gray-900">Legal</h3>
+              <h3 className="text-sm font-semibold text-gray-900">
+                {ui.legalTitle}
+              </h3>
               <ul className="mt-4 space-y-3">
-                {footerLinks.legal.map((link) => (
+                {prefixLinks(ui.legalLinks).map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
@@ -144,7 +148,7 @@ export function Footer() {
           {/* Bottom Bar */}
           <div className="mt-12 border-t border-gray-200 pt-8">
             <p className="text-center text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} VATGenius. All rights reserved.
+              &copy; {new Date().getFullYear()} {ui.copyright}
             </p>
           </div>
         </div>

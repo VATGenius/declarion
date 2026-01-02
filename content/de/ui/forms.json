@@ -1,0 +1,61 @@
+{
+  "signIn": {
+    "title": "Melden Sie sich bei Ihrem VATGenius-Konto an",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "max@mustermann.de",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+    "forgotPassword": "Passwort vergessen?",
+    "submitButton": "Anmelden",
+    "or": "oder",
+    "newToVatgenius": "Neu bei VATGenius?",
+    "newToVatgeniusDescription": "Die VATGenius-Plattform ist eine vollständig integrierte, API-basierte Engine, die 100% automatisierte USt-Rückerstattung in Echtzeit ermöglicht.",
+    "requestDemo": "Live-Demo & Partnerschaftsberatung anfordern",
+    "errorNotRegistered": "Diese E-Mail-Adresse ist nicht registriert. Bitte überprüfen Sie die Schreibweise oder registrieren Sie sich.",
+    "forgotPasswordTitle": "Passwort zurücksetzen",
+    "forgotPasswordMessage": "Wenn diese E-Mail registriert ist, erhalten Sie in Kürze einen Link zum Zurücksetzen des Passworts.",
+    "backToSignIn": "Zurück zur Anmeldung"
+  },
+  "demoForm": {
+    "fullNameLabel": "Vollständiger Name",
+    "fullNamePlaceholder": "Max Mustermann",
+    "emailLabel": "Geschäftliche E-Mail",
+    "emailPlaceholder": "max.mustermann@neobank.com",
+    "companyLabel": "Firmenname",
+    "companyPlaceholder": "Name Ihres Unternehmens",
+    "jobTitleLabel": "Position",
+    "jobTitlePlaceholder": "CEO / CPO / Business Development Manager",
+    "countryLabel": "Land der Geschäftstätigkeit",
+    "selectDefault": "Bitte wählen",
+    "consentText": "Ich stimme der Datenschutzerklärung zu und willige in den Erhalt von Marketing-Mitteilungen ein.",
+    "submitButton": "Demo & Beratung jetzt buchen",
+    "submittingText": "Wird gesendet...",
+    "successTitle": "Vielen Dank!",
+    "successMessage": "Wir werden Sie innerhalb von 24 Stunden kontaktieren, um Ihre persönliche Demo zu vereinbaren.",
+    "privacyNote": "Wir respektieren Ihre Privatsphäre. Die Informationen werden nur für die Vereinbarung Ihrer Demo & Beratung verwendet.",
+    "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "genericError": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+  },
+  "countries": [
+    { "value": "germany", "label": "Deutschland" },
+    { "value": "uk", "label": "Vereinigtes Königreich" },
+    { "value": "france", "label": "Frankreich" },
+    { "value": "spain", "label": "Spanien" },
+    { "value": "netherlands", "label": "Niederlande" },
+    { "value": "italy", "label": "Italien" },
+    { "value": "other-eu", "label": "Anderes EU-Land" },
+    { "value": "global", "label": "Global" }
+  ],
+  "demoPage": {
+    "title": "Null Integrationsaufwand. Maximaler finanzieller Nutzen.",
+    "description": "Geschwindigkeit und nahtlose Erfahrung sind entscheidend für Neobanken. VATGenius integriert sich direkt in Ihre Plattform und ermöglicht Ihren Geschäftskunden mühelos versteckte USt-Rückerstattungen freizuschalten.",
+    "feature1Title": "Kein operativer Aufwand",
+    "feature1Description": "Wir kümmern uns um alles, von der Antragsstellung bis zur Auszahlung.",
+    "feature2Title": "Neue Einnahmequelle",
+    "feature2Description": "Verdienen Sie Provision bei jeder erfolgreichen USt-Rückerstattung.",
+    "feature3Title": "Wettbewerbsvorteil",
+    "feature3Description": "Bieten Sie einen einzigartigen Service, der Ihre Plattform differenziert.",
+    "formTitle": "Demo buchen",
+    "formSubtitle": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen."
+  }
+}

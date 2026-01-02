@@ -1,0 +1,47 @@
+---
+title: "Mise a jour sur la facturation electronique allemande : Nouveau projet de directives du ministere federal des Finances"
+date: 2025-06-30T17:57:00.000+02:00
+excerpt: Le ministere federal allemand des Finances (BMF) a publie un projet de lettre
+  mettant a jour le cadre juridique de la facturation electronique B2B obligatoire.
+  Il clarifie les exigences techniques pour la norme EN 16931, fournit des orientations
+  sur le traitement des erreurs de syntaxe et decrit l'integration de ces regles dans
+  le decret d'application de la TVA (UStAE).
+heroImage: /images/uploads/bmf-data.png
+tags:
+  - VAT
+---
+**Elements essentiels du projet BMF**
+
+**1. Calendrier de mise en oeuvre et champ d'application**
+
+Depuis le 1er janvier 2025, toutes les entreprises allemandes doivent etre en mesure de recevoir des factures electroniques. L'obligation d'en emettre commence par phases :
+
+* 2027 : Entreprises avec un chiffre d'affaires > 800 000 EUR.
+* 2028 : Toutes les autres entreprises (hors petites entreprises).
+* 2028 : Les factures transmises par EDI doivent egalement etre conformes a la norme EN 16931.
+
+**2. Gestion des erreurs et conformite**
+
+**Erreurs de syntaxe** : Les factures ne respectant pas le format structure technique (EN 16931) seront classees comme "autres factures", risquant potentiellement les deductions de TVA en amont apres les periodes transitoires.
+
+**Erreurs de contenu** : Les erreurs dans les donnees elles-memes entrainent une "facture electronique incorrecte". Celles-ci ne peuvent pas etre corrigees en se referant simplement a des pieces jointes non structurees.
+
+**Validation** : Les entreprises sont encouragees a utiliser des applications de validation pour garantir la conformite aux "regles metier" (exhaustivite et coherence des champs obligatoires).
+
+**3. Changements proceduraux cles**
+
+**Pas de consentement necessaire** : L'emission de factures electroniques pour les petits montants, les billets ou aux petites entreprises ne necessite pas le consentement du destinataire.
+
+**Pieces jointes** : Les informations supplementaires (par exemple, les feuilles de temps) doivent etre integrees dans le fichier de la facture electronique, pas liees en externe.
+
+**Contrats comme factures** : Un contrat ne compte comme facture electronique que s'il respecte le modele de donnees semantique complet de la norme EN 16931. Sinon, une facture electronique separee doit etre emise pour le corriger.
+
+**Formats hybrides** : Dans les fichiers de type ZUGFeRD, si le PDF lisible par l'homme differe des donnees XML, cela peut entrainer des obligations fiscales supplementaires en vertu de l'art. 14c UStG.
+
+**4. Stockage (Mises a jour GoBD)**
+
+A compter de juillet 2025, pour les factures electroniques, il est generalement suffisant de ne stocker que la partie des donnees structurees. La partie lisible par l'homme ne doit etre archivee que si elle contient des informations fiscalement pertinentes supplementaires non presentes dans le XML.
+
+**5. Statut du document**
+
+Il s'agit actuellement d'un projet susceptible d'etre modifie. La version finale est attendue au quatrieme trimestre 2025 et est destinee a s'appliquer a toutes les operations effectuees apres le 31 decembre 2024.

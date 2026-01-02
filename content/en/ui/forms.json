@@ -1,0 +1,61 @@
+{
+  "signIn": {
+    "title": "Log in to your VATGenius account",
+    "emailLabel": "Email",
+    "emailPlaceholder": "john@doe.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot your password?",
+    "submitButton": "Sign In",
+    "or": "or",
+    "newToVatgenius": "New to VATGenius?",
+    "newToVatgeniusDescription": "The VATGenius Platform is a fully integrated, API-based engine that enables 100% automated VAT recovery in real-time.",
+    "requestDemo": "Request a Live Demo & Partnership Consultation",
+    "errorNotRegistered": "This email address is not registered. Please check the spelling or sign up.",
+    "forgotPasswordTitle": "Password Reset",
+    "forgotPasswordMessage": "If this email is registered, you will receive a password reset link shortly.",
+    "backToSignIn": "Back to Sign In"
+  },
+  "demoForm": {
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Jane Doe",
+    "emailLabel": "Work Email",
+    "emailPlaceholder": "jane.doe@neobank.com",
+    "companyLabel": "Company Name",
+    "companyPlaceholder": "Name of your company",
+    "jobTitleLabel": "Job Title",
+    "jobTitlePlaceholder": "CEO / CPO / Manager of Business Development",
+    "countryLabel": "Country of Operation",
+    "selectDefault": "Select an option",
+    "consentText": "I agree to the Privacy Policy and consent to receiving marketing communications.",
+    "submitButton": "Book My Demo & Consultation Now",
+    "submittingText": "Submitting...",
+    "successTitle": "Thank you!",
+    "successMessage": "We will contact you within 24 hours to schedule your personalized demo.",
+    "privacyNote": "We respect your privacy. The information will only be used to schedule your tailored demo & consultation.",
+    "networkError": "Network error. Please check your connection and try again.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "countries": [
+    { "value": "germany", "label": "Germany" },
+    { "value": "uk", "label": "United Kingdom" },
+    { "value": "france", "label": "France" },
+    { "value": "spain", "label": "Spain" },
+    { "value": "netherlands", "label": "Netherlands" },
+    { "value": "italy", "label": "Italy" },
+    { "value": "other-eu", "label": "Other EU Country" },
+    { "value": "global", "label": "Global" }
+  ],
+  "demoPage": {
+    "title": "Zero Integration Friction. Maximum Financial Upside.",
+    "description": "Speed and seamless experience are critical for neobanks. VATGenius integrates directly into your platform, letting your business customers unlock hidden VAT refunds effortlessly.",
+    "feature1Title": "Zero Operational Overhead",
+    "feature1Description": "We handle everything from claim filing to fund disbursement.",
+    "feature2Title": "New Revenue Stream",
+    "feature2Description": "Earn commission on every successful VAT refund.",
+    "feature3Title": "Competitive Edge",
+    "feature3Description": "Offer a unique service that differentiates your platform.",
+    "formTitle": "Book Your Demo",
+    "formSubtitle": "Fill out the form below and we will be in touch within 24 hours."
+  }
+}

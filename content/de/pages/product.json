@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "metaTitle": "Produkt",
+    "metaDescription": "Monetarisierung auslaendischer USt-Erstattungen fuer Geschaeftskunden. Eine vollautomatisierte, compliance-gesicherte Plattform fuer B2B-USt-Rueckerstattung."
+  },
+  "hero": {
+    "title": "Monetarisierung auslaendischer USt-Erstattungen fuer Geschaeftskunden",
+    "description": "Auslaendische Geschaeftsausgaben (Reisen, Messen, Dienstleistungen) Ihrer Geschaeftskunden steigen, aber viele erstattungsfaehige auslaendische USt-Betraege werden aufgrund von Komplexitaet, unterschiedlichen Laendervorschriften, Dokumentationsanforderungen, Compliance-Bedenken und manueller Bearbeitung nicht geltend gemacht.",
+    "solutionText": "Unsere Loesung: Steigerung des Kundenwertes und Generierung passiver Einnahmen durch eine vollautomatisierte, compliance-gesicherte Plattform fuer B2B-USt-Rueckerstattung, die keinen Aufwand fuer Ihre Geschaeftskunden erfordert.",
+    "heroImage": "/images/hero-product.png"
+  },
+  "howItWorks": {
+    "title": "So funktioniert es (Der 4-Schritte-Integrationsprozess)",
+    "processImage": "/images/process.png",
+    "processSteps": [
+      {
+        "step": "1",
+        "title": "Datenerfassung",
+        "description": "Automatisierte Transaktionsdaten ueber VATGenius"
+      },
+      {
+        "step": "2",
+        "title": "Verarbeitung",
+        "description": "Die VATGenius Engine prueft automatisch Dokumente, stellt sie zusammen, berechnet USt-Erstattungsbetraege und informiert Geschaeftskunden"
+      },
+      {
+        "step": "3",
+        "title": "Einreichung",
+        "description": "Die VATGenius TAX API reicht den komplexen Antrag bei der zustaendigen auslaendischen Steuerbehoerde ein"
+      },
+      {
+        "step": "4",
+        "title": "Auszahlung",
+        "description": "Die Mittel werden nahtlos empfangen und ausgezahlt und wirken sich direkt auf die Ergebnisse Ihrer Geschaeftskunden aus."
+      }
+    ]
+  },
+  "customerBenefit": {
+    "title": "Ihr Kundenvorteil",
+    "items": [
+      {
+        "title": "Kein Aufwand",
+        "description": "Vollautomatisierte Identifizierung erstattungsfaehiger USt."
+      },
+      {
+        "title": "Maximaler Betrag",
+        "description": "KI-gestuetzte Verifizierung stellt das volle Potenzial der USt-Erstattung sicher."
+      },
+      {
+        "title": "Vollstaendige Transparenz",
+        "description": "Jederzeit Zugriff auf den Antragsstatus ueber das Banking-Dashboard."
+      }
+    ]
+  },
+  "compliance": {
+    "title": "Compliance & Sicherheit: Vertrauen durch regulatorische Exzellenz",
+    "description": "Als Partner im Finanzsektor wissen wir, dass Vertrauen, Sicherheit und kompromisslose Einhaltung regulatorischer Anforderungen unverzichtbar sind. Unsere Loesung ist darauf ausgelegt, Risiken zu minimieren und volle Compliance fuer Ihr Institut und Ihre Geschaeftskunden zu gewaehrleisten.",
+    "sections": [
+      {
+        "title": "Globale Steuer-Compliance-as-a-Service",
+        "items": [
+          {
+            "label": "Dedizierte Expertise:",
+            "text": "Internationale Steuerspezialisten, die alle relevanten Vorschriften verwalten"
+          },
+          {
+            "label": "Risikotransfer:",
+            "text": "Uebertragen Sie die gesamte regulatorische Last auf uns"
+          },
+          {
+            "label": "Pruefungsbereitschaft:",
+            "text": "Vollstaendig pruefbare und verteidigungsfaehige Antraege"
+          }
+        ]
+      },
+      {
+        "title": "Datensicherheit und Datenschutz (DSGVO-konform)",
+        "items": [
+          {
+            "label": "Zero-Trust-Architektur:",
+            "text": "AES-256-Verschluesselung im Ruhezustand und TLS 1.2+ bei der Uebertragung"
+          },
+          {
+            "label": "Datenminimierung:",
+            "text": "Nur notwendige Daten werden gemaess DSGVO verarbeitet"
+          },
+          {
+            "label": "Regelmaessige Audits:",
+            "text": "Unabhaengige Sicherheitsaudits durch Dritte (SOC 2-Bereitschaft)"
+          }
+        ]
+      }
+    ]
+  },
+  "secureApi": {
+    "title": "Sichere API und Infrastruktur",
+    "description": "Unsere Integration ist so konzipiert, dass sie sich nahtlos einfuegt, ohne Ihre bestehende Sicherheitsarchitektur zu beeintraechtigen.",
+    "features": [
+      {
+        "title": "Token-basierte Authentifizierung",
+        "description": "Sichere API-Interaktionen"
+      },
+      {
+        "title": "Cloud-Infrastruktur",
+        "description": "Zertifizierte Umgebungen mit Redundanz"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit loszulegen?",
+    "description": "Erfahren Sie, wie VATGenius Ihren Geschaeftskunden helfen kann, auslaendische USt zurueckzufordern.",
+    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "buttonLink": "/demo"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "navigation": {
+    "product": "Produit",
+    "whyUs": "Pourquoi nous",
+    "integration": "Intégration",
+    "team": "Équipe",
+    "newsKnowledge": "Actualités & Savoir",
+    "signIn": "Connexion",
+    "requestDemo": "Demander une démo"
+  },
+  "footer": {
+    "description": "Solutions automatisées de remboursement de TVA pour les néobanques et leurs clients professionnels.",
+    "productTitle": "Produit",
+    "companyTitle": "Entreprise",
+    "legalTitle": "Mentions légales",
+    "contactUs": "Contactez-nous",
+    "copyright": "VATGenius. Tous droits réservés.",
+    "productLinks": [
+      { "name": "Produit", "href": "/product" },
+      { "name": "Intégration", "href": "/integration" },
+      { "name": "Pourquoi nous", "href": "/why-us" }
+    ],
+    "companyLinks": [
+      { "name": "Équipe", "href": "/team" },
+      { "name": "Actualités", "href": "/news" },
+      { "name": "Base de connaissances", "href": "/knowledge" }
+    ],
+    "legalLinks": [
+      { "name": "Politique de confidentialité", "href": "/privacy" },
+      { "name": "Conditions d'utilisation", "href": "/terms" },
+      { "name": "Mentions légales", "href": "/imprint" }
+    ]
+  },
+  "articles": {
+    "backToNews": "Retour aux actualités",
+    "backToKnowledge": "Retour à la base de connaissances",
+    "noNewsYet": "Pas encore d'articles d'actualité. Revenez bientôt !",
+    "noKnowledgeYet": "Pas encore d'articles de connaissances. Revenez bientôt !",
+    "newsTitle": "Actualités & Savoir",
+    "newsSubtitle": "Restez informé des dernières actualités TVA, des mises à jour réglementaires et des analyses.",
+    "knowledgeTitle": "Base de connaissances",
+    "knowledgeSubtitle": "Découvrez les remboursements de TVA, les directives européennes, les exigences de conformité et les meilleures pratiques pour la récupération fiscale internationale."
+  }
+}

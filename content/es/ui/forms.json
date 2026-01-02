@@ -1,0 +1,61 @@
+{
+  "signIn": {
+    "title": "Inicia sesión en tu cuenta VATGenius",
+    "emailLabel": "Email",
+    "emailPlaceholder": "juan@garcia.es",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Introduce tu contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "submitButton": "Iniciar sesión",
+    "or": "o",
+    "newToVatgenius": "¿Nuevo en VATGenius?",
+    "newToVatgeniusDescription": "La plataforma VATGenius es un motor totalmente integrado, basado en API, que permite la recuperación de IVA 100% automatizada en tiempo real.",
+    "requestDemo": "Solicita una demo en vivo y consulta de asociación",
+    "errorNotRegistered": "Esta dirección de email no está registrada. Por favor, verifica la ortografía o regístrate.",
+    "forgotPasswordTitle": "Restablecer contraseña",
+    "forgotPasswordMessage": "Si este email está registrado, recibirás un enlace para restablecer tu contraseña en breve.",
+    "backToSignIn": "Volver al inicio de sesión"
+  },
+  "demoForm": {
+    "fullNameLabel": "Nombre completo",
+    "fullNamePlaceholder": "Juan García",
+    "emailLabel": "Email de trabajo",
+    "emailPlaceholder": "juan.garcia@neobanco.com",
+    "companyLabel": "Nombre de la empresa",
+    "companyPlaceholder": "Nombre de su empresa",
+    "jobTitleLabel": "Cargo",
+    "jobTitlePlaceholder": "CEO / CPO / Director de desarrollo de negocio",
+    "countryLabel": "País de operación",
+    "selectDefault": "Seleccionar una opción",
+    "consentText": "Acepto la política de privacidad y consiento recibir comunicaciones de marketing.",
+    "submitButton": "Reservar mi demo y consulta ahora",
+    "submittingText": "Enviando...",
+    "successTitle": "¡Gracias!",
+    "successMessage": "Nos pondremos en contacto contigo en las próximas 24 horas para programar tu demo personalizada.",
+    "privacyNote": "Respetamos tu privacidad. La información solo se utilizará para programar tu demo y consulta personalizada.",
+    "networkError": "Error de red. Por favor, comprueba tu conexión e inténtalo de nuevo.",
+    "genericError": "Algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "countries": [
+    { "value": "germany", "label": "Alemania" },
+    { "value": "uk", "label": "Reino Unido" },
+    { "value": "france", "label": "Francia" },
+    { "value": "spain", "label": "España" },
+    { "value": "netherlands", "label": "Países Bajos" },
+    { "value": "italy", "label": "Italia" },
+    { "value": "other-eu", "label": "Otro país de la UE" },
+    { "value": "global", "label": "Global" }
+  ],
+  "demoPage": {
+    "title": "Cero fricción en la integración. Máximo beneficio financiero.",
+    "description": "La velocidad y la experiencia fluida son críticas para los neobancos. VATGenius se integra directamente en tu plataforma, permitiendo a tus clientes empresariales desbloquear fácilmente las devoluciones de IVA ocultas.",
+    "feature1Title": "Cero carga operativa",
+    "feature1Description": "Nos encargamos de todo, desde la presentación de la solicitud hasta el desembolso de los fondos.",
+    "feature2Title": "Nueva fuente de ingresos",
+    "feature2Description": "Gana comisión en cada devolución de IVA exitosa.",
+    "feature3Title": "Ventaja competitiva",
+    "feature3Description": "Ofrece un servicio único que diferencia tu plataforma.",
+    "formTitle": "Reserva tu demo",
+    "formSubtitle": "Completa el formulario a continuación y nos pondremos en contacto contigo en las próximas 24 horas."
+  }
+}

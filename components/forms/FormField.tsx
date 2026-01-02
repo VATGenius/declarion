@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 interface FormFieldProps {
   label: string;
   name: string;
-  type?: 'text' | 'email' | 'tel' | 'select' | 'textarea';
+  type?: 'text' | 'email' | 'tel' | 'password' | 'select' | 'textarea';
   placeholder?: string;
   required?: boolean;
   options?: { value: string; label: string }[];

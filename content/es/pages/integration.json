@@ -1,0 +1,85 @@
+{
+  "seo": {
+    "metaTitle": "Integración",
+    "metaDescription": "Integración API perfecta. Nuestra solución plug-and-play de bajo código garantiza una mínima carga para sus recursos de desarrollo y un rápido tiempo de comercialización."
+  },
+  "hero": {
+    "title": "Integración API perfecta",
+    "description": "El éxito de nuestra asociación depende de la velocidad de implementación. Nuestra solución está diseñada como un servicio plug-and-play de bajo código, garantizando una mínima carga para sus recursos internos de desarrollo y un rápido tiempo de comercialización.",
+    "heroImage": "/images/hero-integration.png"
+  },
+  "pillars": {
+    "title": "Los tres pilares de la integración",
+    "description": "Nuestro servicio se conecta a su plataforma mediante una API RESTful segura, permitiendo el flujo automático de datos y minimizando la intervención manual. La integración requiere centrarse solo en tres puntos principales de intercambio de datos:",
+    "items": [
+      {
+        "title": "Hook de incorporación de clientes",
+        "description": "Un simple clic para activar el servicio de reclamación de IVA para un cliente empresarial específico.",
+        "icon": "userPlus"
+      },
+      {
+        "title": "Feed de datos de transacciones",
+        "description": "Un feed seguro de transacciones de gastos extranjeros relevantes.",
+        "icon": "database"
+      },
+      {
+        "title": "Aprobación, estado y pago",
+        "description": "Un webhook para recibir notificaciones sobre aprobaciones, actualizaciones en tiempo real del estado de la reclamación y pagos finales de reembolso.",
+        "icon": "checkCircle"
+      }
+    ]
+  },
+  "lowCode": {
+    "title": "Bajo código, alto valor",
+    "description": "Entendemos que la velocidad y la eficiencia son primordiales. Ofrecemos:",
+    "items": [
+      {
+        "title": "Documentación robusta",
+        "description": "Documentación API completa y fácil de seguir, junto con SDKs para lenguajes populares para acelerar su ciclo de desarrollo."
+      },
+      {
+        "title": "Entorno Sandbox dedicado",
+        "description": "Un entorno de pruebas totalmente funcional permite a su equipo crear prototipos y validar la integración sin afectar la producción en vivo."
+      },
+      {
+        "title": "Mantenimiento mínimo",
+        "description": "Nos encargamos de todas las actualizaciones de cumplimiento, cambios de autoridades fiscales extranjeras y mantenimiento del sistema. Cero deuda técnica para su plataforma."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Estimación del tiempo de comercialización",
+    "description": "Proyectamos un cronograma de implementación rápido, permitiéndole lanzar esta nueva función premium rápidamente:",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "description": "Acceso API y pruebas en Sandbox",
+        "duration": "2 semanas",
+        "effort": "Mínimo (1 desarrollador)"
+      },
+      {
+        "phase": "Fase 2",
+        "description": "Integración y validación del flujo de datos",
+        "duration": "4-6 semanas",
+        "effort": "Bajo a moderado"
+      },
+      {
+        "phase": "Fase 3",
+        "description": "Revisión de cumplimiento y lanzamiento piloto",
+        "duration": "1 semana",
+        "effort": "Ninguno (revisión interna)"
+      }
+    ],
+    "total": {
+      "label": "Total",
+      "description": "Tiempo hasta el piloto",
+      "duration": "~6-8 semanas",
+      "effort": "Limitado"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para comenzar la integración?",
+    "buttonText": "Solicite una demostración en vivo y consulta de asociación",
+    "buttonLink": "/demo"
+  }
+}

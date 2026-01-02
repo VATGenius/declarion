@@ -1,0 +1,44 @@
+{
+  "navigation": {
+    "product": "Producto",
+    "whyUs": "Por qué nosotros",
+    "integration": "Integración",
+    "team": "Equipo",
+    "newsKnowledge": "Noticias y Conocimiento",
+    "signIn": "Iniciar sesión",
+    "requestDemo": "Solicitar demo"
+  },
+  "footer": {
+    "description": "Soluciones automatizadas de devolución de IVA para neobancos y sus clientes empresariales.",
+    "productTitle": "Producto",
+    "companyTitle": "Empresa",
+    "legalTitle": "Legal",
+    "contactUs": "Contacto",
+    "copyright": "VATGenius. Todos los derechos reservados.",
+    "productLinks": [
+      { "name": "Producto", "href": "/product" },
+      { "name": "Integración", "href": "/integration" },
+      { "name": "Por qué nosotros", "href": "/why-us" }
+    ],
+    "companyLinks": [
+      { "name": "Equipo", "href": "/team" },
+      { "name": "Noticias", "href": "/news" },
+      { "name": "Base de conocimiento", "href": "/knowledge" }
+    ],
+    "legalLinks": [
+      { "name": "Política de privacidad", "href": "/privacy" },
+      { "name": "Términos de servicio", "href": "/terms" },
+      { "name": "Aviso legal", "href": "/imprint" }
+    ]
+  },
+  "articles": {
+    "backToNews": "Volver a noticias",
+    "backToKnowledge": "Volver a la base de conocimiento",
+    "noNewsYet": "Aún no hay artículos de noticias. ¡Vuelve pronto!",
+    "noKnowledgeYet": "Aún no hay artículos de conocimiento. ¡Vuelve pronto!",
+    "newsTitle": "Noticias y Conocimiento",
+    "newsSubtitle": "Mantente al día con las últimas noticias de IVA, actualizaciones regulatorias y análisis.",
+    "knowledgeTitle": "Base de conocimiento",
+    "knowledgeSubtitle": "Aprende sobre devoluciones de IVA, directivas de la UE, requisitos de cumplimiento y mejores prácticas para la recuperación fiscal internacional."
+  }
+}

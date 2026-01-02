@@ -2,24 +2,42 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Container } from './Container';
+import { LanguageSwitcher } from './LanguageSwitcher';
 import { Button } from '@/components/ui/Button';
+import { type Locale } from '@/lib/i18n/config';
 
-const navigation = [
-  { name: 'Product', href: '/product' },
-  { name: 'Why Us', href: '/why-us' },
-  { name: 'Integration', href: '/integration' },
-  { name: 'Team', href: '/team' },
-  { name: 'News & Knowledge', href: '/news' },
-];
+export interface NavigationUI {
+  product: string;
+  whyUs: string;
+  integration: string;
+  team: string;
+  newsKnowledge: string;
+  signIn: string;
+  requestDemo: string;
+}
 
-export function Header() {
+interface HeaderProps {
+  locale: Locale;
+  ui: NavigationUI;
+}
+
+export function Header({ locale, ui }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
+  const navigation = [
+    { name: ui.product, href: `/${locale}/product` },
+    { name: ui.whyUs, href: `/${locale}/why-us` },
+    { name: ui.integration, href: `/${locale}/integration` },
+    { name: ui.team, href: `/${locale}/team` },
+    { name: ui.newsKnowledge, href: `/${locale}/news` },
+  ];
+
   const isActive = (href: string) => {
-    if (href === '/') return pathname === '/';
+    if (href === `/${locale}`) return pathname === `/${locale}`;
     return pathname.startsWith(href);
   };
 
@@ -28,23 +46,15 @@ export function Header() {
       <Container>
         <nav className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              className="text-brand"
-            >
-              <rect width="32" height="32" rx="8" fill="currentColor" />
-              <path
-                d="M8 16L14 22L24 10"
-                stroke="white"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+          <Link href={`/${locale}`} className="flex items-center gap-2">
+            <Image
+              src="/images/logo.png"
+              alt="VATGenius"
+              width={40}
+              height={40}
+              className="h-10 w-10"
+              priority
+            />
             <span className="text-xl font-bold text-gray-900">VATGenius</span>
           </Link>
 
@@ -56,7 +66,7 @@ export function Header() {
                 href={item.href}
                 className={`text-sm font-medium transition-colors hover:text-brand ${
                   isActive(item.href)
-                    ? 'text-brand border-b-2 border-brand pb-0.5'
+                    ? 'border-b-2 border-brand pb-0.5 text-brand'
                     : 'text-gray-600'
                 }`}
               >
@@ -65,49 +75,52 @@ export function Header() {
             ))}
           </div>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons & Language Switcher */}
           <div className="hidden items-center gap-4 md:flex">
+            <LanguageSwitcher currentLocale={locale} />
             <Link
-              href="/sign-in"
+              href={`/${locale}/sign-in`}
               className="text-sm font-medium text-gray-600 hover:text-brand"
             >
-              Sign In
+              {ui.signIn}
             </Link>
-            <Button href="/demo" size="sm">
-              Request Demo
+            <Button href={`/${locale}/demo`} size="sm">
+              {ui.requestDemo}
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            type="button"
-            className="md:hidden"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <svg
-              className="h-6 w-6 text-gray-600"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          <div className="flex items-center gap-4 md:hidden">
+            <LanguageSwitcher currentLocale={locale} />
+            <button
+              type="button"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle menu"
             >
-              {mobileMenuOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
-          </button>
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {mobileMenuOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
         </nav>
 
         {/* Mobile Menu */}
@@ -128,14 +141,14 @@ export function Header() {
               ))}
               <hr className="my-2" />
               <Link
-                href="/sign-in"
+                href={`/${locale}/sign-in`}
                 className="text-base font-medium text-gray-600 hover:text-brand"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Sign In
+                {ui.signIn}
               </Link>
-              <Button href="/demo" size="sm">
-                Request Demo
+              <Button href={`/${locale}/demo`} size="sm">
+                {ui.requestDemo}
               </Button>
             </div>
           </div>

@@ -1,0 +1,70 @@
+{
+  "seo": {
+    "metaTitle": "Pourquoi nous choisir",
+    "metaDescription": "Les avantages du partenariat VATGenius : Revenus, Fidelisation, Differenciation. Decouvrez pourquoi les neobanques leaders choisissent VATGenius pour leurs solutions automatisees de remboursement de TVA."
+  },
+  "hero": {
+    "title": "Les avantages du partenariat VATGenius :",
+    "titleHighlight": "Revenus, Fidelisation, Differenciation",
+    "heroImage": "/images/hero-why-us.png",
+    "benefits": [
+      "Les frais ne sont factures que lorsque la TVA est effectivement remboursee. Aucun risque financier pour le client.",
+      "Vous n'engagez que des couts d'integration. Vos revenus peuvent depasser ces couts de nombreuses fois.",
+      "Le service justifie un prix plus eleve pour le compte professionnel.",
+      "Augmentez la fidelite client. Un service a forte valeur ajoutee rend le changement moins attractif.",
+      "Option de presenter la recuperation de TVA comme votre propre service ou comme un service tiers.",
+      "Les comptes traditionnels laissent de l'argent sur la table. Vous pouvez ameliorer votre position sur le marche.",
+      "Integration Plug-and-Play. Mise en service en quelques semaines."
+    ]
+  },
+  "implementation": {
+    "title": "Mise en oeuvre du partenariat et strategie de mise sur le marche",
+    "items": [
+      {
+        "title": "Integration",
+        "description": "Pret pour le pilote en 4 a 8 semaines. Tres peu de dette technique et de ressources necessaires de votre cote.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Support operationnel",
+        "description": "Nous gerons tous les aspects juridiques, de conformite et de support client lies au processus de TVA. Votre charge de travail est minimale.",
+        "icon": "support"
+      },
+      {
+        "title": "Marketing et aide a la vente",
+        "description": "Nous fournissons des supports et des formations pour aider votre equipe commerciale a promouvoir efficacement le nouveau service.",
+        "icon": "chart"
+      }
+    ]
+  },
+  "whyPartner": {
+    "title": "Pourquoi devenir partenaire ?",
+    "items": [
+      {
+        "title": "Expertise en integration neobanque",
+        "description": "Nous sommes experts dans le traitement des donnees de transactions, des releves et des formats de documentation des principales neobanques, reduisant considerablement le temps de preparation et les erreurs."
+      },
+      {
+        "title": "Service paneuropeen",
+        "description": "Support complet pour les demandes de remboursement de TVA deductible transfrontalieres (remboursements de TVA selon les 8e et 13e directives). Nous gerons de la soumission au versement final."
+      },
+      {
+        "title": "Rapidite et efficacite",
+        "description": "Notre approche rationalisee et numerique d'abord permet un depot de demandes plus rapide et un traitement accelere par rapport aux methodes manuelles sur papier."
+      },
+      {
+        "title": "Modele base sur le succes",
+        "description": "Nous fonctionnons souvent sur la base \"Pas de resultat, pas de frais\", garantissant que notre succes est directement lie au votre."
+      },
+      {
+        "title": "Conformite et assurance",
+        "description": "Nous assurons que chaque demande est 100% conforme aux reglementations locales et europeennes, protegeant votre entreprise contre les futurs audits."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pret a devenir partenaire de VATGenius ?",
+    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "buttonLink": "/demo"
+  }
+}

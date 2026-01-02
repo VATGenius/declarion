@@ -1,0 +1,85 @@
+{
+  "seo": {
+    "metaTitle": "Integration",
+    "metaDescription": "Integration API transparente. Notre solution low-code et plug-and-play garantit une sollicitation minimale de vos ressources de developpement et une mise sur le marche rapide."
+  },
+  "hero": {
+    "title": "Integration API transparente",
+    "description": "Le succes de notre partenariat repose sur la rapidite de mise en oeuvre. Notre solution est con\u00e7ue comme un service low-code et plug-and-play, assurant une sollicitation minimale de vos ressources de developpement internes et une mise sur le marche rapide.",
+    "heroImage": "/images/hero-integration.png"
+  },
+  "pillars": {
+    "title": "Les trois piliers de l'integration",
+    "description": "Notre service se connecte a votre plateforme via une API RESTful securisee, permettant un flux de donnees automatique et minimisant les interventions manuelles. L'integration ne necessite de se concentrer que sur trois points d'echange de donnees essentiels :",
+    "items": [
+      {
+        "title": "Point d'ancrage d'integration client",
+        "description": "Un simple clic pour activer le service de recuperation de TVA pour un client professionnel specifique.",
+        "icon": "userPlus"
+      },
+      {
+        "title": "Flux de donnees de transactions",
+        "description": "Un flux securise des transactions de depenses etrangeres pertinentes.",
+        "icon": "database"
+      },
+      {
+        "title": "Approbation, statut et versement",
+        "description": "Un webhook pour recevoir des notifications sur les approbations, des mises a jour en temps reel sur le statut des demandes et les versements finaux de remboursement.",
+        "icon": "checkCircle"
+      }
+    ]
+  },
+  "lowCode": {
+    "title": "Low-code, haute valeur",
+    "description": "Nous comprenons que la rapidite et l'efficacite sont primordiales. Nous offrons :",
+    "items": [
+      {
+        "title": "Documentation robuste",
+        "description": "Documentation API complete et facile a suivre ainsi que des SDK pour les langages populaires afin d'accelerer votre cycle de developpement."
+      },
+      {
+        "title": "Environnement sandbox dedie",
+        "description": "Un environnement de test entierement fonctionnel permet a votre equipe de prototyper et de valider l'integration sans affecter la production."
+      },
+      {
+        "title": "Maintenance minimale",
+        "description": "Nous gerons toutes les mises a jour de conformite, les changements des autorites fiscales etrangeres et la maintenance systeme. Zero dette technique pour votre plateforme."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Estimation du delai de mise sur le marche",
+    "description": "Nous prevoyons un calendrier de mise en oeuvre rapide, vous permettant de lancer cette nouvelle fonctionnalite premium rapidement :",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "description": "Acces API et tests sandbox",
+        "duration": "2 semaines",
+        "effort": "Minimal (1 developpeur)"
+      },
+      {
+        "phase": "Phase 2",
+        "description": "Integration du flux de donnees et validation",
+        "duration": "4-6 semaines",
+        "effort": "Faible a modere"
+      },
+      {
+        "phase": "Phase 3",
+        "description": "Revue de conformite et lancement pilote",
+        "duration": "1 semaine",
+        "effort": "Aucun (revue interne)"
+      }
+    ],
+    "total": {
+      "label": "Total",
+      "description": "Delai jusqu'au pilote",
+      "duration": "~6-8 semaines",
+      "effort": "Limite"
+    }
+  },
+  "cta": {
+    "title": "Pret a demarrer l'integration ?",
+    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "buttonLink": "/demo"
+  }
+}

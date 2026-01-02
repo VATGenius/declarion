@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { defaultLocale, type Locale } from './i18n/config';
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
@@ -24,8 +25,11 @@ export interface ContentMeta {
   type?: 'news' | 'knowledge';
 }
 
-function getContentFromDirectory(directory: string): ContentMeta[] {
-  const fullPath = path.join(contentDirectory, directory);
+function getContentFromDirectory(
+  locale: Locale,
+  directory: string
+): ContentMeta[] {
+  const fullPath = path.join(contentDirectory, locale, directory);
 
   if (!fs.existsSync(fullPath)) {
     return [];
@@ -56,10 +60,11 @@ function getContentFromDirectory(directory: string): ContentMeta[] {
 }
 
 function getContentBySlug(
+  locale: Locale,
   directory: string,
   slug: string
 ): ContentItem | null {
-  const fullPath = path.join(contentDirectory, directory);
+  const fullPath = path.join(contentDirectory, locale, directory);
   const mdxPath = path.join(fullPath, `${slug}.mdx`);
   const mdPath = path.join(fullPath, `${slug}.md`);
 
@@ -87,34 +92,43 @@ function getContentBySlug(
 }
 
 // News functions
-export function getAllNews(): ContentMeta[] {
-  return getContentFromDirectory('news');
+export function getAllNews(locale: Locale = defaultLocale): ContentMeta[] {
+  return getContentFromDirectory(locale, 'news');
 }
 
-export function getNewsBySlug(slug: string): ContentItem | null {
-  return getContentBySlug('news', slug);
+export function getNewsBySlug(
+  slug: string,
+  locale: Locale = defaultLocale
+): ContentItem | null {
+  return getContentBySlug(locale, 'news', slug);
 }
 
-export function getAllNewsSlugs(): string[] {
-  return getAllNews().map((item) => item.slug);
+export function getAllNewsSlugs(locale: Locale = defaultLocale): string[] {
+  return getAllNews(locale).map((item) => item.slug);
 }
 
 // Knowledge functions
-export function getAllKnowledge(): ContentMeta[] {
-  return getContentFromDirectory('knowledge');
+export function getAllKnowledge(locale: Locale = defaultLocale): ContentMeta[] {
+  return getContentFromDirectory(locale, 'knowledge');
 }
 
-export function getKnowledgeBySlug(slug: string): ContentItem | null {
-  return getContentBySlug('knowledge', slug);
+export function getKnowledgeBySlug(
+  slug: string,
+  locale: Locale = defaultLocale
+): ContentItem | null {
+  return getContentBySlug(locale, 'knowledge', slug);
 }
 
-export function getAllKnowledgeSlugs(): string[] {
-  return getAllKnowledge().map((item) => item.slug);
+export function getAllKnowledgeSlugs(locale: Locale = defaultLocale): string[] {
+  return getAllKnowledge(locale).map((item) => item.slug);
 }
 
 // Pages functions (optional static pages)
-export function getPageBySlug(slug: string): ContentItem | null {
-  return getContentBySlug('pages', slug);
+export function getPageBySlug(
+  slug: string,
+  locale: Locale = defaultLocale
+): ContentItem | null {
+  return getContentBySlug(locale, 'pages', slug);
 }
 
 // Tag functions
@@ -131,9 +145,9 @@ function slugifyTag(tag: string): string {
     .replace(/[^a-z0-9-]/g, '');
 }
 
-export function getAllTags(): TagInfo[] {
-  const news = getAllNews();
-  const knowledge = getAllKnowledge();
+export function getAllTags(locale: Locale = defaultLocale): TagInfo[] {
+  const news = getAllNews(locale);
+  const knowledge = getAllKnowledge(locale);
   const allArticles = [...news, ...knowledge];
 
   const tagCounts = new Map<string, number>();
@@ -153,19 +167,28 @@ export function getAllTags(): TagInfo[] {
     .sort((a, b) => b.count - a.count);
 }
 
-export function getAllTagSlugs(): string[] {
-  return getAllTags().map((t) => t.slug);
+export function getAllTagSlugs(locale: Locale = defaultLocale): string[] {
+  return getAllTags(locale).map((t) => t.slug);
 }
 
-export function getTagBySlug(slug: string): string | null {
-  const tags = getAllTags();
+export function getTagBySlug(
+  slug: string,
+  locale: Locale = defaultLocale
+): string | null {
+  const tags = getAllTags(locale);
   const found = tags.find((t) => t.slug === slug);
   return found?.tag || null;
 }
 
-export function getArticlesByTag(tag: string): ContentMeta[] {
-  const news = getAllNews().map((a) => ({ ...a, type: 'news' as const }));
-  const knowledge = getAllKnowledge().map((a) => ({ ...a, type: 'knowledge' as const }));
+export function getArticlesByTag(
+  tag: string,
+  locale: Locale = defaultLocale
+): ContentMeta[] {
+  const news = getAllNews(locale).map((a) => ({ ...a, type: 'news' as const }));
+  const knowledge = getAllKnowledge(locale).map((a) => ({
+    ...a,
+    type: 'knowledge' as const,
+  }));
   const allArticles = [...news, ...knowledge];
 
   return allArticles
@@ -175,20 +198,51 @@ export function getArticlesByTag(tag: string): ContentMeta[] {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export function getArticlesByTagSlug(slug: string): ContentMeta[] {
-  const tag = getTagBySlug(slug);
+export function getArticlesByTagSlug(
+  slug: string,
+  locale: Locale = defaultLocale
+): ContentMeta[] {
+  const tag = getTagBySlug(slug, locale);
   if (!tag) return [];
-  return getArticlesByTag(tag);
+  return getArticlesByTag(tag, locale);
 }
 
 export { slugifyTag };
 
 // JSON Page Content functions
-export function getPageContent<T>(pageName: string): T {
-  const filePath = path.join(contentDirectory, 'pages', `${pageName}.json`);
+export function getPageContent<T>(
+  pageName: string,
+  locale: Locale = defaultLocale
+): T {
+  const filePath = path.join(
+    contentDirectory,
+    locale,
+    'pages',
+    `${pageName}.json`
+  );
 
   if (!fs.existsSync(filePath)) {
-    throw new Error(`Page content not found: ${pageName}`);
+    throw new Error(`Page content not found: ${pageName} for locale ${locale}`);
+  }
+
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(fileContents) as T;
+}
+
+// UI Strings functions
+export function getUIStrings<T>(
+  category: string,
+  locale: Locale = defaultLocale
+): T {
+  const filePath = path.join(
+    contentDirectory,
+    locale,
+    'ui',
+    `${category}.json`
+  );
+
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`UI strings not found: ${category} for locale ${locale}`);
   }
 
   const fileContents = fs.readFileSync(filePath, 'utf8');

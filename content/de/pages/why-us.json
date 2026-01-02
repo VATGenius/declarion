@@ -1,0 +1,70 @@
+{
+  "seo": {
+    "metaTitle": "Warum wir",
+    "metaDescription": "Die VATGenius-Partnervorteile: Einnahmen, Kundenbindung, Differenzierung. Erfahren Sie, warum fuehrende Neobanken VATGenius fuer automatisierte USt-Erstattungsloesungen waehlen."
+  },
+  "hero": {
+    "title": "Die VATGenius-Partnervorteile:",
+    "titleHighlight": "Einnahmen, Kundenbindung, Differenzierung",
+    "heroImage": "/images/hero-why-us.png",
+    "benefits": [
+      "Gebuehren fallen nur an, wenn USt tatsaechlich erstattet wird. Kein finanzielles Risiko fuer den Kunden.",
+      "Sie haben nur Kosten fuer die Integration. Ihre Einnahmen koennen diese Kosten um ein Vielfaches uebersteigen.",
+      "Der Service rechtfertigt einen hoeheren Preis fuer das Geschaeftskonto.",
+      "Erhoehen Sie die Kundenbindung. Ein hochwertiger Service macht einen Wechsel unattraktiver.",
+      "Moeglichkeit, die USt-Rueckerstattung als eigenen Service oder als Drittanbieter-Service zu kennzeichnen.",
+      "Traditionelle Konten lassen Geld liegen. Sie koennen Ihre Marktposition verbessern.",
+      "Plug-and-Play-Integration. Live-Schaltung in wenigen Wochen."
+    ]
+  },
+  "implementation": {
+    "title": "Partnerschaftsumsetzung & Markteinfuehrung",
+    "items": [
+      {
+        "title": "Integration",
+        "description": "Bereit fuer den Pilotbetrieb in 4-8 Wochen. Sehr geringe technische Schulden und Ressourcenbedarf auf Ihrer Seite.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Operativer Support",
+        "description": "Wir uebernehmen alle rechtlichen, Compliance- und Kundensupport-Angelegenheiten im Zusammenhang mit dem USt-Prozess. Ihr Arbeitsaufwand ist minimal.",
+        "icon": "support"
+      },
+      {
+        "title": "Marketing- & Vertriebsunterstuetzung",
+        "description": "Wir stellen Materialien und Schulungen bereit, um Ihrem Vertriebsteam zu helfen, den neuen Service effektiv zu bewerben.",
+        "icon": "chart"
+      }
+    ]
+  },
+  "whyPartner": {
+    "title": "Warum mit uns zusammenarbeiten?",
+    "items": [
+      {
+        "title": "Neobank-Integrations-Expertise",
+        "description": "Wir sind Experten in der Verarbeitung von Transaktionsdaten, Kontoauszuegen und Dokumentationsformaten fuehrender Neobanken, was die Vorbereitungszeit und Fehler erheblich reduziert."
+      },
+      {
+        "title": "Europaweiter Service",
+        "description": "Vollstaendige Unterstuetzung fuer grenzueberschreitende Vorsteuerverguetungsantraege (Vorsteuerverguetung nach der 8. und 13. EU-Richtlinie). Wir uebernehmen von der Einreichung bis zur endgueltigen Auszahlung."
+      },
+      {
+        "title": "Geschwindigkeit & Effizienz",
+        "description": "Unser optimierter, digital-orientierter Ansatz bedeutet schnellere Antragseinreichung und schnellere Bearbeitung im Vergleich zu manuellen, papierbasierten Methoden."
+      },
+      {
+        "title": "Erfolgsbasiertes Modell",
+        "description": "Wir arbeiten oft auf Basis von \"Kein Erfolg, keine Gebuehr\", wodurch unser Erfolg direkt mit Ihrem verbunden ist."
+      },
+      {
+        "title": "Compliance & Sicherheit",
+        "description": "Wir stellen sicher, dass jeder Antrag zu 100% konform mit lokalen und EU-weiten Vorschriften ist und schuetzen Ihr Unternehmen vor zukuenftigen Pruefungen."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit fuer eine Partnerschaft mit VATGenius?",
+    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "buttonLink": "/demo"
+  }
+}

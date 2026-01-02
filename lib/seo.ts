@@ -1,7 +1,15 @@
 import { Metadata } from 'next';
+import { locales, type Locale } from './i18n/config';
 
 const SITE_URL = process.env.SITE_URL || 'https://vatgenius.com';
 const SITE_NAME = 'VATGenius';
+
+const localeToOgLocale: Record<Locale, string> = {
+  en: 'en_US',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  es: 'es_ES',
+};
 
 interface SeoParams {
   title: string;
@@ -12,6 +20,7 @@ interface SeoParams {
   publishedTime?: string;
   modifiedTime?: string;
   authors?: string[];
+  locale?: Locale;
 }
 
 export function generateSeoMetadata({
@@ -23,9 +32,20 @@ export function generateSeoMetadata({
   publishedTime,
   modifiedTime,
   authors,
+  locale = 'en',
 }: SeoParams): Metadata {
   const url = `${SITE_URL}${path}`;
   const imageUrl = image.startsWith('http') ? image : `${SITE_URL}${image}`;
+
+  // Generate path without locale for alternate URLs
+  const pathWithoutLocale = path.replace(/^\/(en|de|fr|es)/, '') || '/';
+
+  // Generate alternate URLs for all locales
+  const languages: Record<string, string> = {};
+  locales.forEach((loc) => {
+    languages[loc] = `${SITE_URL}/${loc}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+  });
+  languages['x-default'] = `${SITE_URL}/en${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
 
   return {
     title: title === SITE_NAME ? title : `${title} | ${SITE_NAME}`,
@@ -33,6 +53,7 @@ export function generateSeoMetadata({
     metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: url,
+      languages,
     },
     openGraph: {
       title,
@@ -47,7 +68,7 @@ export function generateSeoMetadata({
           alt: title,
         },
       ],
-      locale: 'en_US',
+      locale: localeToOgLocale[locale],
       type,
       ...(publishedTime && { publishedTime }),
       ...(modifiedTime && { modifiedTime }),

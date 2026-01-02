@@ -1,4 +1,4 @@
-# Decap CMS Configuration
+# Decap CMS Configuration with i18n support
 # Documentation: https://decapcms.org/docs/
 
 # Local backend for development (run: npx decap-server)
@@ -24,106 +24,449 @@ site_url: https://vatgenius.cloud
 # Logo for the CMS
 logo_url: /images/logo.png
 
+# i18n Configuration
+i18n:
+  structure: multiple_folders
+  locales: [en, de, fr, es]
+  default_locale: en
+
 # Collections
 collections:
-  # News Collection
-  - name: news
-    label: News
+  # News Collection (per language)
+  - name: news-en
+    label: "News (English)"
     label_singular: News Article
-    folder: content/news
+    folder: content/en/news
     create: true
     slug: "{{slug}}"
     extension: mdx
     format: frontmatter
     fields:
-      - label: Title
-        name: title
-        widget: string
-        required: true
-      - label: Date
-        name: date
-        widget: datetime
-        required: true
-      - label: Excerpt
-        name: excerpt
-        widget: text
-        required: true
-        hint: A short summary of the article (150-200 characters)
-      - label: Hero Image
-        name: heroImage
-        widget: image
-        required: false
-        hint: Featured image for the article
-      - label: Tags
-        name: tags
-        widget: list
-        required: false
-        hint: Comma-separated tags
-      - label: Body
-        name: body
-        widget: markdown
-        required: true
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Date, name: date, widget: datetime, required: true }
+      - { label: Excerpt, name: excerpt, widget: text, required: true }
+      - { label: Hero Image, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown, required: true }
 
-  # Knowledge Collection
-  - name: knowledge
-    label: Knowledge Hub
-    label_singular: Knowledge Article
-    folder: content/knowledge
+  - name: news-de
+    label: "News (Deutsch)"
+    label_singular: News-Artikel
+    folder: content/de/news
     create: true
     slug: "{{slug}}"
     extension: mdx
     format: frontmatter
     fields:
-      - label: Title
-        name: title
-        widget: string
-        required: true
-      - label: Date
-        name: date
-        widget: datetime
-        required: true
-      - label: Excerpt
-        name: excerpt
-        widget: text
-        required: true
-        hint: A short summary of the article (150-200 characters)
-      - label: Hero Image
-        name: heroImage
-        widget: image
-        required: false
-        hint: Featured image for the article
-      - label: Tags
-        name: tags
-        widget: list
-        required: false
-        hint: Comma-separated tags
-      - label: Body
-        name: body
-        widget: markdown
-        required: true
+      - { label: Titel, name: title, widget: string, required: true }
+      - { label: Datum, name: date, widget: datetime, required: true }
+      - { label: Zusammenfassung, name: excerpt, widget: text, required: true }
+      - { label: Hero-Bild, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Inhalt, name: body, widget: markdown, required: true }
 
-  # Pages Collection - File-based editing for structured page content
-  - name: pages
-    label: Pages
+  - name: news-fr
+    label: "News (Français)"
+    label_singular: Article
+    folder: content/fr/news
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { label: Titre, name: title, widget: string, required: true }
+      - { label: Date, name: date, widget: datetime, required: true }
+      - { label: Résumé, name: excerpt, widget: text, required: true }
+      - { label: Image, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Contenu, name: body, widget: markdown, required: true }
+
+  - name: news-es
+    label: "News (Español)"
+    label_singular: Artículo
+    folder: content/es/news
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { label: Título, name: title, widget: string, required: true }
+      - { label: Fecha, name: date, widget: datetime, required: true }
+      - { label: Resumen, name: excerpt, widget: text, required: true }
+      - { label: Imagen, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Contenido, name: body, widget: markdown, required: true }
+
+  # Knowledge Collection (per language)
+  - name: knowledge-en
+    label: "Knowledge (English)"
+    label_singular: Article
+    folder: content/en/knowledge
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Date, name: date, widget: datetime, required: true }
+      - { label: Excerpt, name: excerpt, widget: text, required: true }
+      - { label: Hero Image, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown, required: true }
+
+  - name: knowledge-de
+    label: "Wissen (Deutsch)"
+    label_singular: Artikel
+    folder: content/de/knowledge
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { label: Titel, name: title, widget: string, required: true }
+      - { label: Datum, name: date, widget: datetime, required: true }
+      - { label: Zusammenfassung, name: excerpt, widget: text, required: true }
+      - { label: Hero-Bild, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Inhalt, name: body, widget: markdown, required: true }
+
+  - name: knowledge-fr
+    label: "Connaissances (Français)"
+    label_singular: Article
+    folder: content/fr/knowledge
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { label: Titre, name: title, widget: string, required: true }
+      - { label: Date, name: date, widget: datetime, required: true }
+      - { label: Résumé, name: excerpt, widget: text, required: true }
+      - { label: Image, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Contenu, name: body, widget: markdown, required: true }
+
+  - name: knowledge-es
+    label: "Conocimiento (Español)"
+    label_singular: Artículo
+    folder: content/es/knowledge
+    create: true
+    slug: "{{slug}}"
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { label: Título, name: title, widget: string, required: true }
+      - { label: Fecha, name: date, widget: datetime, required: true }
+      - { label: Resumen, name: excerpt, widget: text, required: true }
+      - { label: Imagen, name: heroImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Contenido, name: body, widget: markdown, required: true }
+
+  # UI Translations
+  - name: ui-en
+    label: "UI Translations (English)"
     files:
-      # Home Page
-      - name: home
+      - name: common-en
+        label: Common UI
+        file: content/en/ui/common.json
+        fields:
+          - label: Navigation
+            name: navigation
+            widget: object
+            fields:
+              - { label: Product, name: product, widget: string }
+              - { label: Why Us, name: whyUs, widget: string }
+              - { label: Integration, name: integration, widget: string }
+              - { label: Team, name: team, widget: string }
+              - { label: News & Knowledge, name: newsKnowledge, widget: string }
+              - { label: Sign In, name: signIn, widget: string }
+              - { label: Request Demo, name: requestDemo, widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Description, name: description, widget: text }
+              - { label: Product Title, name: productTitle, widget: string }
+              - { label: Company Title, name: companyTitle, widget: string }
+              - { label: Legal Title, name: legalTitle, widget: string }
+              - { label: Contact Us, name: contactUs, widget: string }
+              - { label: Copyright, name: copyright, widget: string }
+              - label: Product Links
+                name: productLinks
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Company Links
+                name: companyLinks
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Legal Links
+                name: legalLinks
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+          - label: Articles
+            name: articles
+            widget: object
+            fields:
+              - { label: Back to News, name: backToNews, widget: string }
+              - { label: Back to Knowledge, name: backToKnowledge, widget: string }
+              - { label: No News Yet, name: noNewsYet, widget: string }
+              - { label: No Knowledge Yet, name: noKnowledgeYet, widget: string }
+              - { label: News Title, name: newsTitle, widget: string }
+              - { label: News Subtitle, name: newsSubtitle, widget: string }
+              - { label: Knowledge Title, name: knowledgeTitle, widget: string }
+              - { label: Knowledge Subtitle, name: knowledgeSubtitle, widget: string }
+      - name: forms-en
+        label: Form Translations
+        file: content/en/ui/forms.json
+        fields:
+          - label: Demo Form
+            name: demoForm
+            widget: object
+            fields:
+              - { label: Full Name Label, name: fullNameLabel, widget: string }
+              - { label: Full Name Placeholder, name: fullNamePlaceholder, widget: string }
+              - { label: Email Label, name: emailLabel, widget: string }
+              - { label: Email Placeholder, name: emailPlaceholder, widget: string }
+              - { label: Company Label, name: companyLabel, widget: string }
+              - { label: Company Placeholder, name: companyPlaceholder, widget: string }
+              - { label: Job Title Label, name: jobTitleLabel, widget: string }
+              - { label: Job Title Placeholder, name: jobTitlePlaceholder, widget: string }
+              - { label: Country Label, name: countryLabel, widget: string }
+              - { label: Select Default, name: selectDefault, widget: string }
+              - { label: Consent Text, name: consentText, widget: string }
+              - { label: Submit Button, name: submitButton, widget: string }
+              - { label: Submitting Text, name: submittingText, widget: string }
+              - { label: Success Title, name: successTitle, widget: string }
+              - { label: Success Message, name: successMessage, widget: string }
+              - { label: Privacy Note, name: privacyNote, widget: string }
+              - { label: Network Error, name: networkError, widget: string }
+              - { label: Generic Error, name: genericError, widget: string }
+          - label: Countries
+            name: countries
+            widget: list
+            fields:
+              - { label: Value, name: value, widget: string }
+              - { label: Label, name: label, widget: string }
+          - label: Demo Page
+            name: demoPage
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Feature 1 Title, name: feature1Title, widget: string }
+              - { label: Feature 1 Description, name: feature1Description, widget: string }
+              - { label: Feature 2 Title, name: feature2Title, widget: string }
+              - { label: Feature 2 Description, name: feature2Description, widget: string }
+              - { label: Feature 3 Title, name: feature3Title, widget: string }
+              - { label: Feature 3 Description, name: feature3Description, widget: string }
+              - { label: Form Title, name: formTitle, widget: string }
+              - { label: Form Subtitle, name: formSubtitle, widget: string }
+      - name: consent-en
+        label: Consent Banner
+        file: content/en/ui/consent.json
+        fields:
+          - label: Banner
+            name: banner
+            widget: object
+            fields:
+              - { label: Main Text, name: mainText, widget: text }
+              - { label: Privacy Policy Link, name: privacyPolicyLink, widget: string }
+              - { label: Manage Settings, name: manageSettings, widget: string }
+              - { label: Necessary Only, name: necessaryOnly, widget: string }
+              - { label: Accept All, name: acceptAll, widget: string }
+          - label: Settings
+            name: settings
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Necessary Title, name: necessaryTitle, widget: string }
+              - { label: Necessary Description, name: necessaryDescription, widget: string }
+              - { label: Analytics Title, name: analyticsTitle, widget: string }
+              - { label: Analytics Description, name: analyticsDescription, widget: string }
+              - { label: Back Button, name: backButton, widget: string }
+              - { label: Save Button, name: saveButton, widget: string }
+
+  - name: ui-de
+    label: "UI-Übersetzungen (Deutsch)"
+    files:
+      - name: common-de
+        label: Allgemeine UI
+        file: content/de/ui/common.json
+        fields:
+          - label: Navigation
+            name: navigation
+            widget: object
+            fields:
+              - { label: Produkt, name: product, widget: string }
+              - { label: Warum wir, name: whyUs, widget: string }
+              - { label: Integration, name: integration, widget: string }
+              - { label: Team, name: team, widget: string }
+              - { label: News & Wissen, name: newsKnowledge, widget: string }
+              - { label: Anmelden, name: signIn, widget: string }
+              - { label: Demo anfragen, name: requestDemo, widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Produkt-Titel, name: productTitle, widget: string }
+              - { label: Unternehmen-Titel, name: companyTitle, widget: string }
+              - { label: Rechtliches-Titel, name: legalTitle, widget: string }
+              - { label: Kontakt, name: contactUs, widget: string }
+              - { label: Copyright, name: copyright, widget: string }
+              - label: Produkt-Links
+                name: productLinks
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Unternehmen-Links
+                name: companyLinks
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Rechtliche Links
+                name: legalLinks
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+          - label: Artikel
+            name: articles
+            widget: object
+            fields:
+              - { label: Zurück zu News, name: backToNews, widget: string }
+              - { label: Zurück zum Wissen, name: backToKnowledge, widget: string }
+              - { label: Keine News, name: noNewsYet, widget: string }
+              - { label: Kein Wissen, name: noKnowledgeYet, widget: string }
+              - { label: News-Titel, name: newsTitle, widget: string }
+              - { label: News-Untertitel, name: newsSubtitle, widget: string }
+              - { label: Wissen-Titel, name: knowledgeTitle, widget: string }
+              - { label: Wissen-Untertitel, name: knowledgeSubtitle, widget: string }
+
+  - name: ui-fr
+    label: "Traductions UI (Français)"
+    files:
+      - name: common-fr
+        label: UI Commun
+        file: content/fr/ui/common.json
+        fields:
+          - label: Navigation
+            name: navigation
+            widget: object
+            fields:
+              - { label: Produit, name: product, widget: string }
+              - { label: Pourquoi nous, name: whyUs, widget: string }
+              - { label: Intégration, name: integration, widget: string }
+              - { label: Équipe, name: team, widget: string }
+              - { label: Actualités & Savoir, name: newsKnowledge, widget: string }
+              - { label: Connexion, name: signIn, widget: string }
+              - { label: Demander démo, name: requestDemo, widget: string }
+          - label: Pied de page
+            name: footer
+            widget: object
+            fields:
+              - { label: Description, name: description, widget: text }
+              - { label: Titre Produit, name: productTitle, widget: string }
+              - { label: Titre Entreprise, name: companyTitle, widget: string }
+              - { label: Titre Légal, name: legalTitle, widget: string }
+              - { label: Contact, name: contactUs, widget: string }
+              - { label: Copyright, name: copyright, widget: string }
+              - label: Liens Produit
+                name: productLinks
+                widget: list
+                fields:
+                  - { label: Nom, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Liens Entreprise
+                name: companyLinks
+                widget: list
+                fields:
+                  - { label: Nom, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Liens Légaux
+                name: legalLinks
+                widget: list
+                fields:
+                  - { label: Nom, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+
+  - name: ui-es
+    label: "Traducciones UI (Español)"
+    files:
+      - name: common-es
+        label: UI Común
+        file: content/es/ui/common.json
+        fields:
+          - label: Navegación
+            name: navigation
+            widget: object
+            fields:
+              - { label: Producto, name: product, widget: string }
+              - { label: Por qué nosotros, name: whyUs, widget: string }
+              - { label: Integración, name: integration, widget: string }
+              - { label: Equipo, name: team, widget: string }
+              - { label: Noticias y Conocimiento, name: newsKnowledge, widget: string }
+              - { label: Iniciar sesión, name: signIn, widget: string }
+              - { label: Solicitar demo, name: requestDemo, widget: string }
+          - label: Pie de página
+            name: footer
+            widget: object
+            fields:
+              - { label: Descripción, name: description, widget: text }
+              - { label: Título Producto, name: productTitle, widget: string }
+              - { label: Título Empresa, name: companyTitle, widget: string }
+              - { label: Título Legal, name: legalTitle, widget: string }
+              - { label: Contacto, name: contactUs, widget: string }
+              - { label: Copyright, name: copyright, widget: string }
+              - label: Enlaces Producto
+                name: productLinks
+                widget: list
+                fields:
+                  - { label: Nombre, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Enlaces Empresa
+                name: companyLinks
+                widget: list
+                fields:
+                  - { label: Nombre, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+              - label: Enlaces Legales
+                name: legalLinks
+                widget: list
+                fields:
+                  - { label: Nombre, name: name, widget: string }
+                  - { label: Href, name: href, widget: string }
+
+  # Pages - English
+  - name: pages-en
+    label: "Pages (English)"
+    files:
+      - name: home-en
         label: Home Page
-        file: content/pages/home.json
+        file: content/en/pages/home.json
         fields:
           - label: SEO Settings
             name: seo
             widget: object
             collapsed: true
             fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
           - label: Hero Section
             name: hero
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Title Highlight, name: titleHighlight, widget: string, hint: "Text highlighted in brand color" }
+              - { label: Title Highlight, name: titleHighlight, widget: string }
               - { label: Title End, name: titleEnd, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: Secondary Description, name: secondaryDescription, widget: text }
@@ -173,19 +516,17 @@ collections:
               - { label: Description, name: description, widget: text }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
-
-      # Product Page
-      - name: product
+      - name: product-en
         label: Product Page
-        file: content/pages/product.json
+        file: content/en/pages/product.json
         fields:
           - label: SEO Settings
             name: seo
             widget: object
             collapsed: true
             fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
           - label: Hero Section
             name: hero
             widget: object
@@ -194,7 +535,7 @@ collections:
               - { label: Description, name: description, widget: text }
               - { label: Solution Text, name: solutionText, widget: text }
               - { label: Hero Image, name: heroImage, widget: image }
-          - label: How It Works Section
+          - label: How it Works
             name: howItWorks
             widget: object
             fields:
@@ -204,10 +545,10 @@ collections:
                 name: processSteps
                 widget: list
                 fields:
-                  - { label: Step Number, name: step, widget: string }
+                  - { label: Step, name: step, widget: string }
                   - { label: Title, name: title, widget: string }
                   - { label: Description, name: description, widget: text }
-          - label: Customer Benefit Section
+          - label: Customer Benefit
             name: customerBenefit
             widget: object
             fields:
@@ -218,7 +559,7 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string }
                   - { label: Description, name: description, widget: text }
-          - label: Compliance Section
+          - label: Compliance
             name: compliance
             widget: object
             fields:
@@ -235,7 +576,7 @@ collections:
                     fields:
                       - { label: Label, name: label, widget: string }
                       - { label: Text, name: text, widget: string }
-          - label: Secure API Section
+          - label: Secure API
             name: secureApi
             widget: object
             fields:
@@ -246,7 +587,7 @@ collections:
                 widget: list
                 fields:
                   - { label: Title, name: title, widget: string }
-                  - { label: Description, name: description, widget: string }
+                  - { label: Description, name: description, widget: text }
           - label: CTA Section
             name: cta
             widget: object
@@ -255,31 +596,29 @@ collections:
               - { label: Description, name: description, widget: text }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
-
-      # Why Us Page
-      - name: why-us
+      - name: why-us-en
         label: Why Us Page
-        file: content/pages/why-us.json
+        file: content/en/pages/why-us.json
         fields:
           - label: SEO Settings
             name: seo
             widget: object
             collapsed: true
             fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
           - label: Hero Section
             name: hero
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Title Highlight, name: titleHighlight, widget: string, hint: "Text highlighted in brand color" }
+              - { label: Title Highlight, name: titleHighlight, widget: string }
               - { label: Hero Image, name: heroImage, widget: image }
               - label: Benefits
                 name: benefits
                 widget: list
                 field: { label: Benefit, name: benefit, widget: string }
-          - label: Implementation Section
+          - label: Implementation
             name: implementation
             widget: object
             fields:
@@ -291,7 +630,7 @@ collections:
                   - { label: Title, name: title, widget: string }
                   - { label: Description, name: description, widget: text }
                   - { label: Icon, name: icon, widget: select, options: ["lightning", "support", "chart"] }
-          - label: Why Partner Section
+          - label: Why Partner
             name: whyPartner
             widget: object
             fields:
@@ -309,19 +648,17 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
-
-      # Integration Page
-      - name: integration
+      - name: integration-en
         label: Integration Page
-        file: content/pages/integration.json
+        file: content/en/pages/integration.json
         fields:
           - label: SEO Settings
             name: seo
             widget: object
             collapsed: true
             fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
           - label: Hero Section
             name: hero
             widget: object
@@ -329,7 +666,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: Hero Image, name: heroImage, widget: image }
-          - label: Pillars Section
+          - label: Three Pillars
             name: pillars
             widget: object
             fields:
@@ -354,7 +691,7 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string }
                   - { label: Description, name: description, widget: text }
-          - label: Timeline Section
+          - label: Timeline
             name: timeline
             widget: object
             fields:
@@ -367,7 +704,7 @@ collections:
                   - { label: Phase, name: phase, widget: string }
                   - { label: Description, name: description, widget: string }
                   - { label: Duration, name: duration, widget: string }
-                  - { label: Your Dev Effort, name: effort, widget: string }
+                  - { label: Effort, name: effort, widget: string }
               - label: Total
                 name: total
                 widget: object
@@ -383,19 +720,17 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
-
-      # Team Page
-      - name: team
+      - name: team-en
         label: Team Page
-        file: content/pages/team.json
+        file: content/en/pages/team.json
         fields:
           - label: SEO Settings
             name: seo
             widget: object
             collapsed: true
             fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
           - label: Hero Section
             name: hero
             widget: object
@@ -403,7 +738,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: Hero Image, name: heroImage, widget: image }
-          - label: Our Niche Section
+          - label: Niche & Expertise
             name: niche
             widget: object
             fields:
@@ -414,7 +749,7 @@ collections:
                 fields:
                   - { label: Title, name: title, widget: string }
                   - { label: Description, name: description, widget: text }
-          - label: Team Section
+          - label: Team Members
             name: team
             widget: object
             fields:
@@ -427,8 +762,8 @@ collections:
                   - { label: Role, name: role, widget: string }
                   - { label: Bio, name: bio, widget: text }
                   - { label: Image, name: image, widget: image }
-                  - { label: LinkedIn URL, name: linkedin, widget: string, required: false, hint: "Full LinkedIn profile URL (e.g. https://www.linkedin.com/in/username/)" }
-          - label: Values Section
+                  - { label: LinkedIn, name: linkedin, widget: string }
+          - label: Values
             name: values
             widget: object
             fields:
@@ -447,51 +782,1182 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
-
-      # Privacy Policy
-      - name: privacy
-        label: Privacy Policy
-        file: content/pages/privacy.json
-        fields:
-          - label: SEO Settings
-            name: seo
-            widget: object
-            collapsed: true
-            fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
-          - { label: Title, name: title, widget: string }
-          - { label: Last Updated, name: lastUpdated, widget: string }
-          - { label: Content, name: body, widget: markdown }
-
-      # Terms of Service
-      - name: terms
-        label: Terms of Service
-        file: content/pages/terms.json
-        fields:
-          - label: SEO Settings
-            name: seo
-            widget: object
-            collapsed: true
-            fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
-          - { label: Title, name: title, widget: string }
-          - { label: Last Updated, name: lastUpdated, widget: string }
-          - { label: Content, name: body, widget: markdown }
-
-      # Imprint
-      - name: imprint
+      - name: imprint-en
         label: Imprint
-        file: content/pages/imprint.json
+        file: content/en/pages/imprint.json
         fields:
           - label: SEO Settings
             name: seo
             widget: object
             collapsed: true
             fields:
-              - { label: Meta Title (Google Title), name: metaTitle, widget: string, hint: "Title shown in Google search results (50-60 characters)" }
-              - { label: Meta Description, name: metaDescription, widget: text, hint: "Description shown in Google search results (150-160 characters)" }
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Content, name: body, widget: markdown }
+          - { label: Body, name: body, widget: markdown }
+      - name: privacy-en
+        label: Privacy Policy
+        file: content/en/pages/privacy.json
+        fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
+          - { label: Title, name: title, widget: string }
+          - { label: Last Updated, name: lastUpdated, widget: string }
+          - { label: Body, name: body, widget: markdown }
+      - name: terms-en
+        label: Terms of Service
+        file: content/en/pages/terms.json
+        fields:
+          - label: SEO Settings
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta Title, name: metaTitle, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
+          - { label: Title, name: title, widget: string }
+          - { label: Last Updated, name: lastUpdated, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+  # Pages - German
+  - name: pages-de
+    label: "Seiten (Deutsch)"
+    files:
+      - name: home-de
+        label: Startseite
+        file: content/de/pages/home.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - label: Hero-Bereich
+            name: hero
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Titel-Hervorhebung, name: titleHighlight, widget: string }
+              - { label: Titel-Ende, name: titleEnd, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Zweite Beschreibung, name: secondaryDescription, widget: text }
+              - { label: CTA-Text, name: ctaText, widget: string }
+              - { label: CTA-Link, name: ctaLink, widget: string }
+              - { label: Hero-Bild, name: heroImage, widget: image }
+          - label: Plattform-Bereich
+            name: platform
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["code", "lightbulb", "document"] }
+          - label: Vorteile-Bereich
+            name: benefits
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["currency", "heart", "lightning"] }
+          - label: Sicherheits-Bereich
+            name: security
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                field: { label: Feature, name: feature, widget: string }
+          - label: CTA-Bereich
+            name: cta
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Button-Text, name: buttonText, widget: string }
+              - { label: Button-Link, name: buttonLink, widget: string }
+      - name: product-de
+        label: Produkt
+        file: content/de/pages/product.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - label: Hero-Bereich
+            name: hero
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Lösungstext, name: solutionText, widget: text }
+              - { label: Hero-Bild, name: heroImage, widget: image }
+          - label: So funktioniert es
+            name: howItWorks
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Prozessbild, name: processImage, widget: image }
+              - label: Prozessschritte
+                name: processSteps
+                widget: list
+                fields:
+                  - { label: Schritt, name: step, widget: string }
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: Kundennutzen
+            name: customerBenefit
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: Compliance
+            name: compliance
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Abschnitte
+                name: sections
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - label: Einträge
+                    name: items
+                    widget: list
+                    fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Text, name: text, widget: string }
+          - label: Sichere API
+            name: secureApi
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: CTA-Bereich
+            name: cta
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Button-Text, name: buttonText, widget: string }
+              - { label: Button-Link, name: buttonLink, widget: string }
+      - name: why-us-de
+        label: Warum wir
+        file: content/de/pages/why-us.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - label: Hero-Bereich
+            name: hero
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Titel-Hervorhebung, name: titleHighlight, widget: string }
+              - { label: Hero-Bild, name: heroImage, widget: image }
+              - label: Vorteile
+                name: benefits
+                widget: list
+                field: { label: Vorteil, name: benefit, widget: string }
+          - label: Implementierung
+            name: implementation
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["lightning", "support", "chart"] }
+          - label: Warum Partner werden
+            name: whyPartner
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: CTA-Bereich
+            name: cta
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Button-Text, name: buttonText, widget: string }
+              - { label: Button-Link, name: buttonLink, widget: string }
+      - name: integration-de
+        label: Integration
+        file: content/de/pages/integration.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - label: Hero-Bereich
+            name: hero
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Hero-Bild, name: heroImage, widget: image }
+          - label: Drei Säulen
+            name: pillars
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: select, options: ["userPlus", "database", "checkCircle"] }
+          - label: Low Code Bereich
+            name: lowCode
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: Zeitplan
+            name: timeline
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - label: Phasen
+                name: phases
+                widget: list
+                fields:
+                  - { label: Phase, name: phase, widget: string }
+                  - { label: Beschreibung, name: description, widget: string }
+                  - { label: Dauer, name: duration, widget: string }
+                  - { label: Aufwand, name: effort, widget: string }
+              - label: Gesamt
+                name: total
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Beschreibung, name: description, widget: string }
+                  - { label: Dauer, name: duration, widget: string }
+                  - { label: Aufwand, name: effort, widget: string }
+          - label: CTA-Bereich
+            name: cta
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Button-Text, name: buttonText, widget: string }
+              - { label: Button-Link, name: buttonLink, widget: string }
+      - name: team-de
+        label: Team
+        file: content/de/pages/team.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - label: Hero-Bereich
+            name: hero
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Beschreibung, name: description, widget: text }
+              - { label: Hero-Bild, name: heroImage, widget: image }
+          - label: Nische & Expertise
+            name: niche
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: Team-Mitglieder
+            name: team
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Mitglieder
+                name: members
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Rolle, name: role, widget: string }
+                  - { label: Bio, name: bio, widget: text }
+                  - { label: Bild, name: image, widget: image }
+                  - { label: LinkedIn, name: linkedin, widget: string }
+          - label: Werte
+            name: values
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Einträge
+                name: items
+                widget: list
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Untertitel, name: subtitle, widget: string }
+                  - { label: Beschreibung, name: description, widget: text }
+          - label: CTA-Bereich
+            name: cta
+            widget: object
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Button-Text, name: buttonText, widget: string }
+              - { label: Button-Link, name: buttonLink, widget: string }
+      - name: imprint-de
+        label: Impressum
+        file: content/de/pages/imprint.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - { label: Titel, name: title, widget: string }
+          - { label: Untertitel, name: subtitle, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - name: privacy-de
+        label: Datenschutz
+        file: content/de/pages/privacy.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - { label: Titel, name: title, widget: string }
+          - { label: Zuletzt aktualisiert, name: lastUpdated, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - name: terms-de
+        label: AGB
+        file: content/de/pages/terms.json
+        fields:
+          - label: SEO-Einstellungen
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Meta-Titel, name: metaTitle, widget: string }
+              - { label: Meta-Beschreibung, name: metaDescription, widget: text }
+          - { label: Titel, name: title, widget: string }
+          - { label: Zuletzt aktualisiert, name: lastUpdated, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+
+  # Pages - French
+  - name: pages-fr
+    label: "Pages (Français)"
+    files:
+      - name: home-fr
+        label: Page d'accueil
+        file: content/fr/pages/home.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - label: Section Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Titre Surligné, name: titleHighlight, widget: string }
+              - { label: Fin du Titre, name: titleEnd, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Description Secondaire, name: secondaryDescription, widget: text }
+              - { label: Texte CTA, name: ctaText, widget: string }
+              - { label: Lien CTA, name: ctaLink, widget: string }
+              - { label: Image Hero, name: heroImage, widget: image }
+          - label: Section Plateforme
+            name: platform
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Fonctionnalités
+                name: features
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icône, name: icon, widget: select, options: ["code", "lightbulb", "document"] }
+          - label: Section Avantages
+            name: benefits
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icône, name: icon, widget: select, options: ["currency", "heart", "lightning"] }
+          - label: Section Sécurité
+            name: security
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Fonctionnalités
+                name: features
+                widget: list
+                field: { label: Fonctionnalité, name: feature, widget: string }
+          - label: Section CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Texte Bouton, name: buttonText, widget: string }
+              - { label: Lien Bouton, name: buttonLink, widget: string }
+      - name: product-fr
+        label: Page Produit
+        file: content/fr/pages/product.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - label: Section Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Texte Solution, name: solutionText, widget: text }
+              - { label: Image Hero, name: heroImage, widget: image }
+          - label: Comment ça marche
+            name: howItWorks
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Image Processus, name: processImage, widget: image }
+              - label: Étapes
+                name: processSteps
+                widget: list
+                fields:
+                  - { label: Étape, name: step, widget: string }
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Avantages Client
+            name: customerBenefit
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Conformité
+            name: compliance
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Sections
+                name: sections
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - label: Éléments
+                    name: items
+                    widget: list
+                    fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Texte, name: text, widget: string }
+          - label: API Sécurisée
+            name: secureApi
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Fonctionnalités
+                name: features
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Section CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Texte Bouton, name: buttonText, widget: string }
+              - { label: Lien Bouton, name: buttonLink, widget: string }
+      - name: why-us-fr
+        label: Pourquoi nous
+        file: content/fr/pages/why-us.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - label: Section Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Titre Surligné, name: titleHighlight, widget: string }
+              - { label: Image Hero, name: heroImage, widget: image }
+              - label: Avantages
+                name: benefits
+                widget: list
+                field: { label: Avantage, name: benefit, widget: string }
+          - label: Implémentation
+            name: implementation
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icône, name: icon, widget: select, options: ["lightning", "support", "chart"] }
+          - label: Pourquoi devenir partenaire
+            name: whyPartner
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Section CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Texte Bouton, name: buttonText, widget: string }
+              - { label: Lien Bouton, name: buttonLink, widget: string }
+      - name: integration-fr
+        label: Intégration
+        file: content/fr/pages/integration.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - label: Section Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Image Hero, name: heroImage, widget: image }
+          - label: Trois Piliers
+            name: pillars
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icône, name: icon, widget: select, options: ["userPlus", "database", "checkCircle"] }
+          - label: Section Low Code
+            name: lowCode
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Calendrier
+            name: timeline
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Phases
+                name: phases
+                widget: list
+                fields:
+                  - { label: Phase, name: phase, widget: string }
+                  - { label: Description, name: description, widget: string }
+                  - { label: Durée, name: duration, widget: string }
+                  - { label: Effort, name: effort, widget: string }
+              - label: Total
+                name: total
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Description, name: description, widget: string }
+                  - { label: Durée, name: duration, widget: string }
+                  - { label: Effort, name: effort, widget: string }
+          - label: Section CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Texte Bouton, name: buttonText, widget: string }
+              - { label: Lien Bouton, name: buttonLink, widget: string }
+      - name: team-fr
+        label: Équipe
+        file: content/fr/pages/team.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - label: Section Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Image Hero, name: heroImage, widget: image }
+          - label: Niche & Expertise
+            name: niche
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Membres de l'équipe
+            name: team
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Membres
+                name: members
+                widget: list
+                fields:
+                  - { label: Nom, name: name, widget: string }
+                  - { label: Rôle, name: role, widget: string }
+                  - { label: Bio, name: bio, widget: text }
+                  - { label: Image, name: image, widget: image }
+                  - { label: LinkedIn, name: linkedin, widget: string }
+          - label: Valeurs
+            name: values
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Éléments
+                name: items
+                widget: list
+                fields:
+                  - { label: Titre, name: title, widget: string }
+                  - { label: Sous-titre, name: subtitle, widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Section CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Texte Bouton, name: buttonText, widget: string }
+              - { label: Lien Bouton, name: buttonLink, widget: string }
+      - name: imprint-fr
+        label: Mentions légales
+        file: content/fr/pages/imprint.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - { label: Titre, name: title, widget: string }
+          - { label: Sous-titre, name: subtitle, widget: string }
+          - { label: Contenu, name: body, widget: markdown }
+      - name: privacy-fr
+        label: Politique de confidentialité
+        file: content/fr/pages/privacy.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - { label: Titre, name: title, widget: string }
+          - { label: Dernière mise à jour, name: lastUpdated, widget: string }
+          - { label: Contenu, name: body, widget: markdown }
+      - name: terms-fr
+        label: Conditions générales
+        file: content/fr/pages/terms.json
+        fields:
+          - label: Paramètres SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre Meta, name: metaTitle, widget: string }
+              - { label: Description Meta, name: metaDescription, widget: text }
+          - { label: Titre, name: title, widget: string }
+          - { label: Dernière mise à jour, name: lastUpdated, widget: string }
+          - { label: Contenu, name: body, widget: markdown }
+
+  # Pages - Spanish
+  - name: pages-es
+    label: "Páginas (Español)"
+    files:
+      - name: home-es
+        label: Página de inicio
+        file: content/es/pages/home.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - label: Sección Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Título Destacado, name: titleHighlight, widget: string }
+              - { label: Final del Título, name: titleEnd, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - { label: Descripción Secundaria, name: secondaryDescription, widget: text }
+              - { label: Texto CTA, name: ctaText, widget: string }
+              - { label: Enlace CTA, name: ctaLink, widget: string }
+              - { label: Imagen Hero, name: heroImage, widget: image }
+          - label: Sección Plataforma
+            name: platform
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Características
+                name: features
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+                  - { label: Icono, name: icon, widget: select, options: ["code", "lightbulb", "document"] }
+          - label: Sección Beneficios
+            name: benefits
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+                  - { label: Icono, name: icon, widget: select, options: ["currency", "heart", "lightning"] }
+          - label: Sección Seguridad
+            name: security
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Características
+                name: features
+                widget: list
+                field: { label: Característica, name: feature, widget: string }
+          - label: Sección CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - { label: Texto Botón, name: buttonText, widget: string }
+              - { label: Enlace Botón, name: buttonLink, widget: string }
+      - name: product-es
+        label: Página de Producto
+        file: content/es/pages/product.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - label: Sección Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - { label: Texto Solución, name: solutionText, widget: text }
+              - { label: Imagen Hero, name: heroImage, widget: image }
+          - label: Cómo funciona
+            name: howItWorks
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Imagen Proceso, name: processImage, widget: image }
+              - label: Pasos
+                name: processSteps
+                widget: list
+                fields:
+                  - { label: Paso, name: step, widget: string }
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Beneficios Cliente
+            name: customerBenefit
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Cumplimiento
+            name: compliance
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Secciones
+                name: sections
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - label: Elementos
+                    name: items
+                    widget: list
+                    fields:
+                      - { label: Etiqueta, name: label, widget: string }
+                      - { label: Texto, name: text, widget: string }
+          - label: API Segura
+            name: secureApi
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Características
+                name: features
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Sección CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - { label: Texto Botón, name: buttonText, widget: string }
+              - { label: Enlace Botón, name: buttonLink, widget: string }
+      - name: why-us-es
+        label: Por qué nosotros
+        file: content/es/pages/why-us.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - label: Sección Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Título Destacado, name: titleHighlight, widget: string }
+              - { label: Imagen Hero, name: heroImage, widget: image }
+              - label: Beneficios
+                name: benefits
+                widget: list
+                field: { label: Beneficio, name: benefit, widget: string }
+          - label: Implementación
+            name: implementation
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+                  - { label: Icono, name: icon, widget: select, options: ["lightning", "support", "chart"] }
+          - label: Por qué ser socio
+            name: whyPartner
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Sección CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Texto Botón, name: buttonText, widget: string }
+              - { label: Enlace Botón, name: buttonLink, widget: string }
+      - name: integration-es
+        label: Integración
+        file: content/es/pages/integration.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - label: Sección Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - { label: Imagen Hero, name: heroImage, widget: image }
+          - label: Tres Pilares
+            name: pillars
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+                  - { label: Icono, name: icon, widget: select, options: ["userPlus", "database", "checkCircle"] }
+          - label: Sección Low Code
+            name: lowCode
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Cronograma
+            name: timeline
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - label: Fases
+                name: phases
+                widget: list
+                fields:
+                  - { label: Fase, name: phase, widget: string }
+                  - { label: Descripción, name: description, widget: string }
+                  - { label: Duración, name: duration, widget: string }
+                  - { label: Esfuerzo, name: effort, widget: string }
+              - label: Total
+                name: total
+                widget: object
+                fields:
+                  - { label: Etiqueta, name: label, widget: string }
+                  - { label: Descripción, name: description, widget: string }
+                  - { label: Duración, name: duration, widget: string }
+                  - { label: Esfuerzo, name: effort, widget: string }
+          - label: Sección CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Texto Botón, name: buttonText, widget: string }
+              - { label: Enlace Botón, name: buttonLink, widget: string }
+      - name: team-es
+        label: Equipo
+        file: content/es/pages/team.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - label: Sección Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: description, widget: text }
+              - { label: Imagen Hero, name: heroImage, widget: image }
+          - label: Nicho y Experiencia
+            name: niche
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Miembros del equipo
+            name: team
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Miembros
+                name: members
+                widget: list
+                fields:
+                  - { label: Nombre, name: name, widget: string }
+                  - { label: Rol, name: role, widget: string }
+                  - { label: Bio, name: bio, widget: text }
+                  - { label: Imagen, name: image, widget: image }
+                  - { label: LinkedIn, name: linkedin, widget: string }
+          - label: Valores
+            name: values
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - label: Elementos
+                name: items
+                widget: list
+                fields:
+                  - { label: Título, name: title, widget: string }
+                  - { label: Subtítulo, name: subtitle, widget: string }
+                  - { label: Descripción, name: description, widget: text }
+          - label: Sección CTA
+            name: cta
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Texto Botón, name: buttonText, widget: string }
+              - { label: Enlace Botón, name: buttonLink, widget: string }
+      - name: imprint-es
+        label: Aviso legal
+        file: content/es/pages/imprint.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - { label: Título, name: title, widget: string }
+          - { label: Subtítulo, name: subtitle, widget: string }
+          - { label: Contenido, name: body, widget: markdown }
+      - name: privacy-es
+        label: Política de privacidad
+        file: content/es/pages/privacy.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - { label: Título, name: title, widget: string }
+          - { label: Última actualización, name: lastUpdated, widget: string }
+          - { label: Contenido, name: body, widget: markdown }
+      - name: terms-es
+        label: Términos de servicio
+        file: content/es/pages/terms.json
+        fields:
+          - label: Configuración SEO
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Título Meta, name: metaTitle, widget: string }
+              - { label: Descripción Meta, name: metaDescription, widget: text }
+          - { label: Título, name: title, widget: string }
+          - { label: Última actualización, name: lastUpdated, widget: string }
+          - { label: Contenido, name: body, widget: markdown }

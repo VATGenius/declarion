@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "metaTitle": "VATGenius | Soluciones automatizadas de reembolso de IVA para Neobancos",
+    "metaDescription": "Desbloquee los reembolsos de IVA extranjero: Una fuente de ingresos sin fricciones para sus cuentas empresariales. Permita a sus clientes empresariales reclamar automáticamente el IVA soportado extranjero."
+  },
+  "hero": {
+    "title": "Desbloquee los reembolsos de IVA extranjero:",
+    "titleHighlight": "Una fuente de ingresos sin fricciones",
+    "titleEnd": "para sus cuentas empresariales",
+    "description": "Permita a sus clientes empresariales reclamar el IVA soportado extranjero de forma automática y digital. Nuestra solución se integra perfectamente en su plataforma, proporcionando un servicio de recuperación integral sin esfuerzo.\n\n",
+    "secondaryDescription": "Aumente la fidelidad del cliente, incremente el volumen de transacciones y ofrezca una nueva y potente herramienta financiera sin carga administrativa para su banco.",
+    "ctaText": "Solicite una demostración en vivo y consulta de asociación",
+    "ctaLink": "/demo",
+    "heroImage": "/images/hero-home.png"
+  },
+  "platform": {
+    "title": "La plataforma VATGenius",
+    "description": "Un gráfico moderno que muestra el flujo de datos desde la interfaz de su aplicación de Neobanco hacia el motor de reclamación de IVA",
+    "features": [
+      {
+        "title": "VATGenius Bank API",
+        "description": "Integración sencilla con API para la transferencia automatizada de datos desde su sistema bancario. Captura, organiza, procesa y valida los datos de todas las facturas y recibos de sus clientes empresariales.",
+        "icon": "code"
+      },
+      {
+        "title": "VATGenius Engine",
+        "description": "Evaluación de cumplimiento de facturas impulsada por IA, cálculo de montos potenciales de reembolso de IVA extranjero, solicitud automática de autorización del cliente, gestión de consultas de autoridades fiscales extranjeras, visualización de estado en tiempo real",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "VATGenius TAX API",
+        "description": "Presenta solicitudes de reembolso de IVA locales y extranjeras de forma totalmente automática y digital a los portales fiscales de los países correspondientes.",
+        "icon": "document"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Sus ventajas y beneficios de un vistazo",
+    "items": [
+      {
+        "title": "Ingresos",
+        "description": "Nueva fuente de ingresos pasivos mediante participación en beneficios.",
+        "icon": "currency"
+      },
+      {
+        "title": "Retención",
+        "description": "Ofrece rendimientos financieros tangibles a sus clientes empresariales, aumentando la fidelidad.",
+        "icon": "heart"
+      },
+      {
+        "title": "Diferenciación",
+        "description": "Ofrezca un servicio único y premium que sus competidores no tienen.",
+        "icon": "lightning"
+      }
+    ]
+  },
+  "security": {
+    "title": "Seguridad y cumplimiento",
+    "description": "En VATGenius, implementar medidas efectivas de ciberseguridad es fundamental para garantizar la protección de datos sensibles y así asegurar la confianza de nuestros clientes.",
+    "features": [
+      "Protocolos de cifrado y autenticación multifactor para controles de acceso",
+      "Revisión cuidadosa de cada aspecto del procesamiento de datos",
+      "Almacenamiento y manejo de datos conforme al RGPD"
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para desbloquear nuevas fuentes de ingresos?",
+    "description": "Únase a los neobancos líderes que ofrecen servicios automatizados de reembolso de IVA a sus clientes empresariales.",
+    "buttonText": "Solicite una demostración en vivo y consulta de asociación",
+    "buttonLink": "/demo"
+  }
+}

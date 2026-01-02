@@ -1,0 +1,61 @@
+{
+  "signIn": {
+    "title": "Connectez-vous à votre compte VATGenius",
+    "emailLabel": "Email",
+    "emailPlaceholder": "jean@dupont.fr",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "submitButton": "Se connecter",
+    "or": "ou",
+    "newToVatgenius": "Nouveau sur VATGenius ?",
+    "newToVatgeniusDescription": "La plateforme VATGenius est un moteur entièrement intégré, basé sur API, qui permet une récupération de TVA 100% automatisée en temps réel.",
+    "requestDemo": "Demander une démo en direct et une consultation partenariat",
+    "errorNotRegistered": "Cette adresse email n'est pas enregistrée. Veuillez vérifier l'orthographe ou vous inscrire.",
+    "forgotPasswordTitle": "Réinitialisation du mot de passe",
+    "forgotPasswordMessage": "Si cet email est enregistré, vous recevrez un lien de réinitialisation de mot de passe sous peu.",
+    "backToSignIn": "Retour à la connexion"
+  },
+  "demoForm": {
+    "fullNameLabel": "Nom complet",
+    "fullNamePlaceholder": "Jean Dupont",
+    "emailLabel": "Email professionnel",
+    "emailPlaceholder": "jean.dupont@neobank.com",
+    "companyLabel": "Nom de l'entreprise",
+    "companyPlaceholder": "Nom de votre entreprise",
+    "jobTitleLabel": "Fonction",
+    "jobTitlePlaceholder": "PDG / CPO / Responsable développement commercial",
+    "countryLabel": "Pays d'activité",
+    "selectDefault": "Sélectionner une option",
+    "consentText": "J'accepte la politique de confidentialité et consens à recevoir des communications marketing.",
+    "submitButton": "Réserver ma démo et consultation",
+    "submittingText": "Envoi en cours...",
+    "successTitle": "Merci !",
+    "successMessage": "Nous vous contacterons dans les 24 heures pour planifier votre démo personnalisée.",
+    "privacyNote": "Nous respectons votre vie privée. Les informations ne seront utilisées que pour organiser votre démo et consultation.",
+    "networkError": "Erreur réseau. Veuillez vérifier votre connexion et réessayer.",
+    "genericError": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "countries": [
+    { "value": "germany", "label": "Allemagne" },
+    { "value": "uk", "label": "Royaume-Uni" },
+    { "value": "france", "label": "France" },
+    { "value": "spain", "label": "Espagne" },
+    { "value": "netherlands", "label": "Pays-Bas" },
+    { "value": "italy", "label": "Italie" },
+    { "value": "other-eu", "label": "Autre pays UE" },
+    { "value": "global", "label": "Mondial" }
+  ],
+  "demoPage": {
+    "title": "Zéro friction d'intégration. Maximum d'avantages financiers.",
+    "description": "La rapidité et l'expérience fluide sont essentielles pour les néobanques. VATGenius s'intègre directement à votre plateforme, permettant à vos clients professionnels de débloquer facilement les remboursements de TVA cachés.",
+    "feature1Title": "Zéro charge opérationnelle",
+    "feature1Description": "Nous gérons tout, du dépôt de la demande au versement des fonds.",
+    "feature2Title": "Nouvelle source de revenus",
+    "feature2Description": "Gagnez une commission sur chaque remboursement de TVA réussi.",
+    "feature3Title": "Avantage concurrentiel",
+    "feature3Description": "Offrez un service unique qui différencie votre plateforme.",
+    "formTitle": "Réservez votre démo",
+    "formSubtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons dans les 24 heures."
+  }
+}

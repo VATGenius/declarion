@@ -1,0 +1,19 @@
+{
+  "banner": {
+    "mainText": "Wir verwenden Cookies, um Ihr Browsing-Erlebnis zu verbessern und den Website-Traffic zu analysieren. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie unserer Verwendung von Cookies zu.",
+    "privacyPolicyLink": "Lesen Sie unsere Datenschutzerklärung für weitere Informationen.",
+    "manageSettings": "Einstellungen verwalten",
+    "necessaryOnly": "Nur notwendige",
+    "acceptAll": "Alle akzeptieren"
+  },
+  "settings": {
+    "title": "Cookie-Einstellungen",
+    "description": "Verwalten Sie Ihre Cookie-Präferenzen. Notwendige Cookies sind für die Funktionalität der Website erforderlich und können nicht deaktiviert werden.",
+    "necessaryTitle": "Notwendige Cookies",
+    "necessaryDescription": "Erforderlich für grundlegende Website-Funktionalität.",
+    "analyticsTitle": "Analyse-Cookies",
+    "analyticsDescription": "Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
+    "backButton": "Zurück",
+    "saveButton": "Einstellungen speichern"
+  }
+}
