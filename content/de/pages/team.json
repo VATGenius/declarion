@@ -4,24 +4,24 @@
     "metaDescription": "Lernen Sie das VATGenius-Team kennen. USt-Erstattungsspezialisten, die Unternehmen mit innovativen Finanzloesungen befaehigen, ihre maximal erstattungsfaehige USt zurueckzufordern."
   },
   "hero": {
-    "title": "Die USt-Erstattungsspezialisten fuer Ihre Geschaeftskunden",
-    "description": "Wir befaehigen Unternehmen, die innovative Finanzloesungen nutzen, insbesondere solche, die mit Neobanken arbeiten, ihre maximal erstattungsfaehige USt im Vorsteuerverguetungsverfahren nahtlos zurueckzufordern.",
+    "title": "Die Spezialisten für USt-Erstattungen Ihrer Geschäftskunden",
+    "description": "Wir unterstützen Unternehmen mit innovativen Finanzlösungen, insbesondere im Neobank-Umfeld, bei der effizienten Rückforderung ausländischer USt im Vorsteuervergütungsverfahren.\n",
     "heroImage": "/images/hero-team.png"
   },
   "niche": {
-    "title": "Unsere Nische & Expertise",
+    "title": "Unsere Spezialisierung & Expertise",
     "items": [
       {
         "title": "Die Herausforderung",
-        "description": "Traditionelle USt-Erstattungsprozesse lassen sich oft nur schwer effizient in die einzigartige Infrastruktur und Dokumentation digitaler Neobanken integrieren. Dies kann zu verpassten Antraegen, Verzoegerungen oder administrativem Mehraufwand fuehren."
+        "description": "Traditionelle USt-Erstattungsprozesse lassen sich häufig nur schwer effizient in die spezifische Infrastruktur und Dokumentationslandschaft digitaler Neobanken integrieren. Dies kann zu nicht eingereichten Anträgen, Verzögerungen oder zusätzlichem administrativem Aufwand führen."
       },
       {
-        "title": "Unsere Loesung",
-        "description": "Wir haben unseren Prozess auf diese Realitaet zugeschnitten. Wir sind auf die Abwicklung des Vorsteuerverguetungsverfahrens spezialisiert und verfuegen ueber fundierte Kenntnisse der Neobank-Dokumentation, die uns schnellere, konformere und erfolgreichere USt-Erstattungen ermoeglichen."
+        "title": "Unsere Lösung",
+        "description": "Unser Prozess ist gezielt auf diese Anforderungen zugeschnitten. Mit unserer Spezialisierung auf das Vorsteuervergütungsverfahren und fundierten Kenntnissen der Neobank-Dokumentation ermöglichen wir schnellere, regelkonforme und erfolgreichere USt-Erstattungen.\n\n"
       },
       {
         "title": "Unser Versprechen",
-        "description": "Wir maximieren die Liquiditaet Ihrer Geschaeftskunden, indem wir sicherstellen, dass sie jeden Euro USt erfolgreich zurueckfordern, auf den sie Anspruch haben. Unsere proprietaere Technologie schlaegt die Bruecke zwischen den rechtlichen USt-Anforderungen und der Agilitaet des digitalen Bankwesens."
+        "description": "Wir erhöhen die Liquidität Ihrer Geschäftskunden, indem wir eine erfolgreiche Rückforderung der erstattungsfähigen USt sicherstellen. Unsere Technologie verbindet regulatorische USt-Anforderungen mit der Agilität des digitalen Bankings."
       }
     ]
   },
@@ -31,21 +31,21 @@
       {
         "name": "Philipp Tranacher",
         "role": "Steuern & Recht",
-        "bio": "Dr., WP, StB, Rechtsanwalt. 15+ Jahre im internationalen Steuerrecht.",
+        "bio": "Promotion, WP, StB, Rechtsanwalt. Über 15 Jahre Erfahrung im internationalen Steuerrecht.",
         "image": "/images/team/philipp.jpg",
         "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
-        "name": "Nils Loewe",
+        "name": "Nils Löwe",
         "role": "IT & Produktentwicklung",
-        "bio": "Masterabschluss in Computer- & Elektrotechnik und Informationstechnologie. 10+ Jahre in der Softwareentwicklung.",
+        "bio": "Masterabschluss in Computer- & Elektrotechnik und Informationstechnologie. Über 10 Jahre Erfahrung in der Softwareentwicklung.",
         "image": "/images/team/nils.png",
         "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
         "name": "Juliane Tranacher",
         "role": "Marketing & Vertrieb",
-        "bio": "Dr. 15 Jahre Erfahrung in Marketing, Presse und Oeffentlichkeitsarbeit mit Schwerpunkt Finanz-/Immobiliensektor.",
+        "bio": "Promotion. 15 Jahre Erfahrung in Marketing und Kommunikation im Finanz- und Immobiliensektor.",
         "image": "/images/team/juliane.png",
         "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
