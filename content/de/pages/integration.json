@@ -35,21 +35,21 @@
     "items": [
       {
         "title": "Robuste Dokumentation",
-        "description": "Umfassende, leicht verstaendliche API-Dokumentation und SDKs fuer gaengige Programmiersprachen zur Beschleunigung Ihres Entwicklungszyklus."
+        "description": "Umfassende, leicht verständliche API-Dokumentation sowie SDKs für gängige Programmiersprachen zur Beschleunigung des Entwicklungszyklus."
       },
       {
-        "title": "Dedizierte Sandbox-Umgebung",
-        "description": "Eine voll funktionsfaehige Testumgebung ermoeglicht es Ihrem Team, die Integration zu prototypisieren und zu validieren, ohne die Live-Produktion zu beeintraechtigen."
+        "title": "Eigene Sandbox-Umgebung",
+        "description": "Eine voll funktionsfähige Testumgebung ermöglicht es Ihrem Team, die Integration zu prototypisieren und zu validieren, ohne die Produktivumgebung zu beeinträchtigen."
       },
       {
         "title": "Minimaler Wartungsaufwand",
-        "description": "Wir uebernehmen alle laufenden Compliance-Updates, Aenderungen bei auslaendischen Steuerbehoerden und Systemwartung. Keine technischen Schulden fuer Ihre Plattform."
+        "description": "Wir übernehmen laufende Compliance-Updates, Änderungen seitens ausländischer Steuerbehörden sowie die Systemwartung. Kein technischer Aufwand auf Seiten Ihrer Plattform."
       }
     ]
   },
   "timeline": {
-    "title": "Geschaetzte Markteinfuehrungszeit",
-    "description": "Wir prognostizieren eine schnelle Implementierungszeitlinie, die es Ihnen ermoeglicht, dieses neue Premium-Feature zuegig zu lancieren:",
+    "title": "Time-to-Market-Schätzung",
+    "description": "Wir rechnen mit einer kurzen Implementierungsdauer, die Ihnen eine schnelle Einführung des neuen Premium-Features ermöglicht:",
     "phases": [
       {
         "phase": "Phase 1",
