@@ -59,15 +59,15 @@
       },
       {
         "phase": "Phase 2",
-        "description": "Datenfluss-Integration & Validierung",
+        "description": "Integration und Validierung der Datenflüsse",
         "duration": "4-6 Wochen",
         "effort": "Gering bis moderat"
       },
       {
         "phase": "Phase 3",
-        "description": "Compliance-Pruefung & Pilotstart",
+        "description": "Compliance-Prüfung & Pilotstart",
         "duration": "1 Woche",
-        "effort": "Keiner (interne Pruefung)"
+        "effort": "Keiner (interne Prüfung)"
       }
     ],
     "total": {
@@ -79,7 +79,7 @@
   },
   "cta": {
     "title": "Bereit, die Integration zu starten?",
-    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
 }
