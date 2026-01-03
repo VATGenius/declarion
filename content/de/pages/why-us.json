@@ -1,24 +1,24 @@
 {
   "seo": {
     "metaTitle": "Warum wir",
-    "metaDescription": "Die VATGenius-Partnervorteile: Einnahmen, Kundenbindung, Differenzierung. Erfahren Sie, warum fuehrende Neobanken VATGenius fuer automatisierte USt-Erstattungsloesungen waehlen."
+    "metaDescription": "Die VATGenius-Partnervorteile: Einnahmen, Kundenbindung und Differenzierung. Erfahren Sie, warum führende Neobanken VATGenius für automatisierte USt-Erstattungsprozesse einsetzen.\n"
   },
   "hero": {
     "title": "Die VATGenius-Partnervorteile:",
     "titleHighlight": "Einnahmen, Kundenbindung, Differenzierung",
     "heroImage": "/images/hero-why-us.png",
     "benefits": [
-      "Gebuehren fallen nur an, wenn USt tatsaechlich erstattet wird. Kein finanzielles Risiko fuer den Kunden.",
-      "Sie haben nur Kosten fuer die Integration. Ihre Einnahmen koennen diese Kosten um ein Vielfaches uebersteigen.",
-      "Der Service rechtfertigt einen hoeheren Preis fuer das Geschaeftskonto.",
-      "Erhoehen Sie die Kundenbindung. Ein hochwertiger Service macht einen Wechsel unattraktiver.",
-      "Moeglichkeit, die USt-Rueckerstattung als eigenen Service oder als Drittanbieter-Service zu kennzeichnen.",
-      "Traditionelle Konten lassen Geld liegen. Sie koennen Ihre Marktposition verbessern.",
-      "Plug-and-Play-Integration. Live-Schaltung in wenigen Wochen."
+      "Gebühren fallen nur an, wenn USt tatsächlich erstattet wird. Kein finanzielles Risiko für den Kunden.",
+      "Sie haben ausschließlich Kosten für die Integration. Die Einnahmen können diese Kosten um ein Vielfaches übersteigen.",
+      "Der Service ermöglicht einen höheren Preis für das Geschäftskonto.",
+      "Stärkung der Kundenbindung. Ein hochwertiger Service macht einen Wechsel unattraktiver.",
+      "Möglichkeit, die USt-Rückerstattung entweder als eigenen Service oder als Drittanbieter-Service zu kennzeichnen.",
+      "Traditionelle Kontomodelle lassen Erlöspotenziale ungenutzt. Durch zusätzliche Services können Sie Ihre Marktposition verbessern.",
+      "Plug-and-Play-Integration mit Live-Schaltung innerhalb weniger Wochen."
     ]
   },
   "implementation": {
-    "title": "Partnerschaftsumsetzung & Markteinfuehrung",
+    "title": "Partnerschaftsumsetzung & Markteinführung",
     "items": [
       {
         "title": "Integration",
