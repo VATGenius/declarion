@@ -15,7 +15,7 @@
   },
   "platform": {
     "title": "La plateforme VATGenius",
-    "description": "Un graphique moderne montrant les donnees circulant de maniere fluide depuis l'interface de votre application neobanque vers le moteur de recuperation de TVA",
+    "description": "",
     "features": [
       {
         "title": "API Bancaire VATGenius",
@@ -44,7 +44,7 @@
       },
       {
         "title": "Fidelisation",
-        "description": "Offre des retours financiers tangibles a vos clients professionnels, renfor\u00e7ant leur fidelite.",
+        "description": "Offre des retours financiers tangibles a vos clients professionnels, renforçant leur fidelite.",
         "icon": "heart"
       },
       {
