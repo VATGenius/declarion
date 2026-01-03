@@ -18,53 +18,53 @@
     ]
   },
   "implementation": {
-    "title": "Partnerschaftsumsetzung & Markteinführung",
+    "title": "Partnerschaft & Markteinführung",
     "items": [
       {
         "title": "Integration",
-        "description": "Bereit fuer den Pilotbetrieb in 4-8 Wochen. Sehr geringe technische Schulden und Ressourcenbedarf auf Ihrer Seite.",
+        "description": "Bereit für den Pilotbetrieb in 4 bis 8 Wochen. Geringer technischer Aufwand und minimaler Ressourceneinsatz für Ihr Team.",
         "icon": "lightning"
       },
       {
-        "title": "Operativer Support",
-        "description": "Wir uebernehmen alle rechtlichen, Compliance- und Kundensupport-Angelegenheiten im Zusammenhang mit dem USt-Prozess. Ihr Arbeitsaufwand ist minimal.",
+        "title": "Operative Unterstützung",
+        "description": "Wir übernehmen sämtliche rechtlichen, Compliance- und kundenseitigen Supportthemen im Zusammenhang mit dem USt-Prozess. Der Arbeitsaufwand für Ihr Team bleibt gering.",
         "icon": "support"
       },
       {
-        "title": "Marketing- & Vertriebsunterstuetzung",
-        "description": "Wir stellen Materialien und Schulungen bereit, um Ihrem Vertriebsteam zu helfen, den neuen Service effektiv zu bewerben.",
+        "title": "Marketing- & Vertriebsunterstützung",
+        "description": "Wir stellen Materialien und Schulungen bereit, um Ihr Vertriebsteam bei der Einführung und Positionierung des neuen Services zu unterstützen.",
         "icon": "chart"
       }
     ]
   },
   "whyPartner": {
-    "title": "Warum mit uns zusammenarbeiten?",
+    "title": "Warum VATGenius?",
     "items": [
       {
-        "title": "Neobank-Integrations-Expertise",
-        "description": "Wir sind Experten in der Verarbeitung von Transaktionsdaten, Kontoauszuegen und Dokumentationsformaten fuehrender Neobanken, was die Vorbereitungszeit und Fehler erheblich reduziert."
+        "title": "Expertise in der Neobank-Integration",
+        "description": "Wir verfügen über tiefgreifende Erfahrung im Umgang mit Transaktionsdaten, Kontoauszügen und Dokumentationsformaten führender Neobanken, was  die Vorbereitungszeiten und Fehler erheblich reduziert."
       },
       {
         "title": "Europaweiter Service",
-        "description": "Vollstaendige Unterstuetzung fuer grenzueberschreitende Vorsteuerverguetungsantraege (Vorsteuerverguetung nach der 8. und 13. EU-Richtlinie). Wir uebernehmen von der Einreichung bis zur endgueltigen Auszahlung."
+        "description": "Umfassende Unterstützung bei grenzüberschreitenden Vorsteuervergütungsanträge gemäß 8. und 13. EU-Richtlinie – von der Antragstellung bis zur Auszahlung."
       },
       {
         "title": "Geschwindigkeit & Effizienz",
-        "description": "Unser optimierter, digital-orientierter Ansatz bedeutet schnellere Antragseinreichung und schnellere Bearbeitung im Vergleich zu manuellen, papierbasierten Methoden."
+        "description": "Unser schlanker, digitaler Ansatz ermöglicht eine schnellere Antragseinreichung und Bearbeitung im Vergleich zu manuellen, papierbasierten Verfahren."
       },
       {
         "title": "Erfolgsbasiertes Modell",
-        "description": "Wir arbeiten oft auf Basis von \"Kein Erfolg, keine Gebuehr\", wodurch unser Erfolg direkt mit Ihrem verbunden ist."
+        "description": "In vielen Fällen arbeiten wir erfolgsabhängig auf Basis von \"Kein Erfolg, keine Gebühr\", sodass unser Erfolg direkt mit Ihrem wirtschaftlichen Erfolg verknüpft ist."
       },
       {
         "title": "Compliance & Sicherheit",
-        "description": "Wir stellen sicher, dass jeder Antrag zu 100% konform mit lokalen und EU-weiten Vorschriften ist und schuetzen Ihr Unternehmen vor zukuenftigen Pruefungen."
+        "description": "Wir stellen sicher, dass jeder Antrag den lokalen und EU-weiten regulatorischen Vorgaben entspricht und unterstützen Ihr Unternehmen bei der Vorbereitung auf künftige Prüfungen."
       }
     ]
   },
   "cta": {
-    "title": "Bereit fuer eine Partnerschaft mit VATGenius?",
-    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "title": "Bereit für eine Partnerschaft mit VATGenius?",
+    "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
 }
