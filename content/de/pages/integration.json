@@ -5,33 +5,33 @@
   },
   "hero": {
     "title": "Nahtlose API-Integration",
-    "description": "Der Erfolg unserer Partnerschaft haengt von der Geschwindigkeit der Implementierung ab. Unsere Loesung ist als Low-Code-, Plug-and-Play-Service konzipiert, der minimale Belastung Ihrer internen Entwicklungsressourcen und eine schnelle Markteinfuehrung gewaehrleistet.",
+    "description": "Der Erfolg der Partnerschaft hängt maßgeblich von der Geschwindigkeit der Implementierung ab. Unsere Lösung ist als Low-Code- und Plug-and-Play-Service konzipiert, der eine schnelle Integration bei minimaler Belastung interner Entwicklungsressourcen und eine kurze Time-to-Market ermöglicht.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
-    "title": "Die drei Integrationssaeulen",
-    "description": "Unser Service verbindet sich ueber eine sichere RESTful API mit Ihrer Plattform, ermoeglichen automatischen Datenfluss und minimiert manuelle Eingriffe. Die Integration konzentriert sich auf nur drei zentrale Datenaustauschpunkte:",
+    "title": "Die drei Integrationssäulen",
+    "description": "Unser Service verbindet sich über eine sichere RESTful API mit der Plattform, ermöglicht einen automatisierten Datenfluss und minimiert manuelle Eingriffe. Die Integration erfordert die Anbindung von nur drei zentralen Datenaustauschpunkten:",
     "items": [
       {
-        "title": "Kunden-Onboarding-Hook",
-        "description": "Ein einfacher Klick zur Aktivierung des USt-Erstattungsdienstes fuer einen bestimmten Geschaeftskunden.",
+        "title": "Onboarding-Trigger für Geschäftskunden",
+        "description": "Aktivierung des USt-Erstattungsservices durch einfachen Klick für einzelne Geschäftskunden.",
         "icon": "userPlus"
       },
       {
         "title": "Transaktionsdaten-Feed",
-        "description": "Ein sicherer Feed relevanter auslaendischer Ausgabentransaktionen.",
+        "description": "Sicherer Feed relevanter im Ausland getätigter Geschäftsausgaben.",
         "icon": "database"
       },
       {
-        "title": "Genehmigung, Status & Auszahlung",
-        "description": "Ein Webhook zum Empfang von Benachrichtigungen ueber Genehmigungen, Echtzeit-Updates zum Antragsstatus und endgueltigen Erstattungszahlungen.",
+        "title": "Freigabe, Status & Auszahlung",
+        "description": "Ein Webhook zum Empfang von Benachrichtigungen zu Freigaben, Echtzeit-Statusupdates zu Erstattungsanträgen sowie Informationen zu finalen Erstattungszahlungen.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
-    "title": "Low Code, High Value",
-    "description": "Wir wissen, dass Geschwindigkeit und Effizienz von groesster Bedeutung sind. Wir liefern:",
+    "title": "Low Code, hoher Mehrwert",
+    "description": "Wir wissen, dass Geschwindigkeit und Effizienz entscheidend sind. Wir liefern:\n",
     "items": [
       {
         "title": "Robuste Dokumentation",
