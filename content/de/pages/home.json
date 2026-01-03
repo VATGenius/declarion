@@ -58,15 +58,15 @@
     "title": "Sicherheit und Compliance",
     "description": "Bei VATGenius ist die Implementierung wirksamer Cybersicherheitsmaßnahmen eine Grundvoraussetzung für den Schutz sensibler Daten und die Sicherung des Kundenvertrauens.",
     "features": [
-      "Verschluesselungsprotokolle und Multi-Faktor-Authentifizierung fuer Zugriffskontrollen",
-      "Sorgfaeltige Pruefung aller Aspekte der Datenverarbeitung",
+      "Verschlüsselungsprotokolle und Multi-Faktor-Authentifizierung für Zugriffskontrollen",
+      "Sorgfältige Prüfung aller Aspekte der Datenverarbeitung",
       "DSGVO-konforme Datenspeicherung und -verarbeitung"
     ]
   },
   "cta": {
     "title": "Bereit, neue Einnahmequellen zu erschließen?",
-    "description": "Schliessen Sie sich fuehrenden Neobanken an und bieten Sie Ihren Geschaeftskunden automatisierte USt-Erstattungsdienste.",
-    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "description": "Schließen Sie sich führenden Neobanken an und bieten Sie Ihren Geschäftskunden automatisierte USt-Erstattungsdienste.",
+    "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
 }
