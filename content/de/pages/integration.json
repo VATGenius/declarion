@@ -5,51 +5,51 @@
   },
   "hero": {
     "title": "Nahtlose API-Integration",
-    "description": "Der Erfolg unserer Partnerschaft haengt von der Geschwindigkeit der Implementierung ab. Unsere Loesung ist als Low-Code-, Plug-and-Play-Service konzipiert, der minimale Belastung Ihrer internen Entwicklungsressourcen und eine schnelle Markteinfuehrung gewaehrleistet.",
+    "description": "Der Erfolg der Partnerschaft hängt maßgeblich von der Geschwindigkeit der Implementierung ab. Unsere Lösung ist als Low-Code- und Plug-and-Play-Service konzipiert, der eine schnelle Integration bei minimaler Belastung interner Entwicklungsressourcen und eine kurze Time-to-Market ermöglicht.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
-    "title": "Die drei Integrationssaeulen",
-    "description": "Unser Service verbindet sich ueber eine sichere RESTful API mit Ihrer Plattform, ermoeglichen automatischen Datenfluss und minimiert manuelle Eingriffe. Die Integration konzentriert sich auf nur drei zentrale Datenaustauschpunkte:",
+    "title": "Die drei Integrationssäulen",
+    "description": "Unser Service verbindet sich über eine sichere RESTful API mit der Plattform, ermöglicht einen automatisierten Datenfluss und minimiert manuelle Eingriffe. Die Integration erfordert die Anbindung von nur drei zentralen Datenaustauschpunkten:",
     "items": [
       {
-        "title": "Kunden-Onboarding-Hook",
-        "description": "Ein einfacher Klick zur Aktivierung des USt-Erstattungsdienstes fuer einen bestimmten Geschaeftskunden.",
+        "title": "Onboarding-Trigger für Geschäftskunden",
+        "description": "Aktivierung des USt-Erstattungsservices durch einfachen Klick für einzelne Geschäftskunden.",
         "icon": "userPlus"
       },
       {
         "title": "Transaktionsdaten-Feed",
-        "description": "Ein sicherer Feed relevanter auslaendischer Ausgabentransaktionen.",
+        "description": "Sicherer Feed relevanter im Ausland getätigter Geschäftsausgaben.",
         "icon": "database"
       },
       {
-        "title": "Genehmigung, Status & Auszahlung",
-        "description": "Ein Webhook zum Empfang von Benachrichtigungen ueber Genehmigungen, Echtzeit-Updates zum Antragsstatus und endgueltigen Erstattungszahlungen.",
+        "title": "Freigabe, Status & Auszahlung",
+        "description": "Ein Webhook zum Empfang von Benachrichtigungen zu Freigaben, Echtzeit-Statusupdates zu Erstattungsanträgen sowie Informationen zu finalen Erstattungszahlungen.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
-    "title": "Low Code, High Value",
-    "description": "Wir wissen, dass Geschwindigkeit und Effizienz von groesster Bedeutung sind. Wir liefern:",
+    "title": "Low Code, hoher Mehrwert",
+    "description": "Wir wissen, dass Geschwindigkeit und Effizienz entscheidend sind. Wir liefern:\n",
     "items": [
       {
         "title": "Robuste Dokumentation",
-        "description": "Umfassende, leicht verstaendliche API-Dokumentation und SDKs fuer gaengige Programmiersprachen zur Beschleunigung Ihres Entwicklungszyklus."
+        "description": "Umfassende, leicht verständliche API-Dokumentation sowie SDKs für gängige Programmiersprachen zur Beschleunigung des Entwicklungszyklus."
       },
       {
-        "title": "Dedizierte Sandbox-Umgebung",
-        "description": "Eine voll funktionsfaehige Testumgebung ermoeglicht es Ihrem Team, die Integration zu prototypisieren und zu validieren, ohne die Live-Produktion zu beeintraechtigen."
+        "title": "Eigene Sandbox-Umgebung",
+        "description": "Eine voll funktionsfähige Testumgebung ermöglicht es Ihrem Team, die Integration zu prototypisieren und zu validieren, ohne die Produktivumgebung zu beeinträchtigen."
       },
       {
         "title": "Minimaler Wartungsaufwand",
-        "description": "Wir uebernehmen alle laufenden Compliance-Updates, Aenderungen bei auslaendischen Steuerbehoerden und Systemwartung. Keine technischen Schulden fuer Ihre Plattform."
+        "description": "Wir übernehmen laufende Compliance-Updates, Änderungen seitens ausländischer Steuerbehörden sowie die Systemwartung. Kein technischer Aufwand auf Seiten Ihrer Plattform."
       }
     ]
   },
   "timeline": {
-    "title": "Geschaetzte Markteinfuehrungszeit",
-    "description": "Wir prognostizieren eine schnelle Implementierungszeitlinie, die es Ihnen ermoeglicht, dieses neue Premium-Feature zuegig zu lancieren:",
+    "title": "Time-to-Market-Schätzung",
+    "description": "Wir rechnen mit einer kurzen Implementierungsdauer, die Ihnen eine schnelle Einführung des neuen Premium-Features ermöglicht:",
     "phases": [
       {
         "phase": "Phase 1",
@@ -59,15 +59,15 @@
       },
       {
         "phase": "Phase 2",
-        "description": "Datenfluss-Integration & Validierung",
+        "description": "Integration und Validierung der Datenflüsse",
         "duration": "4-6 Wochen",
         "effort": "Gering bis moderat"
       },
       {
         "phase": "Phase 3",
-        "description": "Compliance-Pruefung & Pilotstart",
+        "description": "Compliance-Prüfung & Pilotstart",
         "duration": "1 Woche",
-        "effort": "Keiner (interne Pruefung)"
+        "effort": "Keiner (interne Prüfung)"
       }
     ],
     "total": {
@@ -79,7 +79,7 @@
   },
   "cta": {
     "title": "Bereit, die Integration zu starten?",
-    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
 }
