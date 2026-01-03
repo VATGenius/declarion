@@ -15,7 +15,7 @@
   },
   "platform": {
     "title": "The VATGenius Platform",
-    "description": "A modern graphic showing data seamlessly flowing from your Neobank App Interface into the VAT Reclaim Engine",
+    "description": "",
     "features": [
       {
         "title": "VATGenius Bank API",
