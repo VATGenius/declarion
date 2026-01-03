@@ -1,37 +1,37 @@
 {
   "seo": {
     "metaTitle": "Produkt",
-    "metaDescription": "Monetarisierung auslaendischer USt-Erstattungen fuer Geschaeftskunden. Eine vollautomatisierte, compliance-gesicherte Plattform fuer B2B-USt-Rueckerstattung."
+    "metaDescription": "Monetarisierung ausländischer USt-Erstattungen für Geschäftskunden. Eine vollautomatisierte, compliance-gesicherte Plattform für B2B-USt-Rückerstattung."
   },
   "hero": {
-    "title": "Monetarisierung auslaendischer USt-Erstattungen fuer Geschaeftskunden",
-    "description": "Auslaendische Geschaeftsausgaben (Reisen, Messen, Dienstleistungen) Ihrer Geschaeftskunden steigen, aber viele erstattungsfaehige auslaendische USt-Betraege werden aufgrund von Komplexitaet, unterschiedlichen Laendervorschriften, Dokumentationsanforderungen, Compliance-Bedenken und manueller Bearbeitung nicht geltend gemacht.",
-    "solutionText": "Unsere Loesung: Steigerung des Kundenwertes und Generierung passiver Einnahmen durch eine vollautomatisierte, compliance-gesicherte Plattform fuer B2B-USt-Rueckerstattung, die keinen Aufwand fuer Ihre Geschaeftskunden erfordert.",
+    "title": "Monetarisierung ausländischer USt-Erstattungen für Ihre Geschäftskunden",
+    "description": "Ausländische Geschäftsausgaben (z.B. Reisen, Messen, Dienstleistungen) von Geschäftskunden nehmen zu, aber viele erstattungsfähige ausländische USt-Beträge werden aufgrund von hoher Komplexität, unterschiedlichen länderspezifischen Vorgaben, umfangreichen Dokumentationsanforderungen, Compliance-Risiken und manueller Bearbeitung nicht geltend gemacht.",
+    "solutionText": "Unsere Lösung: Steigerung des Kundenwertes und Erschließung zusätzlicher Einnahmen durch eine vollautomatisierte, compliance-gesicherte Plattform zur B2B-USt-Rückerstattung, die keinen Aufwand für Ihre Geschäftskunden erfordert.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "So funktioniert es (Der 4-Schritte-Integrationsprozess)",
+    "title": "So funktioniert es: Die 4-Stufen-Integration",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
         "title": "Datenerfassung",
-        "description": "Automatisierte Transaktionsdaten ueber VATGenius"
+        "description": "Automatisierte Transaktionsdaten über VATGenius"
       },
       {
         "step": "2",
         "title": "Verarbeitung",
-        "description": "Die VATGenius Engine prueft automatisch Dokumente, stellt sie zusammen, berechnet USt-Erstattungsbetraege und informiert Geschaeftskunden"
+        "description": "Die VATGenius Engine prüft automatisiert Dokumente, stellt sie zusammen, berechnet USt-Erstattungsbeträge und informiert Geschäftskunden"
       },
       {
         "step": "3",
         "title": "Einreichung",
-        "description": "Die VATGenius TAX API reicht den komplexen Antrag bei der zustaendigen auslaendischen Steuerbehoerde ein"
+        "description": "Die VATGenius TAX API reicht den komplexen Antrag bei der zuständigen ausländischen Steuerbehörde ein"
       },
       {
         "step": "4",
         "title": "Auszahlung",
-        "description": "Die Mittel werden nahtlos empfangen und ausgezahlt und wirken sich direkt auf die Ergebnisse Ihrer Geschaeftskunden aus."
+        "description": "Die Mittel werden nahtlos empfangen und ausgezahlt und wirken sich direkt auf die Ergebnisse Ihrer Geschäftskunden aus."
       }
     ]
   },
@@ -40,36 +40,36 @@
     "items": [
       {
         "title": "Kein Aufwand",
-        "description": "Vollautomatisierte Identifizierung erstattungsfaehiger USt."
+        "description": "Vollautomatisierte Identifizierung erstattungsfähiger USt."
       },
       {
         "title": "Maximaler Betrag",
-        "description": "KI-gestuetzte Verifizierung stellt das volle Potenzial der USt-Erstattung sicher."
+        "description": "KI-gestützte Verifizierung stellt das volle Potenzial der USt-Erstattung sicher."
       },
       {
-        "title": "Vollstaendige Transparenz",
-        "description": "Jederzeit Zugriff auf den Antragsstatus ueber das Banking-Dashboard."
+        "title": "Vollständige Transparenz",
+        "description": "Jederzeit Zugriff auf den Antragsstatus über das Banking-Dashboard."
       }
     ]
   },
   "compliance": {
-    "title": "Compliance & Sicherheit: Vertrauen durch regulatorische Exzellenz",
-    "description": "Als Partner im Finanzsektor wissen wir, dass Vertrauen, Sicherheit und kompromisslose Einhaltung regulatorischer Anforderungen unverzichtbar sind. Unsere Loesung ist darauf ausgelegt, Risiken zu minimieren und volle Compliance fuer Ihr Institut und Ihre Geschaeftskunden zu gewaehrleisten.",
+    "title": "Compliance & Sicherheit: Verlässliche Einhaltung regulatorischer Vorgaben",
+    "description": "Als Partner im Finanzsektor wissen wir, dass Vertrauen, Sicherheit und konsequente Einhaltung regulatorischer Anforderungen unverzichtbar sind. Unsere Lösung ist darauf ausgelegt, Risiken zu minimieren und volle Compliance für Ihr Institut und Ihre Geschäftskunden zu gewährleisten.",
     "sections": [
       {
-        "title": "Globale Steuer-Compliance-as-a-Service",
+        "title": "Global Tax Compliance as a Service",
         "items": [
           {
-            "label": "Dedizierte Expertise:",
-            "text": "Internationale Steuerspezialisten, die alle relevanten Vorschriften verwalten"
+            "label": "Branchenspezifische Expertise:",
+            "text": "Internationale Steuerspezialisten mit umfassender Kenntnis aller relevanten Vorschriften"
           },
           {
             "label": "Risikotransfer:",
-            "text": "Uebertragen Sie die gesamte regulatorische Last auf uns"
+            "text": "Übertragung der regulatorischen Verantwortung auf uns"
           },
           {
-            "label": "Pruefungsbereitschaft:",
-            "text": "Vollstaendig pruefbare und verteidigungsfaehige Antraege"
+            "label": "Prüfungsbereitschaft:",
+            "text": "Vollständig prüfbare und nachvollziehbare Anträge"
           }
         ]
       },
@@ -78,15 +78,15 @@
         "items": [
           {
             "label": "Zero-Trust-Architektur:",
-            "text": "AES-256-Verschluesselung im Ruhezustand und TLS 1.2+ bei der Uebertragung"
+            "text": "AES-256-Verschlüsselung im Ruhezustand und TLS 1.2+ bei der Datenübertragung"
           },
           {
             "label": "Datenminimierung:",
-            "text": "Nur notwendige Daten werden gemaess DSGVO verarbeitet"
+            "text": "Nur notwendige Daten werden gemäß DSGVO verarbeitet"
           },
           {
-            "label": "Regelmaessige Audits:",
-            "text": "Unabhaengige Sicherheitsaudits durch Dritte (SOC 2-Bereitschaft)"
+            "label": "Regelmäßige Audits:",
+            "text": "Unabhängige Sicherheitsaudits durch Dritte (SOC-2-Bereitschaft)"
           }
         ]
       }
@@ -94,7 +94,7 @@
   },
   "secureApi": {
     "title": "Sichere API und Infrastruktur",
-    "description": "Unsere Integration ist so konzipiert, dass sie sich nahtlos einfuegt, ohne Ihre bestehende Sicherheitsarchitektur zu beeintraechtigen.",
+    "description": "Unsere Integration ist so konzipiert, dass sie sich in vorhandene Systeme integriert, ohne die bestehende Sicherheitsarchitektur zu beeinträchtigen.",
     "features": [
       {
         "title": "Token-basierte Authentifizierung",
@@ -102,14 +102,14 @@
       },
       {
         "title": "Cloud-Infrastruktur",
-        "description": "Zertifizierte Umgebungen mit Redundanz"
+        "description": "Zertifizierte Cloud-Umgebungen mit Redundanz"
       }
     ]
   },
   "cta": {
     "title": "Bereit loszulegen?",
-    "description": "Erfahren Sie, wie VATGenius Ihren Geschaeftskunden helfen kann, auslaendische USt zurueckzufordern.",
-    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "description": "Erfahren Sie, wie VATGenius Ihren Geschäftskunden dabei hilft, ausländische USt zurückzufordern.",
+    "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
 }
