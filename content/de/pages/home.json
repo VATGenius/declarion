@@ -56,7 +56,7 @@
   },
   "security": {
     "title": "Sicherheit und Compliance",
-    "description": "Bei VATGenius ist die Implementierung wirksamer Cybersicherheitsmassnahmen grundlegend fuer den Schutz sensibler Daten und damit fuer die Sicherung des Vertrauens unserer Kunden.",
+    "description": "Bei VATGenius ist die Implementierung wirksamer Cybersicherheitsmaßnahmen eine Grundvoraussetzung für den Schutz sensibler Daten und die Sicherung des Kundenvertrauens.",
     "features": [
       "Verschluesselungsprotokolle und Multi-Faktor-Authentifizierung fuer Zugriffskontrollen",
       "Sorgfaeltige Pruefung aller Aspekte der Datenverarbeitung",
