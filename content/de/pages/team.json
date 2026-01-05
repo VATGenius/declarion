@@ -1,7 +1,7 @@
 {
   "seo": {
     "metaTitle": "Team",
-    "metaDescription": "Lernen Sie das VATGenius-Team kennen. USt-Erstattungsspezialisten, die Unternehmen mit innovativen Finanzloesungen befaehigen, ihre maximal erstattungsfaehige USt zurueckzufordern."
+    "metaDescription": "Lernen Sie das VATGenius-Team kennen. USt-Erstattungsspezialisten, die Unternehmen mit innovativen Finanzlösungen befähigen, ihre maximal erstattungsfähige USt zurückzufordern."
   },
   "hero": {
     "title": "Die Spezialisten für USt-Erstattungen Ihrer Geschäftskunden",
@@ -56,23 +56,23 @@
     "items": [
       {
         "title": "Präzision",
-        "subtitle": "Gewährleistung absoluter Genauigkeit zur Maximierung der erstattungsfähigen USt und Minimierung des Pruefungsrisikos.",
+        "subtitle": "Gewährleistung absoluter Genauigkeit zur Maximierung der erstattungsfähigen USt und Minimierung des Prüfungsrisikos.",
         "description": "Wir gewährleisten absolute Genauigkeit und die Einhaltung internationaler steuerrechtlicher Vorgaben. Dadurch werden Risiken minimiert und die erstattungsfähigen USt-Beträge für Geschäftskunden maximiert. Die Prozesse sind darauf ausgelegt, komplexe Daten aus unterschiedlichen Jurisdiktionen mit höchster Präzision zu verarbeiten."
       },
       {
         "title": "Digital First",
-        "subtitle": "Komplexe Prozesse in ein nahtloses, skalierbares, API-gesteuertes digitales Erlebnis verwandeln.",
-        "description": "Durch den Einsatz von API-gesteuerten Integrationen und fortschrittlicher Automatisierung verwandeln wir den manuellen, papierintensiven Prozess der USt-Erstattung in ein nahtloses, vollstaendig digitales Erlebnis. Dies gewaehrleistet Geschwindigkeit, Skalierbarkeit und minimalen operativen Aufwand fuer Ihre Banking-Plattform."
+        "subtitle": "Transformation komplexer Prozesse in eine nahtlose, skalierbare und API-getriebene digitale Lösung.",
+        "description": "Durch API-basierte Integrationen und fortschrittliche Automatisierung wird der bislang manuelle und papierintensive Prozess der USt-Erstattung in einen nahtlosen, vollständig digitalen Ablauf überführt. Dies ermöglicht Geschwindigkeit, Skalierbarkeit und geringen operativen Aufwand für die Banking-Plattform."
       },
       {
         "title": "Kundenorientierung",
-        "subtitle": "Gestaltung eines nahtlosen Service, der das globale Banking-Erlebnis Ihrer Kunden verbessert.",
-        "description": "Unsere Dienstleistungen sind auf die Beduerfnisse Ihrer Geschaeftskunden zugeschnitten und bieten einen nahtlosen Service, der leicht verstaendlich und direkt ueber Ihre Banking-Oberflaeche zugaenglich ist, wodurch Kundenbindung und -zufriedenheit gesteigert werden."
+        "subtitle": "Gestaltung eines nahtlosen Services zur Verbesserung des internationalen Bankerlebnisses von Geschäftskunden.",
+        "description": "Die Services sind auf die Anforderungen von Geschäftskunden ausgerichtet und bieten einen nahtlosen, leicht verständlichen Zugang direkt über die Banking-Oberfläche. Das stärkt Kundenbindung und -zufriedenheit."
       },
       {
         "title": "Transparenz",
-        "subtitle": "Echtzeit-Transparenz und klare Kommunikation waehrend des gesamten Erstattungszyklus.",
-        "description": "Wir bieten eine klare, Echtzeit-Nachverfolgung fuer jede Transaktion und jeden Erstattungsstatus. Unsere Gebuehren und Prozessschritte werden von Anfang an klar dargelegt, um vollstaendiges Vertrauen und Transparenz zwischen uns, der Neobank und dem Endkunden zu gewaehrleisten."
+        "subtitle": "Echtzeit-Transparenz und klare Kommunikation während des gesamten Erstattungsprozesses.",
+        "description": "Wir bieten eine transparente Echtzeit-Nachverfolgung für jede Transaktion und jeden Erstattungsstatus. Unsere Gebühren und Prozessschritte werden von Anfang an klar dargelegt, um vollständiges Vertrauen und Transparenz zwischen uns, der Neobank und dem Endkunden zu gewährleisten."
       }
     ]
   },
