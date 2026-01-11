@@ -57,19 +57,19 @@
     "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la sécurité et le respect absolu des réglementations sont non négociables. Notre solution est conçue pour atténuer les risques, assurant une conformité totale pour votre institution et vos clients professionnels.",
     "sections": [
       {
-        "title": "Conformite fiscale mondiale en tant que service",
+        "title": "Conformité fiscale mondiale en tant que service",
         "items": [
           {
-            "label": "Expertise dediee :",
-            "text": "Specialistes fiscaux internationaux gerant toutes les reglementations pertinentes"
+            "label": "Expertise dédiée :",
+            "text": "Spécialistes fiscaux internationaux gérant toutes les réglementations pertinentes"
           },
           {
             "label": "Transfert de risque :",
-            "text": "Transferez-nous l'ensemble de la charge reglementaire"
+            "text": "Transférez-nous l’ensemble de la charge réglementaire"
           },
           {
-            "label": "Pret pour l'audit :",
-            "text": "Demandes entierement auditables et defensables"
+            "label": "Prêt pour l’audit :",
+            "text": "Demandes entièrement auditables et défendables"
           }
         ]
       },
