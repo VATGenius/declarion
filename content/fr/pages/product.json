@@ -36,25 +36,25 @@
     ]
   },
   "customerBenefit": {
-    "title": "L'avantage pour vos clients",
+    "title": "L’avantage pour vos clients",
     "items": [
       {
         "title": "Aucun effort",
-        "description": "Identification entierement automatisee de la TVA remboursable."
+        "description": "Identification entièrement automatisée de la TVA remboursable."
       },
       {
         "title": "Montant maximum",
-        "description": "La verification assistee par IA garantit l'exploitation du plein potentiel des remboursements de TVA."
+        "description": "La vérification assistée par IA garantit l’exploitation du plein potentiel des remboursements de TVA."
       },
       {
         "title": "Transparence totale",
-        "description": "Acces au statut de la demande a tout moment via le tableau de bord bancaire."
+        "description": "Accès au statut de la demande à tout moment via le tableau de bord bancaire."
       }
     ]
   },
   "compliance": {
-    "title": "Conformite et securite : une confiance fondee sur l'excellence reglementaire",
-    "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la securite et le respect absolu des reglementations sont non negociables. Notre solution est conçue pour attenuer les risques, assurant une conformite totale pour votre institution et vos clients professionnels.",
+    "title": "Conformité et sécurité : une confiance fondée sur l’excellence réglementaire",
+    "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la sécurité et le respect absolu des réglementations sont non négociables. Notre solution est conçue pour atténuer les risques, assurant une conformité totale pour votre institution et vos clients professionnels.",
     "sections": [
       {
         "title": "Conformite fiscale mondiale en tant que service",
