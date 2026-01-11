@@ -26,13 +26,13 @@
         "icon": "lightning"
       },
       {
-        "title": "Support operationnel",
-        "description": "Nous gerons tous les aspects juridiques, de conformite et de support client lies au processus de TVA. Votre charge de travail est minimale.",
+        "title": "Support opérationnel",
+        "description": "Nous gérons tous les aspects juridiques, de conformité et de support client liés au processus de TVA. Votre charge de travail est minimale.",
         "icon": "support"
       },
       {
-        "title": "Marketing et aide a la vente",
-        "description": "Nous fournissons des supports et des formations pour aider votre equipe commerciale a promouvoir efficacement le nouveau service.",
+        "title": "Marketing et aide à la vente",
+        "description": "Nous fournissons des supports et des formations pour aider votre équipe commerciale à promouvoir efficacement le nouveau service.",
         "icon": "chart"
       }
     ]
