@@ -1,115 +1,115 @@
 {
   "seo": {
     "metaTitle": "Produit",
-    "metaDescription": "Monetisation de la recuperation de TVA etrangere pour les clients professionnels. Une plateforme entierement automatisee et conforme pour la recuperation de TVA B2B."
+    "metaDescription": "Monétisation de la récupération de TVA étrangère pour les clients professionnels. Une plateforme entièrement automatisée et conforme pour la récupération de TVA B2B."
   },
   "hero": {
-    "title": "Monetisation de la recuperation de TVA etrangere pour les clients professionnels",
-    "description": "Les depenses professionnelles a l'etranger (voyages, salons professionnels, services) de vos clients professionnels augmentent, mais de nombreux montants de TVA etrangere recuperables ne sont pas reclames en raison de la complexite, des reglementations variables selon les pays, des exigences de documentation, des preoccupations de conformite et du traitement manuel.",
-    "solutionText": "Notre solution : Augmenter la valeur client et generer des revenus passifs grace a une plateforme entierement automatisee et conforme pour la recuperation de TVA B2B, ne necessitant aucun effort de la part de votre client professionnel.",
+    "title": "Monétisation de la récupération de TVA étrangère pour les clients professionnels",
+    "description": "Les dépenses professionnelles à l’étranger (voyages, salons professionnels, services) de vos clients professionnels augmentent, mais de nombreux montants de TVA étrangère récupérables ne sont pas réclamés en raison de la complexité, des réglementations variables selon les pays, des exigences de documentation, des préoccupations de conformité et du traitement manuel.",
+    "solutionText": "Notre solution : Augmenter la valeur client et générer des revenus passifs grâce à une plateforme entièrement automatisée et conforme pour la récupération de TVA B2B, ne nécessitant aucun effort de la part de votre client professionnel.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "Comment ca fonctionne (le flux d'integration en 4 etapes)",
+    "title": "Comment ça fonctionne (le flux d’intégration en 4 étapes)",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
-        "title": "Acquisition des donnees",
-        "description": "Donnees de transaction automatisees via VATGenius"
+        "title": "Acquisition des données",
+        "description": "Données de transaction automatisées via VATGenius"
       },
       {
         "step": "2",
         "title": "Traitement",
-        "description": "Le moteur VATGenius verifie automatiquement les documents, les compile, calcule les montants de remboursement de TVA et fait un rapport aux clients professionnels"
+        "description": "Le moteur VATGenius vérifie automatiquement les documents, les compile, calcule les montants de remboursement de TVA et fait un rapport aux clients professionnels"
       },
       {
         "step": "3",
-        "title": "Depot",
-        "description": "L'API Fiscale VATGenius depose la demande complexe aupres de l'autorite fiscale etrangere concernee"
+        "title": "Dépôt",
+        "description": "L’API fiscale VATGenius dépose la demande complexe auprès de l’autorité fiscale étrangère concernée"
       },
       {
         "step": "4",
         "title": "Versement",
-        "description": "Les fonds sont recus et distribues de maniere fluide, impactant directement les resultats de vos clients professionnels."
+        "description": "Les fonds sont reçus et distribués de manière fluide, impactant directement les résultats de vos clients professionnels."
       }
     ]
   },
   "customerBenefit": {
-    "title": "L'avantage pour vos clients",
+    "title": "L’avantage pour vos clients",
     "items": [
       {
         "title": "Aucun effort",
-        "description": "Identification entierement automatisee de la TVA remboursable."
+        "description": "Identification entièrement automatisée de la TVA remboursable."
       },
       {
         "title": "Montant maximum",
-        "description": "La verification assistee par IA garantit l'exploitation du plein potentiel des remboursements de TVA."
+        "description": "La vérification assistée par IA garantit l’exploitation du plein potentiel des remboursements de TVA."
       },
       {
         "title": "Transparence totale",
-        "description": "Acces au statut de la demande a tout moment via le tableau de bord bancaire."
+        "description": "Accès au statut de la demande à tout moment via le tableau de bord bancaire."
       }
     ]
   },
   "compliance": {
-    "title": "Conformite et securite : une confiance fondee sur l'excellence reglementaire",
-    "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la securite et le respect absolu des reglementations sont non negociables. Notre solution est con\u00e7ue pour attenuer les risques, assurant une conformite totale pour votre institution et vos clients professionnels.",
+    "title": "Conformité et sécurité : une confiance fondée sur l’excellence réglementaire",
+    "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la sécurité et le respect absolu des réglementations sont non négociables. Notre solution est conçue pour atténuer les risques, assurant une conformité totale pour votre institution et vos clients professionnels.",
     "sections": [
       {
-        "title": "Conformite fiscale mondiale en tant que service",
+        "title": "Conformité fiscale mondiale en tant que service",
         "items": [
           {
-            "label": "Expertise dediee :",
-            "text": "Specialistes fiscaux internationaux gerant toutes les reglementations pertinentes"
+            "label": "Expertise dédiée :",
+            "text": "Spécialistes fiscaux internationaux gérant toutes les réglementations pertinentes"
           },
           {
             "label": "Transfert de risque :",
-            "text": "Transferez-nous l'ensemble de la charge reglementaire"
+            "text": "Transférez-nous l’ensemble de la charge réglementaire"
           },
           {
-            "label": "Pret pour l'audit :",
-            "text": "Demandes entierement auditables et defensables"
+            "label": "Prêt pour l’audit :",
+            "text": "Demandes entièrement auditables et défendables"
           }
         ]
       },
       {
-        "title": "Securite des donnees et confidentialite (conforme au RGPD)",
+        "title": "Sécurité des données et confidentialité (conforme au RGPD)",
         "items": [
           {
             "label": "Architecture Zero Trust :",
             "text": "Chiffrement AES-256 au repos et TLS 1.2+ en transit"
           },
           {
-            "label": "Minimisation des donnees :",
-            "text": "Seules les donnees necessaires sont traitees conformement au RGPD"
+            "label": "Minimisation des données :",
+            "text": "Seules les données nécessaires sont traitées conformément au RGPD"
           },
           {
-            "label": "Audits reguliers :",
-            "text": "Audits de securite independants par des tiers (conformite SOC 2)"
+            "label": "Audits réguliers :",
+            "text": "Audits de sécurité indépendants par des tiers (conformité SOC 2)"
           }
         ]
       }
     ]
   },
   "secureApi": {
-    "title": "API et infrastructure securisees",
-    "description": "Notre integration est con\u00e7ue pour s'integrer parfaitement sans compromettre votre posture de securite existante.",
+    "title": "API et infrastructure sécurisées",
+    "description": "Notre intégration est conçue pour s’intégrer parfaitement sans compromettre votre posture de sécurité existante.",
     "features": [
       {
         "title": "Authentification par jeton",
-        "description": "Interactions API securisees"
+        "description": "Interactions API sécurisées"
       },
       {
         "title": "Infrastructure cloud",
-        "description": "Environnements certifies avec redondance"
+        "description": "Environnements certifiés avec redondance"
       }
     ]
   },
   "cta": {
-    "title": "Pret a commencer ?",
-    "description": "Decouvrez comment VATGenius peut aider vos clients professionnels a recuperer la TVA etrangere.",
-    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "title": "Prêt à commencer ?",
+    "description": "Découvrez comment VATGenius peut aider vos clients professionnels à récupérer la TVA étrangère.",
+    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
 }
