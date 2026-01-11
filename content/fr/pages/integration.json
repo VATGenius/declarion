@@ -13,25 +13,25 @@
     "description": "Notre service se connecte à votre plateforme via une API RESTful sécurisée, permettant un flux de données automatique et minimisant les interventions manuelles. L’intégration nécessite de se concentrer que sur trois points d’échange de données essentiels :",
     "items": [
       {
-        "title": "Point d'ancrage d'integration client",
-        "description": "Un simple clic pour activer le service de recuperation de TVA pour un client professionnel specifique.",
+        "title": "Point d’ancrage d’intégration client",
+        "description": "Un simple clic pour activer le service de récupération de TVA pour un client professionnel spécifique.",
         "icon": "userPlus"
       },
       {
-        "title": "Flux de donnees de transactions",
-        "description": "Un flux securise des transactions de depenses etrangeres pertinentes.",
+        "title": "Flux de données de transactions",
+        "description": "Un flux sécurisé des transactions de dépenses étrangères pertinentes.",
         "icon": "database"
       },
       {
         "title": "Approbation, statut et versement",
-        "description": "Un webhook pour recevoir des notifications sur les approbations, des mises a jour en temps reel sur le statut des demandes et les versements finaux de remboursement.",
+        "description": "Un webhook pour recevoir des notifications sur les approbations, des mises à jour en temps réel sur le statut des demandes et les versements finaux de remboursement.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
     "title": "Low-code, haute valeur",
-    "description": "Nous comprenons que la rapidite et l'efficacite sont primordiales. Nous offrons :",
+    "description": "Nous comprenons que la rapidité et l’efficacité sont primordiales. Nous offrons :",
     "items": [
       {
         "title": "Documentation robuste",
