@@ -8,21 +8,21 @@
     "titleHighlight": "Revenus, Fidélisation, Différenciation",
     "heroImage": "/images/hero-why-us.png",
     "benefits": [
-      "Les frais ne sont factures que lorsque la TVA est effectivement remboursee. Aucun risque financier pour le client.",
-      "Vous n'engagez que des couts d'integration. Vos revenus peuvent depasser ces couts de nombreuses fois.",
-      "Le service justifie un prix plus eleve pour le compte professionnel.",
-      "Augmentez la fidelite client. Un service a forte valeur ajoutee rend le changement moins attractif.",
-      "Option de presenter la recuperation de TVA comme votre propre service ou comme un service tiers.",
-      "Les comptes traditionnels laissent de l'argent sur la table. Vous pouvez ameliorer votre position sur le marche.",
-      "Integration Plug-and-Play. Mise en service en quelques semaines."
+      "Les frais ne sont facturés que lorsque la TVA est effectivement remboursée. Aucun risque financier pour le client.",
+      "Vous n’engagez que des coûts d’intégration. Vos revenus peuvent dépasser ces coûts de nombreuses fois.",
+      "Le service justifie un prix plus élevé pour le compte professionnel.",
+      "Augmentez la fidélité client. Un service à forte valeur ajoutée rend le changement moins attractif.",
+      "Option de présenter la récupération de TVA comme votre propre service ou comme un service tiers.",
+      "Les comptes traditionnels laissent de l’argent sur la table. Vous pouvez améliorer votre position sur le marché.",
+      "Intégration Plug-and-Play. Mise en service en quelques semaines."
     ]
   },
   "implementation": {
-    "title": "Mise en oeuvre du partenariat et strategie de mise sur le marche",
+    "title": "Mise en œuvre du partenariat et stratégie de mise sur le marché",
     "items": [
       {
-        "title": "Integration",
-        "description": "Pret pour le pilote en 4 a 8 semaines. Tres peu de dette technique et de ressources necessaires de votre cote.",
+        "title": "Intégration",
+        "description": "Prêt pour le pilote en 4 à 8 semaines. Très peu de dette technique et de ressources nécessaires de votre côté.",
         "icon": "lightning"
       },
       {
