@@ -4,7 +4,7 @@
     "metaDescription": "Débloquez les remboursements de TVA étrangère : une source de revenus sans friction pour vos comptes professionnels. Permettez à vos clients professionnels de récupérer automatiquement la TVA déductible étrangère."
   },
   "hero": {
-    "title": "Débloquez les remboursements de TVA étrangère:",
+    "title": "Débloquez les remboursements de TVA étrangère :",
     "titleHighlight": "Une source de revenus sans friction",
     "titleEnd": "pour vos comptes professionnels",
     "description": "Permettez à vos clients professionnels de récupérer automatiquement et numériquement la TVA déductible étrangère. Notre solution s’intègre parfaitement à votre plateforme, offrant un service de récupération complet sans aucun effort.\n",
@@ -49,24 +49,24 @@
       },
       {
         "title": "Différenciation",
-        "description": "Proposez un service unique et premium que vos concurrents n'ont pas.",
+        "description": "Proposez un service unique et premium que vos concurrents n’ont pas.",
         "icon": "lightning"
       }
     ]
   },
   "security": {
-    "title": "Securite et conformite",
-    "description": "Chez VATGenius, la mise en oeuvre de mesures de cybersecurite efficaces est fondamentale pour assurer la protection des donnees sensibles et ainsi garantir la confiance de nos clients.",
+    "title": "Sécurité et conformité",
+    "description": "Chez VATGenius, la mise en œuvre de mesures de cybersécurité efficaces est fondamentale pour assurer la protection des données sensibles et ainsi garantir la confiance de nos clients.",
     "features": [
-      "Protocoles de chiffrement et authentification multi-facteurs pour les controles d'acces",
-      "Examen minutieux de chaque aspect du traitement des donnees",
-      "Stockage et traitement des donnees conformes au RGPD"
+      "Protocoles de chiffrement et authentification multi-facteurs pour les contrôles d’accès",
+      "Examen minutieux de chaque aspect du traitement des données",
+      "Stockage et traitement des données conformes au RGPD"
     ]
   },
   "cta": {
-    "title": "Pret a debloquer de nouvelles sources de revenus ?",
-    "description": "Rejoignez les neobanques leaders en proposant des services automatises de remboursement de TVA a vos clients professionnels.",
-    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "title": "Prêt à débloquer de nouvelles sources de revenus ?",
+    "description": "Rejoignez les néobanques leaders en proposant des services automatisés de remboursement de TVA à vos clients professionnels.",
+    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
 }
