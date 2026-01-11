@@ -1,16 +1,16 @@
 {
   "seo": {
-    "metaTitle": "Integration",
-    "metaDescription": "Integration API transparente. Notre solution low-code et plug-and-play garantit une sollicitation minimale de vos ressources de developpement et une mise sur le marche rapide."
+    "metaTitle": "Intégration",
+    "metaDescription": "Intégration API transparente. Notre solution low-code et plug-and-play garantit une sollicitation minimale de vos ressources de développement et une mise sur le marché rapide."
   },
   "hero": {
-    "title": "Integration API transparente",
-    "description": "Le succes de notre partenariat repose sur la rapidite de mise en oeuvre. Notre solution est con\u00e7ue comme un service low-code et plug-and-play, assurant une sollicitation minimale de vos ressources de developpement internes et une mise sur le marche rapide.",
+    "title": "Intégration API transparente",
+    "description": "Le succès de notre partenariat repose sur la rapidité de mise en œuvre. Notre solution est conçue comme un service low-code et plug-and-play, assurant une sollicitation minimale de vos ressources de développement internes et une mise sur le marché rapide.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
-    "title": "Les trois piliers de l'integration",
-    "description": "Notre service se connecte a votre plateforme via une API RESTful securisee, permettant un flux de donnees automatique et minimisant les interventions manuelles. L'integration ne necessite de se concentrer que sur trois points d'echange de donnees essentiels :",
+    "title": "Les trois piliers de l’intégration",
+    "description": "Notre service se connecte à votre plateforme via une API RESTful sécurisée, permettant un flux de données automatique et minimisant les interventions manuelles. L’intégration nécessite de se concentrer que sur trois points d’échange de données essentiels :",
     "items": [
       {
         "title": "Point d'ancrage d'integration client",
