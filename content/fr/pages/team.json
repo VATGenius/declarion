@@ -30,22 +30,22 @@
     "members": [
       {
         "name": "Philipp Tranacher",
-        "role": "Fiscalite et juridique",
-        "bio": "Doctorat, Expert-comptable, Conseiller fiscal, Avocat. Plus de 15 ans en fiscalite internationale.",
+        "role": "Fiscalité et juridique",
+        "bio": "Doctorat, Expert-comptable, Conseiller fiscal, Avocat. Plus de 15 ans en fiscalité internationale.",
         "image": "/images/team/philipp.jpg",
         "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
         "name": "Nils Lowe",
-        "role": "IT et developpement produit",
-        "bio": "Master en informatique, genie electrique et technologies de l'information. Plus de 10 ans en developpement logiciel.",
+        "role": "IT et développement produit",
+        "bio": "Master en informatique, génie électrique et technologies de l’information. Plus de 10 ans en développement logiciel.",
         "image": "/images/team/nils.png",
         "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
         "name": "Juliane Tranacher",
         "role": "Marketing et ventes",
-        "bio": "Doctorat. 15 ans d'experience en marketing, presse et relations publiques avec une specialisation dans le secteur financier/immobilier.",
+        "bio": "Doctorat. 15 ans d’expérience en marketing, presse et relations publiques avec une spécialisation dans le secteur financier/immobilier.",
         "image": "/images/team/juliane.png",
         "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
@@ -55,30 +55,30 @@
     "title": "Nos valeurs",
     "items": [
       {
-        "title": "Precision",
-        "subtitle": "Garantir une exactitude absolue pour maximiser la TVA recuperable et minimiser le risque d'audit.",
-        "description": "Nous garantissons une exactitude absolue et une conformite aux lois fiscales internationales, minimisant les risques et maximisant le montant de TVA remboursable pour vos clients. Nos processus sont conçus pour gerer des donnees complexes provenant de differentes juridictions avec une precision sans faille."
+        "title": "Précision",
+        "subtitle": "Garantir une exactitude absolue pour maximiser la TVA récupérable et minimiser le risque d’audit.",
+        "description": "Nous garantissons une exactitude absolue et une conformité aux lois fiscales internationales, minimisant les risques et maximisant le montant de TVA remboursable pour vos clients. Nos processus sont conçus pour gérer des données complexes provenant de différentes juridictions avec une précision sans faille."
       },
       {
-        "title": "Numerique d'abord",
-        "subtitle": "Transformer des processus complexes en une experience numerique fluide, evolutive et pilotee par API.",
-        "description": "En utilisant des integrations pilotees par API et une automatisation avancee, nous transformons le processus manuel et papier des remboursements de TVA en une experience entierement numerique et fluide. Cela garantit rapidite, evolutivite et une surcharge operationnelle minimale pour votre plateforme bancaire."
+        "title": "Numérique d’abord",
+        "subtitle": "Transformer des processus complexes en une expérience numérique fluide, évolutive et pilotée par API.",
+        "description": "En utilisant des intégrations pilotées par API et une automatisation avancée, nous transformons le processus manuel et papier des remboursements de TVA en une expérience entièrement numérique et fluide. Cela garantit rapidité, évolutivité et une surcharge opérationnelle minimale pour votre plateforme bancaire."
       },
       {
         "title": "Orientation client",
-        "subtitle": "Concevoir un service fluide qui ameliore l'experience bancaire mondiale de vos clients.",
-        "description": "Nos services sont adaptes aux besoins de vos clients professionnels, offrant un service fluide, facile a comprendre et accessible directement via votre interface bancaire, augmentant ainsi la fidelite et la satisfaction client."
+        "subtitle": "Concevoir un service fluide qui améliore l’expérience bancaire mondiale de vos clients.",
+        "description": "Nos services sont adaptés aux besoins de vos clients professionnels, offrant un service fluide, facile à comprendre et accessible directement via votre interface bancaire, augmentant ainsi la fidélité et la satisfaction client."
       },
       {
         "title": "Transparence",
-        "subtitle": "Fournir une transparence en temps reel et une communication claire tout au long du cycle de remboursement.",
-        "description": "Nous fournissons une piste d'audit claire et en temps reel pour chaque transaction et statut de remboursement. Nos frais et etapes de processus sont clairement definis des le depart pour assurer une confiance et une transparence totales entre nous, la neobanque et le client final."
+        "subtitle": "Fournir une transparence en temps réel et une communication claire tout au long du cycle de remboursement.",
+        "description": "Nous fournissons une piste d’audit claire et en temps réel pour chaque transaction et statut de remboursement. Nos frais et étapes de processus sont clairement définis dès le départ pour assurer une confiance et une transparence totales entre nous, la néobanque et le client final."
       }
     ]
   },
   "cta": {
-    "title": "Pret a travailler avec nous ?",
-    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "title": "Prêt à travailler avec nous ?",
+    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
 }
