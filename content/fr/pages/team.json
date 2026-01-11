@@ -1,32 +1,32 @@
 {
   "seo": {
-    "metaTitle": "Equipe",
-    "metaDescription": "Rencontrez l'equipe VATGenius. Specialistes du remboursement de TVA qui accompagnent les entreprises avec des solutions financieres innovantes pour recuperer le maximum de TVA remboursable."
+    "metaTitle": "Équipe",
+    "metaDescription": "Rencontrez l’équipe VATGenius. Spécialistes du remboursement de TVA qui accompagnent les entreprises avec des solutions financières innovantes pour récupérer le maximum de TVA remboursable."
   },
   "hero": {
-    "title": "Les specialistes du remboursement de TVA pour vos clients professionnels",
-    "description": "Nous accompagnons les entreprises qui utilisent des solutions financieres innovantes, notamment celles qui travaillent avec des neobanques, pour recuperer de maniere transparente le maximum de TVA remboursable via la procedure de remboursement de TVA deductible.",
+    "title": "Les spécialistes du remboursement de TVA pour vos clients professionnels",
+    "description": "Nous accompagnons les entreprises qui utilisent des solutions financières innovantes, notamment celles qui travaillent avec des néobanques, pour récupérer de manière transparente le maximum de TVA remboursable via la procédure de remboursement de TVA déductible.",
     "heroImage": "/images/hero-team.png"
   },
   "niche": {
     "title": "Notre niche et expertise",
     "items": [
       {
-        "title": "Le defi",
-        "description": "Les processus traditionnels de remboursement de TVA sont souvent difficiles a integrer efficacement dans l'infrastructure et la documentation uniques des neobanques numeriques. Cela peut entrainer des demandes manquees, des retards ou une surcharge administrative."
+        "title": "Le défi",
+        "description": "Les processus traditionnels de remboursement de TVA sont souvent difficiles à intégrer efficacement dans l’infrastructure et la documentation uniques des néobanques numériques. Cela peut entraîner des demandes manquées, des retards ou une surcharge administrative."
       },
       {
         "title": "Notre solution",
-        "description": "Nous avons adapte notre processus a cette realite. Nous sommes specialises dans le traitement de la procedure de remboursement de TVA deductible et avons une connaissance approfondie de la documentation des neobanques, ce qui nous permet d'assurer des remboursements de TVA plus rapides, plus conformes et plus efficaces."
+        "description": "Nous avons adapté notre processus à cette réalité. Nous sommes spécialisés dans le traitement de la procédure de remboursement de TVA déductible et avons une connaissance approfondie de la documentation des néobanques, ce qui nous permet d’assurer des remboursements de TVA plus rapides, plus conformes et plus efficaces."
       },
       {
         "title": "Notre promesse",
-        "description": "Nous maximisons la liquidite de vos clients professionnels en garantissant qu'ils recuperent avec succes chaque euro de TVA auquel ils ont droit. Notre technologie proprietaire comble le fosse entre les exigences legales de TVA et l'agilite de la banque numerique."
+        "description": "Nous maximisons la liquidité de vos clients professionnels en garantissant qu’ils récupèrent avec succès chaque euro de TVA auquel ils ont droit. Notre technologie propriétaire comble le fossé entre les exigences légales de TVA et l’agilité de la banque numérique."
       }
     ]
   },
   "team": {
-    "title": "L'equipe",
+    "title": "L’équipe",
     "members": [
       {
         "name": "Philipp Tranacher",
@@ -57,7 +57,7 @@
       {
         "title": "Precision",
         "subtitle": "Garantir une exactitude absolue pour maximiser la TVA recuperable et minimiser le risque d'audit.",
-        "description": "Nous garantissons une exactitude absolue et une conformite aux lois fiscales internationales, minimisant les risques et maximisant le montant de TVA remboursable pour vos clients. Nos processus sont con\u00e7us pour gerer des donnees complexes provenant de differentes juridictions avec une precision sans faille."
+        "description": "Nous garantissons une exactitude absolue et une conformite aux lois fiscales internationales, minimisant les risques et maximisant le montant de TVA remboursable pour vos clients. Nos processus sont conçus pour gerer des donnees complexes provenant de differentes juridictions avec une precision sans faille."
       },
       {
         "title": "Numerique d'abord",
