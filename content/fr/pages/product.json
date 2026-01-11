@@ -25,13 +25,13 @@
       },
       {
         "step": "3",
-        "title": "Depot",
-        "description": "L'API Fiscale VATGenius depose la demande complexe aupres de l'autorite fiscale etrangere concernee"
+        "title": "Dépôt",
+        "description": "L’API fiscale VATGenius dépose la demande complexe auprès de l’autorité fiscale étrangère concernée"
       },
       {
         "step": "4",
         "title": "Versement",
-        "description": "Les fonds sont recus et distribues de maniere fluide, impactant directement les resultats de vos clients professionnels."
+        "description": "Les fonds sont reçus et distribués de manière fluide, impactant directement les résultats de vos clients professionnels."
       }
     ]
   },
