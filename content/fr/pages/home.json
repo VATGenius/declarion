@@ -1,15 +1,15 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Solutions automatisees de remboursement de TVA pour les neobanques",
-    "metaDescription": "Debloquez les remboursements de TVA etrangere : une source de revenus sans friction pour vos comptes professionnels. Permettez a vos clients professionnels de recuperer automatiquement la TVA deductible etrangere."
+    "metaTitle": "VATGenius | Solutions automatisées de remboursement de TVA pour les néobanques",
+    "metaDescription": "Débloquez les remboursements de TVA étrangère : une source de revenus sans friction pour vos comptes professionnels. Permettez à vos clients professionnels de récupérer automatiquement la TVA déductible étrangère."
   },
   "hero": {
-    "title": "Debloquez les remboursements de TVA etrangere :",
+    "title": "Débloquez les remboursements de TVA étrangère:",
     "titleHighlight": "Une source de revenus sans friction",
     "titleEnd": "pour vos comptes professionnels",
-    "description": "Permettez a vos clients professionnels de recuperer automatiquement et numeriquement la TVA deductible etrangere. Notre solution s'integre parfaitement a votre plateforme, offrant un service de recuperation complet sans aucun effort.\n\n",
-    "secondaryDescription": "Renforcez la fidelite client, augmentez le volume de transactions et proposez un nouvel outil financier puissant sans charge administrative pour votre banque.",
-    "ctaText": "Demander une demonstration en direct et une consultation partenariat",
+    "description": "Permettez à vos clients professionnels de récupérer automatiquement et numériquement la TVA déductible étrangère. Notre solution s’intègre parfaitement à votre plateforme, offrant un service de récupération complet sans aucun effort.\n",
+    "secondaryDescription": "Renforcez la fidélité client, augmentez le volume de transactions et proposez un nouvel outil financier puissant sans charge administrative pour votre banque.",
+    "ctaText": "Demander une démonstration en direct et une consultation partenariat",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
@@ -19,12 +19,12 @@
     "features": [
       {
         "title": "API Bancaire VATGenius",
-        "description": "Integration facile avec une API pour le transfert automatise de donnees depuis votre systeme bancaire. Capture, organise, traite et valide les donnees de toutes les factures et recus de vos clients professionnels.",
+        "description": "Intégration facile avec une API pour le transfert automatisé de données depuis votre système bancaire. Capture, organise, traite et valide les données de toutes les factures et reçus de vos clients professionnels.",
         "icon": "code"
       },
       {
         "title": "Moteur VATGenius",
-        "description": "Evaluation de la conformite des factures par IA, calcul des montants potentiels de remboursement de TVA etrangere, demande d'autorisation client automatique, gestion des demandes des autorites fiscales etrangeres, affichage du statut en temps reel",
+        "description": "Évaluation de la conformité des factures par IA, calcul des montants potentiels de remboursement de TVA étrangère, demande d’autorisation client automatique, gestion des demandes des autorités fiscales étrangères, affichage du statut en temps réel",
         "icon": "lightbulb"
       },
       {
