@@ -74,27 +74,27 @@
         ]
       },
       {
-        "title": "Securite des donnees et confidentialite (conforme au RGPD)",
+        "title": "Sécurité des données et confidentialité (conforme au RGPD)",
         "items": [
           {
             "label": "Architecture Zero Trust :",
             "text": "Chiffrement AES-256 au repos et TLS 1.2+ en transit"
           },
           {
-            "label": "Minimisation des donnees :",
-            "text": "Seules les donnees necessaires sont traitees conformement au RGPD"
+            "label": "Minimisation des données :",
+            "text": "Seules les données nécessaires sont traitées conformément au RGPD"
           },
           {
-            "label": "Audits reguliers :",
-            "text": "Audits de securite independants par des tiers (conformite SOC 2)"
+            "label": "Audits réguliers :",
+            "text": "Audits de sécurité indépendants par des tiers (conformité SOC 2)"
           }
         ]
       }
     ]
   },
   "secureApi": {
-    "title": "API et infrastructure securisees",
-    "description": "Notre integration est conçue pour s'integrer parfaitement sans compromettre votre posture de securite existante.",
+    "title": "API et infrastructure sécurisées",
+    "description": "Notre intégration est conçue pour s’intégrer parfaitement sans compromettre votre posture de sécurité existante.",
     "features": [
       {
         "title": "Authentification par jeton",
