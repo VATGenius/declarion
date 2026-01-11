@@ -28,27 +28,27 @@
         "icon": "lightbulb"
       },
       {
-        "title": "API Fiscale VATGenius",
-        "description": "Soumet les demandes de remboursement de TVA locales et etrangeres de maniere entierement automatique et numerique aux portails fiscaux des pays concernes.",
+        "title": "API fiscale VATGenius",
+        "description": "Soumet les demandes de remboursement de TVA locales et étrangères de manière entièrement automatique et numérique aux portails fiscaux des pays concernés.",
         "icon": "document"
       }
     ]
   },
   "benefits": {
-    "title": "Vos avantages en un coup d'oeil",
+    "title": "Vos avantages en un coup d’œil",
     "items": [
       {
         "title": "Revenus",
-        "description": "Nouvelle source de revenus passive via le partage des benefices.",
+        "description": "Nouvelle source de revenus passive via le partage des bénéfices.",
         "icon": "currency"
       },
       {
-        "title": "Fidelisation",
-        "description": "Offre des retours financiers tangibles a vos clients professionnels, renforçant leur fidelite.",
+        "title": "Fidélisation",
+        "description": "Offre des retours financiers tangibles à vos clients professionnels, renforçant leur fidélité.",
         "icon": "heart"
       },
       {
-        "title": "Differenciation",
+        "title": "Différenciation",
         "description": "Proposez un service unique et premium que vos concurrents n'ont pas.",
         "icon": "lightning"
       }
