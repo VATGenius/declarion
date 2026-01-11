@@ -41,30 +41,30 @@
     "title": "Pourquoi devenir partenaire ?",
     "items": [
       {
-        "title": "Expertise en integration neobanque",
-        "description": "Nous sommes experts dans le traitement des donnees de transactions, des releves et des formats de documentation des principales neobanques, reduisant considerablement le temps de preparation et les erreurs."
+        "title": "Expertise en intégration néobanque",
+        "description": "Nous sommes experts dans le traitement des données de transactions, des relevés et des formats de documentation des principales néobanques, réduisant considérablement le temps de préparation et les erreurs."
       },
       {
-        "title": "Service paneuropeen",
-        "description": "Support complet pour les demandes de remboursement de TVA deductible transfrontalieres (remboursements de TVA selon les 8e et 13e directives). Nous gerons de la soumission au versement final."
+        "title": "Service paneuropéen",
+        "description": "Support complet pour les demandes de remboursement de TVA déductible transfrontalières (remboursements de TVA selon les 8e et 13e directives). Nous gérons de la soumission au versement final."
       },
       {
-        "title": "Rapidite et efficacite",
-        "description": "Notre approche rationalisee et numerique d'abord permet un depot de demandes plus rapide et un traitement accelere par rapport aux methodes manuelles sur papier."
+        "title": "Rapidité et efficacité",
+        "description": "Notre approche rationalisée et numérique d’abord permet un dépôt de demandes plus rapide et un traitement accéléré par rapport aux méthodes manuelles sur papier."
       },
       {
-        "title": "Modele base sur le succes",
-        "description": "Nous fonctionnons souvent sur la base \"Pas de resultat, pas de frais\", garantissant que notre succes est directement lie au votre."
+        "title": "Modèle basé sur le succès",
+        "description": "Nous fonctionnons souvent sur la base « Pas de résultat, pas de frais », garantissant que notre succès est directement lié au vôtre."
       },
       {
-        "title": "Conformite et assurance",
-        "description": "Nous assurons que chaque demande est 100% conforme aux reglementations locales et europeennes, protegeant votre entreprise contre les futurs audits."
+        "title": "Conformité et assurance",
+        "description": "Nous assurons que chaque demande est 100 % conforme aux réglementations locales et européennes, protégeant votre entreprise contre les futurs audits."
       }
     ]
   },
   "cta": {
-    "title": "Pret a devenir partenaire de VATGenius ?",
-    "buttonText": "Demander une demonstration en direct et une consultation partenariat",
+    "title": "Prêt à devenir partenaire de VATGenius ?",
+    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
 }
