@@ -1,27 +1,27 @@
 {
   "seo": {
     "metaTitle": "Produit",
-    "metaDescription": "Monetisation de la recuperation de TVA etrangere pour les clients professionnels. Une plateforme entierement automatisee et conforme pour la recuperation de TVA B2B."
+    "metaDescription": "Monétisation de la récupération de TVA étrangère pour les clients professionnels. Une plateforme entièrement automatisée et conforme pour la récupération de TVA B2B."
   },
   "hero": {
-    "title": "Monetisation de la recuperation de TVA etrangere pour les clients professionnels",
-    "description": "Les depenses professionnelles a l'etranger (voyages, salons professionnels, services) de vos clients professionnels augmentent, mais de nombreux montants de TVA etrangere recuperables ne sont pas reclames en raison de la complexite, des reglementations variables selon les pays, des exigences de documentation, des preoccupations de conformite et du traitement manuel.",
-    "solutionText": "Notre solution : Augmenter la valeur client et generer des revenus passifs grace a une plateforme entierement automatisee et conforme pour la recuperation de TVA B2B, ne necessitant aucun effort de la part de votre client professionnel.",
+    "title": "Monétisation de la récupération de TVA étrangère pour les clients professionnels",
+    "description": "Les dépenses professionnelles à l’étranger (voyages, salons professionnels, services) de vos clients professionnels augmentent, mais de nombreux montants de TVA étrangère récupérables ne sont pas réclamés en raison de la complexité, des réglementations variables selon les pays, des exigences de documentation, des préoccupations de conformité et du traitement manuel.",
+    "solutionText": "Notre solution : Augmenter la valeur client et générer des revenus passifs grâce à une plateforme entièrement automatisée et conforme pour la récupération de TVA B2B, ne nécessitant aucun effort de la part de votre client professionnel.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "Comment ca fonctionne (le flux d'integration en 4 etapes)",
+    "title": "Comment ça fonctionne (le flux d’intégration en 4 étapes)",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
-        "title": "Acquisition des donnees",
-        "description": "Donnees de transaction automatisees via VATGenius"
+        "title": "Acquisition des données",
+        "description": "Données de transaction automatisées via VATGenius"
       },
       {
         "step": "2",
         "title": "Traitement",
-        "description": "Le moteur VATGenius verifie automatiquement les documents, les compile, calcule les montants de remboursement de TVA et fait un rapport aux clients professionnels"
+        "description": "Le moteur VATGenius vérifie automatiquement les documents, les compile, calcule les montants de remboursement de TVA et fait un rapport aux clients professionnels"
       },
       {
         "step": "3",
@@ -54,7 +54,7 @@
   },
   "compliance": {
     "title": "Conformite et securite : une confiance fondee sur l'excellence reglementaire",
-    "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la securite et le respect absolu des reglementations sont non negociables. Notre solution est con\u00e7ue pour attenuer les risques, assurant une conformite totale pour votre institution et vos clients professionnels.",
+    "description": "En tant que partenaire du secteur financier, nous comprenons que la confiance, la securite et le respect absolu des reglementations sont non negociables. Notre solution est conçue pour attenuer les risques, assurant une conformite totale pour votre institution et vos clients professionnels.",
     "sections": [
       {
         "title": "Conformite fiscale mondiale en tant que service",
@@ -94,7 +94,7 @@
   },
   "secureApi": {
     "title": "API et infrastructure securisees",
-    "description": "Notre integration est con\u00e7ue pour s'integrer parfaitement sans compromettre votre posture de securite existante.",
+    "description": "Notre integration est conçue pour s'integrer parfaitement sans compromettre votre posture de securite existante.",
     "features": [
       {
         "title": "Authentification par jeton",
