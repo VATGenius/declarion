@@ -6,7 +6,7 @@ local_backend: true
 
 backend:
   name: github
-  repo: Lionizers/vatgenius
+  repo: VATGenius/vatgenius
   branch: main
   base_url: https://vatgenius.cloud
   auth_endpoint: /api/auth
