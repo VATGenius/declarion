@@ -64,11 +64,10 @@ export function Header({ locale, ui }: HeaderProps) {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-brand ${
-                  isActive(item.href)
-                    ? 'border-b-2 border-brand pb-0.5 text-brand'
-                    : 'text-gray-600'
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-brand ${isActive(item.href)
+                  ? 'border-b-2 border-brand pb-0.5 text-brand'
+                  : 'text-gray-600'
+                  }`}
               >
                 {item.name}
               </Link>
@@ -79,7 +78,7 @@ export function Header({ locale, ui }: HeaderProps) {
           <div className="hidden items-center gap-4 md:flex">
             <LanguageSwitcher currentLocale={locale} />
             <Link
-              href={`/${locale}/sign-in`}
+              href="https://app.vatgenius.tech/"
               className="text-sm font-medium text-gray-600 hover:text-brand"
             >
               {ui.signIn}
@@ -131,9 +130,8 @@ export function Header({ locale, ui }: HeaderProps) {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`text-base font-medium hover:text-brand ${
-                    isActive(item.href) ? 'text-brand' : 'text-gray-600'
-                  }`}
+                  className={`text-base font-medium hover:text-brand ${isActive(item.href) ? 'text-brand' : 'text-gray-600'
+                    }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
@@ -141,7 +139,7 @@ export function Header({ locale, ui }: HeaderProps) {
               ))}
               <hr className="my-2" />
               <Link
-                href={`/${locale}/sign-in`}
+                href="https://app.vatgenius.tech/"
                 className="text-base font-medium text-gray-600 hover:text-brand"
                 onClick={() => setMobileMenuOpen(false)}
               >
