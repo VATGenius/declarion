@@ -44,7 +44,7 @@
       },
       {
         "title": "Fidélisation",
-        "description": "Offre des retours financiers tangibles à vos clients professionnels, renforçant leur fidélité.",
+        "description": "Offrez à vos clients professionnels des retours financiers tangibles et des solutions complètes pour la récupération et la gestion de la TVA, renforçant durablement leur fidélité.",
         "icon": "heart"
       },
       {
@@ -64,8 +64,8 @@
     ]
   },
   "cta": {
-    "title": "Prêt à débloquer de nouvelles sources de revenus ?",
-    "description": "Rejoignez les néobanques leaders en proposant des services automatisés de remboursement de TVA à vos clients professionnels.",
+    "title": "Prêt à débloquer de nouvelles sources de revenus grâce aux remboursements de TVA étrangère et à la gestion des obligations TVA locales?",
+    "description": "Rejoignez les néobanques leaders en offrant à vos clients professionnels des solutions automatisées de récupération de TVA étrangère et de conformité aux obligations de TVA nationales.",
     "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
