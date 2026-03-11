@@ -7,8 +7,8 @@
     "title": "Débloquez les remboursements de TVA étrangère et automatisez la gestion de vos obligations TVA nationales et internationales.",
     "titleHighlight": "Une source de revenus sans friction pour la récupération et la conformité TVA",
     "titleEnd": "pour la gestion de votre TVA sur vos comptes professionnels.",
-    "description": "Permettez à vos clients professionnels de récupérer automatiquement et numériquement la TVA déductible étrangère. Notre solution s’intègre parfaitement à votre plateforme, offrant un service de récupération complet sans aucun effort.\n",
-    "secondaryDescription": "Renforcez la fidélité client, augmentez le volume de transactions et proposez un nouvel outil financier puissant sans charge administrative pour votre banque.",
+    "description": "Permettez à vos clients professionnels de récupérer automatiquement la TVA étrangère et de gérer facilement leurs obligations de TVA nationales grâce à une solution entièrement numérique. Notre solution s’intègre parfaitement à votre plateforme et offre un service complet: récupération de TVA, conformité et gestion des obligations fiscales — sans aucun effort pour vos clients.\n",
+    "secondaryDescription": "Renforcez la fidélité client, augmentez le volume de transactions et offrez à vos clients un outil financier puissant pour la récupération de TVA étrangère et la gestion des obligations nationales de TVA – sans charge administrative pour votre banque.",
     "ctaText": "Demander une démonstration en direct et une consultation partenariat",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -18,7 +18,7 @@
     "description": "",
     "features": [
       {
-        "title": "API Bancaire VATGenius",
+        "title": "VATGenius API",
         "description": "Intégration facile avec une API pour le transfert automatisé de données depuis votre système bancaire. Capture, organise, traite et valide les données de toutes les factures et reçus de vos clients professionnels.",
         "icon": "code"
       },
