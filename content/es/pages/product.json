@@ -44,32 +44,32 @@
       },
       {
         "title": "Importe máximo",
-        "description": "La verificación asistida por IA garantiza el máximo potencial de reembolsos de IVA."
+        "description": "La verificación asistida por IA maximiza el potencial de reembolsos de IVA y garantiza el cumplimiento de las obligaciones de IVA."
       },
       {
         "title": "Transparencia total",
-        "description": "Acceda al estado de la solicitud en cualquier momento a través del panel de control bancario."
+        "description": "Acceda en cualquier momento al estado de sus solicitudes y obligaciones de IVA a través del panel de control."
       }
     ]
   },
   "compliance": {
     "title": "Cumplimiento y seguridad: Confianza basada en excelencia regulatoria",
-    "description": "Como socio en el sector financiero, entendemos que la confianza, la seguridad y el cumplimiento regulatorio inquebrantable no son negociables. Nuestra solución está diseñada para mitigar riesgos, garantizando el cumplimiento total tanto para su institución como para sus clientes empresariales.",
+    "description": "Como socio en el sector financiero, entendemos que la confianza, la seguridad y el cumplimiento regulatorio inquebrantable no son negociables. Nuestras soluciones están diseñadas para ayudar a las instituciones financieras a ofrecer a sus clientes empresariales tanto la recuperación del IVA extranjero como el cumplimiento eficiente de sus obligaciones de IVA nacionales. Al mismo tiempo, mitigamos riesgos y garantizamos el cumplimiento normativo total, tanto para su institución como para sus clientes.",
     "sections": [
       {
-        "title": "Cumplimiento fiscal global como servicio",
+        "title": "Cumplimiento global del IVA como servicio",
         "items": [
           {
             "label": "Experiencia dedicada:",
-            "text": "Especialistas fiscales internacionales que gestionan todas las regulaciones relevantes"
+            "text": "Especialistas fiscales internacionales que gestionan todas las obligaciones y regulaciones relevantes en materia de IVA."
           },
           {
             "label": "Transferencia de riesgo:",
-            "text": "Transfiera toda la carga regulatoria a nosotros"
+            "text": "Transfiera todas sus obligaciones de cumplimiento del IVA a nosotros."
           },
           {
             "label": "Preparación para auditorías:",
-            "text": "Reclamaciones totalmente auditables y defendibles"
+            "text": "Procesos de IVA totalmente auditables y defendibles"
           }
         ]
       },
@@ -94,7 +94,7 @@
   },
   "secureApi": {
     "title": "API e infraestructura seguras",
-    "description": "Nuestra integración está diseñada para integrarse perfectamente sin comprometer su postura de seguridad existente.",
+    "description": "Nuestra integración está diseñada para integrarse a la perfección sin comprometer su postura de seguridad actual.",
     "features": [
       {
         "title": "Autenticación basada en tokens",
@@ -108,7 +108,7 @@
   },
   "cta": {
     "title": "¿Listo para comenzar?",
-    "description": "Descubra cómo VATGenius puede ayudar a sus clientes empresariales a recuperar el IVA extranjero.",
+    "description": "Descubra cómo VATGenius puede ayudar a sus clientes empresariales a recuperar el IVA extranjero y a gestionar sus obligaciones de IVA nacionales de forma eficiente.",
     "buttonText": "Solicite una demostración en vivo y consulta de asociación",
     "buttonLink": "/demo"
   }
