@@ -1,14 +1,14 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Automated VAT Refund Solutions for Neobanks",
-    "metaDescription": "Unlock Foreign VAT Refunds: A Frictionless Revenue Stream for Your Business Accounts. Empower your business customers to claim back foreign Input VAT automatically."
+    "metaTitle": "VATGenius | Automated VAT solutions for refunds and national VAT compliance",
+    "metaDescription": "Enable businesses to automatically reclaim foreign input tax while seamlessly managing and fulfilling their national VAT obligations."
   },
   "hero": {
-    "title": "Unlock Foreign VAT Refunds:",
-    "titleHighlight": "A Frictionless Revenue Stream",
-    "titleEnd": "for Your Business Accounts",
-    "description": "Empower your business customers to claim back foreign Input VAT automatically and digitally. Our solution integrates seamlessly into your platform, providing a zero-effort, end-to-end recovery service.\n\n",
-    "secondaryDescription": "Boost customer loyalty, increase transaction volume, and offer a powerful new financial tool without administrative overhead for your bank.",
+    "title": "Efficient VAT: Domestic compliance, foreign refunds.",
+    "titleHighlight": "Relief from compliance burden and additional revenue",
+    "titleEnd": "for your businesses",
+    "description": "Enable businesses to manage their VAT automatically and digitally – from reclaiming foreign input VAT to fulfilling national VAT obligations. Our solution integrates seamlessly into existing platforms and delivers a consistent end-to-end VAT management experience.\n",
+    "secondaryDescription": "The integration with neobanks strengthens customer loyalty, increases transaction volume, and expands the offering with powerful solutions for foreign VAT refunds as well as the handling of national VAT obligations – all without additional administrative effort.",
     "ctaText": "Request a Live Demo & Partnership Consultation",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -18,33 +18,33 @@
     "description": "",
     "features": [
       {
-        "title": "VATGenius Bank API",
-        "description": "Easy integration with API for automated data transfer from your bank system. Captures, organizes, processes, and validates data from all the invoices and receipts of your business customers.",
+        "title": "VATGenius API",
+        "description": "Easy API integration enables automated data transfer from ERP and banking systems. Captures, organizes, processes, and validates invoice and receipt data to power foreign VAT recovery and domestic VAT compliance solutions for businesses and neobank platforms.",
         "icon": "code"
       },
       {
         "title": "VATGenius Engine",
-        "description": "AI-powered invoice compliance assessment, Calculate potential foreign VAT refund amounts, Request customer authorization automatically, Handle inquiries from foreign tax authorities, Real-time status display",
+        "description": "AI-powered invoice and VAT compliance assessment (domestic and cross-border)\nCalculate potential foreign VAT refund amounts and identify reclaim opportunities\nSupport compliance with national VAT obligations (registrations, filings, and reporting)\nAutomated customer authorization and onboarding\nHandle inquiries from domestic and foreign tax authorities\nReal-time status tracking for refunds, filings, and compliance processes",
         "icon": "lightbulb"
       },
       {
         "title": "VATGenius TAX API",
-        "description": "Submits local and foreign VAT refund applications fully automatically and digitally to the tax portals of the relevant countries.",
+        "description": "Automates the submission of local and foreign VAT filings and refund applications, transmitting them digitally to the tax portals of the relevant countries.",
         "icon": "document"
       }
     ]
   },
   "benefits": {
-    "title": "Your Advantages & Benefits at a Glance",
+    "title": "Advantages & Benefits at a Glance",
     "items": [
       {
         "title": "Revenue",
-        "description": "New, passive revenue stream via profit-share.",
+        "description": "New, passive revenue stream from foreign VAT refund.",
         "icon": "currency"
       },
       {
         "title": "Retention",
-        "description": "Delivers tangible financial returns to your business customers, boosting loyalty.",
+        "description": "Delivers tangible financial returns and compliance value, boosting loyalty.",
         "icon": "heart"
       },
       {
@@ -56,7 +56,7 @@
   },
   "security": {
     "title": "Security and Compliance",
-    "description": "At VATGenius, implementing effective cybersecurity measures is fundamental to ensuring the protection of sensitive data and thereby securing the trust of our customers.",
+    "description": "At VATGenius, implementing effective cybersecurity measures is fundamental to protecting sensitive data and maintaining the trust of our customers. As our platform provides solutions for both the recovery of foreign VAT and the management of domestic VAT compliance obligations for businesses and clients of neobanks, safeguarding financial and transactional data is a core priority.",
     "features": [
       "Encryption protocols and multi-factor authentication for access controls",
       "Careful review of every aspect of data processing",
@@ -64,8 +64,8 @@
     ]
   },
   "cta": {
-    "title": "Ready to Unlock New Revenue Streams?",
-    "description": "Join leading neobanks in offering automated VAT refund services to your business customers.",
+    "title": "Turn VAT Compliance into a Revenue Opportunity",
+    "description": "Foreign VAT recovery and national VAT compliance, embedded directly in your platform.",
     "buttonText": "Request a Live Demo & Partnership Consultation",
     "buttonLink": "/demo"
   }
