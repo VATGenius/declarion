@@ -1,14 +1,14 @@
 {
   "seo": {
     "metaTitle": "VATGenius | Automated VAT solutions for refunds and national VAT compliance",
-    "metaDescription": "Enable business to automatically reclaim foreign input tax while helping them efficiently fulfill their national VAT obligations."
+    "metaDescription": "Enable businesses to automatically reclaim foreign input tax while seamlessly managing and fulfilling their national VAT obligations."
   },
   "hero": {
     "title": "Efficient VAT: Domestic compliance, foreign refunds.",
     "titleHighlight": "Relief from compliance burden and additional revenue",
     "titleEnd": "for your businesses",
-    "description": "Enable businesses to handle their VAT automatically and digitally – from reclaiming foreign input VAT to fulfilling national VAT obligations. Our solution integrates seamlessly into existing platforms and offers a consistent end-to-end process.\n\n",
-    "secondaryDescription": "The integration to Neobanks strengthens customer loyalty, increases transaction volume, and expands the offering with powerful solutions for foreign VAT refunds and the fulfillment of national VAT obligations – without additional administrative effort.",
+    "description": "Enable businesses to manage their VAT automatically and digitally – from reclaiming foreign input VAT to fulfilling national VAT obligations. Our solution integrates seamlessly into existing platforms and delivers a consistent end-to-end VAT management experience.\n",
+    "secondaryDescription": "The integration with neobanks strengthens customer loyalty, increases transaction volume, and expands the offering with powerful solutions for foreign VAT refunds as well as the handling of national VAT obligations – all without additional administrative effort.",
     "ctaText": "Request a Live Demo & Partnership Consultation",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -19,7 +19,7 @@
     "features": [
       {
         "title": "VATGenius API",
-        "description": "Easy integration with API for automated data transfer from ERP and banking systems. Captures, organizes, processes, and validates data from all the invoices and receipts of businesses.",
+        "description": "Easy API integration enables automated data transfer from ERP and banking systems. Captures, organizes, processes, and validates invoice and receipt data to power foreign VAT recovery and domestic VAT compliance solutions for businesses and neobank platforms.",
         "icon": "code"
       },
       {
