@@ -6,7 +6,7 @@
   "hero": {
     "title": "Efficient VAT: Domestic compliance, foreign refunds.",
     "titleHighlight": "Relief from compliance burden and additional revenue",
-    "titleEnd": "for your businesses",
+    "titleEnd": "for you and your business customers",
     "description": "Enable businesses to manage their VAT automatically and digitally – from reclaiming foreign input VAT to fulfilling national VAT obligations. Our solution integrates seamlessly into existing platforms and delivers a consistent end-to-end VAT management experience.\n",
     "secondaryDescription": "The integration with neobanks strengthens customer loyalty, increases transaction volume, and expands the offering with powerful solutions for foreign VAT refunds as well as the handling of national VAT obligations – all without additional administrative effort.",
     "ctaText": "Request a Live Demo & Partnership Consultation",
@@ -24,7 +24,7 @@
       },
       {
         "title": "VATGenius Engine",
-        "description": "AI-powered invoice and VAT compliance assessment (domestic and cross-border)\nCalculate potential foreign VAT refund amounts and identify reclaim opportunities\nSupport compliance with national VAT obligations (registrations, filings, and reporting)\nAutomated customer authorization and onboarding\nHandle inquiries from domestic and foreign tax authorities\nReal-time status tracking for refunds, filings, and compliance processes",
+        "description": "AI-powered invoice and VAT compliance assessment (domestic and cross-border). Calculate potential foreign VAT refund amounts and identify reclaim opportunities. Support compliance with national VAT obligations (registrations, filings, and reporting) Automated customer authorization and onboarding. Handle inquiries from domestic and foreign tax authorities. Real-time status tracking for refunds, filings, and compliance processes.",
         "icon": "lightbulb"
       },
       {
@@ -56,7 +56,7 @@
   },
   "security": {
     "title": "Security and Compliance",
-    "description": "At VATGenius, implementing effective cybersecurity measures is fundamental to protecting sensitive data and maintaining the trust of our customers. As our platform provides solutions for both the recovery of foreign VAT and the management of domestic VAT compliance obligations for businesses and clients of neobanks, safeguarding financial and transactional data is a core priority.",
+    "description": "At VATGenius, implementing effective cybersecurity measures is fundamental to protecting sensitive data and maintaining the trust of our customers. Our platform supports both the recovery of foreign VAT and the management of domestic VAT compliance obligations for businesses and clients of neobanks. As we process sensitive financial and transactional information across multiple tax jurisdictions, safeguarding this data through robust security practices is a core priority.",
     "features": [
       "Encryption protocols and multi-factor authentication for access controls",
       "Careful review of every aspect of data processing",
