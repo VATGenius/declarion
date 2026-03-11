@@ -1,12 +1,12 @@
 {
   "seo": {
     "metaTitle": "Product",
-    "metaDescription": "Monetizing Foreign VAT Reclaim for Business Customers. A fully automated, compliance-assured platform for B2B VAT recovery."
+    "metaDescription": "Monetizing VAT Compliance for Business Customers. A fully automated, compliance-assured platform for foreign VAT recovery and domestic VAT obligations."
   },
   "hero": {
-    "title": "Monetizing Foreign VAT Reclaim for Business Customers",
-    "description": "Foreign business expenses (travel, trade shows, services) of your business customers are increasing, but many recoverable foreign VAT amounts are not claimed due to complexity, varying country regulations, documentation requirements, compliance concerns, and manual processing.",
-    "solutionText": "Our Solution: Elevating customer value and generating passive revenue through a fully automated, compliance-assured platform for B2B VAT recovery, requiring zero effort from your business customer.",
+    "title": "Monetizing VAT Reclaim and Compliance for Business Customers",
+    "description": "Foreign business expenses (travel, trade shows, services) of business are increasing, while many recoverable VAT amounts and domestic VAT obligations remain inefficiently managed. Complex regulations, varying country requirements, documentation challenges, compliance risks, and manual processes make VAT recovery and VAT compliance a significant burden for businesses.",
+    "solutionText": "Our Solution: Elevating customer value and generating passive revenue through a fully automated, compliance-assured platform for B2B VAT recovery and domestic VAT compliance — enabling businesses to reclaim foreign VAT and meet national VAT obligations effortlessly.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
@@ -21,34 +21,34 @@
       {
         "step": "2",
         "title": "Processing",
-        "description": "The VATGenius Engine automatically checks documents, compiles them, calculates VAT refund amounts and reports to business customers"
+        "description": "The VATGenius Engine automatically analyzes documents and transactions, calculates VAT amounts, and enables both foreign VAT recovery and domestic VAT compliance for businesses and embedded finance platforms."
       },
       {
         "step": "3",
         "title": "Filing",
-        "description": "The VATGenius TAX API files the complex application to the relevant foreign tax authority"
+        "description": "The VATGenius TAX API automates VAT refunds and domestic VAT filings with the relevant tax authorities."
       },
       {
         "step": "4",
         "title": "Pay-Out",
-        "description": "Funds are received and disbursed seamlessly, directly impacting your business customers results."
+        "description": "Funds are received and disbursed seamlessly, directly impacting your business customers’ VAT results across both foreign VAT recovery and domestic VAT compliance."
       }
     ]
   },
   "customerBenefit": {
-    "title": "Your Customer Benefit",
+    "title": "Customer Benefit",
     "items": [
       {
         "title": "No Effort",
-        "description": "Fully automated identification of refundable VAT."
+        "description": "Fully automated identification of refundable VAT and national VAT compliance obligations."
       },
       {
         "title": "Maximum Amount",
-        "description": "AI-supported verification ensures the full potential of VAT refunds."
+        "description": "AI-supported verification maximizes VAT refunds while ensuring seamless compliance with national VAT obligations."
       },
       {
         "title": "Complete Transparency",
-        "description": "Access the status of the application at any time via the banking dashboard."
+        "description": "Access the status of your VAT refunds and domestic VAT obligations at any time via the dashboard."
       }
     ]
   },
