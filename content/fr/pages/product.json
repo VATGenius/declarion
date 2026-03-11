@@ -21,17 +21,17 @@
       {
         "step": "2",
         "title": "Traitement",
-        "description": "Le moteur VATGenius vérifie automatiquement les documents, les compile, calcule les montants de remboursement de TVA et fait un rapport aux clients professionnels"
+        "description": "Le moteur VATGenius vérifie automatiquement les documents, les compile, calcule les montants de remboursement de TVA et prend en charge les obligations nationales en matière de TVA, tout en fournissant un rapport détaillé aux clients professionnels."
       },
       {
         "step": "3",
         "title": "Dépôt",
-        "description": "L’API fiscale VATGenius dépose la demande complexe auprès de l’autorité fiscale étrangère concernée"
+        "description": "L’API fiscale VATGenius automatise les démarches de TVA : remboursement de TVA étrangère et gestion des obligations de TVA nationales pour les entreprises et les clients professionnels des néobanques."
       },
       {
         "step": "4",
         "title": "Versement",
-        "description": "Les fonds sont reçus et distribués de manière fluide, impactant directement les résultats de vos clients professionnels."
+        "description": "La TVA est récupérée, déclarée et gérée de manière fluide à l’échelle internationale et nationale, avec un impact direct sur les résultats de vos clients professionnels."
       }
     ]
   },
