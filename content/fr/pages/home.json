@@ -1,14 +1,14 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Solutions automatisées de remboursement de TVA pour les néobanques",
-    "metaDescription": "Débloquez les remboursements de TVA étrangère : une source de revenus sans friction pour vos comptes professionnels. Permettez à vos clients professionnels de récupérer automatiquement la TVA déductible étrangère."
+    "metaTitle": "VATGenius | Solutions automatisées de remboursement de TVA et de conformité TVA",
+    "metaDescription": "Transformez la TVA en valeur ajoutée pour vos comptes professionnels.\nOffrez à vos clients la récupération automatique de la TVA étrangère et des solutions simples pour gérer leurs obligations de TVA nationales."
   },
   "hero": {
-    "title": "Débloquez les remboursements de TVA étrangère :",
-    "titleHighlight": "Une source de revenus sans friction",
-    "titleEnd": "pour vos comptes professionnels",
-    "description": "Permettez à vos clients professionnels de récupérer automatiquement et numériquement la TVA déductible étrangère. Notre solution s’intègre parfaitement à votre plateforme, offrant un service de récupération complet sans aucun effort.\n",
-    "secondaryDescription": "Renforcez la fidélité client, augmentez le volume de transactions et proposez un nouvel outil financier puissant sans charge administrative pour votre banque.",
+    "title": "Débloquez les remboursements de TVA étrangère et automatisez la gestion de vos obligations TVA nationales et internationales.",
+    "titleHighlight": "Une source de revenus sans friction pour la récupération et la conformité TVA",
+    "titleEnd": "pour la gestion de votre TVA sur vos comptes professionnels.",
+    "description": "Permettez à vos clients professionnels de récupérer automatiquement la TVA étrangère et de gérer facilement leurs obligations de TVA nationales grâce à une solution entièrement numérique. Notre solution s’intègre parfaitement à votre plateforme et offre un service complet: récupération de TVA, conformité et gestion des obligations fiscales — sans aucun effort pour vos clients.\n",
+    "secondaryDescription": "Renforcez la fidélité client, augmentez le volume de transactions et offrez à vos clients un outil financier puissant pour la récupération de TVA étrangère et la gestion des obligations nationales de TVA – sans charge administrative pour votre banque.",
     "ctaText": "Demander une démonstration en direct et une consultation partenariat",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -18,18 +18,18 @@
     "description": "",
     "features": [
       {
-        "title": "API Bancaire VATGenius",
-        "description": "Intégration facile avec une API pour le transfert automatisé de données depuis votre système bancaire. Capture, organise, traite et valide les données de toutes les factures et reçus de vos clients professionnels.",
+        "title": "API VATGenius",
+        "description": "Intégration simple via API pour le transfert automatisé des données depuis votre ERP ou système bancaire. Capturez, organisez, traitez et validez les données de toutes les factures et reçus de vos clients professionnels afin d’automatiser la récupération de TVA étrangère et la gestion de leurs obligations de TVA nationales.",
         "icon": "code"
       },
       {
         "title": "Moteur VATGenius",
-        "description": "Évaluation de la conformité des factures par IA, calcul des montants potentiels de remboursement de TVA étrangère, demande d’autorisation client automatique, gestion des demandes des autorités fiscales étrangères, affichage du statut en temps réel",
+        "description": "Évaluation automatisée de la conformité des factures par IA, calcul des montants potentiels de remboursement de TVA étrangère ainsi que des obligations de TVA nationales, autorisation client automatisée, gestion des interactions avec les autorités fiscales nationales et étrangères, et suivi du statut en temps réel.",
         "icon": "lightbulb"
       },
       {
         "title": "API fiscale VATGenius",
-        "description": "Soumet les demandes de remboursement de TVA locales et étrangères de manière entièrement automatique et numérique aux portails fiscaux des pays concernés.",
+        "description": "Soumet de manière entièrement automatisée et numérique les demandes de remboursement de TVA étrangères ainsi que les déclarations et obligations de TVA nationales aux portails fiscaux des pays concernés.",
         "icon": "document"
       }
     ]
@@ -39,12 +39,12 @@
     "items": [
       {
         "title": "Revenus",
-        "description": "Nouvelle source de revenus passive via le partage des bénéfices.",
+        "description": "Nouvelle source de revenus passifs grâce au partage des bénéfices sur les solutions de TVA internationales et nationales.",
         "icon": "currency"
       },
       {
         "title": "Fidélisation",
-        "description": "Offre des retours financiers tangibles à vos clients professionnels, renforçant leur fidélité.",
+        "description": "Offrez à vos clients professionnels des retours financiers tangibles et des solutions complètes pour la récupération et la gestion de la TVA, renforçant durablement leur fidélité.",
         "icon": "heart"
       },
       {
@@ -64,8 +64,8 @@
     ]
   },
   "cta": {
-    "title": "Prêt à débloquer de nouvelles sources de revenus ?",
-    "description": "Rejoignez les néobanques leaders en proposant des services automatisés de remboursement de TVA à vos clients professionnels.",
+    "title": "Prêt à débloquer de nouvelles sources de revenus grâce aux remboursements de TVA étrangère et à la gestion des obligations TVA locales?",
+    "description": "Rejoignez les néobanques leaders en offrant à vos clients professionnels des solutions automatisées de récupération de TVA étrangère et de conformité aux obligations de TVA nationales.",
     "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
