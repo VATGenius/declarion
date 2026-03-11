@@ -8,7 +8,7 @@
     "titleHighlight": "Relief from compliance burden and additional revenue",
     "titleEnd": "for your businesses",
     "description": "Enable businesses to handle their VAT automatically and digitally – from reclaiming foreign input VAT to fulfilling national VAT obligations. Our solution integrates seamlessly into existing platforms and offers a consistent end-to-end process.\n\n",
-    "secondaryDescription": "Boost customer loyalty, increase transaction volume, and offer a powerful new financial tool without administrative overhead for your bank.",
+    "secondaryDescription": "The integration to Neobanks strengthens customer loyalty, increases transaction volume, and expands the offering with powerful solutions for foreign VAT refunds and the fulfillment of national VAT obligations – without additional administrative effort.",
     "ctaText": "Request a Live Demo & Partnership Consultation",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -18,18 +18,18 @@
     "description": "",
     "features": [
       {
-        "title": "VATGenius Bank API",
-        "description": "Easy integration with API for automated data transfer from your bank system. Captures, organizes, processes, and validates data from all the invoices and receipts of your business customers.",
+        "title": "VATGenius API",
+        "description": "Easy integration with API for automated data transfer from ERP and banking systems. Captures, organizes, processes, and validates data from all the invoices and receipts of businesses.",
         "icon": "code"
       },
       {
         "title": "VATGenius Engine",
-        "description": "AI-powered invoice compliance assessment, Calculate potential foreign VAT refund amounts, Request customer authorization automatically, Handle inquiries from foreign tax authorities, Real-time status display",
+        "description": "AI-powered invoice and VAT compliance assessment (domestic and cross-border)\nCalculate potential foreign VAT refund amounts and identify reclaim opportunities\nSupport compliance with national VAT obligations (registrations, filings, and reporting)\nAutomated customer authorization and onboarding\nHandle inquiries from domestic and foreign tax authorities\nReal-time status tracking for refunds, filings, and compliance processes",
         "icon": "lightbulb"
       },
       {
         "title": "VATGenius TAX API",
-        "description": "Submits local and foreign VAT refund applications fully automatically and digitally to the tax portals of the relevant countries.",
+        "description": "Automates the submission of local and foreign VAT filings and refund applications, transmitting them digitally to the tax portals of the relevant countries.",
         "icon": "document"
       }
     ]
