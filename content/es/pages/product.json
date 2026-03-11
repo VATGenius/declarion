@@ -1,12 +1,12 @@
 {
   "seo": {
     "metaTitle": "Producto",
-    "metaDescription": "Monetización de la reclamación de IVA extranjero para clientes empresariales. Una plataforma totalmente automatizada y con cumplimiento garantizado para la recuperación de IVA B2B."
+    "metaDescription": "Monetización del IVA para clientes empresariales.\nUna plataforma totalmente automatizada y con cumplimiento garantizado para la recuperación de IVA extranjero y la gestión de obligaciones de IVA nacionales en el ámbito B2B."
   },
   "hero": {
-    "title": "Monetización de la reclamación de IVA extranjero para clientes empresariales",
-    "description": "Los gastos empresariales en el extranjero (viajes, ferias comerciales, servicios) de sus clientes empresariales están aumentando, pero muchos importes de IVA extranjero recuperables no se reclaman debido a la complejidad, las diferentes regulaciones de cada país, los requisitos de documentación, las preocupaciones de cumplimiento y el procesamiento manual.",
-    "solutionText": "Nuestra solución: Elevar el valor para el cliente y generar ingresos pasivos a través de una plataforma totalmente automatizada y con cumplimiento garantizado para la recuperación de IVA B2B, sin requerir ningún esfuerzo por parte de su cliente empresarial.",
+    "title": "Monetización de servicios de cumplimiento y recuperación de IVA para clientes empresariales",
+    "description": "Los gastos empresariales en el extranjero (viajes, ferias comerciales, servicios) de sus clientes empresariales están aumentando. Sin embargo, muchos importes de IVA recuperables —tanto de IVA extranjero como de obligaciones de IVA nacionales— no se gestionan o no se reclaman debido a la complejidad normativa, las diferentes regulaciones de cada país, los requisitos de documentación, las preocupaciones de cumplimiento y los procesos manuales.",
+    "solutionText": "Nuestra solución: aumentar el valor para el cliente y generar ingresos pasivos mediante una plataforma totalmente automatizada y con cumplimiento garantizado que integra la recuperación de IVA B2B en el extranjero y la gestión de obligaciones de IVA nacionales, sin requerir ningún esfuerzo manual por parte de su cliente empresarial.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
@@ -16,22 +16,22 @@
       {
         "step": "1",
         "title": "Adquisición de datos",
-        "description": "Datos de transacciones automatizados mediante VATGenius"
+        "description": "Datos de transacciones automatizados mediante VATGenius."
       },
       {
         "step": "2",
         "title": "Procesamiento",
-        "description": "El motor VATGenius verifica automáticamente los documentos, los compila, calcula los importes de reembolso de IVA e informa a los clientes empresariales"
+        "description": "El motor de VATGenius verifica automáticamente los documentos, los compila, calcula los importes de reembolso de IVA y facilita el cumplimiento de las obligaciones de IVA tanto en el extranjero como a nivel nacional, informando de forma transparente a los clientes empresariales."
       },
       {
         "step": "3",
         "title": "Presentación",
-        "description": "La API TAX de VATGenius presenta la compleja solicitud ante la autoridad fiscal extranjera correspondiente"
+        "description": "La API TAX de VATGenius automatiza los procesos complejos relacionados con el IVA, desde la recuperación del IVA extranjero hasta el cumplimiento de obligaciones de IVA nacionales mediante la presentación ante las autoridades fiscales correspondientes."
       },
       {
         "step": "4",
         "title": "Desembolso",
-        "description": "Los fondos se reciben y desembolsan sin problemas, impactando directamente en los resultados de sus clientes empresariales."
+        "description": "Las obligaciones y recuperaciones de IVA se gestionan sin fricciones, generando un impacto directo en los resultados de sus clientes empresariales."
       }
     ]
   },
@@ -40,7 +40,7 @@
     "items": [
       {
         "title": "Sin esfuerzo",
-        "description": "Identificación totalmente automatizada del IVA reembolsable."
+        "description": "Identificación totalmente automatizada del IVA recuperable y de las obligaciones de IVA."
       },
       {
         "title": "Importe máximo",
