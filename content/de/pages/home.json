@@ -24,12 +24,12 @@
       },
       {
         "title": "VATGenius Engine",
-        "description": "KI-gestützte Bewertung der Rechnungs-Compliance, Berechnung potenzieller ausländischer USt-Erstattungsbeträge, automatisierte Einholung der Kundenautorisierung, Bearbeitung von Anfragen ausländischer Steuerbehörden sowie Echtzeit-Statusanzeige.",
+        "description": "KI-gestützte Prüfung der Rechnungs-Compliance, Berechnung potenzieller ausländischer Umsatzsteuer-Erstattungen sowie digitale Lösungen zur Erfüllung nationaler Umsatzsteuerpflichten. Die Plattform umfasst zudem die automatisierte Einholung der Kundenautorisierung, die Bearbeitung von Anfragen ausländischer Steuerbehörden und eine Echtzeit-Statusanzeige.",
         "icon": "lightbulb"
       },
       {
         "title": "VATGenius TAX API",
-        "description": "Vollautomatische und digitale Einreichung inländischer und ausländischer USt-Erstattungsanträge über die Steuerportale der jeweiligen Länder.",
+        "description": "Vollautomatische und digitale Einreichung inländischer Umsatzsteuererklärungen sowie ausländischer Umsatzsteuer-Erstattungsanträge über die jeweiligen nationalen Steuerportale.",
         "icon": "document"
       }
     ]
@@ -64,8 +64,8 @@
     ]
   },
   "cta": {
-    "title": "Bereit, neue Einnahmequellen zu erschließen?",
-    "description": "Schließen Sie sich führenden Neobanken an und bieten Sie Ihren Geschäftskunden automatisierte USt-Erstattungsdienste.",
+    "title": "Bereit, neue Einnahmequellen zu erschließen – mit Umsatzsteuerlösungen für Erstattung und Compliance?",
+    "description": "Schließen Sie sich führenden Neobanken an und bieten Sie Ihren Geschäftskunden automatisierte Lösungen für Umsatzsteuererstattungen und die Erfüllung nationaler Umsatzsteuerpflichten.",
     "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
