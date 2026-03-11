@@ -18,18 +18,18 @@
     "description": "",
     "features": [
       {
-        "title": "VATGenius API",
-        "description": "Intégration facile avec une API pour le transfert automatisé de données depuis votre système bancaire. Capture, organise, traite et valide les données de toutes les factures et reçus de vos clients professionnels.",
+        "title": "API VATGenius",
+        "description": "Intégration simple via API pour le transfert automatisé des données depuis votre ERP ou système bancaire. Capturez, organisez, traitez et validez les données de toutes les factures et reçus de vos clients professionnels afin d’automatiser la récupération de TVA étrangère et la gestion de leurs obligations de TVA nationales.",
         "icon": "code"
       },
       {
         "title": "Moteur VATGenius",
-        "description": "Évaluation de la conformité des factures par IA, calcul des montants potentiels de remboursement de TVA étrangère, demande d’autorisation client automatique, gestion des demandes des autorités fiscales étrangères, affichage du statut en temps réel",
+        "description": "Évaluation automatisée de la conformité des factures par IA, calcul des montants potentiels de remboursement de TVA étrangère ainsi que des obligations de TVA nationales, autorisation client automatisée, gestion des interactions avec les autorités fiscales nationales et étrangères, et suivi du statut en temps réel.",
         "icon": "lightbulb"
       },
       {
         "title": "API fiscale VATGenius",
-        "description": "Soumet les demandes de remboursement de TVA locales et étrangères de manière entièrement automatique et numérique aux portails fiscaux des pays concernés.",
+        "description": "Soumet de manière entièrement automatisée et numérique les demandes de remboursement de TVA étrangères ainsi que les déclarations et obligations de TVA nationales aux portails fiscaux des pays concernés.",
         "icon": "document"
       }
     ]
@@ -39,7 +39,7 @@
     "items": [
       {
         "title": "Revenus",
-        "description": "Nouvelle source de revenus passive via le partage des bénéfices.",
+        "description": "Nouvelle source de revenus passifs grâce au partage des bénéfices sur les solutions de TVA internationales et nationales.",
         "icon": "currency"
       },
       {
