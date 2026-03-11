@@ -1,14 +1,14 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Soluciones automatizadas de reembolso de IVA para Neobancos",
-    "metaDescription": "Desbloquee los reembolsos de IVA extranjero: Una fuente de ingresos sin fricciones para sus cuentas empresariales. Permita a sus clientes empresariales reclamar automáticamente el IVA soportado extranjero."
+    "metaTitle": "VATGenius | Soluciones automatizadas de IVA: reembolsos internacionales y cumplimiento fiscal para Neobancos",
+    "metaDescription": "Desbloquee todo el potencial del IVA para sus clientes empresariales.\nUna solución sin fricciones para recuperar IVA extranjero y cumplir con obligaciones de IVA.\nPermita a sus clientes empresariales reclamar automáticamente el IVA soportado en el extranjero y gestionar sus obligaciones fiscales en distintos países."
   },
   "hero": {
-    "title": "Desbloquee los reembolsos de IVA extranjero:",
-    "titleHighlight": "Una fuente de ingresos sin fricciones",
-    "titleEnd": "para sus cuentas empresariales",
-    "description": "Permita a sus clientes empresariales reclamar el IVA soportado extranjero de forma automática y digital. Nuestra solución se integra perfectamente en su plataforma, proporcionando un servicio de recuperación integral sin esfuerzo.\n\n",
-    "secondaryDescription": "Aumente la fidelidad del cliente, incremente el volumen de transacciones y ofrezca una nueva y potente herramienta financiera sin carga administrativa para su banco.",
+    "title": "Desbloquee todo el potencial del IVA:",
+    "titleHighlight": "Recupere el IVA extranjero y gestione las obligaciones fiscales nacionales de forma sencilla y eficaz",
+    "titleEnd": "para las cuentas de su empresa.",
+    "description": "Permita a sus clientes empresariales gestionar el IVA de forma automática y digital. Nuestra solución les permite recuperar el IVA soportado en el extranjero y cumplir fácilmente con sus obligaciones de IVA nacionales. Se integra perfectamente en su plataforma, ofreciendo un servicio integral de cumplimiento y recuperación del IVA sin esfuerzo.\n",
+    "secondaryDescription": "Aumente la fidelidad de sus clientes, impulse el volumen de transacciones y ofrezca a su banco una potente solución financiera que combina la recuperación del IVA extranjero con la gestión del cumplimiento del IVA nacional — todo sin carga administrativa.",
     "ctaText": "Solicite una demostración en vivo y consulta de asociación",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -19,12 +19,12 @@
     "features": [
       {
         "title": "VATGenius Bank API",
-        "description": "Integración sencilla con API para la transferencia automatizada de datos desde su sistema bancario. Captura, organiza, procesa y valida los datos de todas las facturas y recibos de sus clientes empresariales.",
+        "description": "Integración perfecta mediante API para la transferencia automatizada de datos desde su sistema ERP o bancario. Capture, organice, procese y valide los datos de todas las facturas y recibos de sus clientes empresariales, tanto para la recuperación de IVA extranjero como para el cumplimiento de obligaciones de IVA nacionales.",
         "icon": "code"
       },
       {
         "title": "VATGenius Engine",
-        "description": "Evaluación de cumplimiento de facturas impulsada por IA, cálculo de montos potenciales de reembolso de IVA extranjero, solicitud automática de autorización del cliente, gestión de consultas de autoridades fiscales extranjeras, visualización de estado en tiempo real",
+        "description": "Evaluación de cumplimiento de facturas impulsada por IA, cálculo de montos potenciales de reembolso de IVA extranjero y determinación de obligaciones de IVA nacionales, solicitud automática de autorización del cliente, gestión de registros y declaraciones de IVA en jurisdicciones nacionales, gestión de consultas de autoridades fiscales nacionales y extranjeras, visualización de estado en tiempo real.",
         "icon": "lightbulb"
       },
       {
