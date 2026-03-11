@@ -1,12 +1,12 @@
 {
   "seo": {
     "metaTitle": "Producto",
-    "metaDescription": "Monetización de la reclamación de IVA extranjero para clientes empresariales. Una plataforma totalmente automatizada y con cumplimiento garantizado para la recuperación de IVA B2B."
+    "metaDescription": "Monetización del IVA para clientes empresariales.\nUna plataforma totalmente automatizada y con cumplimiento garantizado para la recuperación de IVA extranjero y la gestión de obligaciones de IVA nacionales en el ámbito B2B."
   },
   "hero": {
-    "title": "Monetización de la reclamación de IVA extranjero para clientes empresariales",
-    "description": "Los gastos empresariales en el extranjero (viajes, ferias comerciales, servicios) de sus clientes empresariales están aumentando, pero muchos importes de IVA extranjero recuperables no se reclaman debido a la complejidad, las diferentes regulaciones de cada país, los requisitos de documentación, las preocupaciones de cumplimiento y el procesamiento manual.",
-    "solutionText": "Nuestra solución: Elevar el valor para el cliente y generar ingresos pasivos a través de una plataforma totalmente automatizada y con cumplimiento garantizado para la recuperación de IVA B2B, sin requerir ningún esfuerzo por parte de su cliente empresarial.",
+    "title": "Monetización de servicios de cumplimiento y recuperación de IVA para clientes empresariales",
+    "description": "Los gastos empresariales en el extranjero (viajes, ferias comerciales, servicios) de sus clientes empresariales están aumentando. Sin embargo, muchos importes de IVA recuperables —tanto de IVA extranjero como de obligaciones de IVA nacionales— no se gestionan o no se reclaman debido a la complejidad normativa, las diferentes regulaciones de cada país, los requisitos de documentación, las preocupaciones de cumplimiento y los procesos manuales.",
+    "solutionText": "Nuestra solución: aumentar el valor para el cliente y generar ingresos pasivos mediante una plataforma totalmente automatizada y con cumplimiento garantizado que integra la recuperación de IVA B2B en el extranjero y la gestión de obligaciones de IVA nacionales, sin requerir ningún esfuerzo manual por parte de su cliente empresarial.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
@@ -16,22 +16,22 @@
       {
         "step": "1",
         "title": "Adquisición de datos",
-        "description": "Datos de transacciones automatizados mediante VATGenius"
+        "description": "Datos de transacciones automatizados mediante VATGenius."
       },
       {
         "step": "2",
         "title": "Procesamiento",
-        "description": "El motor VATGenius verifica automáticamente los documentos, los compila, calcula los importes de reembolso de IVA e informa a los clientes empresariales"
+        "description": "El motor de VATGenius verifica automáticamente los documentos, los compila, calcula los importes de reembolso de IVA y facilita el cumplimiento de las obligaciones de IVA tanto en el extranjero como a nivel nacional, informando de forma transparente a los clientes empresariales."
       },
       {
         "step": "3",
         "title": "Presentación",
-        "description": "La API TAX de VATGenius presenta la compleja solicitud ante la autoridad fiscal extranjera correspondiente"
+        "description": "La API TAX de VATGenius automatiza los procesos complejos relacionados con el IVA, desde la recuperación del IVA extranjero hasta el cumplimiento de obligaciones de IVA nacionales mediante la presentación ante las autoridades fiscales correspondientes."
       },
       {
         "step": "4",
         "title": "Desembolso",
-        "description": "Los fondos se reciben y desembolsan sin problemas, impactando directamente en los resultados de sus clientes empresariales."
+        "description": "Las obligaciones y recuperaciones de IVA se gestionan sin fricciones, generando un impacto directo en los resultados de sus clientes empresariales."
       }
     ]
   },
@@ -40,36 +40,36 @@
     "items": [
       {
         "title": "Sin esfuerzo",
-        "description": "Identificación totalmente automatizada del IVA reembolsable."
+        "description": "Identificación totalmente automatizada del IVA recuperable y de las obligaciones de IVA."
       },
       {
         "title": "Importe máximo",
-        "description": "La verificación asistida por IA garantiza el máximo potencial de reembolsos de IVA."
+        "description": "La verificación asistida por IA maximiza el potencial de reembolsos de IVA y garantiza el cumplimiento de las obligaciones de IVA."
       },
       {
         "title": "Transparencia total",
-        "description": "Acceda al estado de la solicitud en cualquier momento a través del panel de control bancario."
+        "description": "Acceda en cualquier momento al estado de sus solicitudes y obligaciones de IVA a través del panel de control."
       }
     ]
   },
   "compliance": {
     "title": "Cumplimiento y seguridad: Confianza basada en excelencia regulatoria",
-    "description": "Como socio en el sector financiero, entendemos que la confianza, la seguridad y el cumplimiento regulatorio inquebrantable no son negociables. Nuestra solución está diseñada para mitigar riesgos, garantizando el cumplimiento total tanto para su institución como para sus clientes empresariales.",
+    "description": "Como socio en el sector financiero, entendemos que la confianza, la seguridad y el cumplimiento regulatorio inquebrantable no son negociables. Nuestras soluciones están diseñadas para ayudar a las instituciones financieras a ofrecer a sus clientes empresariales tanto la recuperación del IVA extranjero como el cumplimiento eficiente de sus obligaciones de IVA nacionales. Al mismo tiempo, mitigamos riesgos y garantizamos el cumplimiento normativo total, tanto para su institución como para sus clientes.",
     "sections": [
       {
-        "title": "Cumplimiento fiscal global como servicio",
+        "title": "Cumplimiento global del IVA como servicio",
         "items": [
           {
             "label": "Experiencia dedicada:",
-            "text": "Especialistas fiscales internacionales que gestionan todas las regulaciones relevantes"
+            "text": "Especialistas fiscales internacionales que gestionan todas las obligaciones y regulaciones relevantes en materia de IVA."
           },
           {
             "label": "Transferencia de riesgo:",
-            "text": "Transfiera toda la carga regulatoria a nosotros"
+            "text": "Transfiera todas sus obligaciones de cumplimiento del IVA a nosotros."
           },
           {
             "label": "Preparación para auditorías:",
-            "text": "Reclamaciones totalmente auditables y defendibles"
+            "text": "Procesos de IVA totalmente auditables y defendibles"
           }
         ]
       },
@@ -94,7 +94,7 @@
   },
   "secureApi": {
     "title": "API e infraestructura seguras",
-    "description": "Nuestra integración está diseñada para integrarse perfectamente sin comprometer su postura de seguridad existente.",
+    "description": "Nuestra integración está diseñada para integrarse a la perfección sin comprometer su postura de seguridad actual.",
     "features": [
       {
         "title": "Autenticación basada en tokens",
@@ -108,7 +108,7 @@
   },
   "cta": {
     "title": "¿Listo para comenzar?",
-    "description": "Descubra cómo VATGenius puede ayudar a sus clientes empresariales a recuperar el IVA extranjero.",
+    "description": "Descubra cómo VATGenius puede ayudar a sus clientes empresariales a recuperar el IVA extranjero y a gestionar sus obligaciones de IVA nacionales de forma eficiente.",
     "buttonText": "Solicite una demostración en vivo y consulta de asociación",
     "buttonLink": "/demo"
   }
