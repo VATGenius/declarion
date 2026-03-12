@@ -1,15 +1,15 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Solutions automatisées de remboursement de TVA et de conformité TVA",
-    "metaDescription": "Transformez la TVA en valeur ajoutée pour vos comptes professionnels.\nOffrez à vos clients la récupération automatique de la TVA étrangère et des solutions simples pour gérer leurs obligations de TVA nationales."
+    "metaTitle": "VATGenius | Solutions automatisées de TVA pour les remboursements et la conformité nationale",
+    "metaDescription": "Permettez aux entreprises de récupérer automatiquement la TVA étrangère tout en gérant et en remplissant leurs obligations nationales en matière de TVA de manière fluide."
   },
   "hero": {
-    "title": "Débloquez les remboursements de TVA étrangère et automatisez la gestion de vos obligations TVA nationales et internationales.",
-    "titleHighlight": "Une source de revenus sans friction pour la récupération et la conformité TVA",
-    "titleEnd": "pour la gestion de votre TVA sur vos comptes professionnels.",
-    "description": "Permettez à vos clients professionnels de récupérer automatiquement la TVA étrangère et de gérer facilement leurs obligations de TVA nationales grâce à une solution entièrement numérique. Notre solution s’intègre parfaitement à votre plateforme et offre un service complet: récupération de TVA, conformité et gestion des obligations fiscales — sans aucun effort pour vos clients.\n",
-    "secondaryDescription": "Renforcez la fidélité client, augmentez le volume de transactions et offrez à vos clients un outil financier puissant pour la récupération de TVA étrangère et la gestion des obligations nationales de TVA – sans charge administrative pour votre banque.",
-    "ctaText": "Demander une démonstration en direct et une consultation partenariat",
+    "title": "TVA efficace : conformité nationale, remboursements internationaux.",
+    "titleHighlight": "Allègement de la charge de conformité et revenus supplémentaires",
+    "titleEnd": "pour vous et vos clients professionnels",
+    "description": "Permettez aux entreprises de gérer leur TVA automatiquement et de manière digitale – de la récupération de la TVA étrangère à la gestion des obligations nationales en matière de TVA.\nNotre solution s’intègre parfaitement aux plateformes existantes et offre une expérience cohérente de gestion de la TVA de bout en bout.\n",
+    "secondaryDescription": "L’intégration avec les néobanques renforce la fidélité des clients, augmente le volume de transactions et élargit l’offre avec des solutions puissantes pour les remboursements de TVA étrangère ainsi que la gestion des obligations nationales de TVA – le tout sans effort administratif supplémentaire.",
+    "ctaText": "Demander une démo en direct et une consultation de partenariat",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
@@ -18,54 +18,64 @@
     "description": "",
     "features": [
       {
-        "title": "API VATGenius",
-        "description": "Intégration simple via API pour le transfert automatisé des données depuis votre ERP ou système bancaire. Capturez, organisez, traitez et validez les données de toutes les factures et reçus de vos clients professionnels afin d’automatiser la récupération de TVA étrangère et la gestion de leurs obligations de TVA nationales.",
+        "title": "VATGenius API",
+        "description": "Une intégration API simple permet le transfert automatisé des données depuis les systèmes ERP et bancaires. Capture, organise, traite et valide les données de factures et de reçus afin d’alimenter les solutions de récupération de TVA étrangère et de conformité nationale.",
         "icon": "code"
       },
       {
-        "title": "Moteur VATGenius",
-        "description": "Évaluation automatisée de la conformité des factures par IA, calcul des montants potentiels de remboursement de TVA étrangère ainsi que des obligations de TVA nationales, autorisation client automatisée, gestion des interactions avec les autorités fiscales nationales et étrangères, et suivi du statut en temps réel.",
+        "title": "VATGenius Engine",
+        "description": "Évaluation des factures et de la conformité TVA basée sur l’IA (domestique et transfrontalière).\nCalcule les montants potentiels de remboursement de TVA étrangère et identifie les opportunités de récupération.\nSoutient la conformité aux obligations nationales en matière de TVA.\nPrépare les déclarations fiscales et demandes nécessaires.",
         "icon": "lightbulb"
       },
       {
-        "title": "API fiscale VATGenius",
-        "description": "Soumet de manière entièrement automatisée et numérique les demandes de remboursement de TVA étrangères ainsi que les déclarations et obligations de TVA nationales aux portails fiscaux des pays concernés.",
+        "title": "VATGenius Smart",
+        "description": "Correspondance automatisée et demandes de nouvelles factures ou de factures corrigées auprès des émetteurs.\nGestion des demandes des autorités fiscales nationales et étrangères.",
+        "icon": "document"
+      },
+      {
+        "title": "VATGenius Dashboard",
+        "description": "Autorisation et onboarding automatisés des clients.\nSuivi en temps réel de l’état des remboursements, des déclarations et des processus de conformité.",
+        "icon": "document"
+      },
+      {
+        "title": "VATGenius Tax API",
+        "description": "Automatise la soumission des déclarations de TVA locales et étrangères ainsi que des demandes de remboursement, en les transmettant numériquement aux portails fiscaux des pays concernés.",
         "icon": "document"
       }
     ]
   },
   "benefits": {
-    "title": "Vos avantages en un coup d’œil",
+    "title": "Avantages & bénéfices en un coup d’œil",
     "items": [
       {
         "title": "Revenus",
-        "description": "Nouvelle source de revenus passifs grâce au partage des bénéfices sur les solutions de TVA internationales et nationales.",
+        "description": "Nouvelle source de revenus passifs grâce aux remboursements de TVA étrangère et aux économies réalisées sur les coûts de conformité.",
         "icon": "currency"
       },
       {
         "title": "Fidélisation",
-        "description": "Offrez à vos clients professionnels des retours financiers tangibles et des solutions complètes pour la récupération et la gestion de la TVA, renforçant durablement leur fidélité.",
+        "description": "Génère des retours financiers concrets et une réelle valeur en matière de conformité, renforçant ainsi la fidélité des clients et ouvrant de nouvelles opportunités.",
         "icon": "heart"
       },
       {
         "title": "Différenciation",
-        "description": "Proposez un service unique et premium que vos concurrents n’ont pas.",
+        "description": "Profitez d’un service premium unique que vos concurrents n’utilisent pas et obtenez un avantage concurrentiel.",
         "icon": "lightning"
       }
     ]
   },
   "security": {
     "title": "Sécurité et conformité",
-    "description": "Chez VATGenius, la mise en œuvre de mesures de cybersécurité efficaces est fondamentale pour assurer la protection des données sensibles et ainsi garantir la confiance de nos clients.",
+    "description": "Chez VATGenius, la mise en œuvre de mesures efficaces de cybersécurité est essentielle pour protéger les données sensibles et maintenir la confiance de nos clients. Notre plateforme prend en charge à la fois la récupération de la TVA étrangère et la gestion des obligations nationales de conformité TVA pour les entreprises et les clients de néobanques.\n\nComme nous traitons des informations financières et transactionnelles sensibles dans plusieurs juridictions fiscales, la protection de ces données grâce à des pratiques de sécurité robustes est une priorité fondamentale.",
     "features": [
-      "Protocoles de chiffrement et authentification multi-facteurs pour les contrôles d’accès",
-      "Examen minutieux de chaque aspect du traitement des données",
+      "Protocoles de chiffrement et authentification multifactorielle pour les contrôles d’accès",
+      "Examen rigoureux de chaque aspect du traitement des données",
       "Stockage et traitement des données conformes au RGPD"
     ]
   },
   "cta": {
-    "title": "Prêt à débloquer de nouvelles sources de revenus grâce aux remboursements de TVA étrangère et à la gestion des obligations TVA locales?",
-    "description": "Rejoignez les néobanques leaders en offrant à vos clients professionnels des solutions automatisées de récupération de TVA étrangère et de conformité aux obligations de TVA nationales.",
+    "title": "Transformez la conformité TVA en opportunité de revenus",
+    "description": "Remboursements de TVA étrangère et conformité nationale en matière de TVA, directement via la plateforme VATGenius ou intégrés dans votre propre plateforme.",
     "buttonText": "Demander une démonstration en direct et une consultation partenariat",
     "buttonLink": "/demo"
   }
