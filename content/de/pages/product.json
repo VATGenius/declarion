@@ -1,12 +1,12 @@
 {
   "seo": {
     "metaTitle": "Produkt",
-    "metaDescription": "Monetarisierung ausländischer USt-Erstattungen für Geschäftskunden. Eine vollautomatisierte, compliance-gesicherte Plattform für B2B-USt-Rückerstattung."
+    "metaDescription": "Eine vollständig automatisierte, compliance-sichere Plattform für die Rückerstattung ausländischer Umsatzsteuer und die Erfüllung nationaler Umsatzsteuerpflichten. Schaffen Sie echten Mehrwert für Ihr Unternehmen."
   },
   "hero": {
-    "title": "Monetarisierung ausländischer USt-Erstattungen für Ihre Geschäftskunden",
-    "description": "Ausländische Geschäftsausgaben (z.B. Reisen, Messen, Dienstleistungen) von Geschäftskunden nehmen zu, aber viele erstattungsfähige ausländische USt-Beträge werden aufgrund von hoher Komplexität, unterschiedlichen länderspezifischen Vorgaben, umfangreichen Dokumentationsanforderungen, Compliance-Risiken und manueller Bearbeitung nicht geltend gemacht.",
-    "solutionText": "Unsere Lösung: Steigerung des Kundenwertes und Erschließung zusätzlicher Einnahmen durch eine vollautomatisierte, compliance-gesicherte Plattform zur B2B-USt-Rückerstattung, die keinen Aufwand für Ihre Geschäftskunden erfordert.",
+    "title": "Monetarisierung ausländischer USt-Erstattungen und VAT Compliance",
+    "description": "Ausländische Geschäftsausgaben (Reisen, Messen, Dienstleistungen) nehmen zu, während viele erstattungsfähige Umsatzsteuerbeträge sowie nationale Umsatzsteuerpflichten weiterhin ineffizient verwaltet werden. Komplexe Vorschriften, unterschiedliche Länderanforderungen, Herausforderungen bei der Dokumentation, Compliance-Risiken und manuelle Prozesse machen sowohl die Umsatzsteuer-Rückerstattung als auch die Einhaltung nationaler Umsatzsteuerpflichten zu einer erheblichen Belastung.",
+    "solutionText": "Unsere Lösung: Steigerung des Kundennutzens und Generierung passiver Einnahmen durch eine vollständig automatisierte, compliance-sichere Plattform für B2B-Umsatzsteuer-Rückerstattung und nationale Umsatzsteuer-Compliance – damit Unternehmen ausländische Umsatzsteuer zurückfordern und ihre nationalen Umsatzsteuerpflichten mühelos erfüllen können.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
@@ -21,17 +21,17 @@
       {
         "step": "2",
         "title": "Verarbeitung",
-        "description": "Die VATGenius Engine prüft automatisiert Dokumente, stellt sie zusammen, berechnet USt-Erstattungsbeträge und informiert Geschäftskunden"
+        "description": "Der VATGenius Engine analysiert automatisch Dokumente und Transaktionen, berechnet Umsatzsteuerbeträge und ermöglicht sowohl die Rückerstattung ausländischer Umsatzsteuer als auch die Erfüllung nationaler Umsatzsteuerpflichten."
       },
       {
         "step": "3",
         "title": "Einreichung",
-        "description": "Die VATGenius TAX API reicht den komplexen Antrag bei der zuständigen ausländischen Steuerbehörde ein"
+        "description": "Die VATGenius TAX API automatisiert Umsatzsteuer-Rückerstattungen sowie nationale Umsatzsteuer-Meldungen bei den zuständigen Finanzbehörden."
       },
       {
         "step": "4",
         "title": "Auszahlung",
-        "description": "Die Mittel werden nahtlos empfangen und ausgezahlt und wirken sich direkt auf die Ergebnisse Ihrer Geschäftskunden aus."
+        "description": "Erstattungsbeträge werden empfangen und nahtlos ausgezahlt und wirken sich direkt auf die Umsatzsteuerergebnisse aus – sowohl bei der Rückerstattung ausländischer Umsatzsteuer als auch bei der nationalen Umsatzsteuer-Compliance."
       }
     ]
   },
@@ -40,36 +40,36 @@
     "items": [
       {
         "title": "Kein Aufwand",
-        "description": "Vollautomatisierte Identifizierung erstattungsfähiger USt."
+        "description": "ollautomatische Identifikation erstattungsfähiger Umsatzsteuer sowie nationaler Umsatzsteuerpflichten."
       },
       {
         "title": "Maximaler Betrag",
-        "description": "KI-gestützte Verifizierung stellt das volle Potenzial der USt-Erstattung sicher."
+        "description": "KI-gestützte Prüfung maximiert Umsatzsteuer-Rückerstattungen und stellt gleichzeitig eine nahtlose Einhaltung nationaler Umsatzsteuerpflichten sicher."
       },
       {
         "title": "Vollständige Transparenz",
-        "description": "Jederzeit Zugriff auf den Antragsstatus über das Banking-Dashboard."
+        "description": "Über das Dashboard können Sie jederzeit den Status Ihrer Umsatzsteuer-Rückerstattungen und Ihrer nationalen Umsatzsteuerpflichten einsehen."
       }
     ]
   },
   "compliance": {
-    "title": "Compliance & Sicherheit: Verlässliche Einhaltung regulatorischer Vorgaben",
-    "description": "Als Partner im Finanzsektor wissen wir, dass Vertrauen, Sicherheit und konsequente Einhaltung regulatorischer Anforderungen unverzichtbar sind. Unsere Lösung ist darauf ausgelegt, Risiken zu minimieren und volle Compliance für Ihr Institut und Ihre Geschäftskunden zu gewährleisten.",
+    "title": "Compliance & Sicherheit: Vertrauen durch regulatorische Exzellenz",
+    "description": "Als AKteur im Finanzsektors wissen wir, dass Vertrauen, Sicherheit und kompromisslose regulatorische Compliance unverzichtbar sind. Unsere Lösungen sind darauf ausgelegt, sowohl die Rückerstattung ausländischer Umsatzsteuer als auch die Erfüllung nationaler Umsatzsteuerpflichten zu vereinfachen, Risiken zu reduzieren und gleichzeitig vollständige Compliance für Ihr Unternehmen und Ihre Geschäftskunden sicherzustellen.",
     "sections": [
       {
         "title": "Global Tax Compliance as a Service",
         "items": [
           {
             "label": "Branchenspezifische Expertise:",
-            "text": "Internationale Steuerspezialisten mit umfassender Kenntnis aller relevanten Vorschriften"
+            "text": "Internationale Steuerexperten verwalten alle relevanten Umsatzsteuerregelungen für grenzüberschreitende Rückerstattungen und nationale Umsatzsteuer-Compliance."
           },
           {
             "label": "Risikotransfer:",
-            "text": "Übertragung der regulatorischen Verantwortung auf uns"
+            "text": "Lagern Sie die gesamte Umsatzsteuer-Compliance an uns aus."
           },
           {
             "label": "Prüfungsbereitschaft:",
-            "text": "Vollständig prüfbare und nachvollziehbare Anträge"
+            "text": "Vollständig prüfungssichere und nachvollziehbare Umsatzsteuer-Anträge und Meldungen."
           }
         ]
       },
@@ -94,7 +94,7 @@
   },
   "secureApi": {
     "title": "Sichere API und Infrastruktur",
-    "description": "Unsere Integration ist so konzipiert, dass sie sich in vorhandene Systeme integriert, ohne die bestehende Sicherheitsarchitektur zu beeinträchtigen.",
+    "description": "Unsere Integration ist darauf ausgelegt, sich nahtlos in Ihre Systeme einzufügen, ohne Ihre bestehende Sicherheitsarchitektur zu beeinträchtigen.",
     "features": [
       {
         "title": "Token-basierte Authentifizierung",
@@ -108,7 +108,7 @@
   },
   "cta": {
     "title": "Bereit loszulegen?",
-    "description": "Erfahren Sie, wie VATGenius Ihren Geschäftskunden dabei hilft, ausländische USt zurückzufordern.",
+    "description": "Erfahren Sie, wie VATGenius Ihren Geschäftskunden helfen kann, ausländische Umsatzsteuer zurückzufordern und ihre Umsatzsteuerpflichten weltweit zu verwalten.",
     "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
