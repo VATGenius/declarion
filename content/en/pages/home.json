@@ -44,17 +44,17 @@
     "items": [
       {
         "title": "Revenue",
-        "description": "New, passive revenue stream from foreign VAT refund.",
+        "description": "New passive source of income from foreign VAT refunds and savings in compliance costs.",
         "icon": "currency"
       },
       {
         "title": "Retention",
-        "description": "Delivers tangible financial returns and compliance value, boosting loyalty.",
+        "description": "Delivers tangible financial returns and compliance value, thereby strengthening loyalty and opening up new opportunities.",
         "icon": "heart"
       },
       {
         "title": "Differentiation",
-        "description": "Offer a unique, premium service that competitors lack.",
+        "description": "Take advantage of a unique premium service that your competitors do not use and gain a competitive edge. ",
         "icon": "lightning"
       }
     ]
