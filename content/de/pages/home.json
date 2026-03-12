@@ -19,7 +19,7 @@
     "features": [
       {
         "title": "VATGenius API",
-        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem ERP, Traveltool oder Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen der Unternehmen und Geschäftskunden.",
+        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem ERP, Traveltool oder Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen.",
         "icon": "code"
       },
       {
