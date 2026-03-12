@@ -5,7 +5,7 @@
   },
   "hero": {
     "title": "Monetizing VAT Reclaim and Compliance for Business Customers",
-    "description": "Foreign business expenses (travel, trade shows, services) of business are increasing, while many recoverable VAT amounts and domestic VAT obligations remain inefficiently managed. Complex regulations, varying country requirements, documentation challenges, compliance risks, and manual processes make VAT recovery and VAT compliance a significant burden for businesses.",
+    "description": "Foreign business expenses (travel, trade shows, services) are increasing, while many recoverable VAT amounts and domestic VAT obligations remain inefficiently managed. Complex regulations, varying country requirements, documentation challenges, compliance risks, and manual processes make VAT recovery and VAT compliance a significant burden.",
     "solutionText": "Our Solution: Elevating customer value and generating passive revenue through a fully automated, compliance-assured platform for B2B VAT recovery and domestic VAT compliance — enabling businesses to reclaim foreign VAT and meet national VAT obligations effortlessly.",
     "heroImage": "/images/hero-product.png"
   },
@@ -21,7 +21,7 @@
       {
         "step": "2",
         "title": "Processing",
-        "description": "The VATGenius Engine automatically analyzes documents and transactions, calculates VAT amounts, and enables both foreign VAT recovery and domestic VAT compliance for businesses and embedded finance platforms."
+        "description": "The VATGenius Engine automatically analyzes documents and transactions, calculates VAT amounts, and enables both foreign VAT recovery and domestic VAT compliance."
       },
       {
         "step": "3",
@@ -31,7 +31,7 @@
       {
         "step": "4",
         "title": "Pay-Out",
-        "description": "Funds are received and disbursed seamlessly, directly impacting your business customers’ VAT results across both foreign VAT recovery and domestic VAT compliance."
+        "description": "Funds are received and disbursed seamlessly, directly impacting VAT results across both foreign VAT recovery and domestic VAT compliance."
       }
     ]
   },
