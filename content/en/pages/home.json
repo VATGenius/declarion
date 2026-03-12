@@ -28,8 +28,13 @@
         "icon": "lightbulb"
       },
       {
+        "description": "Automated correspondence and requests for new or corrected invoices from invoice issuers. \nHandle inquiries from domestic and foreign tax authorities.",
+        "title": "VATGenius Smart",
+        "icon": "lightbulb"
+      },
+      {
         "title": "VATGenius Dashboard",
-        "description": "Automated customer authorization and onboarding.\nHandle inquiries from domestic and foreign tax authorities.\nReal-time status tracking for refunds, filings, and compliance processes.",
+        "description": "Automated customer authorization and onboarding.\nReal-time status tracking for refunds, filings, and compliance processes.",
         "icon": "lightbulb"
       },
       {
