@@ -1,14 +1,14 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Automatisierte USt-Erstattungsloesungen fuer Neobanken",
-    "metaDescription": "Erschliessen Sie auslaendische USt-Erstattungen: Eine reibungslose Einnahmequelle fuer Ihre Geschaeftskonten. Ermoeglichen Sie Ihren Geschaeftskunden die automatische Rueckforderung auslaendischer Vorsteuer."
+    "metaTitle": "VATGenius | Automatisierte Umsatzsteuerlösungen für Erstattungen und nationale VAT-Compliance",
+    "metaDescription": "VATGenius ermöglicht Unternehmen und Ihren Geschäftskunden die automatische Rückforderung ausländischer Vorsteuer und unterstützen Sie sie gleichzeitig bei der effizienten Erfüllung ihrer nationalen Umsatzsteuerpflichten."
   },
   "hero": {
-    "title": "Ausländische USt effizient erstatten:",
-    "titleHighlight": "Zusätzliche Einnahmen",
-    "titleEnd": "für Ihre Geschäftskunden",
-    "description": "Ermöglichen Sie Ihren Geschäftskunden die automatische und digitale Rückforderung ausländischer Vorsteuer. Unsere Lösung lässt sich nahtlos in bestehende Plattformen integrieren und bietet einen durchgängigen End-to-End-Erstattungsprozess.\n\n",
-    "secondaryDescription": "Die Integration stärkt die Kundenbindung, erhöht das Transaktionsvolumen und erweitert Ihr Angebot um ein zusätzliches, leistungsstarkes Finanzinstrument – ohne zusätzlichen administrativen Aufwand für Ihre Bank.",
+    "title": "Umsatzsteuer effizient: Compliance im Inland, Erstattung im Ausland:",
+    "titleHighlight": "Entlastung und zusätzliche Einnahmen",
+    "titleEnd": "für Unternehmen und ihre Geschäftskunden",
+    "description": "VATGenius ernöglicht Unternehmen und Ihren Geschäftskunden die automatische und digitale Abwicklung ihrer Umsatzsteuer – von der Rückforderung ausländischer Vorsteuer bis zur Erfüllung nationaler Umsatzsteuerpflichten. Unsere Lösung integriert sich nahtlos in bestehende Plattformen und ERP Systeme und bietet einen durchgängigen End-to-End-Prozess.\n\n",
+    "secondaryDescription": "VATGenius senkt die steuerlichen Bearbeitungskosten von Unternehmen erheblich und erschließt sogleich Umsatzsteuererstattungpotentiale. Die Integration in Neobanken stärkt die Kundenbindung, erhöht das Transaktionsvolumen und erweitert das Angebot um leistungsstarke Lösungen für die Erstattung ausländischer Umsatzsteuer sowie die Erfüllung nationaler Umsatzsteuerpflichten – ohne zusätzlichen administrativen Aufwand.",
     "ctaText": "Live-Demo & Integrationsberatung anfragen",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
@@ -18,18 +18,18 @@
     "description": "",
     "features": [
       {
-        "title": "VATGenius Bank API",
-        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen Ihrer Geschäftskunden.",
+        "title": "VATGenius API",
+        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem ERP, Traveltool oder Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen der Unternhmen und ihrer Geschäftskunden.",
         "icon": "code"
       },
       {
         "title": "VATGenius Engine",
-        "description": "KI-gestützte Bewertung der Rechnungs-Compliance, Berechnung potenzieller ausländischer USt-Erstattungsbeträge, automatisierte Einholung der Kundenautorisierung, Bearbeitung von Anfragen ausländischer Steuerbehörden sowie Echtzeit-Statusanzeige.",
+        "description": "KI-gestützte Prüfung der Rechnungs-Compliance, Berechnung potenzieller ausländischer Umsatzsteuer-Erstattungen sowie digitale Lösungen zur Erfüllung nationaler Umsatzsteuerpflichten. Die Plattform umfasst zudem die automatisierte Einholung der Kundenautorisierung, die Bearbeitung von Anfragen ausländischer Steuerbehörden und eine Echtzeit-Statusanzeige.",
         "icon": "lightbulb"
       },
       {
         "title": "VATGenius TAX API",
-        "description": "Vollautomatische und digitale Einreichung inländischer und ausländischer USt-Erstattungsanträge über die Steuerportale der jeweiligen Länder.",
+        "description": "Vollautomatische und digitale Einreichung inländischer Umsatzsteuererklärungen sowie ausländischer Umsatzsteuer-Erstattungsanträge über die jeweiligen nationalen Steuerportale.",
         "icon": "document"
       }
     ]
@@ -38,13 +38,13 @@
     "title": "Vorteile & Nutzen auf einen Blick",
     "items": [
       {
-        "title": "Einnahmen",
-        "description": "Neue, passive Einnahmequelle durch Gewinnbeteiligung.",
+        "title": "Einnahmen und Kostenersparnis",
+        "description": "Neue, passive Einnahmequelle durch Erstattung ausländischer Umsatzsteuer und Wegfall administrativem Aufwands für die Erfüllung nationaler Umsatzsteuerpflichten.",
         "icon": "currency"
       },
       {
         "title": "Kundenbindung",
-        "description": "Generiert messbare finanzielle Erträge für Geschäftskunden und stärkt die Kundenbindung.",
+        "description": "Generiert messbare finanzielle Erträge für Unternehmen und stärkt die Kundenbindung.",
         "icon": "heart"
       },
       {
@@ -64,8 +64,8 @@
     ]
   },
   "cta": {
-    "title": "Bereit, neue Einnahmequellen zu erschließen?",
-    "description": "Schließen Sie sich führenden Neobanken an und bieten Sie Ihren Geschäftskunden automatisierte USt-Erstattungsdienste.",
+    "title": "Bereit, neue Einnahmequellen zu erschließen – mit Umsatzsteuerlösungen für Erstattung und Compliance?",
+    "description": "Schließen Sie sich führenden Unternehmen an und integrieren automatisierte Lösungen für Umsatzsteuererstattungen und die Erfüllung nationaler Umsatzsteuerpflichten.",
     "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
