@@ -19,23 +19,28 @@
     "features": [
       {
         "title": "VATGenius API",
-        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem ERP, Traveltool oder Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen der Unternhmen und ihrer Geschäftskunden.",
+        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem ERP, Traveltool oder Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen der Unternehmen und Geschäftskunden.",
         "icon": "code"
       },
       {
         "title": "VATGenius Engine",
-        "description": "KI-gestützte Prüfung der Rechnungs-Compliance, Berechnung potenzieller ausländischer Umsatzsteuer-Erstattungen sowie digitale Lösungen zur Erfüllung nationaler Umsatzsteuerpflichten. Die Plattform umfasst zudem die automatisierte Einholung der Kundenautorisierung, die Bearbeitung von Anfragen ausländischer Steuerbehörden und eine Echtzeit-Statusanzeige.",
+        "description": "KI-gestützte Prüfung der Rechnungs-Compliance, Berechnung potenzieller ausländischer Umsatzsteuer-Erstattungen sowie digitale Lösungen zur Erfüllung nationaler Umsatzsteuerpflichten. Vorbereitung der erforderlichen Steuererklärungen und Anträge.",
         "icon": "lightbulb"
+      },
+      {
+        "title": "VATGenius Smart",
+        "description": "Automatisierte Korrespondenz und Anfragen nach neuen und umsatzsteuerkonformen Rechnungen bei den Rechnungsausstellern im In- und Ausland. KI-gestützte Bearbeitung von Anfragen ausländischer und inländischer Steuerbehörden.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "VATGenius Dashboard",
+        "icon": "document",
+        "description": "Automatisierte Kundenautorisierung und Onboarding. Echtzeit-Statusverfolgung für Rückerstattungen, Einreichungen und Compliance-Prozesse."
       },
       {
         "title": "VATGenius TAX API",
         "description": "Vollautomatische und digitale Einreichung inländischer Umsatzsteuererklärungen sowie ausländischer Umsatzsteuer-Erstattungsanträge über die jeweiligen nationalen Steuerportale.",
         "icon": "document"
-      },
-      {
-        "title": "VATGenius Smart",
-        "description": "Bearbeitung von Anfragen ausländischer Steuerbehörden",
-        "icon": "lightbulb"
       }
     ]
   },
