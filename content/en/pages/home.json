@@ -19,7 +19,7 @@
     "features": [
       {
         "title": "VATGenius API",
-        "description": "Easy API integration enables automated data transfer from ERP and banking systems. Captures, organizes, processes, and validates invoice and receipt data to power foreign VAT recovery and domestic VAT compliance solutions for businesses and neobank platforms.",
+        "description": "Easy API integration enables automated data transfer from ERP and banking systems. Captures, organizes, processes, and validates invoice and receipt data to power foreign VAT recovery and domestic VAT compliance solutions.",
         "icon": "code"
       },
       {
@@ -28,14 +28,14 @@
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius TAX API",
-        "description": "Automates the submission of local and foreign VAT filings and refund applications, transmitting them digitally to the tax portals of the relevant countries.",
-        "icon": "document"
-      },
-      {
         "title": "VATGenius Dashboard",
         "description": "Automated customer authorization and onboarding.\nHandle inquiries from domestic and foreign tax authorities.\nReal-time status tracking for refunds, filings, and compliance processes.",
         "icon": "lightbulb"
+      },
+      {
+        "title": "VATGenius TAX API",
+        "description": "Automates the submission of local and foreign VAT filings and refund applications, transmitting them digitally to the tax portals of the relevant countries.",
+        "icon": "document"
       }
     ]
   },
