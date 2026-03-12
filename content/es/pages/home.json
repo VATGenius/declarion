@@ -1,15 +1,15 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Soluciones automatizadas de IVA: reembolsos internacionales y cumplimiento fiscal para Neobancos",
-    "metaDescription": "Desbloquee todo el potencial del IVA para sus clientes empresariales.\nUna solución sin fricciones para recuperar IVA extranjero y cumplir con obligaciones de IVA.\nPermita a sus clientes empresariales reclamar automáticamente el IVA soportado en el extranjero y gestionar sus obligaciones fiscales en distintos países."
+    "metaTitle": "VATGenius | Soluciones automatizadas de IVA para reembolsos y cumplimiento nacional del IVA",
+    "metaDescription": "VATGenius permite a las empresas recuperar automáticamente el IVA soportado en el extranjero, al mismo tiempo que les ayuda a cumplir de forma eficiente con sus obligaciones nacionales de IVA."
   },
   "hero": {
-    "title": "Desbloquee todo el potencial del IVA:",
-    "titleHighlight": "Recupere el IVA extranjero y gestione las obligaciones fiscales nacionales de forma sencilla y eficaz",
-    "titleEnd": "para las cuentas de su empresa.",
-    "description": "Permita a sus clientes empresariales gestionar el IVA de forma automática y digital. Nuestra solución les permite recuperar el IVA soportado en el extranjero y cumplir fácilmente con sus obligaciones de IVA nacionales. Se integra perfectamente en su plataforma, ofreciendo un servicio integral de cumplimiento y recuperación del IVA sin esfuerzo.\n",
-    "secondaryDescription": "Aumente la fidelidad de sus clientes, impulse el volumen de transacciones y ofrezca a su banco una potente solución financiera que combina la recuperación del IVA extranjero con la gestión del cumplimiento del IVA nacional — todo sin carga administrativa.",
-    "ctaText": "Solicite una demostración en vivo y consulta de asociación",
+    "title": "IVA de forma eficiente: cumplimiento nacional, reembolso en el extranjero",
+    "titleHighlight": "Alivio y generación de ingresos adicionales",
+    "titleEnd": "para empresas y clientes corporativos de neobancos.",
+    "description": "VATGenius permite a las empresas y a los clientes corporativos de neobancos gestionar su IVA de forma automática y digital, desde la recuperación del IVA soportado en el extranjero hasta el cumplimiento de las obligaciones nacionales de IVA. Nuestra solución se integra perfectamente en plataformas existentes, sistemas ERP y sistemas bancarios, ofreciendo un proceso integral de extremo a extremo.\n",
+    "secondaryDescription": "VATGenius reduce considerablemente los costes administrativos fiscales y, al mismo tiempo, desbloquea el potencial de recuperación del IVA. La integración en neobancos fortalece la fidelización de clientes, aumenta el volumen de transacciones y amplía la oferta con soluciones potentes, sin generar carga administrativa adicional.",
+    "ctaText": "Solicitar demo en vivo y asesoramiento de integración",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
@@ -19,54 +19,64 @@
     "features": [
       {
         "title": "VATGenius API",
-        "description": "Integración perfecta mediante API para la transferencia automatizada de datos desde su sistema ERP o bancario. Capture, organice, procese y valide los datos de todas las facturas y recibos de sus clientes empresariales, tanto para la recuperación de IVA extranjero como para el cumplimiento de obligaciones de IVA nacionales.",
+        "description": "Integración sencilla mediante API para la transferencia automatizada de datos desde su ERP, herramienta de viajes o sistema bancario. Captura, estructuración, procesamiento y validación de datos de todas las facturas y comprobantes.",
         "icon": "code"
       },
       {
         "title": "VATGenius Engine",
-        "description": "Evaluación de cumplimiento de facturas impulsada por IA, cálculo de montos potenciales de reembolso de IVA extranjero y determinación de obligaciones de IVA nacionales, solicitud automática de autorización del cliente, gestión de registros y declaraciones de IVA en jurisdicciones nacionales, gestión de consultas de autoridades fiscales nacionales y extranjeras, visualización de estado en tiempo real.",
+        "description": "Revisión de cumplimiento de facturas basada en IA, cálculo de posibles reembolsos de IVA extranjero y soluciones digitales para cumplir con las obligaciones nacionales de IVA. Preparación de las declaraciones y solicitudes fiscales necesarias.",
         "icon": "lightbulb"
       },
       {
+        "title": "VATGenius Smart",
+        "description": "Correspondencia automatizada y solicitudes de nuevas facturas conformes con el IVA a emisores de facturas en el país y en el extranjero. Gestión asistida por IA de consultas de autoridades fiscales nacionales e internacionales.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "VATGenius Dashboard",
+        "description": "Autorización y onboarding automatizados de clientes. Seguimiento en tiempo real del estado de reembolsos, presentaciones y procesos de cumplimiento.",
+        "icon": "document"
+      },
+      {
         "title": "VATGenius TAX API",
-        "description": "Gestiona automáticamente las solicitudes de reembolso de IVA locales y extranjeras y el cumplimiento de las obligaciones de IVA nacionales de forma totalmente digital a través de los portales fiscales de los países correspondientes.",
+        "description": "Presentación totalmente automática y digital de declaraciones nacionales de IVA, así como solicitudes de devolución de IVA extranjero a través de los portales fiscales nacionales correspondientes.",
         "icon": "document"
       }
     ]
   },
   "benefits": {
-    "title": "Sus ventajas y beneficios de un vistazo",
+    "title": "Ventajas y beneficios de un vistazo",
     "items": [
       {
-        "title": "Ingresos",
-        "description": "Nueva fuente de ingresos pasivos mediante participación en beneficios por servicios de recuperación de IVA extranjero y soluciones de cumplimiento de IVA nacional.",
+        "title": "Ingresos y ahorro de costes",
+        "description": "Nueva fuente de ingresos pasivos mediante la recuperación de IVA extranjero y eliminación del esfuerzo administrativo para el cumplimiento de las obligaciones nacionales de IVA.",
         "icon": "currency"
       },
       {
-        "title": "Retención",
-        "description": "Ofrece beneficios financieros tangibles y soluciones de cumplimiento del IVA para sus clientes empresariales, aumentando la fidelidad.",
+        "title": "Fidelización de clientes",
+        "description": "Genera beneficios financieros medibles para las empresas y fortalece la fidelización de clientes.",
         "icon": "heart"
       },
       {
         "title": "Diferenciación",
-        "description": "Ofrezca a sus clientes empresariales un servicio premium que sus competidores no tienen: recuperación de IVA extranjero y soluciones completas para el cumplimiento del IVA nacional.",
+        "description": "Aproveche un servicio premium único que sus competidores no utilizan y obtenga una ventaja competitiva.",
         "icon": "lightning"
       }
     ]
   },
   "security": {
     "title": "Seguridad y cumplimiento",
-    "description": "En VATGenius, implementar medidas efectivas de ciberseguridad es fundamental para garantizar la protección de datos sensibles y así asegurar la confianza de nuestros clientes. Esto es especialmente relevante, ya que nuestras soluciones no solo facilitan la recuperación del IVA extranjero, sino también el cumplimiento de obligaciones de IVA a nivel nacional para empresas y clientes corporativos de neobancos. Por ello, la seguridad y la integridad de la información son pilares clave para ofrecer servicios fiables y seguros en todos los ámbitos de nuestras soluciones de IVA.",
+    "description": "En VATGenius, la implementación de medidas eficaces de ciberseguridad es un requisito fundamental para proteger datos sensibles y garantizar la confianza de los clientes.",
     "features": [
       "Protocolos de cifrado y autenticación multifactor para controles de acceso",
-      "Revisión cuidadosa de cada aspecto del procesamiento de datos",
-      "Almacenamiento y manejo de datos conforme al RGPD"
+      "Revisión exhaustiva de todos los aspectos del procesamiento de datos",
+      "Almacenamiento y tratamiento de datos conforme al RGPD"
     ]
   },
   "cta": {
-    "title": "¿Listo para desbloquear nuevas fuentes de ingresos con soluciones de IVA inteligentes?",
-    "description": "Únase a los neobancos líderes que ofrecen a sus clientes empresariales soluciones automatizadas para la recuperación de IVA extranjero y el cumplimiento de sus obligaciones de IVA nacionales.",
-    "buttonText": "Solicite una demostración en vivo y consulta de asociación",
+    "title": "¿Listo para abrir nuevas fuentes de ingresos con soluciones de IVA para reembolsos y cumplimiento?",
+    "description": "Únase a empresas líderes e integre soluciones automatizadas para la devolución de IVA y el cumplimiento de las obligaciones nacionales de IVA.",
+    "buttonText": "Solicitar demo en vivo y asesoramiento de integración",
     "buttonLink": "/demo"
   }
 }
