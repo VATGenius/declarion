@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
     // Redirect to GitHub OAuth
     const authUrl = new URL('https://github.com/login/oauth/authorize');
     authUrl.searchParams.set('client_id', GITHUB_CLIENT_ID);
-    authUrl.searchParams.set('scope', 'repo,user');
+    authUrl.searchParams.set('scope', 'repo,user:email');
     authUrl.searchParams.set('redirect_uri', `${request.nextUrl.origin}/api/auth`);
 
     return NextResponse.redirect(authUrl.toString());
@@ -48,8 +48,11 @@ export async function GET(request: NextRequest) {
       <body>
         <script>
           (function() {
+            if (!window.opener) {
+              document.body.innerText = 'Authorization complete. You can close this window.';
+              return;
+            }
             function receiveMessage(e) {
-              console.log("receiveMessage %o", e);
               window.opener.postMessage(
                 'authorization:github:success:' + JSON.stringify(${tokenJson}),
                 e.origin
