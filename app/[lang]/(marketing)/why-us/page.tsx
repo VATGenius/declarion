@@ -128,7 +128,7 @@ export default async function WhyUsPage({ params }: Props) {
       </Section>
 
       {/* Implementation Section */}
-      <Section background="soft-green">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.implementation.title}
         </h2>

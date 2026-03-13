@@ -213,7 +213,7 @@ export default async function HomePage({ params }: Props) {
       </Section>
 
       {/* How It Works Section */}
-      <Section background="soft-green">
+      <Section background="soft-blue">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900">
             {content.platform.title}
@@ -273,7 +273,7 @@ export default async function HomePage({ params }: Props) {
       </Section>
 
       {/* Security Section */}
-      <Section background="soft-blue">
+      <Section background="soft-green">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">

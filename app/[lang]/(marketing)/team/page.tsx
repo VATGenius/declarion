@@ -102,7 +102,7 @@ export default async function TeamPage({ params }: Props) {
       </Section>
 
       {/* Our Niche Section */}
-      <Section background="soft-green">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.niche.title}
         </h2>
@@ -166,7 +166,7 @@ export default async function TeamPage({ params }: Props) {
       </Section>
 
       {/* Values Section */}
-      <Section background="soft-blue">
+      <Section background="soft-green">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.values.title}
         </h2>

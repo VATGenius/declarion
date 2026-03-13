@@ -118,7 +118,7 @@ export default async function ProductPage({ params }: Props) {
 
       {/* Process Image Section */}
       {content.howItWorks.processImage && (
-        <Section background="soft-green">
+        <Section background="soft-blue">
           <h2 className="mb-8 text-center text-3xl font-bold text-gray-900">
             {content.howItWorks.title}
           </h2>
@@ -168,7 +168,7 @@ export default async function ProductPage({ params }: Props) {
       </Section>
 
       {/* Compliance Section */}
-      <Section background="soft-blue">
+      <Section background="soft-green">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.compliance.title}
         </h2>
