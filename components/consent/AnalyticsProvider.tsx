@@ -10,7 +10,7 @@ import { hasConsent, type ConsentState } from './consentStore';
  * when the user has given analytics consent.
  *
  * To integrate Server-Side GTM:
- * 1. Set up GTM server container on a subdomain (e.g., gtm.vatgenius.com)
+ * 1. Set up GTM server container on a subdomain (e.g., gtm.declarion.tech)
  * 2. Configure reverse proxy in Vercel/Cloudflare for first-party cookies
  * 3. Add GTM_SERVER_URL and ANALYTICS_ID to environment variables
  * 4. The script URL would be: ${GTM_SERVER_URL}/gtm.js?id=${ANALYTICS_ID}

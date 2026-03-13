@@ -66,9 +66,9 @@ export function DemoForm() {
 
   if (status === 'success') {
     return (
-      <div className="rounded-lg bg-green-50 p-8 text-center">
+      <div className="rounded-lg bg-soft-blue p-8 text-center">
         <svg
-          className="mx-auto h-12 w-12 text-green-500"
+          className="mx-auto h-12 w-12 text-brand"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

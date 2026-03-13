@@ -171,7 +171,7 @@ export default async function IntegrationPage({ params }: Props) {
       </Section>
 
       {/* Timeline Section */}
-      <Section background="soft-green">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.timeline.title}
         </h2>

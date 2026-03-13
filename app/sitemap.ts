@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllNewsSlugs, getAllKnowledgeSlugs } from '@/lib/content';
 
-const SITE_URL = process.env.SITE_URL || 'https://vatgenius.com';
+const SITE_URL = process.env.SITE_URL || 'https://declarion.tech';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

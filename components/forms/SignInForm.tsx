@@ -53,8 +53,8 @@ export function SignInForm({ locale, ui }: SignInFormProps) {
         </div>
 
         {forgotPasswordSubmitted ? (
-          <div className="mt-8 rounded-lg bg-green-50 p-6 text-center">
-            <p className="text-green-800">{ui.forgotPasswordMessage}</p>
+          <div className="mt-8 rounded-lg bg-soft-blue p-6 text-center">
+            <p className="text-brand-dark">{ui.forgotPasswordMessage}</p>
             <button
               type="button"
               onClick={() => {

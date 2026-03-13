@@ -124,7 +124,7 @@ export default async function ProductPage({ params }: Props) {
           </h2>
           <Image
             src={content.howItWorks.processImage}
-            alt="VATGenius Process Flow"
+            alt="Declarion Process Flow"
             width={1200}
             height={400}
             className="mx-auto rounded-lg"
@@ -168,7 +168,7 @@ export default async function ProductPage({ params }: Props) {
       </Section>
 
       {/* Compliance Section */}
-      <Section background="soft-green">
+      <Section background="soft-blue">
         <h2 className="text-center text-3xl font-bold text-gray-900">
           {content.compliance.title}
         </h2>
