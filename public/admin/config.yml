@@ -6,9 +6,9 @@ local_backend: true
 
 backend:
   name: github
-  repo: VATGenius/vatgenius
+  repo: VATGenius/declarion
   branch: main
-  base_url: https://vatgenius.tech
+  base_url: https://declarion.com
   auth_endpoint: /api/auth
 
 # Enable Editorial Workflow for PR-based content review
@@ -19,7 +19,7 @@ media_folder: public/images/uploads
 public_folder: /images/uploads
 
 # Site URL for preview
-site_url: https://vatgenius.tech
+site_url: https://declarion.com
 
 # Logo for the CMS
 logo_url: /images/logo.png
