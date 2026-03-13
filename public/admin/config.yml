@@ -9,7 +9,7 @@ backend:
   repo: VATGenius/vatgenius
   branch: main
   base_url: https://vatgenius.cloud
-  auth_endpoint: auth
+  auth_endpoint: auth / api
 
 # Enable Editorial Workflow for PR-based content review
 publish_mode: editorial_workflow
