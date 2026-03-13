@@ -77,12 +77,6 @@ export function Header({ locale, ui }: HeaderProps) {
           {/* CTA Buttons & Language Switcher */}
           <div className="hidden items-center gap-4 md:flex">
             <LanguageSwitcher currentLocale={locale} />
-            <Link
-              href="https://app.declarion.tech/"
-              className="text-sm font-medium text-gray-600 hover:text-brand"
-            >
-              {ui.signIn}
-            </Link>
             <Button href={`/${locale}/demo`} size="sm">
               {ui.requestDemo}
             </Button>
@@ -138,13 +132,6 @@ export function Header({ locale, ui }: HeaderProps) {
                 </Link>
               ))}
               <hr className="my-2" />
-              <Link
-                href="https://app.declarion.tech/"
-                className="text-base font-medium text-gray-600 hover:text-brand"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {ui.signIn}
-              </Link>
               <Button href={`/${locale}/demo`} size="sm">
                 {ui.requestDemo}
               </Button>

@@ -273,7 +273,7 @@ export default async function HomePage({ params }: Props) {
       </Section>
 
       {/* Security Section */}
-      <Section background="soft-green">
+      <Section background="soft-blue">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">
