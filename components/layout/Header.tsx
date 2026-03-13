@@ -49,13 +49,13 @@ export function Header({ locale, ui }: HeaderProps) {
           <Link href={`/${locale}`} className="flex items-center gap-2">
             <Image
               src="/images/logo.png"
-              alt="VATGenius"
+              alt="Declarion"
               width={40}
               height={40}
               className="h-10 w-10"
               priority
             />
-            <span className="text-xl font-bold text-gray-900">VATGenius</span>
+            <span className="text-xl font-bold text-gray-900">Declarion</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -78,7 +78,7 @@ export function Header({ locale, ui }: HeaderProps) {
           <div className="hidden items-center gap-4 md:flex">
             <LanguageSwitcher currentLocale={locale} />
             <Link
-              href="https://app.vatgenius.tech/"
+              href="https://app.declarion.tech/"
               className="text-sm font-medium text-gray-600 hover:text-brand"
             >
               {ui.signIn}
@@ -139,7 +139,7 @@ export function Header({ locale, ui }: HeaderProps) {
               ))}
               <hr className="my-2" />
               <Link
-                href="https://app.vatgenius.tech/"
+                href="https://app.declarion.tech/"
                 className="text-base font-medium text-gray-600 hover:text-brand"
                 onClick={() => setMobileMenuOpen(false)}
               >

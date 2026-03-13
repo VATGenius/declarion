@@ -10,29 +10,29 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-          950: '#052e16',
+          50: '#e8edf5',
+          100: '#c5d0e5',
+          200: '#9fb3d5',
+          300: '#7996c4',
+          400: '#5c81b8',
+          500: '#3f6cac',
+          600: '#123F8A',
+          700: '#0f3574',
+          800: '#0c2b5e',
+          900: '#091f47',
+          950: '#051431',
         },
-        // VATGenius brand green
+        // Declarion brand blue
         brand: {
-          DEFAULT: '#00A86A',
-          light: '#00C77B',
-          dark: '#008F5A',
+          DEFAULT: '#123F8A',
+          light: '#2F8BC7',
+          dark: '#0c2b5e',
         },
-        // Accent Aqua - for links, hover states, UI elements
+        // Medium blue - for links, hover states, UI elements
         accent: {
-          DEFAULT: '#2BB0E6',
-          light: '#5CC4ED',
-          dark: '#1A9BD4',
+          DEFAULT: '#2F8BC7',
+          light: '#5AA3D4',
+          dark: '#1A6FA3',
         },
         // Section backgrounds
         'soft-green': '#ECFDF5',

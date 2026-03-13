@@ -1,4 +1,4 @@
-/* Preview pane styles for Decap CMS - matches VATGenius website */
+/* Preview pane styles for Decap CMS - matches Declarion website */
 
 /* Import Inter font for preview */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -66,13 +66,13 @@ p {
 
 /* Brand color for links */
 a {
-  color: #0d9488; /* brand color */
+  color: #2F8BC7; /* brand color */
   text-decoration: none;
   font-weight: 500;
 }
 
 a:hover {
-  color: #0f766e; /* brand-dark */
+  color: #123F8A; /* brand-dark */
   text-decoration: underline;
 }
 
@@ -102,12 +102,12 @@ li > ul, li > ol {
 }
 
 li::marker {
-  color: #0d9488; /* brand color */
+  color: #2F8BC7; /* brand color */
 }
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid #0d9488;
+  border-left: 4px solid #2F8BC7;
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-style: italic;

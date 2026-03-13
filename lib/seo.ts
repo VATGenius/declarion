@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import { locales, type Locale } from './i18n/config';
 
-const SITE_URL = process.env.SITE_URL || 'https://vatgenius.com';
-const SITE_NAME = 'VATGenius';
+const SITE_URL = process.env.SITE_URL || 'https://declarion.com';
+const SITE_NAME = 'Declarion';
 
 const localeToOgLocale: Record<Locale, string> = {
   en: 'en_US',
@@ -102,11 +102,11 @@ export function generateOrganizationJsonLd() {
     url: SITE_URL,
     logo: `${SITE_URL}/images/logo.png`,
     description:
-      'VATGenius provides automated VAT refund solutions for neobanks and their business customers.',
+      'Declarion provides automated VAT refund solutions for neobanks and their business customers.',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@vatgenius.tech',
+      email: 'info@declarion.tech',
     },
     sameAs: [],
   };
@@ -128,7 +128,7 @@ export function generateArticleJsonLd({
   image,
   publishedTime,
   modifiedTime,
-  authors = ['VATGenius Team'],
+  authors = ['Declarion Team'],
 }: {
   title: string;
   description: string;

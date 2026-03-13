@@ -19,11 +19,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'VATGenius | Automated VAT Refund Solutions for Neobanks',
-    template: '%s | VATGenius',
+    default: 'Declarion | Automated VAT Refund Solutions for Neobanks',
+    template: '%s | Declarion',
   },
   description:
-    'VATGenius provides automated foreign VAT refund solutions for neobanks and their business customers. Unlock new revenue streams with zero operational overhead.',
+    'Declarion provides automated foreign VAT refund solutions for neobanks and their business customers. Unlock new revenue streams with zero operational overhead.',
   keywords: [
     'VAT refund',
     'neobank',
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     'EU VAT',
     'automated VAT',
   ],
-  authors: [{ name: 'VATGenius' }],
-  creator: 'VATGenius',
-  metadataBase: new URL(process.env.SITE_URL || 'https://vatgenius.com'),
+  authors: [{ name: 'Declarion' }],
+  creator: 'Declarion',
+  metadataBase: new URL(process.env.SITE_URL || 'https://declarion.tech'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'VATGenius',
+    siteName: 'Declarion',
   },
   twitter: {
     card: 'summary_large_image',

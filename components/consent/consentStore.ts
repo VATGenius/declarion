@@ -1,6 +1,6 @@
 'use client';
 
-const CONSENT_KEY = 'vatgenius_consent';
+const CONSENT_KEY = 'declarion_consent';
 
 export type ConsentCategory = 'necessary' | 'analytics';
 

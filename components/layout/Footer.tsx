@@ -51,7 +51,7 @@ export function Footer({ locale, ui }: FooterProps) {
               <Link href={`/${locale}`} className="flex items-center gap-2">
                 <Image
                   src="/images/logo.png"
-                  alt="VATGenius"
+                  alt="Declarion"
                   width={120}
                   height={30}
                   className="h-8 w-auto"
@@ -63,13 +63,13 @@ export function Footer({ locale, ui }: FooterProps) {
                   {ui.contactUs}
                 </p>
                 <a
-                  href="mailto:info@vatgenius.tech"
+                  href="mailto:info@declarion.tech"
                   className="mt-1 block text-sm text-gray-600 hover:text-brand"
                 >
-                  info@vatgenius.tech
+                  info@declarion.tech
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/vatgenius"
+                  href="https://www.linkedin.com/company/declarion"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center gap-2 text-sm text-gray-600 hover:text-brand"
