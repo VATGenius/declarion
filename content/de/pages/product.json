@@ -6,11 +6,11 @@
   "hero": {
     "title": "Continuous Compliance für FinTech-Ökosysteme",
     "description": "FinTechs, Partnerbanken und Assurance-Teams erhalten eine gemeinsame, aktuelle Sicht auf regulatorische Kontrollen, Risiken und Nachweise – zentral dokumentiert und jederzeit prüfbar. So wird Compliance vom manuellen Audit-Projekt zu einem kontinuierlichen, transparenten Prozess.\n",
-    "solutionText": "FinTechs und Banken arbeiten immer enger zusammen. Gleichzeitig steigen regulatorische Anforderungen kontinuierlich. Kontrollen, Nachweise und Risikoanalysen werden jedoch häufig noch in Excel-Tabellen, Dokumenten oder einzelnen Tools verwaltet. Das führt zu typischen Problemen: • fehlende Transparenz über regulatorische Kontrollen • fragmentierte Evidenzdokumentation •\tbegrenzte Sicht auf Risiken aus Drittparteien • hoher manueller Aufwand bei Audits • fehlende kontinuierliche Compliance-Überwachung\nGerade in FinTech-Ökosystemen erschwert diese Fragmentierung die Zusammenarbeit zwischen FinTechs, Partnerbanken und Prüfern\n",
+    "solutionText": "FinTechs und Banken arbeiten immer enger zusammen. Gleichzeitig steigen regulatorische Anforderungen kontinuierlich. Kontrollen, Nachweise und Risikoanalysen werden jedoch häufig noch in Excel-Tabellen, Dokumenten oder einzelnen Tools verwaltet. Das führt zu typischen Problemen: • fehlende Transparenz über regulatorische Kontrollen • fragmentierte Evidenzdokumentation •\tbegrenzte Sicht auf Risiken aus Drittparteien • hoher manueller Aufwand bei Audits • fehlende kontinuierliche Compliance-Überwachung\n",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "So funktioniert es: Die 4-Stufen-Integration",
+    "title": "Gerade in FinTech-Ökosystemen erschwert diese Fragmentierung die Zusammenarbeit zwischen FinTechs, Partnerbanken und Prüfern. Declarion verbindet Kontrollmanagement, Risikobewertung und Evidenzdokumentation in einer zentralen Plattform.",
     "processImage": "/images/process.png",
     "processSteps": [
       {
