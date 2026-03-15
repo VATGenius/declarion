@@ -20,13 +20,13 @@
       },
       {
         "step": "2",
-        "title": "Verarbeitung",
-        "description": "Der VATGenius Engine analysiert automatisch Dokumente und Transaktionen, berechnet Umsatzsteuerbeträge und ermöglicht sowohl die Rückerstattung ausländischer Umsatzsteuer als auch die Erfüllung nationaler Umsatzsteuerpflichten."
+        "title": "Strukturierung",
+        "description": "Die Declarion Engine ordnet Kontrollen, Evidenz und Risikodaten entlang regulatorischer Anforderungen und schafft eine klare Struktur für Compliance-Management."
       },
       {
         "step": "3",
-        "title": "Einreichung",
-        "description": "Die VATGenius TAX API automatisiert Umsatzsteuer-Rückerstattungen sowie nationale Umsatzsteuer-Meldungen bei den zuständigen Finanzbehörden."
+        "title": "Monitoring",
+        "description": "Kontrollen und Risiken werden kontinuierlich überwacht.\nFinTechs und Partnerbanken erhalten jederzeit Transparenz über:\n• Kontrollstatus • Evidenzdokumentation • identifizierte Risiken •\tregulatorische Anforderungen\n"
       },
       {
         "step": "4",
