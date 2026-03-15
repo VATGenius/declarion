@@ -36,28 +36,32 @@
     ]
   },
   "customerBenefit": {
-    "title": "Ihr Kundenvorteil",
+    "title": "Ihr Vorteil",
     "items": [
       {
-        "title": "Kein Aufwand",
-        "description": "ollautomatische Identifikation erstattungsfähiger Umsatzsteuer sowie nationaler Umsatzsteuerpflichten."
+        "title": "Weniger manueller Aufwand",
+        "description": "Declarion reduziert manuelle Compliance-Prozesse und ersetzt fragmentierte Excel-Strukturen durch eine zentrale Plattform."
       },
       {
-        "title": "Maximaler Betrag",
-        "description": "KI-gestützte Prüfung maximiert Umsatzsteuer-Rückerstattungen und stellt gleichzeitig eine nahtlose Einhaltung nationaler Umsatzsteuerpflichten sicher."
+        "title": "Continuous Compliance",
+        "description": "Kontrollen und Risiken werden laufend überwacht – nicht nur zum Zeitpunkt eines Audits.\n"
       },
       {
-        "title": "Vollständige Transparenz",
-        "description": "Über das Dashboard können Sie jederzeit den Status Ihrer Umsatzsteuer-Rückerstattungen und Ihrer nationalen Umsatzsteuerpflichten einsehen."
+        "title": "Audit-Ready Evidence",
+        "description": "Regulatorische Nachweise sind jederzeit nachvollziehbar dokumentiert und sofort prüfbar."
+      },
+      {
+        "title": "Transparenz im FinTech-Ökosystem",
+        "description": "FinTechs, Banken und Prüfer arbeiten auf einer gemeinsamen Datenbasis."
       }
     ]
   },
   "compliance": {
     "title": "Compliance & Sicherheit: Vertrauen durch regulatorische Exzellenz",
-    "description": "Als AKteur im Finanzsektors wissen wir, dass Vertrauen, Sicherheit und kompromisslose regulatorische Compliance unverzichtbar sind. Unsere Lösungen sind darauf ausgelegt, sowohl die Rückerstattung ausländischer Umsatzsteuer als auch die Erfüllung nationaler Umsatzsteuerpflichten zu vereinfachen, Risiken zu reduzieren und gleichzeitig vollständige Compliance für Ihr Unternehmen und Ihre Geschäftskunden sicherzustellen.",
+    "description": "Als Plattform für regulierte Finanzinstitute sind Sicherheit und regulatorische Compliance zentrale Bestandteile unserer Architektur. Declarion unterstützt Organisationen bei der Umsetzung regulatorischer Anforderungen aus europäischen und nationalen Regelwerken, darunter:\n• DORA – Digital Operational Resilience Act • MaRisk – Mindestanforderungen an das Risikomanagement • BAIT – Bankaufsichtliche Anforderungen an die IT • EBA Outsourcing Guidelines • PSD2 / ZAG\n",
     "sections": [
       {
-        "title": "Global Tax Compliance as a Service",
+        "title": "Datensicherheit und Datenschutz (DSGVO-konform)",
         "items": [
           {
             "label": "Branchenspezifische Expertise:",
@@ -82,7 +86,7 @@
           },
           {
             "label": "Datenminimierung:",
-            "text": "Nur notwendige Daten werden gemäß DSGVO verarbeitet"
+            "text": "Es werden ausschließlich notwendige Daten gemäß DSGVO verarbeitet."
           },
           {
             "label": "Regelmäßige Audits:",
@@ -94,21 +98,21 @@
   },
   "secureApi": {
     "title": "Sichere API und Infrastruktur",
-    "description": "Unsere Integration ist darauf ausgelegt, sich nahtlos in Ihre Systeme einzufügen, ohne Ihre bestehende Sicherheitsarchitektur zu beeinträchtigen.",
+    "description": "Declarion lässt sich nahtlos in bestehende Systeme integrieren und unterstützt eine sichere, skalierbare Infrastruktur.",
     "features": [
       {
         "title": "Token-basierte Authentifizierung",
-        "description": "Sichere API-Interaktionen"
+        "description": "Sichere API-Interaktionen und kontrollierter Zugriff auf Plattformfunktionen."
       },
       {
         "title": "Cloud-Infrastruktur",
-        "description": "Zertifizierte Cloud-Umgebungen mit Redundanz"
+        "description": "Zertifizierte Cloud-Umgebungen mit redundanter Infrastruktur."
       }
     ]
   },
   "cta": {
     "title": "Bereit loszulegen?",
-    "description": "Erfahren Sie, wie VATGenius Ihren Geschäftskunden helfen kann, ausländische Umsatzsteuer zurückzufordern und ihre Umsatzsteuerpflichten weltweit zu verwalten.",
+    "description": "Erfahren Sie, wie Declarion FinTechs, Partnerbanken und Assurance-Teams dabei unterstützt, regulatorische Anforderungen effizient zu erfüllen und Compliance kontinuierlich zu überwachen.",
     "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
