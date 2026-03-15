@@ -49,17 +49,17 @@
     "items": [
       {
         "title": "Continuous statt punktuell",
-        "description": "Compliance wird laufend überwacht – nicht nur zum Zeitpunkt eines Audits.",
+        "description": "Compliance wird laufend überwacht – nicht nur zum Zeitpunkt eines Audits. Audit-Vorbereitung wird drastisch reduziert.",
         "icon": "currency"
       },
       {
         "title": "Transparenz im FinTech-Ökosystem",
-        "description": "FinTechs, Banken und Prüfer arbeiten auf einer gemeinsamen, strukturierten Datenbasis.",
+        "description": "FinTechs, Banken und Prüfer arbeiten auf einer gemeinsamen, strukturierten Datenbasis. Dies schafft Transparenz zwischen FinTech und Bank.",
         "icon": "heart"
       },
       {
         "title": "Audit-Ready",
-        "description": "Regulatorische Evidenz ist jederzeit nachvollziehbar und prüfbar dokumentiert.",
+        "description": "Regulatorische Evidenz ist jederzeit nachvollziehbar, zentral und prüfbar dokumentiert.",
         "icon": "lightning"
       },
       {
