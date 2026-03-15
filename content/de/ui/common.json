@@ -9,27 +9,54 @@
     "requestDemo": "Demo anfragen"
   },
   "footer": {
-    "description": "Automatisierte Umsatzsteuer-Rückerstattungslösungen für Neobanken und deren Geschäftskunden.",
-    "productTitle": "Produkt",
-    "companyTitle": "Unternehmen",
-    "legalTitle": "Rechtliches",
-    "contactUs": "Kontakt",
-    "copyright": "VATGenius. Alle Rechte vorbehalten.",
-    "productLinks": [
-      { "name": "Produkt", "href": "/product" },
-      { "name": "Integration", "href": "/integration" },
-      { "name": "Warum wir", "href": "/why-us" }
-    ],
-    "companyLinks": [
-      { "name": "Team", "href": "/team" },
-      { "name": "News", "href": "/news" },
-      { "name": "Wissensdatenbank", "href": "/knowledge" }
-    ],
     "legalLinks": [
-      { "name": "Datenschutz", "href": "/privacy" },
-      { "name": "AGB", "href": "/terms" },
-      { "name": "Impressum", "href": "/imprint" }
-    ]
+      {
+        "name": "Datenschutz",
+        "href": "/privacy"
+      },
+      {
+        "name": "AGB",
+        "href": "/terms"
+      },
+      {
+        "name": "Impressum",
+        "href": "/imprint"
+      }
+    ],
+    "copyright": "Declarion. Alle Rechte vorbehalten.",
+    "productTitle": "Produkt",
+    "productLinks": [
+      {
+        "name": "Produkt",
+        "href": "/product"
+      },
+      {
+        "name": "Integration",
+        "href": "/integration"
+      },
+      {
+        "name": "Warum wir",
+        "href": "/why-us"
+      }
+    ],
+    "companyTitle": "Unternehmen",
+    "companyLinks": [
+      {
+        "name": "Team",
+        "href": "/team"
+      },
+      {
+        "name": "News",
+        "href": "/news"
+      },
+      {
+        "name": "Wissensdatenbank",
+        "href": "/knowledge"
+      }
+    ],
+    "description": "Compliance-Überwachung, Drittparteien-Risikomanagement und auditfähige Evidenz.",
+    "contactUs": "Kontakt",
+    "legalTitle": "Rechtliches"
   },
   "articles": {
     "backToNews": "Zurück zu News",
