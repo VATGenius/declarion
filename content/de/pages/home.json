@@ -70,12 +70,14 @@
     ]
   },
   "security": {
-    "title": "Sicherheit und Compliance",
-    "description": "Bei VATGenius ist die Implementierung wirksamer Cybersicherheitsmaßnahmen eine Grundvoraussetzung für den Schutz sensibler Daten und die Sicherung des Kundenvertrauens.",
+    "title": "Compliance ist heute oft fragmentiert",
+    "description": "In vielen Organisationen werden regulatorische Kontrollen, Nachweise und Risikoanalysen weiterhin in Excel-Tabellen, Dokumenten und einzelnen Tools verwaltet. Gerade in FinTech-Ökosystemen erschwert diese Fragmentierung eine effiziente Zusammenarbeit zwischen FinTechs, Banken und Prüfern.",
     "features": [
-      "Verschlüsselungsprotokolle und Multi-Faktor-Authentifizierung für Zugriffskontrollen",
-      "Sorgfältige Prüfung aller Aspekte der Datenverarbeitung",
-      "DSGVO-konforme Datenspeicherung und -verarbeitung"
+      "Kontrollen sind nicht zentral dokumentiert",
+      "Evidenz ist schwer nachvollziehbar",
+      "Partnerbanken haben nur begrenzte Transparenz",
+      "Audits erfordern hohen manuellen Aufwand",
+      "Risiken werden oft erst spät erkannt"
     ]
   },
   "cta": {
