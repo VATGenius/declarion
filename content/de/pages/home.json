@@ -1,45 +1,45 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Automatisierte Umsatzsteuerlösungen für Erstattungen und nationale VAT-Compliance",
-    "metaDescription": "VATGenius ermöglicht Unternehmen die automatische Rückforderung ausländischer Vorsteuer und unterstützt sie gleichzeitig bei der effizienten Erfüllung ihrer nationalen Umsatzsteuerpflichten."
+    "metaTitle": "Declarion | Continuous Compliance für FinTech-Ökosysteme",
+    "metaDescription": "Declarion ist eine Plattform für kontinuierliche Compliance-Überwachung, Drittparteien-Risikomanagement und auditfähige Evidenz.\nFinTechs, Partnerbanken und Assurance-Teams erhalten eine gemeinsame, aktuelle Sicht auf regulatorische Kontrollen, Risiken und Nachweise – zentral, strukturiert und jederzeit prüfbar."
   },
   "hero": {
-    "title": "Umsatzsteuer effizient: Compliance im Inland, Erstattung im Ausland:",
-    "titleHighlight": "Entlastung und zusätzliche Einnahmen",
-    "titleEnd": "für Unternehmen und Geschäftskunden von Neobanken",
-    "description": "Declarion ernöglicht Unternehmen und den Geschäftskunden von Neobanken die automatische und digitale Abwicklung ihrer Umsatzsteuer – von der Rückforderung ausländischer Vorsteuer bis zur Erfüllung nationaler Umsatzsteuerpflichten. Unsere Lösung integriert sich nahtlos in bestehende Plattformen, ERP und Banking Systeme und bietet einen durchgängigen End-to-End-Prozess.\n\n",
-    "secondaryDescription": "VATGenius senkt die steuerlichen Bearbeitungskosten erheblich und erschließt sogleich Umsatzsteuererstattungpotentiale. Die Integration bei Neobanken stärkt die Kundenbindung, erhöht das Transaktionsvolumen und erweitert das Angebot um leistungsstarke Lösungen – ohne zusätzlichen administrativen Aufwand.",
+    "title": "Declarion | Continuous Compliance für FinTech-Ökosysteme",
+    "titleHighlight": "Declarion ist eine Plattform für kontinuierliche Compliance-Überwachung, Drittparteien-Risikoman.agement und auditfähige Evidenz",
+    "titleEnd": "für FinTechs, Partnerbanken und Assurance-Teams. ",
+    "description": "Declarion bietet eine gemeinsame, aktuelle Sicht auf regulatorische Kontrollen, Risiken und Nachweise – zentral, strukturiert und jederzeit prüfbar. So wird Compliance vom punktuellen Audit-Projekt zu einem laufenden, transparenten Prozess.\n\n\n",
+    "secondaryDescription": "Declarion kombiniert mehrere zentrale Funktionen für Compliance- und Risikoüberwachung. Weniger Excel. Weniger manuelle Audits. Mehr Vertrauen im Finanzökosystem.",
     "ctaText": "Live-Demo & Integrationsberatung anfragen",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
   "platform": {
-    "title": "Die VATGenius-Plattform",
+    "title": "Declarion",
     "description": "",
     "features": [
       {
-        "title": "VATGenius API",
-        "description": "Einfache Integration über API für den automatisierten Datentransfer aus Ihrem ERP, Traveltool oder Banksystem. Erfassung, Strukturierung, Verarbeitung und Validierung von Daten aus sämtlichen Rechnungen und Belegen.",
+        "title": "Control Management",
+        "description": "Strukturierte Dokumentation regulatorischer Kontrollen und deren Status über Organisationen hinweg.",
         "icon": "code"
       },
       {
-        "title": "VATGenius Engine",
-        "description": "KI-gestützte Prüfung der Rechnungs-Compliance, Berechnung potenzieller ausländischer Umsatzsteuer-Erstattungen sowie digitale Lösungen zur Erfüllung nationaler Umsatzsteuerpflichten. Vorbereitung der erforderlichen Steuererklärungen und Anträge.",
+        "title": "Continuous Compliance Monitoring",
+        "description": "Laufende Überwachung von Kontrollen und Risiken statt punktueller Audit-Momentaufnahmen.",
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius Smart",
-        "description": "Automatisierte Korrespondenz und Anfragen nach neuen und umsatzsteuerkonformen Rechnungen bei den Rechnungsausstellern im In- und Ausland. KI-gestützte Bearbeitung von Anfragen ausländischer und inländischer Steuerbehörden.",
+        "title": "Third-Party Risk Management",
+        "description": "Transparente Bewertung und Überwachung von Risiken aus ausgelagerten Aktivitäten.",
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius Dashboard",
+        "title": "Audit-Ready Evidence",
         "icon": "document",
-        "description": "Automatisierte Kundenautorisierung und Onboarding. Echtzeit-Statusverfolgung für Rückerstattungen, Einreichungen und Compliance-Prozesse."
+        "description": "Zentrale Sammlung und strukturierte Dokumentation regulatorischer Nachweise."
       },
       {
-        "title": "VATGenius TAX API",
-        "description": "Vollautomatische und digitale Einreichung inländischer Umsatzsteuererklärungen sowie ausländischer Umsatzsteuer-Erstattungsanträge über die jeweiligen nationalen Steuerportale.",
+        "title": "Safeguarding Monitoring",
+        "description": "Überwachung von Anforderungen rund um die Sicherung von Kundengeldern.",
         "icon": "document"
       }
     ]
