@@ -43,18 +43,18 @@
         "icon": "document"
       },
       {
-        "title": "Überwachung ausgelagerter Aktivitäten",
-        "description": "Partnerbanken erhalten strukturierte Nachweise und können regulatorische Anforderungen effizient erfüllen.\n",
+        "title": "Partnerbanken",
+        "description": "Partnerbanken können ausgelagerte Aktivitäten überwchen, erhalten strukturierte Nachweise und können regulatorische Anforderungen effizient erfüllen.\n",
         "icon": "lightbulb"
       },
       {
-        "title": "Standardisierte Evidenz statt manueller Dokumentensammlung",
-        "description": "Assurance-Teams und Prüfer können strukturierte Prüfung von Kontrollen durchführen und erhalten bessere Nachvollziehbarkeit regulatorischer Prozesse.\n",
+        "title": "Assurance-Teams und Prüfer",
+        "description": "Assurance-Teams und Prüfer erhalten standardisierte Evidenz statt manueller Dokumentensammlung, können strukturierte Prüfung von Kontrollen durchführen und erhalten bessere Nachvollziehbarkeit regulatorischer Prozesse.\n",
         "icon": "code"
       },
       {
-        "title": "Strukturierte Dokumentation regulatorischer Kontrollen ",
-        "description": "FinTechs können Nachweise zentral bündeln, werden schneller audit-bereit und ermöglichen Partnerbanken transparente Einblicke.\n",
+        "title": "FinTechs",
+        "description": "FinTechs erhalten strukturierte Dokumentation regulatorischer Kontrollen, können Nachweise zentral bündeln, werden schneller audit-bereit und ermöglichen Partnerbanken transparente Einblicke.\n",
         "icon": "document"
       }
     ]
