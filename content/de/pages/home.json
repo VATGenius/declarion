@@ -48,19 +48,24 @@
     "title": "Vorteile & Nutzen auf einen Blick",
     "items": [
       {
-        "title": "Einnahmen und Kostenersparnis",
-        "description": "Neue, passive Einnahmequelle durch Erstattung ausländischer Umsatzsteuer und Wegfall administrativen Aufwands für die Erfüllung nationaler Umsatzsteuerpflichten.",
+        "title": "Continuous statt punktuell",
+        "description": "Compliance wird laufend überwacht – nicht nur zum Zeitpunkt eines Audits.",
         "icon": "currency"
       },
       {
-        "title": "Kundenbindung",
-        "description": "Generiert messbare finanzielle Erträge für Unternehmen und stärkt die Kundenbindung.",
+        "title": "Transparenz im FinTech-Ökosystem",
+        "description": "FinTechs, Banken und Prüfer arbeiten auf einer gemeinsamen, strukturierten Datenbasis.",
         "icon": "heart"
       },
       {
-        "title": "Differenzierung",
-        "description": "Nutzen Sie einen einzigartigen Premium-Service, den Ihre Mitbewerber nicht nutzen, und verschaffen Sie sich einen Wettbewerbsvorteil. ",
+        "title": "Audit-Ready",
+        "description": "Regulatorische Evidenz ist jederzeit nachvollziehbar und prüfbar dokumentiert.",
         "icon": "lightning"
+      },
+      {
+        "title": "Skalierbar",
+        "description": "Declarion ersetzt fragmentierte Excel- und Dokumentenstrukturen durch eine skalierbare Plattform.",
+        "icon": "currency"
       }
     ]
   },
