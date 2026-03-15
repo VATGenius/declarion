@@ -14,7 +14,7 @@
     "heroImage": "/images/hero-home.png"
   },
   "platform": {
-    "title": "Declarion",
+    "title": "Declarion wurde für FinTechs, Partnerbanken und Assurance-Teams und Prüfer entwickelt",
     "description": "Regulatorische Anforderungen steigen kontinuierlich. Gleichzeitig arbeiten FinTechs und Banken immer enger zusammen. Damit wächst die Herausforderung, Risiken, Kontrollen und Nachweise über Organisationsgrenzen hinweg transparent und prüfbar zu steuern. Declarion schafft dafür eine gemeinsame Plattform.\n",
     "features": [
       {
@@ -40,6 +40,21 @@
       {
         "title": "Safeguarding Monitoring",
         "description": "Überwachung von Anforderungen rund um die Sicherung von Kundengeldern.",
+        "icon": "document"
+      },
+      {
+        "title": "Überwachung ausgelagerter Aktivitäten",
+        "description": "Partnerbanken erhalten strukturierte Nachweise und können regulatorische Anforderungen effizient erfüllen.\n",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Standardisierte Evidenz statt manueller Dokumentensammlung",
+        "description": "Assurance-Teams und Prüfer können strukturierte Prüfung von Kontrollen durchführen und erhalten bessere Nachvollziehbarkeit regulatorischer Prozesse.\n",
+        "icon": "code"
+      },
+      {
+        "title": "Strukturierte Dokumentation regulatorischer Kontrollen ",
+        "description": "FinTechs können Nachweise zentral bündeln, werden schneller audit-bereit und ermöglichen Partnerbanken transparente Einblicke.\n",
         "icon": "document"
       }
     ]
