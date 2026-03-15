@@ -6,32 +6,32 @@
   "hero": {
     "title": "Continuous Compliance für FinTech-Ökosysteme",
     "description": "FinTechs, Partnerbanken und Assurance-Teams erhalten eine gemeinsame, aktuelle Sicht auf regulatorische Kontrollen, Risiken und Nachweise – zentral dokumentiert und jederzeit prüfbar. So wird Compliance vom manuellen Audit-Projekt zu einem kontinuierlichen, transparenten Prozess.\n",
-    "solutionText": "FinTechs und Banken arbeiten immer enger zusammen. Gleichzeitig steigen regulatorische Anforderungen kontinuierlich. Kontrollen, Nachweise und Risikoanalysen werden jedoch häufig noch in Excel-Tabellen, Dokumenten oder einzelnen Tools verwaltet. Das führt zu typischen Problemen: • fehlende Transparenz über regulatorische Kontrollen • fragmentierte Evidenzdokumentation •\tbegrenzte Sicht auf Risiken aus Drittparteien • hoher manueller Aufwand bei Audits • fehlende kontinuierliche Compliance-Überwachung\nGerade in FinTech-Ökosystemen erschwert diese Fragmentierung die Zusammenarbeit zwischen FinTechs, Partnerbanken und Prüfern\n",
+    "solutionText": "FinTechs und Banken arbeiten immer enger zusammen. Gleichzeitig steigen regulatorische Anforderungen kontinuierlich. Kontrollen, Nachweise und Risikoanalysen werden jedoch häufig noch in Excel-Tabellen, Dokumenten oder einzelnen Tools verwaltet. Das führt zu typischen Problemen: • fehlende Transparenz über regulatorische Kontrollen • fragmentierte Evidenzdokumentation •\tbegrenzte Sicht auf Risiken aus Drittparteien • hoher manueller Aufwand bei Audits • fehlende kontinuierliche Compliance-Überwachung\n",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "So funktioniert es: Die 4-Stufen-Integration",
+    "title": "Gerade in FinTech-Ökosystemen erschwert diese Fragmentierung die Zusammenarbeit zwischen FinTechs, Partnerbanken und Prüfern. Declarion verbindet Kontrollmanagement, Risikobewertung und Evidenzdokumentation in einer zentralen Plattform durch die 4-Stufen-Integration",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
         "title": "Datenerfassung",
-        "description": "Automatisierte Transaktionsdaten über VATGenius"
+        "description": "Kontrollen, regulatorische Anforderungen und Nachweise werden strukturiert in Declarion erfasst oder aus bestehenden Systemen integriert.\nDokumentationen, Richtlinien und Evidenz werden zentral gebündelt."
       },
       {
         "step": "2",
-        "title": "Verarbeitung",
-        "description": "Der VATGenius Engine analysiert automatisch Dokumente und Transaktionen, berechnet Umsatzsteuerbeträge und ermöglicht sowohl die Rückerstattung ausländischer Umsatzsteuer als auch die Erfüllung nationaler Umsatzsteuerpflichten."
+        "title": "Strukturierung",
+        "description": "Die Declarion Engine ordnet Kontrollen, Evidenz und Risikodaten entlang regulatorischer Anforderungen und schafft eine klare Struktur für Compliance-Management."
       },
       {
         "step": "3",
-        "title": "Einreichung",
-        "description": "Die VATGenius TAX API automatisiert Umsatzsteuer-Rückerstattungen sowie nationale Umsatzsteuer-Meldungen bei den zuständigen Finanzbehörden."
+        "title": "Monitoring",
+        "description": "Kontrollen und Risiken werden kontinuierlich überwacht. FinTechs und Partnerbanken erhalten jederzeit Transparenz über • Kontrollstatus • Evidenzdokumentation • identifizierte Risiken • regulatorische Anforderungen\n"
       },
       {
         "step": "4",
-        "title": "Auszahlung",
-        "description": "Erstattungsbeträge werden empfangen und nahtlos ausgezahlt und wirken sich direkt auf die Umsatzsteuerergebnisse aus – sowohl bei der Rückerstattung ausländischer Umsatzsteuer als auch bei der nationalen Umsatzsteuer-Compliance."
+        "title": "Audit-Bereitschaft",
+        "description": "Alle regulatorischen Nachweise sind strukturiert dokumentiert und jederzeit prüfbereit.\nAudits und regulatorische Prüfungen können dadurch deutlich effizienter durchgeführt werden."
       }
     ]
   },
