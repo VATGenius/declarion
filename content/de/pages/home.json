@@ -66,6 +66,11 @@
         "title": "Skalierbar",
         "description": "Declarion ersetzt fragmentierte Excel- und Dokumentenstrukturen durch eine skalierbare Plattform.",
         "icon": "currency"
+      },
+      {
+        "title": "Status-Anzeige",
+        "description": "Alle Beteiligten erhalten jederzeit Einblick in den Status regulatorischer Kontrollen, dokumentierte Nachweise, identifizierte Risiken, den aktuellen Compliance-Status.\n",
+        "icon": "lightning"
       }
     ]
   },
@@ -82,7 +87,7 @@
   },
   "cta": {
     "title": "Declarion bringt Struktur und Transparenz in Compliance",
-    "description": "Declarion verbindet Kontrollmanagement, Risikobewertung und Evidenzdokumentation in einer zentralen Plattform. Alle Beteiligten arbeiten auf einer gemeinsamen Datenbasis und erhalten jederzeit Einblick in den\n•\tStatus regulatorischer Kontrollen\n•\tdokumentierte Nachweise\n•\tidentifizierte Risiken\n•\tden aktuellen Compliance-Status\n",
+    "description": "Declarion verbindet Kontrollmanagement, Risikobewertung und Evidenzdokumentation in einer zentralen Plattform. \n",
     "buttonText": "Live-Demo & Integrationsberatung anfragen",
     "buttonLink": "/demo"
   }
