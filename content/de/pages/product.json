@@ -80,24 +80,24 @@
             "text": "Risikotransfermaßnahmen werden strukturiert erfasst (z.B. Versicherungen, Outsourcing-Verträge, Haftungsübernahmen)."
           },
           {
-            "label": "Dokumentation",
-            "text": "Verantwortlichkeiten und Vertragsgrundlagen werden dokumentiert"
+            "label": "Revisionssichere Hinterlegung & Dokumentation",
+            "text": "Evidenzen und Vertragsdokumente werden revisionssicher hinterlegt. Verantwortlichkeiten und Vertragsgrundlagen werden dokumentiert."
           },
           {
-            "label": "Revisionssichere Hinterlegung",
-            "text": "Evidenzen und Vertragsdokumente werden revisionssicher hinterlegt"
-          },
-          {
-            "label": "Automatische Überwachung",
-            "text": "Kontrollen und Wirksamkeitsprüfungen werden automatisiert überwacht"
-          },
-          {
-            "label": "Audit Readyness",
-            "text": "Auditfähige Nachweise werden jederzeit bereitgestellt"
+            "label": "Audit Readyness & Automatische Überwachung",
+            "text": "Kontrollen und Wirksamkeitsprüfungen werden automatisiert überwacht. Auditfähige Nachweise werden jederzeit bereitgestellt."
           },
           {
             "label": "Transparenz",
             "text": "Durch kontinuierliche Überwachung und dokumentierte Evidenzen stellt Declarion sicher, dass Risikotransfer nicht nur formal beschlossen, sondern dauerhaft wirksam umgesetzt wird. Änderungen bei Dienstleistern, Verträgen oder Versicherungen werden sofort sichtbar und können in die Risikobewertung einfließen."
+          },
+          {
+            "label": "Hosting und Infrastruktur",
+            "text": "Die Infrastruktur von Declarion wird in zertifizierten Rechenzentren innerhalb der Europäischen Union betrieben."
+          },
+          {
+            "label": "Schutz sensibler Unternehmensdaten",
+            "text": "die Plattform einem Security-by-Design- und Privacy-by-Design-Ansatz bereits in der Architektur."
           }
         ]
       },
@@ -106,39 +106,31 @@
         "items": [
           {
             "label": "Zero-Trust-Architektur:",
-            "text": "AES-256-Verschlüsselung im Ruhezustand und TLS 1.2+ bei der Datenübertragung"
-          },
-          {
-            "label": "Datenminimierung:",
-            "text": "Es werden ausschließlich notwendige Daten gemäß DSGVO verarbeitet."
-          },
-          {
-            "label": "Regelmäßige Audits:",
-            "text": "Unabhängige Sicherheitsaudits durch Dritte (SOC-2-Bereitschaft)"
-          },
-          {
-            "text": "Der Schutz sensibler Daten und die Einhaltung regulatorischer Anforderungen stehen bei Declarion im Mittelpunkt. Unsere Plattform wurde speziell für Unternehmen entwickelt, die Continuous Compliance, Third-Party Risk Management und revisionssichere Evidenz sicher und datenschutzkonform umsetzen müssen.",
-            "label": "Erhöhte regulatorische Datenschutzanforderungen"
-          },
-          {
-            "label": "Zweckbindung",
-            "text": "Daten werden ausschließlich für definierte Compliance- und Governance-Prozesse verarbeitet"
+            "text": "AES-256-Verschlüsselung im Ruhezustand und TLS 1.2+ bei der Datenübertragung."
           },
           {
             "label": "Datenminimierung",
-            "text": "Nur die notwendigen Daten werden verarbeitet"
+            "text": "Es werden ausschließlich notwendige Daten gemäß DSGVO verarbeitet."
+          },
+          {
+            "label": "Regelmäßige Audits",
+            "text": "Unabhängige Sicherheitsaudits durch Dritte (SOC-2-Bereitschaft)."
+          },
+          {
+            "label": "Zweckbindung & Datenminimierung",
+            "text": "Daten werden ausschließlich für definierte Compliance- und Governance-Prozesse verarbeitet."
           },
           {
             "label": "Integrität und Vertraulichkeit",
-            "text": "Werden durch technische und organisatorische Maßnahmen sichergestellt"
-          },
-          {
-            "label": "Speicherbegrenzung",
-            "text": "Speicherdauer nur entsprechend gesetzlicher Aufbewahrungsfristen"
+            "text": "Werden durch technische und organisatorische Maßnahmen sichergestellt."
           },
           {
             "label": "Revisionssichere Evidenz",
             "text": "Die Plattform wurde so konzipiert, dass Audit-relevante Nachweise manipulationssicher dokumentiert und nachvollziehbar gespeichert werden.  Dies umfasst:  Versionierung von Dokumenten und Nachweisen  lückenlose Audit-Trails  nachvollziehbare Änderungen und Freigaben  strukturierte Evidenzablage für Prüfungen und Zertifizierungen  So können Unternehmen jederzeit nachweisen, dass Compliance-Prozesse ordnungsgemäß umgesetzt wurden."
+          },
+          {
+            "label": "Kunden behalten jederzeit die Kontrolle über ihre Daten. ",
+            "text": "Klare Rollen- und Berechtigungskonzepte, kontrollierte Freigaben von Evidenz und Dokumenten, nachvollziehbare Datenzugriffe, definierte Aufbewahrungs- und Löschkonzepte."
           }
         ]
       }
