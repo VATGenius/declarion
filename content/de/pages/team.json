@@ -1,11 +1,11 @@
 {
   "seo": {
-    "metaTitle": "Team",
-    "metaDescription": "Lernen Sie das VATGenius-Team kennen. USt-Erstattungsspezialisten, die Unternehmen mit innovativen Finanzlösungen befähigen, ihre maximal erstattungsfähige USt zurückzufordern."
+    "metaTitle": "Warum Declarion | Continuous Compliance Plattform",
+    "metaDescription": "Lernen Sie das Declarion-Team kennen. Wir helfen Unternehmen, Compliance kontinuierlich zu überwachen, Drittparteirisiken zu steuern und auditfähige Evidenz automatisiert zu dokumentieren."
   },
   "hero": {
-    "title": "Die Spezialisten für USt-Erstattungen Ihrer Geschäftskunden",
-    "description": "Wir unterstützen Unternehmen mit innovativen Finanzlösungen, insbesondere im Neobank-Umfeld, bei der effizienten Rückforderung ausländischer USt im Vorsteuervergütungsverfahren.\n",
+    "title": "Warum Declarion",
+    "description": "Continuous Compliance für moderne Unternehmen\n\nDeclarion unterstützt Unternehmen dabei, Compliance kontinuierlich zu überwachen, Risiken frühzeitig zu erkennen und auditfähige Evidenz strukturiert zu dokumentieren.\n\nUnsere Plattform verbindet regulatorische Anforderungen mit moderner Technologie, sodass Compliance- und Risk-Teams Prozesse effizient steuern, Drittparteirisiken transparent bewerten und Prüfungen jederzeit vorbereitet begegnen können.",
     "heroImage": "/images/hero-team.png"
   },
   "niche": {
@@ -13,15 +13,15 @@
     "items": [
       {
         "title": "Die Herausforderung",
-        "description": "Traditionelle USt-Erstattungsprozesse lassen sich häufig nur schwer effizient in die spezifische Infrastruktur und Dokumentationslandschaft digitaler Neobanken integrieren. Dies kann zu nicht eingereichten Anträgen, Verzögerungen oder zusätzlichem administrativem Aufwand führen."
+        "description": "Unternehmen stehen heute vor einer wachsenden Anzahl regulatorischer Anforderungen. Compliance-Nachweise, Kontrollmechanismen und Drittparteirisiken müssen dokumentiert, überwacht und jederzeit prüfungssicher nachgewiesen werden.\n\nIn vielen Organisationen sind diese Informationen jedoch über unterschiedliche Systeme, Dokumente und Prozesse verteilt. Dadurch entstehen fehlende Transparenz über Compliance-Status und Risiken, hoher manueller Aufwand bei Audits und Prüfungen, schwer nachvollziehbare Evidenzketten, erhöhte Risiken bei Drittparteien und Lieferanten."
       },
       {
         "title": "Unsere Lösung",
-        "description": "Unser Prozess ist gezielt auf diese Anforderungen zugeschnitten. Mit unserer Spezialisierung auf das Vorsteuervergütungsverfahren und fundierten Kenntnissen der Neobank-Dokumentation ermöglichen wir schnellere, regelkonforme und erfolgreichere USt-Erstattungen.\n\n"
+        "description": "Declarion schafft eine zentrale Plattform für Continuous Compliance und Third-Party Risk Management.\n\nUnsere Lösung ermöglicht es Unternehmen Compliance-Kontrollen kontinuierlich zu überwachen, Drittparteirisiken strukturiert zu erfassen und zu bewerten, Audit-relevante Evidenz automatisch zu dokumentieren, regulatorische Anforderungen transparent und nachvollziehbar abzubilden.\n\nDurch strukturierte Workflows, klare Verantwortlichkeiten und revisionssichere Dokumentation wird Compliance von einem reaktiven Prozess zu einem kontinuierlichen Steuerungsinstrument.\n"
       },
       {
         "title": "Unser Versprechen",
-        "description": "Wir erhöhen die Liquidität Ihrer Geschäftskunden, indem wir eine erfolgreiche Rückforderung der erstattungsfähigen USt sicherstellen. Unsere Technologie verbindet regulatorische USt-Anforderungen mit der Agilität des digitalen Bankings."
+        "description": "Wir helfen Unternehmen, Compliance einfacher, transparenter und skalierbarer zu gestalten.\n\nMit Declarion können Organisationen regulatorische Anforderungen effizient erfüllen, Prüfungen und Audits souverän bewältigen, Risiken frühzeitig erkennen und steuern, Compliance-Prozesse nachhaltig digitalisieren.\n\nUnsere Plattform verbindet regulatorisches Know-how mit moderner Technologie, damit Compliance-Teams sich auf das Wesentliche konzentrieren können: Risiken verstehen und fundierte Entscheidungen treffen."
       }
     ]
   },
@@ -29,23 +29,23 @@
     "title": "Das Team",
     "members": [
       {
-        "name": "Philipp Tranacher",
-        "role": "Steuern & Recht",
-        "bio": "Promotion, WP, StB, Rechtsanwalt. Über 15 Jahre Erfahrung im internationalen Steuerrecht.",
+        "name": "Dr. Philipp Tranacher",
+        "role": "Steuern, Regulierung & Governance",
+        "bio": "Promotion, Wirtschaftsprüfer, Steuerberater und Rechtsanwalt.\nÜber 15 Jahre Erfahrung im internationalen Steuer- und Regulierungsumfeld sowie in der Beratung komplexer Compliance- und Governance-Strukturen.",
         "image": "/images/team/philipp.jpg",
         "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
         "name": "Nils Löwe",
-        "role": "IT & Produktentwicklung",
-        "bio": "Masterabschluss in Computer- & Elektrotechnik und Informationstechnologie. Über 10 Jahre Erfahrung in der Softwareentwicklung.",
+        "role": "Technologie & Produktentwicklung",
+        "bio": "Masterabschluss in Computer- & Elektrotechnik und Informationstechnologie.\nÜber 10 Jahre Erfahrung in Softwarearchitektur, Plattformentwicklung und der Digitalisierung regulatorischer Prozesse.",
         "image": "/images/team/nils.png",
         "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
-        "name": "Juliane Tranacher",
-        "role": "Marketing & Vertrieb",
-        "bio": "Promotion. 15 Jahre Erfahrung in Marketing und Kommunikation im Finanz- und Immobiliensektor.",
+        "name": "Dr. Juliane Tranacher",
+        "role": "Marketing & Strategie",
+        "bio": "Promotion. Über 15 Jahre Erfahrung in Marketing, Kommunikation und strategischer Positionierung im Finanz- und Dienstleistungssektor.",
         "image": "/images/team/juliane.png",
         "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
@@ -56,29 +56,29 @@
     "items": [
       {
         "title": "Präzision",
-        "subtitle": "Gewährleistung absoluter Genauigkeit zur Maximierung der erstattungsfähigen USt und Minimierung des Prüfungsrisikos.",
-        "description": "Wir gewährleisten absolute Genauigkeit und die Einhaltung internationaler steuerrechtlicher Vorgaben. Dadurch werden Risiken minimiert und die erstattungsfähigen USt-Beträge für Geschäftskunden maximiert. Die Prozesse sind darauf ausgelegt, komplexe Daten aus unterschiedlichen Jurisdiktionen mit höchster Präzision zu verarbeiten."
+        "subtitle": "Compliance erfordert Genauigkeit und Verlässlichkeit.",
+        "description": "Declarion ist darauf ausgelegt, regulatorische Anforderungen strukturiert abzubilden und Nachweise nachvollziehbar zu dokumentieren. Dadurch wird sichergestellt, dass Compliance-Prozesse transparent, prüfungssicher und belastbar sind."
       },
       {
         "title": "Digital First",
-        "subtitle": "Transformation komplexer Prozesse in eine nahtlose, skalierbare und API-getriebene digitale Lösung.",
-        "description": "Durch API-basierte Integrationen und fortschrittliche Automatisierung wird der bislang manuelle und papierintensive Prozess der USt-Erstattung in einen nahtlosen, vollständig digitalen Ablauf überführt. Dies ermöglicht Geschwindigkeit, Skalierbarkeit und geringen operativen Aufwand für die Banking-Plattform."
+        "subtitle": "Komplexe Compliance-Prozesse werden durch Automatisierung und digitale Workflows effizient gestaltet.",
+        "description": "Declarion transformiert manuelle Dokumentations- und Kontrollprozesse in skalierbare, strukturierte und digitale Abläufe, die sich nahtlos in bestehende Unternehmensprozesse integrieren lassen."
       },
       {
         "title": "Kundenorientierung",
-        "subtitle": "Gestaltung eines nahtlosen Services zur Verbesserung des internationalen Bankerlebnisses von Geschäftskunden.",
-        "description": "Die Services sind auf die Anforderungen von Geschäftskunden ausgerichtet und bieten einen nahtlosen, leicht verständlichen Zugang direkt über die Banking-Oberfläche. Das stärkt Kundenbindung und -zufriedenheit."
+        "subtitle": "Compliance- und Risikomanagement müssen nicht nur regulatorische Anforderungen erfüllen, sondern auch praktisch im Alltag funktionieren.",
+        "description": "Unsere Plattform ist darauf ausgerichtet, Teams bei der täglichen Arbeit zu unterstützen, Entscheidungsprozesse zu erleichtern und Transparenz über Risiken und Kontrollen zu schaffen."
       },
       {
         "title": "Transparenz",
-        "subtitle": "Echtzeit-Transparenz und klare Kommunikation während des gesamten Erstattungsprozesses.",
-        "description": "Wir bieten eine transparente Echtzeit-Nachverfolgung für jede Transaktion und jeden Erstattungsstatus. Unsere Gebühren und Prozessschritte werden von Anfang an klar dargelegt, um vollständiges Vertrauen und Transparenz zwischen uns, der Neobank und dem Endkunden zu gewährleisten."
+        "subtitle": "Nachvollziehbarkeit ist die Grundlage jeder erfolgreichen Compliance-Struktur.",
+        "description": "Declarion ermöglicht eine klare Dokumentation von Kontrollen, Verantwortlichkeiten und Evidenz, sodass Unternehmen jederzeit einen transparenten Überblick über ihren Compliance-Status behalten."
       }
     ]
   },
   "cta": {
     "title": "Bereit, mit uns zusammenzuarbeiten?",
-    "buttonText": "Live-Demo & Partnerschaftsberatung anfordern",
+    "buttonText": "Continuous Compliance neu denken.",
     "buttonLink": "/demo"
   }
 }
