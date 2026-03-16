@@ -9,7 +9,7 @@
     "titleEnd": "für FinTechs, Partnerbanken und Assurance-Teams. ",
     "description": "Declarion schafft eine gemeinsame, aktuelle Sicht auf regulatorische Kontrollen, Risiken und Nachweise – zentral, strukturiert und jederzeit prüfbar.\nCompliance wird damit vom punktuellen Audit-Projekt zu einem kontinuierlichen, transparenten Prozess.\n\n",
     "secondaryDescription": "Declarion vereint zentrale Funktionen für Compliance- und Risikoüberwachung in einer Plattform.\nWeniger Excel. Weniger manuelle Audit-Vorbereitung. Mehr Transparenz und Vertrauen im Finanzökosystem.",
-    "ctaText": "Live-Demo & Integrationsberatung anfragen",
+    "ctaText": "Demo vereinbaren / Plattform kennenlernen.",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
@@ -103,7 +103,7 @@
   "cta": {
     "title": "Declarion bringt Struktur und Transparenz in Compliance",
     "description": "Declarion verbindet Kontrollmanagement, Risikobewertung und Evidenzdokumentation in einer zentralen Plattform – für transparente und kontinuierliche Compliance.\n",
-    "buttonText": "Live-Demo anfragen.",
+    "buttonText": "Demo vereinbaren / Plattform kennenlernen.",
     "buttonLink": "/demo"
   }
 }
