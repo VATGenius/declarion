@@ -115,6 +115,30 @@
           {
             "label": "Regelmäßige Audits:",
             "text": "Unabhängige Sicherheitsaudits durch Dritte (SOC-2-Bereitschaft)"
+          },
+          {
+            "text": "Der Schutz sensibler Daten und die Einhaltung regulatorischer Anforderungen stehen bei Declarion im Mittelpunkt. Unsere Plattform wurde speziell für Unternehmen entwickelt, die Continuous Compliance, Third-Party Risk Management und revisionssichere Evidenz sicher und datenschutzkonform umsetzen müssen.",
+            "label": "Erhöhte regulatorische Datenschutzanforderungen"
+          },
+          {
+            "label": "Zweckbindung",
+            "text": "Daten werden ausschließlich für definierte Compliance- und Governance-Prozesse verarbeitet"
+          },
+          {
+            "label": "Datenminimierung",
+            "text": "Nur die notwendigen Daten werden verarbeitet"
+          },
+          {
+            "label": "Integrität und Vertraulichkeit",
+            "text": "Werden durch technische und organisatorische Maßnahmen sichergestellt"
+          },
+          {
+            "label": "Speicherbegrenzung",
+            "text": "Speicherdauer nur entsprechend gesetzlicher Aufbewahrungsfristen"
+          },
+          {
+            "label": "Revisionssichere Evidenz",
+            "text": "Die Plattform wurde so konzipiert, dass Audit-relevante Nachweise manipulationssicher dokumentiert und nachvollziehbar gespeichert werden.  Dies umfasst:  Versionierung von Dokumenten und Nachweisen  lückenlose Audit-Trails  nachvollziehbare Änderungen und Freigaben  strukturierte Evidenzablage für Prüfungen und Zertifizierungen  So können Unternehmen jederzeit nachweisen, dass Compliance-Prozesse ordnungsgemäß umgesetzt wurden."
           }
         ]
       }
