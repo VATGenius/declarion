@@ -76,7 +76,7 @@
             "text": "Declarion wird von einem interdisziplinären Team aus erfahrenen Juristinnen und Juristen, Compliance-Spezialisten und regulatorischen Experten entwickelt. Diese Fachleute beobachten kontinuierlich neue gesetzliche Anforderungen, regulatorische Leitlinien und aktuelle Rechtsprechung – und übersetzen sie unmittelbar in die Logik der Plattform. So entsteht ein System, das nicht nur technische Prozesse automatisiert, sondern rechtliche Entwicklungen strukturiert in operative Compliance überführt."
           },
           {
-            "label": "Strukturierte Maßnahmenerfassung",
+            "label": "Strukturierte Erfassung",
             "text": "Risikotransfermaßnahmen werden strukturiert erfasst (z.B. Versicherungen, Outsourcing-Verträge, Haftungsübernahmen)."
           },
           {
@@ -84,8 +84,8 @@
             "text": "Evidenzen und Vertragsdokumente werden revisionssicher hinterlegt. Verantwortlichkeiten und Vertragsgrundlagen werden dokumentiert."
           },
           {
-            "label": "Audit Readyness & Automatische Überwachung",
-            "text": "Kontrollen und Wirksamkeitsprüfungen werden automatisiert überwacht. Auditfähige Nachweise werden jederzeit bereitgestellt."
+            "label": "Automatische Überwachung",
+            "text": "Kontrollen und Wirksamkeitsprüfungen werden automatisiert überwacht. "
           },
           {
             "label": "Transparenz",
@@ -94,10 +94,6 @@
           {
             "label": "Hosting und Infrastruktur",
             "text": "Die Infrastruktur von Declarion wird in zertifizierten Rechenzentren innerhalb der Europäischen Union betrieben."
-          },
-          {
-            "label": "Schutz sensibler Unternehmensdaten",
-            "text": "die Plattform einem Security-by-Design- und Privacy-by-Design-Ansatz bereits in der Architektur."
           }
         ]
       },
@@ -131,6 +127,10 @@
           {
             "label": "Kunden behalten jederzeit die Kontrolle über ihre Daten. ",
             "text": "Klare Rollen- und Berechtigungskonzepte, kontrollierte Freigaben von Evidenz und Dokumenten, nachvollziehbare Datenzugriffe, definierte Aufbewahrungs- und Löschkonzepte."
+          },
+          {
+            "label": "Schutz Unternehmensdaten",
+            "text": "Declarion bietet einen Security-by-Design- und Privacy-by-Design-Ansatz bereits in der Architektur."
           }
         ]
       }
