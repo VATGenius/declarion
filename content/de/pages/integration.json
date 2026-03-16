@@ -1,55 +1,55 @@
 {
   "seo": {
-    "metaTitle": "Integration",
-    "metaDescription": "Nahtlose API-Integration. Unsere Low-Code-, Plug-and-Play-Loesung gewaehrleistet minimale Belastung Ihrer Entwicklungsressourcen und eine schnelle Markteinfuehrung."
+    "metaTitle": "Integration – Continuous Compliance API | Declarion",
+    "metaDescription": "Unsere API-basierte Integrationsarchitektur ermöglicht es Unternehmen, Compliance-Kontrollen, Third-Party-Risk-Management und auditfähige Evidenz direkt in bestehende Systeme zu integrieren.\n\nDeclarion ist als Low-Code- und Plug-and-Play-Plattform konzipiert, sodass die Implementierung mit minimalem Entwicklungsaufwand erfolgen kann und Compliance-Automatisierung schnell produktiv wird."
   },
   "hero": {
     "title": "Nahtlose API-Integration",
-    "description": "Der Erfolg der Partnerschaft hängt maßgeblich von der Geschwindigkeit der Implementierung ab. Unsere Lösung ist als Low-Code- und Plug-and-Play-Service konzipiert, der eine schnelle Integration bei minimaler Belastung interner Entwicklungsressourcen und eine kurze Time-to-Market ermöglicht.",
+    "description": "Der Erfolg moderner Compliance-Programme hängt entscheidend davon ab, wie schnell Prozesse automatisiert und in bestehende Systeme integriert werden können.\n\nDeclarion verbindet sich über standardisierte APIs mit Ihren Systemen – etwa ERP-, Procurement-, Vendor-Management- oder Compliance-Tools – und automatisiert zentrale Kontroll- und Risikoprozesse.\n\nSo lassen sich Continuous Compliance, Third-Party Risk Management und revisionssichere Evidenz ohne komplexe IT-Projekte implementieren.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
     "title": "Die drei Integrationssäulen",
-    "description": "Unser Service verbindet sich über eine sichere RESTful API mit der Plattform, ermöglicht einen automatisierten Datenfluss und minimiert manuelle Eingriffe. Die Integration erfordert die Anbindung von nur drei zentralen Datenaustauschpunkten:",
+    "description": "Declarion verbindet sich über eine sichere RESTful API mit Ihrer bestehenden Systemlandschaft. Dadurch entstehen automatisierte Compliance-Workflows mit minimalen manuellen Eingriffen.\n\nDie Integration basiert auf drei zentralen Datenflüssen:",
     "items": [
       {
-        "title": "Onboarding-Trigger für Geschäftskunden",
-        "description": "Aktivierung des USt-Erstattungsservices durch einfachen Klick für einzelne Geschäftskunden.",
+        "title": "Onboarding-Trigger für Drittparteien",
+        "description": "Automatischer Start von Due-Diligence- und Risikoanalysen, sobald ein neuer Lieferant, Dienstleister oder Partner im System angelegt wird.\n\nDeclarion startet automatisch Risiko-Scorings, Compliance-Checks, Dokumentenanforderungen, Kontroll-Workflows.",
         "icon": "userPlus"
       },
       {
-        "title": "Transaktionsdaten-Feed",
-        "description": "Sicherer Feed relevanter im Ausland getätigter Geschäftsausgaben.",
+        "title": "Risiko- und Compliance-Datenfeed",
+        "description": "Sicherer Datenaustausch relevanter Informationen aus bestehenden Systemen, etwa Lieferanten- und Partnerdaten, Vertrags- und Transaktionsdaten, Compliance-Dokumente, Audit-relevante Nachweise. Diese Daten bilden die Grundlage für automatisierte Risikobewertungen und Compliance-Monitoring.",
         "icon": "database"
       },
       {
-        "title": "Freigabe, Status & Auszahlung",
-        "description": "Ein Webhook zum Empfang von Benachrichtigungen zu Freigaben, Echtzeit-Statusupdates zu Erstattungsanträgen sowie Informationen zu finalen Erstattungszahlungen.",
+        "title": "Status, Evidenz & Audit-Events",
+        "description": "Webhooks liefern Echtzeit-Informationen über abgeschlossene Kontrollen, Risikobewertungen, Status von Compliance-Workflows, neue oder aktualisierte Audit-Evidenz. Alle Aktivitäten werden revisionssicher protokolliert und dokumentiert.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
     "title": "Low Code, hoher Mehrwert",
-    "description": "Wir wissen, dass Geschwindigkeit und Effizienz entscheidend sind. Wir liefern:\n",
+    "description": "Wir wissen, dass Compliance-Projekte oft unter Zeit- und Ressourcen­druck stehen. Deshalb bietet Declarion eine Integration, die schnell und effizient umgesetzt werden kann.\n",
     "items": [
       {
         "title": "Robuste Dokumentation",
-        "description": "Umfassende, leicht verständliche API-Dokumentation sowie SDKs für gängige Programmiersprachen zur Beschleunigung des Entwicklungszyklus."
+        "description": "Unsere Entwicklerdokumentation umfasst klar strukturierte API-Dokumentation, SDKs für gängige Programmiersprachen, Beispielimplementierungen, Best-Practice-Guides für Compliance-Workflows. Damit lässt sich die Integration schnell und zuverlässig umsetzen."
       },
       {
         "title": "Eigene Sandbox-Umgebung",
-        "description": "Eine voll funktionsfähige Testumgebung ermöglicht es Ihrem Team, die Integration zu prototypisieren und zu validieren, ohne die Produktivumgebung zu beeinträchtigen."
+        "description": "Eine vollständig funktionale Sandbox-Umgebung ermöglicht Ihrem Team, Integrationen zu testen und zu validieren, bevor sie produktiv eingesetzt werden.\n\nSo können Datenflüsse, Compliance-Workflows und Risikomodelle sicher prototypisiert werden."
       },
       {
         "title": "Minimaler Wartungsaufwand",
-        "description": "Wir übernehmen laufende Compliance-Updates, Änderungen seitens ausländischer Steuerbehörden sowie die Systemwartung. Kein technischer Aufwand auf Seiten Ihrer Plattform."
+        "description": "Declarion übernimmt laufende Anpassungen an regulatorische Anforderungen, Compliance-Frameworks, Risikomodelle, Plattform-Updates.\n\nIhre Systeme profitieren automatisch von aktuellen Compliance-Standards, ohne zusätzlichen technischen Aufwand."
       }
     ]
   },
   "timeline": {
     "title": "Time-to-Market-Schätzung",
-    "description": "Wir rechnen mit einer kurzen Implementierungsdauer, die Ihnen eine schnelle Einführung des neuen Premium-Features ermöglicht:",
+    "description": "Die Integration von Declarion ist so konzipiert, dass sie schnell umgesetzt werden kann.",
     "phases": [
       {
         "phase": "Phase 1",
@@ -59,15 +59,15 @@
       },
       {
         "phase": "Phase 2",
-        "description": "Integration und Validierung der Datenflüsse",
+        "description": "Integration der Datenflüsse und Workflow-Konfiguration",
         "duration": "4-6 Wochen",
         "effort": "Gering bis moderat"
       },
       {
         "phase": "Phase 3",
-        "description": "Compliance-Prüfung & Pilotstart",
+        "description": "Compliance-Validierung & Pilotbetrieb",
         "duration": "1 Woche",
-        "effort": "Keiner (interne Prüfung)"
+        "effort": "Minimal"
       }
     ],
     "total": {
@@ -78,8 +78,8 @@
     }
   },
   "cta": {
-    "title": "Bereit, die Integration zu starten?",
-    "buttonText": "Live-Demo & Integrationsberatung anfragen",
+    "title": "Bereit, Continuous Compliance zu integrieren?",
+    "buttonText": "Erfahren Sie, wie Declarion Ihre Compliance-Prozesse automatisieren, Risiken transparenter machen und Audit-Evidenz zentralisieren kann.",
     "buttonLink": "/demo"
   }
 }
