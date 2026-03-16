@@ -69,19 +69,35 @@
     "description": "Als Plattform für regulierte Finanzinstitute sind Sicherheit und regulatorische Compliance zentrale Bestandteile unserer Architektur. Declarion unterstützt Organisationen bei der Umsetzung regulatorischer Anforderungen aus europäischen und nationalen Regelwerken, darunter:\n• DORA – Digital Operational Resilience Act • MaRisk – Mindestanforderungen an das Risikomanagement • BAIT – Bankaufsichtliche Anforderungen an die IT • EBA Outsourcing Guidelines • PSD2 / ZAG\n",
     "sections": [
       {
-        "title": "Datensicherheit und Datenschutz (DSGVO-konform)",
+        "title": "Compliance Expertise, Risikooptimierung, Audit Readyness",
         "items": [
           {
-            "label": "Branchenspezifische Expertise:",
-            "text": "Internationale Steuerexperten verwalten alle relevanten Umsatzsteuerregelungen für grenzüberschreitende Rückerstattungen und nationale Umsatzsteuer-Compliance."
+            "label": "Rechtliche Expertise ",
+            "text": "Declarion wird von einem interdisziplinären Team aus erfahrenen Juristinnen und Juristen, Compliance-Spezialisten und regulatorischen Experten entwickelt. Diese Fachleute beobachten kontinuierlich neue gesetzliche Anforderungen, regulatorische Leitlinien und aktuelle Rechtsprechung – und übersetzen sie unmittelbar in die Logik der Plattform. So entsteht ein System, das nicht nur technische Prozesse automatisiert, sondern rechtliche Entwicklungen strukturiert in operative Compliance überführt."
           },
           {
-            "label": "Risikotransfer:",
-            "text": "Lagern Sie die gesamte Umsatzsteuer-Compliance an uns aus."
+            "label": "Strukturierte Maßnahmenerfassung",
+            "text": "Risikotransfermaßnahmen werden strukturiert erfasst (z.B. Versicherungen, Outsourcing-Verträge, Haftungsübernahmen)."
           },
           {
-            "label": "Prüfungsbereitschaft:",
-            "text": "Vollständig prüfungssichere und nachvollziehbare Umsatzsteuer-Anträge und Meldungen."
+            "label": "Dokumentation",
+            "text": "Verantwortlichkeiten und Vertragsgrundlagen werden dokumentiert"
+          },
+          {
+            "label": "Revisionssichere Hinterlegung",
+            "text": "Evidenzen und Vertragsdokumente werden revisionssicher hinterlegt"
+          },
+          {
+            "label": "Automatische Überwachung",
+            "text": "Kontrollen und Wirksamkeitsprüfungen werden automatisiert überwacht"
+          },
+          {
+            "label": "Audit Readyness",
+            "text": "Auditfähige Nachweise werden jederzeit bereitgestellt"
+          },
+          {
+            "label": "Transparenz",
+            "text": "Durch kontinuierliche Überwachung und dokumentierte Evidenzen stellt Declarion sicher, dass Risikotransfer nicht nur formal beschlossen, sondern dauerhaft wirksam umgesetzt wird. Änderungen bei Dienstleistern, Verträgen oder Versicherungen werden sofort sichtbar und können in die Risikobewertung einfließen."
           }
         ]
       },
