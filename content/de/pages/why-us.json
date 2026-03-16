@@ -1,18 +1,18 @@
 {
   "seo": {
-    "metaTitle": "Warum Declarion",
-    "metaDescription": "Die Declarion-Plattform ermöglicht Continuous Compliance, effizientes Third-Party Risk Management und revisionssichere Evidenz. Erfahren Sie, wie Unternehmen Compliance automatisieren und Prüfungen jederzeit bestehen.\n"
+    "metaTitle": "Declarion Plattform – Continuous Compliance & Third-Party Risk Management automatisieren",
+    "metaDescription": "Die Declarion-Plattform ermöglicht Continuous Compliance, effizientes Third-Party Risk Management und revisionssichere Evidenz. Automatisieren Sie Compliance-Prozesse und bestehen Sie Audits jederzeit strukturiert und effizient.\n"
   },
   "hero": {
-    "title": "Die Declarion-Vorteile: Compliance automatisieren, Risiken reduzieren, Prüfungen bestehen",
-    "titleHighlight": "Compliance ist für viele Unternehmen noch immer manuell, fragmentiert und reaktiv organisiert. Declarion ermöglicht einen strukturierten, automatisierten Ansatz für Continuous Compliance und Third-Party Risk",
+    "title": "Die Declarion-Vorteile: Compliance automatisieren, Risiken reduzieren, Prüfungen sicher bestehen.",
+    "titleHighlight": "In vielen Unternehmen ist Compliance noch immer manuell, fragmentiert und stark auditgetrieben organisiert. Declarion ermöglicht einen strukturierten, automatisierten Ansatz für Continuous Compliance und Third-Party Risk Management – mit klar dokumentierten Nachweisen und jederzeit auditfähigen Prozessen.",
     "heroImage": "/images/hero-why-us.png",
     "benefits": [
       "Zentrale Plattform für Compliance-Nachweise, Kontrollen und Dokumentation.",
-      "Automatisierte Evidenzsammlung statt manueller Vorbereitung vor Audits.",
-      "Transparenz über Risiken von Drittparteien und Lieferanten.",
-      "Reduzierter Aufwand für interne Teams durch strukturierte Prozesse.",
-      "Prüfungsrelevante Informationen jederzeit auditfähig dokumentiert.",
+      "Automatisierte Evidenzsammlung statt manueller Auditvorbereitung.",
+      "Transparenz über Risiken von Drittparteien, Lieferanten und Dienstleistern.",
+      "Strukturierte Prozesse, die den Aufwand für interne Teams deutlich reduzieren.",
+      "Jederzeit auditfähige Dokumentation aller prüfungsrelevanten Informationen.",
       "Skalierbare Compliance-Strukturen für wachsende Organisationen."
     ]
   },
@@ -21,17 +21,17 @@
     "items": [
       {
         "title": "Integration",
-        "description": "Declarion lässt sich schnell in bestehende Compliance- und Governance-Strukturen integrieren. Bereit für den produktiven Einsatz innerhalb weniger Wochen – mit klaren Prozessen und geringem Implementierungsaufwand für Ihr Team.",
+        "description": "Declarion lässt sich schnell in bestehende Compliance- und Governance-Strukturen integrieren. Die Plattform ist innerhalb weniger Wochen produktiv einsetzbar – mit klar definierten Prozessen und minimalem Implementierungsaufwand für Ihr Team.",
         "icon": "lightning"
       },
       {
         "title": "Operative Unterstützung",
-        "description": "Unser Team unterstützt Sie bei der strukturierten Einrichtung Ihrer Compliance-Prozesse innerhalb der Plattform. Dazu gehören unter anderem: Strukturierung von Kontrollen und Nachweisen, Einrichtung von Third-Party Risk Assessments, Definition von Audit-Trails und Dokumentationsstandards.",
+        "description": "Unser Team unterstützt Sie bei der strukturierten Einrichtung Ihrer Compliance-Prozesse innerhalb der Plattform. Dazu gehören unter anderem Strukturierung von Kontrollen und Nachweisen, Einrichtung von Third-Party Risk Assessments, efinition von Audit-Trails, Festlegung klarer Dokumentationsstandards.",
         "icon": "support"
       },
       {
         "title": "Einführung & Enablement",
-        "description": "Wir unterstützen Ihr Team bei der erfolgreichen Einführung der Plattform: Onboarding und Schulungen, Best-Practice-Strukturen für Compliance-Prozesse, Unterstützung bei der Integration in bestehende Governance-Strukturen. Das Ziel ist eine schnelle operative Nutzung mit minimalem Reibungsverlust.",
+        "description": "Wir begleiten Ihr Team bei der erfolgreichen Einführung der Plattform, unter anderem \ndurch Onboarding und Schulungen, Best-Practice-Strukturen für Compliance-Prozesse, Integration in bestehende Governance-Strukturen. Ziel ist eine schnelle operative Nutzung mit minimalem Reibungsverlust.",
         "icon": "support"
       }
     ]
@@ -41,19 +41,19 @@
     "items": [
       {
         "title": "Continuous Compliance statt punktueller Vorbereitung",
-        "description": "Viele Organisationen bereiten Compliance-Nachweise erst kurz vor Audits vor. Declarion ermöglicht eine kontinuierliche, strukturierte Evidenzsammlung, sodass Prüfungen jederzeit vorbereitet sind."
+        "description": "Viele Organisationen beginnen erst kurz vor Audits mit der Zusammenstellung von Compliance-Nachweisen. Declarion ermöglicht eine kontinuierliche und strukturierte Evidenzsammlung, sodass Prüfungen jederzeit vorbereitet sind."
       },
       {
         "title": "Europaweiter Service",
-        "description": "Declarion betreut Unternehmen mit Sitz innerhalb der Europäischen Union, unabhängig von Gewebe, Industriezweig und Unternehmensgröße. "
+        "description": "Declarion betreut Unternehmen mit Sitz innerhalb der Europäischen Union – unabhängig von Branche, Organisationsstruktur oder Unternehmensgröße."
       },
       {
         "title": "Transparenz über Drittparteirisiken",
-        "description": "Lieferanten, Dienstleister und Partner können erhebliche regulatorische Risiken verursachen. Declarion unterstützt Unternehmen dabei, Third-Party Risiken systematisch zu erfassen, zu bewerten und zu dokumentieren."
+        "description": "Lieferanten, Dienstleister und Partner können erhebliche regulatorische Risiken verursachen. Declarion unterstützt Unternehmen dabei, Third-Party-Risiken systematisch zu erfassen, zu bewerten und nachvollziehbar zu dokumentieren."
       },
       {
         "title": "Auditfähige Evidenz",
-        "description": "Alle relevanten Compliance-Nachweise werden strukturiert dokumentiert, versioniert und nachvollziehbar gespeichert. So entsteht eine belastbare Grundlage für interne und externe Prüfungen."
+        "description": "Alle relevanten Compliance-Nachweise werden strukturiert dokumentiert, versioniert und revisionssicher gespeichert. Dadurch entsteht eine belastbare Grundlage für interne und externe Prüfungen."
       },
       {
         "title": "Effizienz für Compliance-Teams",
@@ -63,7 +63,7 @@
   },
   "cta": {
     "title": "Bereit für Continuous Compliance?",
-    "buttonText": "Erfahren Sie, wie Declarion Ihr Unternehmen bei der strukturierten Umsetzung von Compliance-Prozessen unterstützen kann.",
+    "buttonText": "Demo anfragen / Plattform kennenlernen.",
     "buttonLink": "/demo"
   }
 }
