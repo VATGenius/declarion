@@ -1,55 +1,55 @@
 {
   "seo": {
     "metaTitle": "Integration – Continuous Compliance API | Declarion",
-    "metaDescription": "Unsere API-basierte Integrationsarchitektur ermöglicht es Unternehmen, Compliance-Kontrollen, Third-Party-Risk-Management und auditfähige Evidenz direkt in bestehende Systeme zu integrieren.\n\nDeclarion ist als Low-Code- und Plug-and-Play-Plattform konzipiert, sodass die Implementierung mit minimalem Entwicklungsaufwand erfolgen kann und Compliance-Automatisierung schnell produktiv wird."
+    "metaDescription": "Unsere API-basierte Integrationsarchitektur ermöglicht es Unternehmen, Compliance-Kontrollen, Third-Party-Risk-Management und auditfähige Evidenz direkt in bestehende Systeme zu integrieren.\n\nDeclarion ist als Low-Code- und Plug-and-Play-Plattform konzipiert. Dadurch lässt sich Compliance-Automatisierung mit minimalem Entwicklungsaufwand implementieren und schnell produktiv einsetzen."
   },
   "hero": {
     "title": "Nahtlose API-Integration",
-    "description": "Der Erfolg moderner Compliance-Programme hängt entscheidend davon ab, wie schnell Prozesse automatisiert und in bestehende Systeme integriert werden können.\n\nDeclarion verbindet sich über standardisierte APIs mit Ihren Systemen – etwa ERP-, Procurement-, Vendor-Management- oder Compliance-Tools – und automatisiert zentrale Kontroll- und Risikoprozesse.\n\nSo lassen sich Continuous Compliance, Third-Party Risk Management und revisionssichere Evidenz ohne komplexe IT-Projekte implementieren.",
+    "description": "Der Erfolg moderner Compliance-Programme hängt entscheidend davon ab, wie schnell Prozesse automatisiert und in bestehende Systeme integriert werden können.\n\nDeclarion verbindet sich über standardisierte APIs mit Ihren Systemen – etwa ERP-, Procurement-, Vendor-Management- oder Compliance-Tools – und automatisiert zentrale Kontroll- und Risikoprozesse.\n\nSo lassen sich Continuous Compliance, Third-Party Risk Management und revisionssichere Evidenz implementieren – ohne komplexe IT-Projekte oder langwierige Systemmigrationen.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
     "title": "Die drei Integrationssäulen",
-    "description": "Declarion verbindet sich über eine sichere RESTful API mit Ihrer bestehenden Systemlandschaft. Dadurch entstehen automatisierte Compliance-Workflows mit minimalen manuellen Eingriffen.\n\nDie Integration basiert auf drei zentralen Datenflüssen:",
+    "description": "Declarion verbindet sich über eine sichere RESTful API mit Ihrer bestehenden Systemlandschaft. Dadurch entstehen automatisierte Compliance-Workflows mit minimalem manuellen Aufwand.\n\nDie Integration basiert auf drei zentralen Datenflüssen:",
     "items": [
       {
         "title": "Onboarding-Trigger für Drittparteien",
-        "description": "Automatischer Start von Due-Diligence- und Risikoanalysen, sobald ein neuer Lieferant, Dienstleister oder Partner im System angelegt wird.\n\nDeclarion startet automatisch Risiko-Scorings, Compliance-Checks, Dokumentenanforderungen, Kontroll-Workflows.",
+        "description": "Automatischer Start von Due-Diligence- und Risikoanalysen, sobald ein neuer Lieferant, Dienstleister oder Partner im System angelegt wird.\nDeclarion startet automatisch Risiko-Scorings, Compliance-Checks, Dokumentenanforderungen, Kontroll-Workflows.\nSo beginnt die Compliance-Prüfung bereits beim Onboarding neuer Geschäftspartner.",
         "icon": "userPlus"
       },
       {
         "title": "Risiko- und Compliance-Datenfeed",
-        "description": "Sicherer Datenaustausch relevanter Informationen aus bestehenden Systemen, etwa Lieferanten- und Partnerdaten, Vertrags- und Transaktionsdaten, Compliance-Dokumente, Audit-relevante Nachweise. Diese Daten bilden die Grundlage für automatisierte Risikobewertungen und Compliance-Monitoring.",
+        "description": "Sicherer Datenaustausch relevanter Informationen aus bestehenden Systemen, z.B. Lieferanten- und Partnerdaten, Vertrags- und Transaktionsdaten, Compliance-Dokumente, auditrelevante Nachweise.\nDiese Daten bilden die Grundlage für automatisierte Risikobewertungen, Monitoring und Compliance-Analysen.",
         "icon": "database"
       },
       {
         "title": "Status, Evidenz & Audit-Events",
-        "description": "Webhooks liefern Echtzeit-Informationen über abgeschlossene Kontrollen, Risikobewertungen, Status von Compliance-Workflows, neue oder aktualisierte Audit-Evidenz. Alle Aktivitäten werden revisionssicher protokolliert und dokumentiert.",
+        "description": "Webhooks liefern Echtzeit-Informationen über abgeschlossene Kontrollen, Risikobewertungen, Status von Compliance-Workflows, neue oder aktualisierte Audit-Evidenz.\nAlle Aktivitäten werden revisionssicher protokolliert und jederzeit auditfähig dokumentiert.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
     "title": "Low Code, hoher Mehrwert",
-    "description": "Wir wissen, dass Compliance-Projekte oft unter Zeit- und Ressourcen­druck stehen. Deshalb bietet Declarion eine Integration, die schnell und effizient umgesetzt werden kann.\n",
+    "description": "Compliance-Projekte stehen häufig unter Zeit- und Ressourcen­druck.\nDeshalb bietet Declarion eine Integrationsarchitektur, die schnell implementiert werden kann und gleichzeitig langfristig skalierbar bleibt.\n",
     "items": [
       {
         "title": "Robuste Dokumentation",
-        "description": "Unsere Entwicklerdokumentation umfasst klar strukturierte API-Dokumentation, SDKs für gängige Programmiersprachen, Beispielimplementierungen, Best-Practice-Guides für Compliance-Workflows. Damit lässt sich die Integration schnell und zuverlässig umsetzen."
+        "description": "Unsere Entwicklerdokumentation umfasst klar strukturierte API-Dokumentation, SDKs für gängige Programmiersprachen, Beispielimplementierungen, Best-Practice-Guides für Compliance-Workflows.\nSo kann Ihr Team Integrationen schnell, zuverlässig und standardisiert umsetzen."
       },
       {
         "title": "Eigene Sandbox-Umgebung",
-        "description": "Eine vollständig funktionale Sandbox-Umgebung ermöglicht Ihrem Team, Integrationen zu testen und zu validieren, bevor sie produktiv eingesetzt werden.\n\nSo können Datenflüsse, Compliance-Workflows und Risikomodelle sicher prototypisiert werden."
+        "description": "Eine vollständig funktionale Sandbox-Umgebung ermöglicht es Ihrem Team, Integrationen zu testen und zu validieren, bevor sie produktiv eingesetzt werden.\nSo können Datenflüsse, Compliance-Workflows und Risikomodelle sicher prototypisiert werden."
       },
       {
         "title": "Minimaler Wartungsaufwand",
-        "description": "Declarion übernimmt laufende Anpassungen an regulatorische Anforderungen, Compliance-Frameworks, Risikomodelle, Plattform-Updates.\n\nIhre Systeme profitieren automatisch von aktuellen Compliance-Standards, ohne zusätzlichen technischen Aufwand."
+        "description": "Declarion übernimmt laufende Anpassungen an regulatorische Anforderungen, Compliance-Frameworks, Risikomodelle, Plattform-Updates.\nIhre Systeme profitieren automatisch von aktuellen Compliance-Standards, ohne zusätzlichen technischen Aufwand."
       }
     ]
   },
   "timeline": {
     "title": "Time-to-Market-Schätzung",
-    "description": "Die Integration von Declarion ist so konzipiert, dass sie schnell umgesetzt werden kann.",
+    "description": "Die Integration von Declarion ist so konzipiert, dass sie schnell und effizient umgesetzt werden kann.",
     "phases": [
       {
         "phase": "Phase 1",
