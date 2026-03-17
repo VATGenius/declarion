@@ -1,82 +1,109 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Automated VAT solutions for refunds and national VAT compliance",
-    "metaDescription": "Enable businesses to automatically reclaim foreign VAT while seamlessly managing and fulfilling their national VAT obligations."
+    "metaTitle": "Declarion | Continuous Compliance for FinTech Ecosystems",
+    "metaDescription": "Declarion is a platform for continuous compliance monitoring, third-party risk management, and audit-ready evidence. FinTechs, partner banks, and assurance teams gain a shared, up-to-date view of regulatory controls, risks, and evidence—centralized, structured, and auditable at any time."
   },
   "hero": {
-    "title": "Efficient VAT Management: Domestic compliance, foreign refunds.",
-    "titleHighlight": "Relief from compliance burden and additional revenue",
-    "titleEnd": "for you and your business customers",
-    "description": "Enable businesses to manage their VAT automatically and digitally – from reclaiming foreign input VAT to fulfilling national VAT obligations. Our solution integrates seamlessly into existing platforms and delivers a consistent end-to-end VAT management experience.\n",
-    "secondaryDescription": "The integration with neobanks strengthens customer loyalty, increases transaction volume, and expands the offering with powerful solutions for foreign VAT refunds as well as the handling of national VAT obligations – all without additional administrative effort.",
-    "ctaText": "Request a Live Demo & Partnership Consultation",
+    "title": "Continuous Compliance for FinTech Ecosystems",
+    "titleHighlight": "Continuous compliance monitoring, third-party risk management, and audit-ready evidence",
+    "titleEnd": "for FinTechs, partner banks, and assurance teams.",
+    "description": "Declarion creates a shared, up-to-date view of regulatory controls, risks, and evidence—centralized, structured, and auditable at any time. Compliance thus evolves from a one-off audit project into a continuous, transparent process.\n",
+    "secondaryDescription": "Declarion combines key functions for compliance and risk monitoring in a single platform. Less Excel. Less manual audit preparation. More transparency and trust across the financial ecosystem.",
+    "ctaText": "Book a demo / Explore the platform",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
   "platform": {
-    "title": "The VATGenius Platform",
-    "description": "",
+    "title": "Declarion was designed for FinTechs, partner banks, as well as assurance teams and auditors.",
+    "description": "Regulatory requirements are continuously increasing. At the same time, FinTechs and banks are working more closely together. This increases the challenge of managing risks, controls, and evidence transparently and in an auditable manner across organizational boundaries.",
     "features": [
       {
-        "title": "VATGenius API",
-        "description": "Easy API integration enables automated data transfer from ERP, T&E and banking systems. Captures, organizes, processes, and validates invoice and receipt data to power foreign VAT recovery and domestic VAT compliance solutions.",
+        "title": "Control Management",
+        "description": "Structured documentation of regulatory controls and their status—across organizations and fully traceable at any time.",
         "icon": "code"
       },
       {
-        "title": "VATGenius Engine",
-        "description": "AI-powered invoice and VAT compliance assessment (domestic and cross-border). Calculate potential foreign VAT refund amounts and identify reclaim opportunities. \nSupport compliance with national VAT obligations. Preparation of the necessary tax returns and applications.",
+        "title": "Continuous Compliance Monitoring",
+        "description": "Controls and risks are continuously monitored—instead of only at the time of an audit.",
         "icon": "lightbulb"
       },
       {
-        "description": "Automated correspondence and requests for new or corrected invoices from invoice issuers. \nHandle inquiries from domestic and foreign tax authorities.",
-        "title": "VATGenius Smart",
+        "description": "Assessment and ongoing monitoring of risks arising from outsourced activities and third parties.",
+        "title": "Third-Party Risk Management",
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius Dashboard",
-        "description": "Automated customer authorization and onboarding.\nReal-time status tracking for refunds, filings, and compliance processes.",
+        "title": "Audit-Ready Evidence",
+        "description": "Centralized collection and structured documentation of regulatory evidence—always audit-ready.",
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius TAX API",
-        "description": "Automates the submission of local and foreign VAT filings and refund applications, transmitting them digitally to the tax portals of the relevant countries.",
+        "title": "Safeguarding Monitoring",
+        "description": "Monitoring of regulatory requirements for safeguarding customer funds.",
+        "icon": "document"
+      },
+      {
+        "title": "Partner Banks",
+        "description": "Partner banks gain transparency into outsourced activities, access to structured regulatory evidence, and can efficiently monitor and meet requirements.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Assurance Teams and Auditors",
+        "description": "Assurance teams and auditors receive standardized evidence instead of manually collected documents. Controls can be reviewed in a structured way, making regulatory processes more transparent and traceable.",
+        "icon": "code"
+      },
+      {
+        "title": "FinTechs",
+        "description": "FinTechs document regulatory controls in a structured manner, centralize evidence, and become audit-ready faster—while maintaining high transparency for partner banks.",
         "icon": "document"
       }
     ]
   },
   "benefits": {
-    "title": "Advantages & Benefits at a Glance",
+    "title": "Benefits at a Glance",
     "items": [
       {
-        "title": "Revenue",
-        "description": "New passive source of income from foreign VAT refunds and savings in compliance costs.",
+        "title": "Continuous Instead of Point-in-Time",
+        "description": "Compliance is monitored continuously—not just at the time of an audit. Audit preparation is significantly reduced.",
         "icon": "currency"
       },
       {
-        "title": "Retention",
-        "description": "Delivers tangible financial returns and compliance value, thereby strengthening loyalty and opening up new opportunities.",
+        "title": "Transparency Across the FinTech Ecosystem",
+        "description": "FinTechs, banks, and auditors work on a shared, structured data foundation—enabling greater transparency across the entire ecosystem.",
         "icon": "heart"
       },
       {
-        "title": "Differentiation",
-        "description": "Take advantage of a unique premium service that your competitors do not use and gain a competitive edge. ",
+        "title": "Audit-Ready",
+        "description": "Regulatory evidence is centrally documented, traceable, and verifiable at any time.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Scalable",
+        "description": "Declarion replaces fragmented Excel sheets and document structures with a scalable platform.",
+        "icon": "currency"
+      },
+      {
+        "title": "Status Visibility",
+        "description": "All stakeholders have real-time insight into the status of controls, documented evidence, identified risks, and overall compliance status.",
         "icon": "lightning"
       }
     ]
   },
   "security": {
-    "title": "Security and Compliance",
-    "description": "At VATGenius, implementing effective cybersecurity measures is fundamental to protecting sensitive data and maintaining the trust of our customers. Our platform supports both the recovery of foreign VAT and the management of domestic VAT compliance obligations for businesses and customers of neobanks. As we process sensitive financial and transactional information across multiple tax jurisdictions, safeguarding this data through robust security practices is a core priority.",
+    "title": "Compliance Is Often Fragmented Today",
+    "description": "In many organizations, regulatory controls, evidence, and risk analyses are still managed in Excel spreadsheets, documents, or isolated tools. Especially in FinTech ecosystems, this fragmentation makes efficient collaboration between FinTechs, banks, and auditors more difficult.",
     "features": [
-      "Encryption protocols and multi-factor authentication for access controls",
-      "Careful review of every aspect of data processing",
-      "GDPR compliant data storage and handling"
+      "Controls are not centrally documented",
+      "Evidence is difficult to trace",
+      "Partner banks have limited transparency",
+      "Audits require significant manual effort",
+      "Risks are often identified too late"
     ]
   },
   "cta": {
-    "title": "Turn VAT Compliance into a Revenue Opportunity",
-    "description": "Foreign VAT refunds and domestic VAT compliance, directly via the VATGenius platform or integrated into your platform.",
-    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "title": "Declarion brings structure and transparency to compliance",
+    "description": "Declarion integrates control management, risk assessment, and evidence documentation into a single platform — for transparent and continuous compliance.",
+    "buttonText": "Book a demo / Explore the platform",
     "buttonLink": "/demo"
   }
 }
