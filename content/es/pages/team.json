@@ -1,27 +1,27 @@
 {
   "seo": {
-    "metaTitle": "Equipo",
-    "metaDescription": "Conozca al equipo de VATGenius. Especialistas en reembolso de IVA que empoderan a las empresas con soluciones financieras innovadoras para reclamar el máximo IVA reembolsable."
+    "metaTitle": "Declarion – Plataforma de Continuous Compliance y Third-Party Risk Management",
+    "metaDescription": "Declarion es una plataforma de Continuous Compliance y Third-Party Risk Management. Supervise los controles de forma continua, documente evidencia apta para auditorías de manera automatizada y mantenga los riesgos siempre bajo control."
   },
   "hero": {
-    "title": "Los especialistas en reembolso de IVA para sus clientes empresariales",
-    "description": "Empoderamos a las empresas que utilizan soluciones financieras innovadoras, especialmente aquellas que trabajan con neobancos, para reclamar sin problemas el máximo IVA reembolsable a través del proceso de reembolso de impuesto soportado.",
+    "title": "Por qué Declarion",
+    "description": "Continuous Compliance para empresas modernas. Declarion permite a las organizaciones supervisar el cumplimiento de forma continua, identificar riesgos de manera temprana y documentar evidencia apta para auditorías de forma estructurada. Nuestra plataforma conecta los requisitos regulatorios con tecnología moderna. Los equipos de compliance y riesgo pueden gestionar procesos de manera eficiente, evaluar de forma transparente los riesgos de terceros y trabajar en todo momento con plena seguridad para auditorías.",
     "heroImage": "/images/hero-team.png"
   },
   "niche": {
-    "title": "Nuestro nicho y experiencia",
+    "title": "Declarion fue desarrollado para ayudar a las empresas a afrontar el creciente número de exigencias regulatorias, con un enfoque claro en Continuous Compliance y Third-Party Risk Management.",
     "items": [
       {
         "title": "El desafío",
-        "description": "Los procesos tradicionales de reembolso de IVA a menudo son difíciles de integrar eficientemente en la infraestructura y documentación únicas de los neobancos digitales. Esto puede llevar a solicitudes perdidas, retrasos o sobrecarga administrativa."
+        "description": "Las empresas se enfrentan hoy a un número creciente de requisitos regulatorios. Las evidencias de cumplimiento, los mecanismos de control y los riesgos de terceros deben documentarse, supervisarse y poder demostrarse en cualquier momento ante auditorías. Sin embargo, en muchas organizaciones esta información se encuentra dispersa en distintos sistemas, documentos y procesos. Esto genera falta de transparencia sobre el estado actual del cumplimiento, un alto esfuerzo manual en auditorías y revisiones, cadenas de evidencia difíciles de rastrear y mayores riesgos relacionados con terceros y proveedores."
       },
       {
         "title": "Nuestra solución",
-        "description": "Hemos adaptado nuestro proceso a esta realidad. Nos especializamos en gestionar el proceso de reembolso de impuesto soportado y tenemos un conocimiento profundo de la documentación de los neobancos, lo que nos permite garantizar reembolsos de IVA más rápidos, más conformes y más exitosos."
+        "description": "Declarion crea una plataforma central para Continuous Compliance y Third-Party Risk Management. Nuestra solución permite a las empresas supervisar continuamente los controles de compliance, registrar y evaluar de forma estructurada los riesgos de terceros, documentar automáticamente la evidencia relevante para auditorías y representar los requisitos regulatorios de manera transparente y trazable. Gracias a flujos de trabajo estructurados, responsabilidades claras y documentación con validez de auditoría, el compliance pasa de ser un proceso reactivo a una herramienta de gestión continua."
       },
       {
         "title": "Nuestra promesa",
-        "description": "Maximizamos la liquidez de sus clientes empresariales asegurando que recuperen con éxito cada euro de IVA al que tienen derecho. Nuestra tecnología propietaria cierra la brecha entre los requisitos legales del IVA y la agilidad de la banca digital."
+        "description": "Ayudamos a las organizaciones a hacer el compliance más sencillo, transparente y escalable. Con Declarion, las empresas pueden cumplir con los requisitos regulatorios de forma eficiente, gestionar auditorías y revisiones con confianza, identificar y controlar riesgos de manera temprana y digitalizar de forma sostenible los procesos de compliance. Nuestra plataforma combina conocimiento regulatorio con tecnología moderna, permitiendo que los equipos de compliance se concentren en lo esencial: comprender los riesgos y tomar decisiones fundamentadas."
       }
     ]
   },
@@ -29,23 +29,23 @@
     "title": "El equipo",
     "members": [
       {
-        "name": "Philipp Tranacher",
-        "role": "Fiscal y legal",
-        "bio": "Doctor, CPA, CTA, abogado. Más de 15 años en fiscalidad internacional.",
+        "name": "Dr. Philipp Tranacher",
+        "role": "Fiscalidad, Regulación y Governance",
+        "bio": "Doctorado, auditor, asesor fiscal y abogado. Más de 15 años de experiencia en el entorno fiscal y regulatorio internacional, así como en el asesoramiento de estructuras complejas de compliance y governance.",
         "image": "/images/team/philipp.jpg",
         "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
         "name": "Nils Loewe",
-        "role": "TI y desarrollo de producto",
-        "bio": "Máster en Ingeniería Informática y Eléctrica y Tecnología de la Información. Más de 10 años en desarrollo de software.",
+        "role": "Tecnología y Desarrollo de Producto",
+        "bio": "Máster en Ingeniería Informática y Eléctrica, así como en Tecnologías de la Información. Más de 10 años de experiencia en arquitectura de software, desarrollo de plataformas y digitalización de procesos regulatorios.",
         "image": "/images/team/nils.png",
         "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
-        "name": "Juliane Tranacher",
-        "role": "Marketing y ventas",
-        "bio": "Doctora. 15 años de experiencia en marketing, prensa y relaciones públicas con enfoque en el sector financiero/inmobiliario.",
+        "name": "Dr. Juliane Tranacher",
+        "role": "Marketing y Estrategia",
+        "bio": "Doctorado. Más de 15 años de experiencia en marketing, comunicación y posicionamiento estratégico en el sector financiero y de servicios.",
         "image": "/images/team/juliane.png",
         "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
@@ -56,29 +56,29 @@
     "items": [
       {
         "title": "Precisión",
-        "subtitle": "Garantizando precisión absoluta para maximizar el IVA recuperable y minimizar el riesgo de auditoría.",
-        "description": "Garantizamos precisión absoluta y cumplimiento de las leyes fiscales internacionales, minimizando riesgos y maximizando el importe de IVA reembolsable para sus clientes. Nuestros procesos están diseñados para gestionar datos complejos de diferentes jurisdicciones con una precisión impecable."
+        "subtitle": "El compliance requiere exactitud y fiabilidad.",
+        "description": "Declarion está diseñado para representar los requisitos regulatorios de forma estructurada y documentar la evidencia de manera trazable. De este modo, los procesos de compliance permanecen transparentes, auditables y sólidos."
       },
       {
         "title": "Digital First",
-        "subtitle": "Transformar procesos complejos en una experiencia digital perfecta, escalable y basada en API.",
-        "description": "Utilizando integraciones basadas en API y automatización avanzada, transformamos el proceso manual e intensivo en papel de los reembolsos de IVA en una experiencia totalmente digital y fluida. Esto garantiza velocidad, escalabilidad y una sobrecarga operativa mínima para su plataforma bancaria."
+        "subtitle": "Los procesos complejos de compliance se optimizan mediante automatización y flujos de trabajo digitales.",
+        "description": "Declarion transforma los procesos manuales de documentación y control en flujos estructurados, escalables y digitales que pueden integrarse sin fricciones en los procesos empresariales existentes."
       },
       {
-        "title": "Enfoque en el cliente",
-        "subtitle": "Diseñar un servicio fluido que mejore la experiencia bancaria global de sus clientes.",
-        "description": "Nuestros servicios están adaptados a las necesidades de sus clientes empresariales, ofreciendo un servicio fluido que es fácil de entender y accesible directamente a través de su interfaz bancaria, aumentando así la fidelidad y satisfacción del cliente."
+        "title": "Orientación al cliente",
+        "subtitle": "El compliance y la gestión de riesgos no solo deben cumplir con requisitos regulatorios, sino también funcionar en el día a día.",
+        "description": "Nuestra plataforma apoya a los equipos en su trabajo diario, facilita la toma de decisiones y crea transparencia sobre riesgos y controles."
       },
       {
         "title": "Transparencia",
-        "subtitle": "Proporcionar transparencia en tiempo real y comunicación clara durante todo el ciclo de reembolso.",
-        "description": "Proporcionamos un rastro de auditoría claro y en tiempo real para cada transacción y estado de reembolso. Nuestras tarifas y pasos del proceso se describen claramente desde el principio para garantizar una confianza y transparencia completas entre nosotros, el neobanco y el cliente final."
+        "subtitle": "La trazabilidad es la base de cualquier estructura de compliance exitosa.",
+        "description": "Declarion permite una documentación clara de controles, responsabilidades y evidencia, de modo que las empresas mantengan en todo momento una visión transparente de su estado de compliance."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para trabajar con nosotros?",
-    "buttonText": "Solicite una demostración en vivo y consulta de asociación",
+    "title": "¿Listo para repensar el Continuous Compliance?",
+    "buttonText": "Solicitar demo / Conocer la plataforma",
     "buttonLink": "/demo"
   }
 }
