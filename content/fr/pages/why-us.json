@@ -1,70 +1,69 @@
 {
   "seo": {
-    "metaTitle": "Pourquoi nous choisir",
-    "metaDescription": "Les avantages du partenariat VATGenius : Revenus, Fidélisation, Différenciation. Découvrez pourquoi les néobanques leaders choisissent VATGenius pour leurs solutions automatisées de remboursement de TVA."
+    "metaTitle": "Plateforme Declarion – Automatiser la conformité continue (Continuous Compliance) et la gestion des risques liés aux tiers (Third-Party Risk Management)",
+    "metaDescription": "La plateforme Declarion permet une conformité continue, une gestion efficace des risques liés aux tiers et des preuves conformes aux exigences d’audit. Automatisez vos processus de conformité et réussissez vos audits à tout moment de manière structurée et efficace."
   },
   "hero": {
-    "title": "Les avantages du partenariat VATGenius :",
-    "titleHighlight": "Revenus, Fidélisation, Différenciation",
+    "title": "Les avantages de Declarion : automatiser la conformité, réduire les risques, réussir les audits en toute sécurité.",
+    "titleHighlight": "Declarion propose une approche structurée et automatisée de la conformité continue et de la gestion des risques liés aux tiers – avec des preuves clairement documentées et des processus auditables à tout moment.",
     "heroImage": "/images/hero-why-us.png",
     "benefits": [
-      "Les frais ne sont facturés que lorsque la TVA est effectivement remboursée. Aucun risque financier pour le client.",
-      "Vous n’engagez que des coûts d’intégration. Vos revenus peuvent dépasser ces coûts de nombreuses fois.",
-      "Le service justifie un prix plus élevé pour le compte professionnel.",
-      "Augmentez la fidélité client. Un service à forte valeur ajoutée rend le changement moins attractif.",
-      "Option de présenter la récupération de TVA comme votre propre service ou comme un service tiers.",
-      "Les comptes traditionnels laissent de l’argent sur la table. Vous pouvez améliorer votre position sur le marché.",
-      "Intégration Plug-and-Play. Mise en service en quelques semaines."
+      "Plateforme centrale pour les preuves de conformité, les contrôles et la documentation.",
+      "Collecte automatisée des preuves au lieu d’une préparation manuelle des audits.",
+      "Transparence sur les risques liés aux tiers, fournisseurs et prestataires.",
+      "Processus structurés réduisant considérablement la charge de travail des équipes internes.",
+      "Documentation audit-ready à tout moment pour toutes les informations pertinentes.",
+      "Structures de conformité évolutives pour les organisations en croissance."
     ]
   },
   "implementation": {
-    "title": "Mise en œuvre du partenariat et stratégie de mise sur le marché",
+    "title": "Partenariat & implémentation",
     "items": [
       {
         "title": "Intégration",
-        "description": "Prêt pour le pilote en 4 à 8 semaines. Très peu de dette technique et de ressources nécessaires de votre côté.",
+        "description": "Declarion s’intègre rapidement dans les structures existantes de conformité et de gouvernance. La plateforme est opérationnelle en quelques semaines seulement – avec des processus clairement définis et un effort d’implémentation minimal pour votre équipe.",
         "icon": "lightning"
       },
       {
         "title": "Support opérationnel",
-        "description": "Nous gérons tous les aspects juridiques, de conformité et de support client liés au processus de TVA. Votre charge de travail est minimale.",
+        "description": "Notre équipe vous accompagne dans la mise en place structurée de vos processus de conformité au sein de la plateforme. Cela inclut notamment la structuration des contrôles et des preuves, la mise en place des évaluations des risques liés aux tiers, la définition des pistes d’audit (audit trails) et l’établissement de standards de documentation clairs.",
         "icon": "support"
       },
       {
-        "title": "Marketing et aide à la vente",
-        "description": "Nous fournissons des supports et des formations pour aider votre équipe commerciale à promouvoir efficacement le nouveau service.",
+        "title": "Déploiement & enablement",
+        "description": "Nous accompagnons votre équipe dans le déploiement réussi de la plateforme, notamment grâce à l’onboarding et aux formations, à des structures de bonnes pratiques pour les processus de conformité et à l’intégration dans vos structures de gouvernance existantes. L’objectif est une utilisation opérationnelle rapide avec un minimum de friction.",
         "icon": "chart"
       }
     ]
   },
   "whyPartner": {
-    "title": "Pourquoi devenir partenaire ?",
+    "title": "Pourquoi Declarion?",
     "items": [
       {
-        "title": "Expertise en intégration néobanque",
-        "description": "Nous sommes experts dans le traitement des données de transactions, des relevés et des formats de documentation des principales néobanques, réduisant considérablement le temps de préparation et les erreurs."
+        "title": "Conformité continue plutôt que préparation ponctuelle",
+        "description": "De nombreuses organisations commencent à rassembler leurs preuves de conformité peu de temps avant les audits. Declarion permet une collecte continue et structurée des preuves, afin que les audits soient toujours préparés."
       },
       {
-        "title": "Service paneuropéen",
-        "description": "Support complet pour les demandes de remboursement de TVA déductible transfrontalières (remboursements de TVA selon les 8e et 13e directives). Nous gérons de la soumission au versement final."
+        "title": "Service à l’échelle européenne",
+        "description": "Declarion accompagne des entreprises basées dans l’Union européenne – indépendamment du secteur, de la structure organisationnelle ou de la taille de l’entreprise."
       },
       {
-        "title": "Rapidité et efficacité",
-        "description": "Notre approche rationalisée et numérique d’abord permet un dépôt de demandes plus rapide et un traitement accéléré par rapport aux méthodes manuelles sur papier."
+        "title": "Transparence sur les risques liés aux tiers",
+        "description": "Les fournisseurs, prestataires et partenaires peuvent générer des risques réglementaires importants. Declarion aide les entreprises à identifier, évaluer et documenter de manière traçable les risques liés aux tiers."
       },
       {
-        "title": "Modèle basé sur le succès",
-        "description": "Nous fonctionnons souvent sur la base « Pas de résultat, pas de frais », garantissant que notre succès est directement lié au vôtre."
+        "title": "Preuves auditables",
+        "description": "Toutes les preuves de conformité pertinentes sont documentées de manière structurée, versionnées et archivées de façon sécurisée et conforme aux exigences d’audit. Cela constitue une base fiable pour les audits internes et externes."
       },
       {
-        "title": "Conformité et assurance",
-        "description": "Nous assurons que chaque demande est 100 % conforme aux réglementations locales et européennes, protégeant votre entreprise contre les futurs audits."
+        "title": "Efficacité pour les équipes conformité",
+        "description": "Grâce à des workflows structurés, une documentation centralisée et une collecte automatisée des preuves, Declarion réduit considérablement la charge opérationnelle des équipes conformité et gouvernance."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à devenir partenaire de VATGenius ?",
-    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
+    "title": "Prêt pour la conformité continue?",
+    "buttonText": "Demander une démo / Découvrir la plateforme.",
     "buttonLink": "/demo"
   }
 }
