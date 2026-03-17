@@ -1,70 +1,69 @@
 {
   "seo": {
-    "metaTitle": "Por qué nosotros",
-    "metaDescription": "Los beneficios de asociarse con VATGenius: Ingresos, retención, diferenciación. Descubra por qué los neobancos líderes eligen VATGenius para soluciones automatizadas de reembolso de IVA."
+    "metaTitle": "Plataforma Declarion – Automatizar Continuous Compliance y Third-Party Risk Management",
+    "metaDescription": "La plataforma Declarion permite Continuous Compliance, una gestión eficiente de riesgos de terceros (Third-Party Risk Management) y evidencia conforme a auditoría. Automatice los procesos de compliance y supere auditorías en cualquier momento de forma estructurada y eficiente."
   },
   "hero": {
-    "title": "Los beneficios de asociarse con VATGenius:",
-    "titleHighlight": "Ingresos, retención, diferenciación",
+    "title": "Las ventajas de Declarion: automatizar el compliance, reducir riesgos, superar auditorías con seguridad.",
+    "titleHighlight": "Declarion permite un enfoque estructurado y automatizado para Continuous Compliance y Third-Party Risk Management, con evidencias claramente documentadas y procesos auditables en todo momento.",
     "heroImage": "/images/hero-why-us.png",
     "benefits": [
-      "Las comisiones solo se generan cuando el IVA se reembolsa efectivamente. Sin riesgo financiero para el cliente.",
-      "Usted solo incurre en costos de integración. Sus ingresos pueden superar estos costos muchas veces.",
-      "El servicio justifica un precio más alto para la cuenta empresarial.",
-      "Aumente la fidelidad del cliente. Un servicio de alto valor hace que cambiar sea menos atractivo.",
-      "Opción de etiquetar la recuperación de IVA como su propio servicio o servicio de terceros.",
-      "Las cuentas tradicionales dejan dinero sobre la mesa. Usted puede mejorar su posición en el mercado.",
-      "Integración Plug-and-Play. En funcionamiento en semanas."
+      "Plataforma central para evidencias de compliance, controles y documentación.",
+      "Recopilación automatizada de evidencias en lugar de preparación manual de auditorías.",
+      "Transparencia sobre los riesgos de terceros, proveedores y prestadores de servicios.",
+      "Procesos estructurados que reducen significativamente la carga de trabajo de los equipos internos.",
+      "Documentación audit-ready en todo momento de toda la información relevante para auditorías.",
+      "Estructuras de compliance escalables para organizaciones en crecimiento."
     ]
   },
   "implementation": {
-    "title": "Implementación de la asociación y salida al mercado",
+    "title": "Asociación e implementación",
     "items": [
       {
         "title": "Integración",
-        "description": "Listo para piloto en 4-8 semanas. Muy poca deuda técnica y recursos necesarios de su parte.",
+        "description": "Declarion se integra rápidamente en estructuras existentes de compliance y gobernanza. La plataforma puede estar operativa en pocas semanas, con procesos claramente definidos y un esfuerzo mínimo de implementación para su equipo.",
         "icon": "lightning"
       },
       {
         "title": "Soporte operativo",
-        "description": "Nos encargamos de todo lo legal, cumplimiento y soporte al cliente relacionado con el proceso de IVA. Su carga de trabajo es mínima.",
+        "description": "Nuestro equipo le apoya en la configuración estructurada de sus procesos de compliance dentro de la plataforma. Esto incluye, entre otros, la estructuración de controles y evidencias, la configuración de evaluaciones de riesgo de terceros (Third-Party Risk Assessments), la definición de audit trails y el establecimiento de estándares claros de documentación.",
         "icon": "support"
       },
       {
-        "title": "Habilitación de marketing y ventas",
-        "description": "Proporcionamos materiales y capacitación para ayudar a su equipo de ventas a promover eficazmente el nuevo servicio.",
+        "title": "Implementación y enablement",
+        "description": "Acompañamos a su equipo en la implementación exitosa de la plataforma, incluyendo onboarding y formaciones, estructuras de mejores prácticas para procesos de compliance e integración en estructuras de gobernanza existentes. El objetivo es un uso operativo rápido con mínima fricción.",
         "icon": "chart"
       }
     ]
   },
   "whyPartner": {
-    "title": "¿Por qué asociarse con nosotros?",
+    "title": "¿Por qué Declarion?",
     "items": [
       {
-        "title": "Experiencia en integración con Neobancos",
-        "description": "Somos expertos en el manejo de datos de transacciones, extractos y formatos de documentación de los principales Neobancos, reduciendo significativamente el tiempo de preparación y los errores."
+        "title": "Continuous Compliance en lugar de preparación puntual",
+        "description": "Muchas organizaciones comienzan a recopilar evidencias de compliance poco antes de una auditoría. Declarion permite una recopilación continua y estructurada de evidencias, de modo que las auditorías estén preparadas en todo momento."
       },
       {
-        "title": "Servicio paneuropeo",
-        "description": "Soporte completo para reclamaciones de reembolso de impuesto soportado transfronterizo (Reembolsos de IVA de la 8ª y 13ª Directiva). Nos encargamos desde la presentación hasta el pago final."
+        "title": "Servicio en toda Europa",
+        "description": "Declarion atiende a empresas con sede dentro de la Unión Europea, independientemente del sector, la estructura organizativa o el tamaño de la empresa."
       },
       {
-        "title": "Velocidad y eficiencia",
-        "description": "Nuestro enfoque optimizado y digital-first significa una presentación de reclamaciones más rápida y un procesamiento más ágil en comparación con los métodos manuales basados en papel."
+        "title": "Transparencia sobre los riesgos de terceros",
+        "description": "Proveedores, prestadores de servicios y socios pueden generar riesgos regulatorios significativos. Declarion ayuda a las empresas a identificar, evaluar y documentar de forma sistemática y trazable los riesgos de terceros."
       },
       {
-        "title": "Modelo basado en el éxito",
-        "description": "Frecuentemente operamos con un modelo \"Sin éxito, sin comisión\", asegurando que nuestro éxito esté directamente vinculado al suyo."
+        "title": "Evidencia auditable",
+        "description": "Todas las evidencias relevantes de compliance se documentan de forma estructurada, se versionan y se almacenan de manera segura y conforme a auditoría. Esto crea una base sólida para auditorías internas y externas."
       },
       {
-        "title": "Cumplimiento y garantía",
-        "description": "Garantizamos que cada reclamación cumple al 100% con las regulaciones locales y de toda la UE, protegiendo su negocio de futuras auditorías."
+        "title": "Eficiencia para equipos de compliance",
+        "description": "Gracias a flujos de trabajo estructurados, documentación centralizada y recopilación automatizada de evidencias, Declarion reduce considerablemente el esfuerzo operativo de los equipos de compliance y gobernanza."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para asociarse con VATGenius?",
-    "buttonText": "Solicite una demostración en vivo y consulta de asociación",
+    "title": "¿Listo para Continuous Compliance?",
+    "buttonText": "Solicitar demo / Conocer la plataforma",
     "buttonLink": "/demo"
   }
 }
