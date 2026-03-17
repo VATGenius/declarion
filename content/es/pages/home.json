@@ -1,45 +1,60 @@
 {
   "seo": {
-    "metaTitle": "VATGenius | Soluciones automatizadas de IVA para reembolsos y cumplimiento nacional del IVA",
-    "metaDescription": "VATGenius permite a las empresas recuperar automáticamente el IVA soportado en el extranjero, al mismo tiempo que les ayuda a cumplir de forma eficiente con sus obligaciones nacionales de IVA."
+    "metaTitle": "Declarion | Cumplimiento continuo para ecosistemas FinTech",
+    "metaDescription": "Declarion es una plataforma para la monitorización continua del cumplimiento, la gestión de riesgos de terceros y la evidencia auditable. Las FinTechs, los bancos asociados y los equipos de assurance obtienen una visión compartida y actualizada de los controles regulatorios, riesgos y evidencias, de forma centralizada, estructurada y siempre verificable."
   },
   "hero": {
-    "title": "IVA de forma eficiente: cumplimiento nacional, reembolso en el extranjero",
-    "titleHighlight": "Alivio y generación de ingresos adicionales",
-    "titleEnd": "para empresas y clientes corporativos de neobancos.",
-    "description": "VATGenius permite a las empresas y a los clientes corporativos de neobancos gestionar su IVA de forma automática y digital, desde la recuperación del IVA soportado en el extranjero hasta el cumplimiento de las obligaciones nacionales de IVA. Nuestra solución se integra perfectamente en plataformas existentes, sistemas ERP y sistemas bancarios, ofreciendo un proceso integral de extremo a extremo.\n",
-    "secondaryDescription": "VATGenius reduce considerablemente los costes administrativos fiscales y, al mismo tiempo, desbloquea el potencial de recuperación del IVA. La integración en neobancos fortalece la fidelización de clientes, aumenta el volumen de transacciones y amplía la oferta con soluciones potentes, sin generar carga administrativa adicional.",
-    "ctaText": "Solicitar demo en vivo y asesoramiento de integración",
+    "title": "Cumplimiento continuo para ecosistemas FinTech.",
+    "titleHighlight": "Monitorización continua del cumplimiento, gestión de riesgos de terceros y evidencia auditable",
+    "titleEnd": "para FinTechs, bancos asociados y equipos de assurance.",
+    "description": "Declarion crea una visión compartida y actualizada de los controles regulatorios, riesgos y evidencias, centralizada, estructurada y siempre verificable. De este modo, el cumplimiento pasa de ser un proyecto de auditoría puntual a un proceso continuo y transparente.\n",
+    "secondaryDescription": "Declarion reúne funciones clave para la supervisión del cumplimiento y de riesgos en una sola plataforma. Menos Excel. Menos preparación manual de auditorías. Más transparencia y confianza en el ecosistema financiero.",
+    "ctaText": "Solicitar demo / Conocer la plataforma.",
     "ctaLink": "/demo",
     "heroImage": "/images/hero-home.png"
   },
   "platform": {
-    "title": "La plataforma VATGenius",
-    "description": "",
+    "title": "Declarion fue desarrollado para FinTechs, bancos asociados, así como equipos de assurance y auditores.",
+    "description": "Los requisitos regulatorios aumentan continuamente. Al mismo tiempo, las FinTechs y los bancos trabajan cada vez más estrechamente. Esto incrementa el desafío de gestionar de forma transparente y verificable los riesgos, controles y evidencias a través de los límites organizativos.",
     "features": [
       {
-        "title": "VATGenius API",
-        "description": "Integración sencilla mediante API para la transferencia automatizada de datos desde su ERP, herramienta de viajes o sistema bancario. Captura, estructuración, procesamiento y validación de datos de todas las facturas y comprobantes.",
+        "title": "Gestión de Controles",
+        "description": "Documentación estructurada de los controles regulatorios y su estado, a través de organizaciones y en todo momento trazable.",
         "icon": "code"
       },
       {
-        "title": "VATGenius Engine",
-        "description": "Revisión de cumplimiento de facturas basada en IA, cálculo de posibles reembolsos de IVA extranjero y soluciones digitales para cumplir con las obligaciones nacionales de IVA. Preparación de las declaraciones y solicitudes fiscales necesarias.",
+        "title": "Monitorización Continua del Cumplimiento",
+        "description": "Los controles y riesgos se supervisan de forma continua, en lugar de solo en el momento de una auditoría.",
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius Smart",
-        "description": "Correspondencia automatizada y solicitudes de nuevas facturas conformes con el IVA a emisores de facturas en el país y en el extranjero. Gestión asistida por IA de consultas de autoridades fiscales nacionales e internacionales.",
+        "title": "Gestión de Riesgos de Terceros",
+        "description": "Evaluación y monitorización continua de riesgos derivados de actividades externalizadas y terceros.",
         "icon": "lightbulb"
       },
       {
-        "title": "VATGenius Dashboard",
-        "description": "Autorización y onboarding automatizados de clientes. Seguimiento en tiempo real del estado de reembolsos, presentaciones y procesos de cumplimiento.",
+        "title": "Evidencia Lista para Auditoría",
+        "description": "Recopilación centralizada y documentación estructurada de evidencia regulatoria, siempre lista para auditoría.",
         "icon": "document"
       },
       {
-        "title": "VATGenius TAX API",
-        "description": "Presentación totalmente automática y digital de declaraciones nacionales de IVA, así como solicitudes de devolución de IVA extranjero a través de los portales fiscales nacionales correspondientes.",
+        "title": "Monitorización de Salvaguarda",
+        "description": "Supervisión de los requisitos regulatorios para la protección de los fondos de los clientes (safeguarding).",
+        "icon": "document"
+      },
+      {
+        "title": "Bancos Asociados",
+        "description": "Los bancos asociados obtienen transparencia sobre actividades externalizadas, evidencias regulatorias estructuradas y pueden supervisar y cumplir los requisitos de forma eficiente.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Equipos de Assurance y Auditores",
+        "description": "Los equipos de assurance y los auditores reciben evidencia estandarizada en lugar de recopilación manual de documentos. Los controles pueden auditarse de forma estructurada y los procesos regulatorios se vuelven más comprensibles.",
+        "icon": "code"
+      },
+      {
+        "title": "FinTechs",
+        "description": "Las FinTechs documentan los controles regulatorios de forma estructurada, centralizan las evidencias y están listas para auditoría más rápidamente, manteniendo al mismo tiempo una alta transparencia para los bancos asociados.",
         "icon": "document"
       }
     ]
@@ -48,35 +63,47 @@
     "title": "Ventajas y beneficios de un vistazo",
     "items": [
       {
-        "title": "Ingresos y ahorro de costes",
-        "description": "Nueva fuente de ingresos pasivos mediante la recuperación de IVA extranjero y eliminación del esfuerzo administrativo para el cumplimiento de las obligaciones nacionales de IVA.",
+        "title": "Continuo en lugar de puntual",
+        "description": "El cumplimiento se supervisa de forma continua, no solo en el momento de una auditoría. La preparación de auditorías se reduce significativamente.",
         "icon": "currency"
       },
       {
-        "title": "Fidelización de clientes",
-        "description": "Genera beneficios financieros medibles para las empresas y fortalece la fidelización de clientes.",
+        "title": "Transparencia en el ecosistema FinTech",
+        "description": "FinTechs, bancos y auditores trabajan sobre una base de datos estructurada común, lo que aumenta la transparencia en todo el ecosistema.",
         "icon": "heart"
       },
       {
-        "title": "Diferenciación",
-        "description": "Aproveche un servicio premium único que sus competidores no utilizan y obtenga una ventaja competitiva.",
+        "title": "Listo para Auditoría",
+        "description": "La evidencia regulatoria está siempre documentada de forma centralizada, es trazable y verificable.",
+        "icon": "lightning"
+      },
+      {
+        "title": "Escalable",
+        "description": "Declarion sustituye estructuras fragmentadas de Excel y documentos por una plataforma escalable.",
+        "icon": "currency"
+      },
+      {
+        "title": "Visualización del Estado",
+        "description": "Todas las partes implicadas tienen en todo momento visibilidad sobre el estado de los controles, las evidencias documentadas, los riesgos identificados y el estado actual de cumplimiento.",
         "icon": "lightning"
       }
     ]
   },
   "security": {
-    "title": "Seguridad y cumplimiento",
-    "description": "En VATGenius, la implementación de medidas eficaces de ciberseguridad es un requisito fundamental para proteger datos sensibles y garantizar la confianza de los clientes.",
+    "title": "El cumplimiento hoy en día suele estar fragmentado",
+    "description": "En muchas organizaciones, los controles regulatorios, las evidencias y los análisis de riesgos siguen gestionándose en hojas de Excel, documentos o herramientas aisladas. Especialmente en ecosistemas FinTech, esta fragmentación dificulta una colaboración eficiente entre FinTechs, bancos y auditores.",
     "features": [
-      "Protocolos de cifrado y autenticación multifactor para controles de acceso",
-      "Revisión exhaustiva de todos los aspectos del procesamiento de datos",
-      "Almacenamiento y tratamiento de datos conforme al RGPD"
+      "Los controles no están documentados de forma centralizada",
+      "La evidencia es difícil de rastrear",
+      "Los bancos asociados tienen una transparencia limitada",
+      "Las auditorías requieren un alto esfuerzo manual",
+      "Los riesgos a menudo se detectan tarde"
     ]
   },
   "cta": {
-    "title": "¿Listo para abrir nuevas fuentes de ingresos con soluciones de IVA para reembolsos y cumplimiento?",
-    "description": "Únase a empresas líderes e integre soluciones automatizadas para la devolución de IVA y el cumplimiento de las obligaciones nacionales de IVA.",
-    "buttonText": "Solicitar demo en vivo y asesoramiento de integración",
+    "title": "Declarion aporta estructura y transparencia al cumplimiento",
+    "description": "Declarion conecta la gestión de controles, la evaluación de riesgos y la documentación de evidencias en una plataforma central, para un cumplimiento transparente y continuo.",
+    "buttonText": "Solicitar demo / Conocer la plataforma.",
     "buttonLink": "/demo"
   }
 }
