@@ -1,85 +1,85 @@
 {
   "seo": {
-    "metaTitle": "Intégration",
-    "metaDescription": "Intégration API transparente. Notre solution low-code et plug-and-play garantit une sollicitation minimale de vos ressources de développement et une mise sur le marché rapide."
+    "metaTitle": "Intégration – API de Continuous Compliance | Declarion",
+    "metaDescription": "Notre architecture d’intégration basée sur API permet aux entreprises d’intégrer directement les contrôles de conformité, la gestion des risques liés aux tiers et des preuves auditables dans leurs systèmes existants. Declarion est conçue comme une plateforme low-code et plug-and-play. Cela permet de mettre en œuvre l’automatisation de la conformité avec un effort de développement minimal et de la déployer rapidement en production."
   },
   "hero": {
     "title": "Intégration API transparente",
-    "description": "Le succès de notre partenariat repose sur la rapidité de mise en œuvre. Notre solution est conçue comme un service low-code et plug-and-play, assurant une sollicitation minimale de vos ressources de développement internes et une mise sur le marché rapide.",
+    "description": "Le succès des programmes de conformité modernes dépend de manière déterminante de la rapidité avec laquelle les processus peuvent être automatisés et intégrés dans les systèmes existants. Declarion se connecte à vos systèmes via des API standardisées – tels que les outils ERP, procurement, vendor management ou compliance – et automatise les processus clés de contrôle et de gestion des risques. Ainsi, la continuous compliance, la gestion des risques liés aux tiers et des preuves auditables peuvent être mises en œuvre sans projets informatiques complexes ni migrations de systèmes longues.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
     "title": "Les trois piliers de l’intégration",
-    "description": "Notre service se connecte à votre plateforme via une API RESTful sécurisée, permettant un flux de données automatique et minimisant les interventions manuelles. L’intégration nécessite de se concentrer que sur trois points d’échange de données essentiels :",
+    "description": "Declarion se connecte à votre paysage système existant via une API REST sécurisée. Cela permet de créer des workflows de conformité automatisés avec un effort manuel minimal. L’intégration repose sur trois flux de données centraux:",
     "items": [
       {
-        "title": "Point d’ancrage d’intégration client",
-        "description": "Un simple clic pour activer le service de récupération de TVA pour un client professionnel spécifique.",
+        "title": "Déclencheurs d’onboarding pour les tiers",
+        "description": "Démarrage automatique des analyses de due diligence et d’évaluation des risques dès qu’un nouveau fournisseur, prestataire ou partenaire est créé dans le système. Declarion lance automatiquement les scorings de risque, contrôles de conformité, demandes de documents et workflows de contrôle. Ainsi, la vérification de conformité commence dès l’onboarding de nouveaux partenaires commerciaux.",
         "icon": "userPlus"
       },
       {
-        "title": "Flux de données de transactions",
-        "description": "Un flux sécurisé des transactions de dépenses étrangères pertinentes.",
+        "title": "Flux de données risques et conformité",
+        "description": "Échange sécurisé des informations pertinentes issues des systèmes existants, par exemple données fournisseurs et partenaires, données contractuelles et transactionnelles, documents de conformité, preuves auditables. Ces données constituent la base des évaluations automatisées des risques, du monitoring et des analyses de conformité.",
         "icon": "database"
       },
       {
-        "title": "Approbation, statut et versement",
-        "description": "Un webhook pour recevoir des notifications sur les approbations, des mises à jour en temps réel sur le statut des demandes et les versements finaux de remboursement.",
+        "title": "Statut, preuves & événements d’audit",
+        "description": "Les webhooks fournissent des informations en temps réel sur les contrôles réalisés, les évaluations de risques, le statut des workflows de conformité ainsi que les nouvelles preuves d’audit ou celles mises à jour. Toutes les activités sont consignées de manière conforme aux exigences d’audit et documentées à tout moment.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
-    "title": "Low-code, haute valeur",
-    "description": "Nous comprenons que la rapidité et l’efficacité sont primordiales. Nous offrons :",
+    "title": "Low code, forte valeur ajoutée",
+    "description": "Les projets de conformité sont souvent soumis à des contraintes de temps et de ressources. C’est pourquoi Declarion propose une architecture d’intégration rapide à mettre en œuvre tout en restant évolutive à long terme.",
     "items": [
       {
         "title": "Documentation robuste",
-        "description": "Documentation API complète et facile à suivre ainsi que des SDK pour les langages populaires afin d’accélérer votre cycle de développement."
+        "description": "Notre documentation développeur comprend une documentation API clairement structurée, des SDK pour les langages de programmation courants, des exemples d’implémentation ainsi que des guides de bonnes pratiques pour les workflows de conformité. Votre équipe peut ainsi réaliser les intégrations rapidement, de manière fiable et standardisée."
       },
       {
         "title": "Environnement sandbox dédié",
-        "description": "Un environnement de test entièrement fonctionnel permet à votre équipe de prototyper et de valider l’intégration sans affecter la production."
+        "description": "Un environnement sandbox entièrement fonctionnel permet à votre équipe de tester et valider les intégrations avant leur mise en production. Les flux de données, workflows de conformité et modèles de risque peuvent ainsi être prototypés en toute sécurité."
       },
       {
         "title": "Maintenance minimale",
-        "description": "Nous gérons toutes les mises à jour de conformité, les changements des autorités fiscales étrangères et la maintenance système. Zéro dette technique pour votre plateforme."
+        "description": "Declarion prend en charge les mises à jour continues liées aux exigences réglementaires, aux frameworks de conformité, aux modèles de risque et aux évolutions de la plateforme. Vos systèmes bénéficient automatiquement des standards de conformité actuels, sans effort technique supplémentaire."
       }
     ]
   },
   "timeline": {
-    "title": "Estimation du délai de mise sur le marché",
-    "description": "Nous prévoyons un calendrier de mise en œuvre rapide, vous permettant de lancer cette nouvelle fonctionnalité premium rapidement :",
+    "title": "Estimation du time-to-market",
+    "description": "L’intégration de Declarion est conçue pour être réalisée rapidement et efficacement.",
     "phases": [
       {
         "phase": "Phase 1",
-        "description": "Accès API et tests sandbox",
+        "description": "Accès API & tests sandbox",
         "duration": "2 semaines",
         "effort": "Minimal (1 développeur)"
       },
       {
         "phase": "Phase 2",
-        "description": "Intégration du flux de données et validation",
+        "description": "Intégration des flux de données et configuration des workflows",
         "duration": "4-6 semaines",
         "effort": "Faible à modéré"
       },
       {
         "phase": "Phase 3",
-        "description": "Revue de conformité et lancement pilote",
+        "description": "Validation de conformité & phase pilote",
         "duration": "1 semaine",
         "effort": "Aucun (revue interne)"
       }
     ],
     "total": {
       "label": "Total",
-      "description": "Délai jusqu’au pilote",
+      "description": "Délai jusqu’à la phase pilote",
       "duration": "~6-8 semaines",
       "effort": "Limite"
     }
   },
   "cta": {
-    "title": "Prêt à démarrer l’intégration ?",
-    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
+    "title": "Prêt à intégrer la Continuous Compliance?",
+    "buttonText": "Réserver une démo / Découvrir la plateforme",
     "buttonLink": "/demo"
   }
 }
