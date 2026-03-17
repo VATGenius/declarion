@@ -1,115 +1,151 @@
 {
   "seo": {
-    "metaTitle": "Produit",
-    "metaDescription": "Une plateforme entièrement automatisée et conforme pour le remboursement de la TVA étrangère et la gestion des obligations nationales en matière de TVA. Créez une véritable valeur ajoutée pour votre entreprise."
+    "metaTitle": "Declarion – Plateforme de Continuous Compliance pour FinTech & banques",
+    "metaDescription": "Declarion est une plateforme de Continuous Compliance, de gestion des risques liés aux tiers (Third-Party Risk Management) et de documentation d’évidences auditables."
   },
   "hero": {
-    "title": "Monétisation des remboursements de TVA étrangère et conformité TVA",
-    "description": "Les dépenses professionnelles à l’étranger (voyages, salons, services) augmentent, tandis que de nombreux montants de TVA récupérables ainsi que les obligations nationales en matière de TVA continuent d’être gérés de manière inefficace. Les réglementations complexes, les exigences variables selon les pays, les défis liés à la documentation, les risques de conformité et les processus manuels font du remboursement de la TVA ainsi que du respect des obligations nationales en matière de TVA une charge considérable.",
-    "solutionText": "Notre solution: Augmenter la valeur pour les clients et générer des revenus passifs grâce à une plateforme entièrement automatisée et conforme pour le remboursement de TVA B2B et la conformité TVA nationale — permettant aux entreprises de récupérer la TVA étrangère et de satisfaire facilement à leurs obligations nationales en matière de TVA.",
+    "title": "Plateforme pour les contrôles réglementaires, les risques liés aux tiers et les évidences auditables – documentés de manière centralisée et toujours prêts pour audit.",
+    "description": "Les FinTechs, les banques partenaires et les équipes d’assurance bénéficient d’une vue commune et actualisée des contrôles réglementaires, des risques et des justificatifs. Toutes les informations de conformité pertinentes sont centralisées et vérifiables à tout moment. Ainsi, la conformité passe d’un projet d’audit manuel à un processus continu et transparent. Toutes les parties prenantes travaillent sur une base de données commune et ont à tout moment une visibilité sur l’état des contrôles réglementaires, les évidences documentées, les risques identifiés et le statut actuel de conformité.",
+    "solutionText": "Les FinTechs et les banques collaborent de plus en plus étroitement – tandis que les exigences réglementaires augmentent en continu. Pourtant, dans de nombreuses organisations, les contrôles, les justificatifs et les analyses de risques sont encore gérés dans des tableaux Excel, des documents ou des outils isolés. Cela entraîne des problèmes typiques tels que le manque de transparence sur les contrôles réglementaires, une documentation fragmentée des évidences, une visibilité limitée sur les risques liés aux tiers, un effort manuel élevé lors des audits et l’absence de surveillance continue de la conformité.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "Comment ça fonctionne : l’intégration en 4 étapes",
+    "title": "Dans les écosystèmes FinTech en particulier, cette fragmentation complique la collaboration entre FinTechs, banques partenaires et auditeurs. Declarion relie la gestion des contrôles, l’évaluation des risques et la documentation des évidences au sein d’une plateforme centrale.",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
         "title": "Collecte des données",
-        "description": "Données de transaction automatisées via VATGenius."
+        "description": "Les contrôles, les exigences réglementaires et les justificatifs sont structurés dans Declarion ou intégrés depuis des systèmes existants. Les documentations, politiques et évidences sont centralisées."
       },
       {
         "step": "2",
-        "title": "Traitement",
-        "description": "Le moteur VATGenius analyse automatiquement les documents et transactions, calcule les montants de TVA et permet à la fois le remboursement de la TVA étrangère et le respect des obligations nationales en matière de TVA."
+        "title": "Structuration",
+        "description": "Le moteur Declarion organise les contrôles, les évidences et les données de risque selon les exigences réglementaires et crée une structure claire pour la gestion de la conformité."
       },
       {
         "step": "3",
-        "title": "Déclaration",
-        "description": "L’API TAX de VATGenius automatise les demandes de remboursement de TVA ainsi que les déclarations nationales de TVA auprès des autorités fiscales compétentes."
+        "title": "Monitoring",
+        "description": "Les contrôles et les risques sont surveillés en continu. Les FinTechs et les banques partenaires disposent à tout moment d’une transparence sur le statut des contrôles, la documentation des évidences, les risques identifiés et les exigences réglementaires."
       },
       {
         "step": "4",
-        "title": "Paiement",
-        "description": "Les montants remboursés sont reçus et versés de manière transparente, impactant directement les résultats TVA — tant pour le remboursement de la TVA étrangère que pour la conformité TVA nationale."
+        "title": "Prêt pour audit",
+        "description": "Tous les justificatifs réglementaires sont documentés de manière structurée et disponibles à tout moment pour audit. Les audits et contrôles réglementaires peuvent ainsi être réalisés beaucoup plus efficacement."
       }
     ]
   },
   "customerBenefit": {
-    "title": "Votre avantage",
+    "title": "Vos avantages",
     "items": [
       {
-        "title": "Aucun effort",
-        "description": "Identification entièrement automatisée de la TVA récupérable et des obligations nationales en matière de TVA."
+        "title": "Moins d’efforts manuels",
+        "description": "Declarion réduit les processus de conformité manuels et remplace les structures Excel fragmentées par une plateforme centrale pour les contrôles, les risques et les évidences."
       },
       {
-        "title": "Montant maximum",
-        "description": "La vérification assistée par IA maximise les remboursements de TVA tout en garantissant une conformité fluide aux obligations nationales de TVA."
+        "title": "Continuous Compliance",
+        "description": "Les contrôles et les risques sont surveillés en continu – et non uniquement au moment d’un audit."
       },
       {
-        "title": "Transparence totale",
-        "description": "Via le tableau de bord, vous pouvez consulter à tout moment le statut de vos remboursements de TVA et de vos obligations nationales en matière de TVA."
+        "title": "Audit-Ready Evidence",
+        "description": "Les justificatifs réglementaires sont documentés de manière traçable et immédiatement vérifiables à tout moment."
+      },
+      {
+        "title": "Transparence dans l’écosystème FinTech",
+        "description": "Les FinTechs, les banques et les auditeurs travaillent sur une base de données commune avec une vision claire des contrôles, des risques et des évidences."
+      },
+      {
+        "title": "Collaboration plus rapide avec les banques partenaires",
+        "description": "Grâce à une documentation structurée des contrôles, des risques et des évidences, les FinTechs peuvent démontrer de manière transparente les exigences réglementaires auprès des banques partenaires. Cela facilite les processus d’onboarding et d’audit et réduit les efforts de coordination entre les parties."
+      },
+      {
+        "title": "Structures de conformité évolutives",
+        "description": "Avec la croissance, les exigences réglementaires et les contrôles internes augmentent également. Declarion crée une infrastructure de conformité évolutive qui s’adapte aux nouveaux produits, marchés et exigences réglementaires."
       }
     ]
   },
   "compliance": {
-    "title": "Conformité & sécurité : la confiance grâce à l’excellence réglementaire",
-    "description": "En tant qu’acteur du secteur financier, nous savons que la confiance, la sécurité et une conformité réglementaire sans compromis sont indispensables. Nos solutions sont conçues pour simplifier à la fois le remboursement de la TVA étrangère et la gestion des obligations nationales en matière de TVA, réduire les risques et garantir une conformité totale pour votre entreprise et vos clients professionnels.",
+    "title": "Conformité & sécurité",
+    "description": "En tant que plateforme pour des institutions financières régulées, la sécurité et la conformité réglementaire sont des éléments centraux de l’architecture de Declarion. La plateforme aide les organisations à se conformer aux exigences réglementaires européennes et nationales, notamment DORA – Digital Operational Resilience Act, MaRisk – exigences minimales pour la gestion des risques, BAIT – exigences réglementaires pour l’IT bancaire, EBA Outsourcing Guidelines, PSD2 / ZAG.",
     "sections": [
       {
-        "title": "Conformité fiscale mondiale en tant que service",
+        "title": "Conformité, optimisation des risques, audit readiness",
         "items": [
           {
-            "label": "Expertise sectorielle:",
-            "text": "Des experts fiscaux internationaux gèrent toutes les réglementations TVA pertinentes pour les remboursements transfrontaliers et la conformité TVA nationale."
+            "label": "Expertise juridique",
+            "text": "Declarion est développé par une équipe interdisciplinaire composée de juristes, de spécialistes de la conformité et d’experts réglementaires. L’équipe surveille en continu les nouvelles exigences légales, les lignes directrices réglementaires et la jurisprudence actuelle – et les traduit dans la logique de la plateforme. Il en résulte un système qui automatise non seulement les processus techniques, mais transforme également les évolutions juridiques en conformité opérationnelle structurée."
           },
           {
-            "label": "Transfert de risque:",
-            "text": "Externalisez l’ensemble de la conformité TVA auprès de nos experts."
+            "label": "Collecte structurée",
+            "text": "Les mesures de transfert de risque sont collectées de manière structurée (par exemple: assurances, contrats d’externalisation, transferts de responsabilité)."
           },
           {
-            "label": "Préparation aux audits:",
-            "text": "Demandes et déclarations de TVA entièrement traçables et prêtes pour les contrôles."
+            "label": "Archivage et documentation auditables",
+            "text": "Les évidences et justificatifs sont archivés de manière conforme aux exigences d’audit. Les responsabilités et les bases contractuelles sont documentées."
+          },
+          {
+            "label": "Surveillance automatique",
+            "text": "Les contrôles et les tests d’efficacité sont surveillés automatiquement."
+          },
+          {
+            "label": "Transparence",
+            "text": "Grâce à une surveillance continue et à des évidences documentées, Declarion garantit que le transfert de risque n’est pas seulement décidé formellement, mais effectivement mis en œuvre de manière durable. Les changements concernant les prestataires, contrats ou assurances deviennent immédiatement visibles et peuvent être intégrés dans l’évaluation des risques."
+          },
+          {
+            "label": "Hébergement et infrastructure",
+            "text": "L’infrastructure de Declarion est exploitée dans des centres de données certifiés au sein de l’Union européenne."
           }
         ]
       },
       {
-        "title": "Sécurité des données et protection des données (conforme au RGPD)",
+        "title": "Sécurité des données et protection des données (conforme RGPD)",
         "items": [
           {
-            "label": "Architecture Zero Trust :",
-            "text": "Chiffrement AES-256 pour les données au repos et TLS 1.2+ pour les données en transit."
+            "label": "Architecture Zero Trust",
+            "text": "Chiffrement AES-256 au repos et TLS 1.2+ pour la transmission des données."
           },
           {
-            "label": "Minimisation des données :",
-            "text": "Seules les données nécessaires sont traitées conformément au RGPD."
-          },
-          {
-            "label": "Audits réguliers :",
+            "label": "Audits réguliers",
             "text": "Audits de sécurité indépendants réalisés par des tiers (préparation SOC 2)."
+          },
+          {
+            "label": "Limitation des finalités & minimisation des données",
+            "text": "Les données sont traitées exclusivement pour des processus définis de conformité et de gouvernance."
+          },
+          {
+            "label": "Intégrité et confidentialité",
+            "text": "Garanties par des mesures techniques et organisationnelles."
+          },
+          {
+            "label": "Évidences auditables",
+            "text": "La plateforme est conçue pour documenter les justificatifs pertinents pour l’audit de manière infalsifiable et traçable. Cela inclut notamment la gestion des versions des documents et des évidences, des journaux d’audit complets, des modifications et validations traçables, ainsi qu’un archivage structuré des évidences pour les audits et certifications. Les entreprises peuvent ainsi démontrer à tout moment que les processus de conformité sont correctement mis en œuvre. Les clients conservent à tout moment le contrôle de leurs données. Concepts clairs de rôles et d’autorisations, validations contrôlées des évidences et justificatifs, accès aux données traçables, politiques définies de conservation et de suppression."
+          },
+          {
+            "label": "Protection des données de l’entreprise",
+            "text": "Declarion adopte une approche Security-by-Design et Privacy-by-Design dès l’architecture."
           }
         ]
       }
     ]
   },
   "secureApi": {
-    "title": "API et infrastructure sécurisées",
-    "description": "Notre intégration est conçue pour s’intégrer parfaitement dans vos systèmes sans compromettre votre architecture de sécurité existante.",
+    "title": "API et infrastructure",
+    "description": "Declarion s’intègre parfaitement aux systèmes existants et prend en charge une infrastructure sécurisée et évolutive.",
     "features": [
       {
         "title": "Authentification basée sur des tokens",
-        "description": "Interactions API sécurisées"
+        "description": "Interactions API sécurisées et accès contrôlé aux fonctionnalités de la plateforme."
       },
       {
         "title": "Infrastructure cloud",
-        "description": "Environnements certifiés avec redondance"
+        "description": "Environnements cloud certifiés avec infrastructure redondante."
       }
     ]
   },
   "cta": {
     "title": "Prêt à démarrer?",
-    "description": "Découvrez comment VATGenius peut aider vos clients professionnels à récupérer la TVA étrangère et à gérer leurs obligations TVA dans le monde entier.",
-    "buttonText": "Demander une démo en direct et un conseil d’intégration.",
+    "description": "Découvrez la plateforme lors d’une démonstration en direct.",
+    "buttonText": "Planifier une démo / Découvrir la plateforme",
     "buttonLink": "/demo"
   }
 }
