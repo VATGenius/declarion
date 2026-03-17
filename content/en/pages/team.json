@@ -1,27 +1,27 @@
 {
   "seo": {
-    "metaTitle": "Team",
-    "metaDescription": "Meet the VATGenius team. VAT refund specialists empowering companies with innovative financial solutions to reclaim their maximum refundable VAT."
+    "metaTitle": "Declarion – Continuous Compliance & Third-Party Risk Management Platform",
+    "metaDescription": "Declarion is a platform for continuous compliance and third-party risk management. Continuously monitor controls, automatically document audit-ready evidence, and keep risks in view at all times."
   },
   "hero": {
-    "title": "The VAT Refund Specialists for Your Business Customers",
-    "description": "We empower companies that use innovative financial solutions, especially those that work with neobanks, to seamlessly reclaim their maximum refundable VAT through the input tax refund process.",
+    "title": "Why Declarion",
+    "description": "Continuous compliance for modern businesses. Declarion enables organizations to continuously monitor compliance, identify risks at an early stage, and document audit-ready evidence in a structured manner. Our platform connects regulatory requirements with modern technology. Compliance and risk teams can efficiently manage processes, transparently assess third-party risks, and remain audit-ready at all times.",
     "heroImage": "/images/hero-team.png"
   },
   "niche": {
-    "title": "Our Niche & Expertise",
+    "title": "Declarion was developed to support organizations in addressing increasing regulatory requirements – with a clear focus on continuous compliance and third-party risk management.",
     "items": [
       {
         "title": "The Challenge",
-        "description": "Traditional VAT refund processes are often difficult to integrate efficiently into the unique infrastructure and documentation of digital neobanks. This can lead to missed applications, delays, or administrative overhead."
+        "description": "Organizations today face a growing number of regulatory requirements. Compliance evidence, control mechanisms, and third-party risks must be documented, monitored, and proven audit-ready at all times. In many organizations, however, this information is spread across different systems, documents, and processes. This results in a lack of transparency regarding the current compliance status, high manual effort during audits and reviews, difficult-to-trace evidence chains, and increased risks related to third parties and suppliers."
       },
       {
         "title": "Our Solution",
-        "description": "We have tailored our process to this reality. We specialize in handling the input tax refund process and have in-depth knowledge of neobank documentation, enabling us to ensure faster, more compliant, and more successful VAT refunds."
+        "description": "Declarion provides a centralized platform for continuous compliance and third-party risk management. Our solution enables organizations to continuously monitor compliance controls, systematically capture and assess third-party risks, automatically document audit-relevant evidence, and transparently map regulatory requirements. Through structured workflows, clear responsibilities, and audit-proof documentation, compliance evolves from a reactive process into a continuous management tool."
       },
       {
         "title": "Our Promise",
-        "description": "We maximize the liquidity of your business customers by ensuring that they successfully recover every euro of VAT to which they are entitled. Our proprietary technology bridges the gap between legal VAT requirements and the agility of digital banking."
+        "description": "We help organizations make compliance simpler, more transparent, and scalable. With Declarion, companies can efficiently meet regulatory requirements, confidently manage audits and reviews, identify and control risks at an early stage, and sustainably digitize compliance processes. Our platform combines regulatory expertise with modern technology, enabling compliance teams to focus on what matters most: understanding risks and making informed decisions."
       }
     ]
   },
@@ -29,23 +29,23 @@
     "title": "The Team",
     "members": [
       {
-        "name": "Philipp Tranacher",
+        "name": "Dr. Philipp Tranacher",
         "role": "Tax & Legal",
-        "bio": "PhD, CPA, CTA, Lawyer. 15+ years in international tax.",
+        "bio": "PhD, certified public auditor, tax advisor, and attorney. Over 15 years of experience in international tax and regulatory environments, as well as advising on complex compliance and governance structures.",
         "image": "/images/team/philipp.jpg",
         "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
         "name": "Nils Löwe",
-        "role": "IT & Product Development",
-        "bio": "Master's degree in Computer & Electrical Engineering and Information Technology. 10+ years in software development.",
+        "role": "Technology & Product Development",
+        "bio": "Master’s degree in Computer and Electrical Engineering as well as Information Technology. Over 10 years of experience in software architecture, platform development, and the digitization of regulatory processes.",
         "image": "/images/team/nils.png",
         "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
-        "name": "Juliane Tranacher",
-        "role": "Marketing & Sales",
-        "bio": "PhD. 15 years of experience in marketing, press, and public relations with a focus on financial/real estate sector.",
+        "name": "Dr. Juliane Tranacher",
+        "role": "Marketing & Strategy",
+        "bio": "PhD. Over 15 years of experience in marketing, communications, and strategic positioning in the financial and professional services sector.",
         "image": "/images/team/juliane.png",
         "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
@@ -56,29 +56,29 @@
     "items": [
       {
         "title": "Precision",
-        "subtitle": "Ensuring absolute accuracy to maximize recoverable VAT and minimize audit risk.",
-        "description": "We guarantee absolute accuracy and compliance with international tax laws, minimizing risks and maximizing the refundable VAT amount for your customers. Our processes are designed to manage complex data from different jurisdictions with flawless precision."
+        "subtitle": "Compliance requires accuracy and reliability.",
+        "description": "Declarion is designed to structure regulatory requirements and document evidence in a traceable manner. This ensures that compliance processes remain transparent, audit-ready, and robust."
       },
       {
         "title": "Digital First",
-        "subtitle": "Transform complex processes into a seamless, scalable, API-driven digital experience.",
-        "description": "Using API-driven integrations and advanced automation, we transform the manual, paper-intensive process of VAT refunds into a seamless, fully digital experience. This ensures speed, scalability, and minimal operational overhead for your banking platform."
+        "subtitle": "Complex compliance processes are made efficient through automation and digital workflows.",
+        "description": "Declarion transforms manual documentation and control processes into structured, scalable, and digital workflows that integrate seamlessly into existing business processes."
       },
       {
         "title": "Customer Focus",
-        "subtitle": "Design a seamless service that enhances your customers' global banking experience.",
-        "description": "Our services are tailored to the needs of your business customers, offering a seamless service that is easy to understand and accessible directly through your banking interface, thereby increasing customer loyalty and satisfaction."
+        "subtitle": "Compliance and risk management must not only meet regulatory requirements but also work in day-to-day operations.",
+        "description": "Our platform supports teams in their daily work, simplifies decision-making, and creates transparency around risks and controls."
       },
       {
         "title": "Transparency",
-        "subtitle": "Providing real-time transparency and clear communication throughout the entire reimbursement cycle.",
-        "description": "We provide a clear, real-time audit trail for every transaction and refund status. Our fees and process steps are clearly outlined from the outset to ensure complete trust and transparency between us, the neobank, and the end customer."
+        "subtitle": "Traceability is the foundation of any successful compliance structure.",
+        "description": "Declarion enables clear documentation of controls, responsibilities, and evidence, ensuring that organizations always maintain a transparent overview of their compliance status."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Work with Us?",
-    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "title": "Ready to rethink continuous compliance?",
+    "buttonText": "Book a demo / Explore the platform",
     "buttonLink": "/demo"
   }
 }
