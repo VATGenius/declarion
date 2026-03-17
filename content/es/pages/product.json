@@ -1,115 +1,155 @@
 {
   "seo": {
-    "metaTitle": "Producto",
-    "metaDescription": "Una plataforma totalmente automatizada y conforme con la normativa para la recuperación de IVA extranjero y el cumplimiento de obligaciones nacionales de IVA. Genere un valor real para su empresa."
+    "metaTitle": "Declarion – Plataforma de Continuous Compliance para FinTechs y bancos",
+    "metaDescription": "Declarion es una plataforma para Continuous Compliance, gestión de riesgos de terceros y evidencias auditables."
   },
   "hero": {
-    "title": "Monetización de devoluciones de IVA extranjero y VAT Compliance",
-    "description": "Los gastos empresariales en el extranjero (viajes, ferias, servicios) están aumentando, mientras que muchos importes de IVA recuperables, así como las obligaciones nacionales de IVA, siguen gestionándose de forma ineficiente.\nRegulaciones complejas, requisitos diferentes según el país, desafíos en la documentación, riesgos de cumplimiento y procesos manuales convierten tanto la recuperación de IVA como el cumplimiento de obligaciones nacionales de IVA en una carga significativa.",
-    "solutionText": "Nuestra solución: umentar el valor para los clientes y generar ingresos pasivos mediante una plataforma totalmente automatizada y conforme con la normativa para la recuperación de IVA B2B y el cumplimiento nacional de IVA, permitiendo a las empresas recuperar el IVA extranjero y cumplir fácilmente con sus obligaciones nacionales de IVA.",
+    "title": "Plataforma para controles regulatorios, riesgos de terceros y evidencias auditables: documentado de forma centralizada y listo para auditorías en cualquier momento.",
+    "description": "FinTechs, bancos asociados y equipos de assurance obtienen una visión conjunta y actualizada de los controles regulatorios, riesgos y evidencias. Toda la información relevante de compliance se documenta de forma centralizada y es verificable en todo momento. Así, el compliance pasa de ser un proyecto de auditoría manual a un proceso continuo y transparente. Todas las partes trabajan sobre una base de datos común y pueden ver en cualquier momento el estado de los controles regulatorios, las evidencias documentadas, los riesgos identificados y el estado actual de cumplimiento.",
+    "solutionText": "Los FinTechs y los bancos trabajan cada vez más estrechamente, mientras que los requisitos regulatorios aumentan continuamente. Sin embargo, en muchas organizaciones, los controles, evidencias y análisis de riesgos aún se gestionan en hojas de Excel, documentos o herramientas aisladas. Esto genera problemas típicos como la falta de transparencia sobre los controles regulatorios, documentación fragmentada de evidencias, visibilidad limitada de riesgos de terceros, alto esfuerzo manual en auditorías y ausencia de monitoreo continuo del compliance.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "Así funciona: Integración en 4 pasos",
+    "title": "Especialmente en ecosistemas FinTech, esta fragmentación dificulta la colaboración entre FinTechs, bancos asociados y auditores. Declarion integra la gestión de controles, la evaluación de riesgos y la documentación de evidencias en una plataforma central.",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
-        "title": "Adquisición de datos",
-        "description": "Datos de transacciones automatizados a través de VATGenius"
+        "title": "Captura de datos",
+        "description": "Los controles, requisitos regulatorios y evidencias se registran de forma estructurada en Declarion o se integran desde sistemas existentes. La documentación, políticas y evidencias se centralizan."
       },
       {
         "step": "2",
-        "title": "Procesamiento",
-        "description": "El VATGenius Engine analiza automáticamente documentos y transacciones, calcula los importes de IVA y permite tanto la recuperación de IVA extranjero como el cumplimiento de obligaciones nacionales de IVA."
+        "title": "Estructuración",
+        "description": "El motor de Declarion organiza controles, evidencias y datos de riesgo conforme a los requisitos regulatorios y crea una estructura clara para la gestión de compliance."
       },
       {
         "step": "3",
-        "title": "Presentación",
-        "description": "La VATGenius TAX API automatiza las solicitudes de devolución de IVA y las declaraciones nacionales de IVA ante las autoridades fiscales competentes."
+        "title": "Monitoreo",
+        "description": "Los controles y riesgos se supervisan de forma continua. FinTechs y bancos asociados tienen en todo momento transparencia sobre el estado de los controles, la documentación de evidencias, los riesgos identificados y los requisitos regulatorios."
       },
       {
         "step": "4",
-        "title": "Desembolso",
-        "description": "Los importes reembolsados se reciben y se distribuyen sin fricciones, impactando directamente en los resultados de IVA, tanto en la recuperación de IVA extranjero como en la gestión del cumplimiento nacional de IVA."
+        "title": "Preparación para auditoría",
+        "description": "Todas las evidencias regulatorias están documentadas de forma estructurada y listas para auditoría en cualquier momento. Esto permite realizar auditorías y revisiones regulatorias de manera mucho más eficiente."
       }
     ]
   },
   "customerBenefit": {
-    "title": "Su beneficio para el cliente",
+    "title": "Su ventaja",
     "items": [
       {
-        "title": "Sin esfuerzo",
-        "description": "Identificación totalmente automática del IVA recuperable y de las obligaciones nacionales de IVA."
+        "title": "Menor esfuerzo manual",
+        "description": "Declarion reduce los procesos manuales de compliance y sustituye estructuras fragmentadas en Excel por una plataforma central para controles, riesgos y evidencias."
       },
       {
-        "title": "Importe máximo",
-        "description": "La revisión basada en IA maximiza las devoluciones de IVA y garantiza al mismo tiempo un cumplimiento fluido de las obligaciones nacionales de IVA."
+        "title": "Continuous Compliance",
+        "description": "Los controles y riesgos se supervisan de forma continua, no solo en el momento de una auditoría."
       },
       {
-        "title": "Transparencia total",
-        "description": "A través del dashboard puede consultar en cualquier momento el estado de sus devoluciones de IVA y de sus obligaciones nacionales de IVA."
+        "title": "Evidencia lista para auditoría (Audit-Ready Evidence)",
+        "description": "Las evidencias regulatorias están documentadas de forma trazable y son inmediatamente auditables."
+      },
+      {
+        "title": "Transparencia en el ecosistema FinTech",
+        "description": "FinTechs, bancos y auditores trabajan sobre una base de datos común con una visión clara de controles, riesgos y evidencias."
+      },
+      {
+        "title": "Colaboración más rápida con bancos asociados",
+        "description": "Gracias a la documentación estructurada de controles, riesgos y evidencias, los FinTechs pueden demostrar de forma transparente los requisitos regulatorios frente a los bancos asociados. Esto facilita los procesos de onboarding y auditoría y reduce el esfuerzo de coordinación entre las partes."
+      },
+      {
+        "title": "Estructuras de compliance escalables",
+        "description": "A medida que crece la organización, también aumentan los requisitos regulatorios y los controles internos. Declarion crea una infraestructura de compliance escalable que evoluciona con nuevos productos, mercados y exigencias regulatorias."
       }
     ]
   },
   "compliance": {
-    "title": "Compliance y seguridad: confianza mediante excelencia regulatoria",
-    "description": "Como actor del sector financiero, sabemos que la confianza, la seguridad y el cumplimiento regulatorio sin compromisos son esenciales.\nNuestras soluciones están diseñadas para simplificar tanto la recuperación de IVA extranjero como el cumplimiento de obligaciones nacionales de IVA, reducir riesgos y garantizar al mismo tiempo una compliance completa para su empresa y sus clientes empresariales.",
+    "title": "Compliance y seguridad",
+    "description": "Como plataforma para instituciones financieras reguladas, la seguridad y el cumplimiento normativo son componentes centrales de la arquitectura de Declarion. La plataforma apoya a las organizaciones en la implementación de requisitos regulatorios de marcos europeos y nacionales, en particular: DORA – Digital Operational Resilience Act, MaRisk – requisitos mínimos para la gestión de riesgos, BAIT – requisitos regulatorios de TI para bancos, directrices de outsourcing de la EBA, PSD2 / ZAG.",
     "sections": [
       {
-        "title": "Cumplimiento global del IVA como servicio",
+        "title": "Compliance Expertise, optimización de riesgos, preparación para auditoría",
         "items": [
           {
-            "label": "Experiencia dedicada:",
-            "text": "Expertos fiscales internacionales gestionan todas las regulaciones relevantes de IVA para devoluciones transfronterizas y compliance nacional de IVA."
+            "label": "Experiencia jurídica",
+            "text": "Declarion es desarrollado por un equipo interdisciplinario de juristas, especialistas en compliance y expertos regulatorios. El equipo monitorea continuamente nuevos requisitos legales, directrices regulatorias y jurisprudencia actual, y los traduce en la lógica de la plataforma. Así se crea un sistema que no solo automatiza procesos técnicos, sino que también convierte los desarrollos legales en compliance operativo estructurado."
           },
           {
-            "label": "Transferencia de riesgo:",
-            "text": "Externalice con nosotros toda su compliance de IVA."
+            "label": "Captura estructurada",
+            "text": "Las medidas de transferencia de riesgos se registran de forma estructurada (por ejemplo, seguros, contratos de outsourcing, asunción de responsabilidades)."
           },
           {
-            "label": "Preparación para auditorías:",
-            "text": "Solicitudes y declaraciones de IVA totalmente auditables y trazables."
+            "label": "Registro y documentación auditables",
+            "text": "Las evidencias y pruebas se almacenan de forma auditada. Se documentan responsabilidades y bases contractuales."
+          },
+          {
+            "label": "Monitoreo automático",
+            "text": "Los controles y pruebas de efectividad se supervisan automáticamente."
+          },
+          {
+            "label": "Transparencia",
+            "text": "Mediante el monitoreo continuo y la documentación de evidencias, Declarion garantiza que la transferencia de riesgos no solo se apruebe formalmente, sino que se implemente de forma efectiva a largo plazo. Los cambios en proveedores, contratos o seguros se hacen visibles de inmediato y pueden incorporarse en la evaluación de riesgos."
+          },
+          {
+            "label": "Hosting e infraestructura",
+            "text": "La infraestructura de Declarion se opera en centros de datos certificados dentro de la Unión Europea."
           }
         ]
       },
       {
-        "title": "Seguridad de datos y protección de datos (conforme al RGPD)",
+        "title": "Seguridad de datos y protección de datos (cumple con el RGPD)",
         "items": [
           {
             "label": "Arquitectura Zero-Trust:",
-            "text": "Cifrado AES-256 en reposo y TLS 1.2+ en la transmisión de datos"
+            "text": "Cifrado AES-256 en reposo y TLS 1.2+ en la transmisión de datos."
           },
           {
-            "label": "Minimización de datos:",
-            "text": "Solo se procesan los datos necesarios según el RGPD"
+            "label": "Auditorías periódicas",
+            "text": "Auditorías de seguridad independientes realizadas por terceros (preparación SOC 2)."
           },
           {
-            "label": "Auditorías regulares:",
-            "text": "Auditorías de seguridad independientes realizadas por terceros (preparación SOC-2)"
+            "label": "Limitación de finalidad y minimización de datos",
+            "text": "Los datos se procesan exclusivamente para procesos definidos de compliance y gobernanza."
+          },
+          {
+            "label": "Integridad y confidencialidad",
+            "text": "Se garantizan mediante medidas técnicas y organizativas."
+          },
+          {
+            "label": "Evidencia auditada",
+            "text": "La plataforma ha sido diseñada para que las evidencias relevantes para auditoría se documenten de forma inalterable y se almacenen de manera trazable. Esto incluye, entre otros, versionado de documentos y evidencias, trazabilidad completa mediante audit trails, cambios y aprobaciones verificables, almacenamiento estructurado de evidencias para auditorías y certificaciones. De este modo, las empresas pueden demostrar en todo momento que los procesos de compliance se han implementado correctamente."
+          },
+          {
+            "label": "Los clientes mantienen en todo momento el control sobre sus datos.",
+            "text": "Conceptos claros de roles y permisos, liberaciones controladas de evidencias y pruebas, accesos a datos trazables, políticas definidas de retención y eliminación."
+          },
+          {
+            "label": "Protección de datos empresariales",
+            "text": "Declarion ofrece un enfoque de Security-by-Design y Privacy-by-Design desde la propia arquitectura."
           }
         ]
       }
     ]
   },
   "secureApi": {
-    "title": "API e infraestructura seguras",
-    "description": "Nuestra integración está diseñada para encajar perfectamente en sus sistemas, sin afectar a su arquitectura de seguridad existente.",
+    "title": "API e infraestructura",
+    "description": "Declarion se integra sin problemas en sistemas existentes y admite una infraestructura segura y escalable.",
     "features": [
       {
         "title": "Autenticación basada en tokens",
-        "description": "Interacciones de API seguras"
+        "description": "Interacciones seguras de API y acceso controlado a las funciones de la plataforma."
       },
       {
-        "title": "Infraestructura en la nube",
-        "description": "Entornos cloud certificados con redundancia"
+        "title": "Infraestructura cloud",
+        "description": "Entornos cloud certificados con infraestructura redundante."
       }
     ]
   },
   "cta": {
     "title": "¿Listo para empezar?",
-    "description": "Descubra cómo VATGenius puede ayudar a sus clientes empresariales a recuperar IVA extranjero y gestionar sus obligaciones de IVA a nivel global.",
-    "buttonText": "Solicitar demo en vivo y asesoramiento de integración",
+    "description": "Conozca la plataforma en una demo en vivo.",
+    "buttonText": "Solicitar demo / Conocer la plataforma.",
     "buttonLink": "/demo"
   }
 }
