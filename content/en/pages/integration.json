@@ -1,55 +1,55 @@
 {
   "seo": {
-    "metaTitle": "Integration",
-    "metaDescription": "Seamless API Integration. Our low-code, plug-and-play solution ensures minimal strain on your development resources and rapid time-to-market."
+    "metaTitle": "Integration – Continuous Compliance API | Declarion",
+    "metaDescription": "Our API-based integration architecture enables companies to embed compliance controls, third-party risk management, and audit-ready evidence directly into existing systems. Declarion is designed as a low-code and plug-and-play platform. This allows compliance automation to be implemented with minimal development effort and deployed quickly."
   },
   "hero": {
     "title": "Seamless API Integration",
-    "description": "The success of our partnership hinges on the speed of implementation. Our solution is designed as a low-code, plug-and-play service, ensuring minimal strain on your internal development resources and a rapid time-to-market.",
+    "description": "The success of modern compliance programs depends largely on how quickly processes can be automated and integrated into existing systems. Declarion connects to your systems via standardized APIs—such as ERP, procurement, vendor management, or compliance tools—and automates key control and risk processes. This enables the implementation of continuous compliance, third-party risk management, and audit-proof evidence—without complex IT projects or lengthy system migrations.",
     "heroImage": "/images/hero-integration.png"
   },
   "pillars": {
     "title": "The Three Integration Pillars",
-    "description": "Our service connects to your platform via a secure RESTful API, enabling automatic data flow and minimizing manual intervention. The integration requires focusing only on three core data exchange points:",
+    "description": "Declarion connects to your existing system landscape via a secure RESTful API, creating automated compliance workflows with minimal manual effort. The integration is based on three central data flows:",
     "items": [
       {
-        "title": "Customer Onboarding Hook",
-        "description": "A simple click to activate the VAT reclaim service for a specific business customer.",
+        "title": "Third-Party Onboarding Triggers",
+        "description": "Automatic initiation of due diligence and risk assessments as soon as a new supplier, service provider, or partner is created in the system. Declarion automatically starts risk scoring, compliance checks, document requests, and control workflows. This ensures that compliance assessments begin at the very moment new business partners are onboarded.",
         "icon": "userPlus"
       },
       {
-        "title": "Transaction Data Feed",
-        "description": "A secure feed of relevant foreign expense transactions.",
+        "title": "Risk and Compliance Data Feed",
+        "description": "Secure exchange of relevant data from existing systems, such as supplier and partner data, contract and transaction data, compliance documents, and audit-relevant evidence. This data forms the foundation for automated risk assessments, monitoring, and compliance analytics.",
         "icon": "database"
       },
       {
-        "title": "Approval, Status & Payout",
-        "description": "A webhook to receive notifications on approvals, real-time updates on claim status and final refund payments.",
+        "title": "Status, Evidence & Audit Events",
+        "description": "Webhooks provide real-time information on completed controls, risk assessments, the status of compliance workflows, and new or updated audit evidence. All activities are logged in an audit-proof manner and are fully documented for audit readiness at any time.",
         "icon": "checkCircle"
       }
     ]
   },
   "lowCode": {
     "title": "Low Code, High Value",
-    "description": "We understand that speed and efficiency are paramount. We deliver:",
+    "description": "Compliance projects are often under time and resource pressure. That’s why Declarion offers an integration architecture that can be implemented quickly while remaining scalable in the long term.",
     "items": [
       {
         "title": "Robust Documentation",
-        "description": "Comprehensive, easy-to-follow API documentation and SDKs for popular languages to accelerate your development cycle."
+        "description": "Our developer documentation includes clearly structured API documentation, SDKs for common programming languages, sample implementations, and best-practice guides for compliance workflows. This enables your team to implement integrations quickly, reliably, and in a standardized way."
       },
       {
         "title": "Dedicated Sandbox Environment",
-        "description": "A fully functional testing environment allows your team to prototype and validate the integration without affecting live production."
+        "description": "A fully functional sandbox environment allows your team to test and validate integrations before going live. This enables secure prototyping of data flows, compliance workflows, and risk models."
       },
       {
         "title": "Minimal Maintenance",
-        "description": "We handle all ongoing compliance updates, foreign tax authority changes, and system maintenance. Zero technical debt for your platform."
+        "description": "Declarion continuously handles updates related to regulatory requirements, compliance frameworks, risk models, and platform improvements. Your systems automatically benefit from up-to-date compliance standards — without additional technical effort."
       }
     ]
   },
   "timeline": {
     "title": "Time-to-Market Estimate",
-    "description": "We project a rapid implementation timeline, allowing you to launch this new premium feature quickly:",
+    "description": "The integration of Declarion is designed to be implemented quickly and efficiently.",
     "phases": [
       {
         "phase": "Phase 1",
@@ -59,27 +59,27 @@
       },
       {
         "phase": "Phase 2",
-        "description": "Data Flow Integration & Validation",
+        "description": "Integration of data flows and workflow configuration",
         "duration": "4-6 Weeks",
         "effort": "Low to Moderate"
       },
       {
         "phase": "Phase 3",
-        "description": "Compliance Review & Pilot Launch",
+        "description": "Compliance validation & pilot operation",
         "duration": "1 Week",
-        "effort": "None (Internal Review)"
+        "effort": "Minimal."
       }
     ],
     "total": {
       "label": "Total",
-      "description": "Time to Pilot",
+      "description": "Time to pilot operation",
       "duration": "~6-8 Weeks",
       "effort": "Limited"
     }
   },
   "cta": {
-    "title": "Ready to Start Integration?",
-    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "title": "Ready to integrate Continuous Compliance?",
+    "buttonText": "Book a demo / Explore the platform",
     "buttonLink": "/demo"
   }
 }
