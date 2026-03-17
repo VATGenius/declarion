@@ -1,92 +1,128 @@
 {
   "seo": {
-    "metaTitle": "Product",
-    "metaDescription": "A fully automated, compliance-assured platform for foreign VAT recovery and domestic VAT obligations. Create real added value for your company."
+    "metaTitle": "Declarion – Continuous Compliance Platform for FinTechs & Banks",
+    "metaDescription": "Declarion is a platform for continuous compliance, third-party risk management, and audit-ready evidence."
   },
   "hero": {
-    "title": "Monetizing VAT Reclaim and Compliance for Business Customers",
-    "description": "Foreign business expenses (travel, trade shows, services) are increasing, while many recoverable VAT amounts and domestic VAT obligations remain inefficiently managed. Complex regulations, varying country requirements, documentation challenges, compliance risks, and manual processes make VAT recovery and VAT compliance a significant burden.",
-    "solutionText": "Our Solution: Elevating customer value and generating passive revenue through a fully automated, compliance-assured platform for B2B VAT recovery and domestic VAT compliance — enabling businesses to reclaim foreign VAT and meet national VAT obligations effortlessly.",
+    "title": "Platform for regulatory controls, third-party risks, and audit-ready evidence – centrally documented and always ready for review.",
+    "description": "FinTechs, partner banks, and assurance teams gain a shared, up-to-date view of regulatory controls, risks, and evidence. All relevant compliance information is centrally documented and auditable at any time. This transforms compliance from a manual audit project into a continuous, transparent process. All stakeholders work on a shared data foundation and have real-time visibility into the status of regulatory controls, documented evidence, identified risks, and the current compliance status.",
+    "solutionText": "FinTechs and banks are working increasingly closely together – while regulatory requirements continue to rise. In many organizations, however, controls, evidence, and risk analyses are still managed in Excel spreadsheets, documents, or isolated tools. This leads to common issues such as lack of transparency over regulatory controls, fragmented evidence documentation, limited visibility into third-party risks, high manual effort during audits, and no continuous compliance monitoring.",
     "heroImage": "/images/hero-product.png"
   },
   "howItWorks": {
-    "title": "How it Works (The 4-Step Integration Flow)",
+    "title": "Especially in FinTech ecosystems, this fragmentation complicates collaboration between FinTechs, partner banks, and auditors. Declarion connects control management, risk assessment, and evidence documentation within a single centralized platform.",
     "processImage": "/images/process.png",
     "processSteps": [
       {
         "step": "1",
-        "title": "Data Acquisition",
-        "description": "Automated transaction data via VATGenius"
+        "title": "Data Capture",
+        "description": "Controls, regulatory requirements, and evidence are structured within Declarion or integrated from existing systems. Documentation, policies, and evidence are centrally consolidated."
       },
       {
         "step": "2",
-        "title": "Processing",
-        "description": "The VATGenius Engine automatically analyzes documents and transactions, calculates VAT amounts, and enables both foreign VAT recovery and domestic VAT compliance."
+        "title": "Structuring",
+        "description": "The Declarion engine organizes controls, evidence, and risk data in line with regulatory requirements, creating a clear structure for compliance management."
       },
       {
         "step": "3",
-        "title": "Filing",
-        "description": "The VATGenius TAX API automates VAT refunds and domestic VAT filings with the relevant tax authorities."
+        "title": "Monitoring",
+        "description": "Controls and risks are continuously monitored. FinTechs and partner banks have full transparency at all times regarding control status, evidence documentation, identified risks, and regulatory requirements."
       },
       {
         "step": "4",
-        "title": "Pay-Out",
-        "description": "Funds are received and disbursed seamlessly, directly impacting VAT results across both foreign VAT recovery and domestic VAT compliance."
+        "title": "Audit Readiness",
+        "description": "All regulatory evidence is structured and documented, and always ready for audit. This enables significantly more efficient audits and regulatory reviews."
       }
     ]
   },
   "customerBenefit": {
-    "title": "Customer Benefit",
+    "title": "Your Benefits",
     "items": [
       {
-        "title": "No Effort",
-        "description": "Fully automated identification of refundable VAT and national VAT compliance obligations."
+        "title": "Reduced Manual Effort",
+        "description": "Declarion reduces manual compliance processes and replaces fragmented Excel structures with a centralized platform for controls, risks, and evidence."
       },
       {
-        "title": "Maximum Amount",
-        "description": "AI-supported verification maximizes VAT refunds while ensuring seamless compliance with national VAT obligations."
+        "title": "Continuous Compliance",
+        "description": "Controls and risks are continuously monitored – not just at the time of an audit."
       },
       {
-        "title": "Complete Transparency",
-        "description": "Access the status of your VAT refunds and domestic VAT obligations at any time via the dashboard."
+        "title": "Audit-Ready Evidence",
+        "description": "Regulatory evidence is documented in a traceable manner and immediately auditable at any time."
+      },
+      {
+        "title": "Transparency in the FinTech Ecosystem",
+        "description": "FinTechs, banks, and auditors work on a shared data foundation with a clear view of controls, risks, and evidence."
+      },
+      {
+        "title": "Faster Collaboration with Partner Banks",
+        "description": "Through structured documentation of controls, risks, and evidence, FinTechs can transparently demonstrate regulatory compliance to partner banks. This facilitates onboarding and audit processes and reduces coordination effort between parties."
+      },
+      {
+        "title": "Scalable Compliance Structures",
+        "description": "As organizations grow, regulatory requirements and internal controls increase. Declarion provides a scalable compliance infrastructure that evolves with new products, markets, and regulatory demands."
       }
     ]
   },
   "compliance": {
-    "title": "Compliance & Security: Trust Built on Regulatory Excellence",
-    "description": "As a partner to the financial sector, we understand that trust, security, and uncompromising regulatory compliance are non-negotiable. Our solutions are designed to simplify both foreign VAT recovery and the fulfillment of domestic VAT obligations, mitigating risk while ensuring full compliance for your institution and your business customers.",
+    "title": "Compliance & Security",
+    "description": "As a platform for regulated financial institutions, security and regulatory compliance are core components of Declarion’s architecture. The platform supports organizations in implementing regulatory requirements from European and national frameworks, including DORA – Digital Operational Resilience Act, MaRisk – Minimum Requirements for Risk Management, BAIT – Supervisory Requirements for IT in Banking, EBA Outsourcing Guidelines, PSD2 / ZAG.",
     "sections": [
       {
-        "title": "Global Tax Compliance-as-a-Service",
+        "title": "Compliance expertise, risk optimization, audit readiness.",
         "items": [
           {
-            "label": "Dedicated Expertise:",
-            "text": "International tax specialists managing all relevant VAT regulations for cross-border refunds and domestic VAT compliance."
+            "label": "Legal Expertise",
+            "text": "Declarion is developed by an interdisciplinary team of legal professionals, compliance specialists, and regulatory experts. The team continuously monitors new legal requirements, regulatory guidelines, and current case law – translating them into the platform’s logic. This creates a system that not only automates technical processes but also systematically translates legal developments into operational compliance."
           },
           {
-            "label": "Risk Transfer:",
-            "text": "Offload the entire VAT compliance burden to us."
+            "label": "Structured Capture",
+            "text": "Risk transfer measures are captured in a structured manner (e.g., insurance, outsourcing contracts, liability transfers)."
           },
           {
-            "label": "Audit Readiness:",
-            "text": "Fully auditable and defensible VAT claims and filings."
+            "label": "Audit-Proof Storage & Documentation",
+            "text": "Evidence and documentation are stored in an audit-proof manner. Responsibilities and contractual foundations are documented."
+          },
+          {
+            "label": "Automated Monitoring",
+            "text": "Controls and effectiveness checks are monitored automatically."
+          },
+          {
+            "label": "Transparency",
+            "text": "Through continuous monitoring and documented evidence, Declarion ensures that risk transfer is not only formally decided but effectively implemented on an ongoing basis. Changes in service providers, contracts, or insurance are immediately visible and can be incorporated into risk assessments."
+          },
+          {
+            "label": "Hosting and Infrastructure",
+            "text": "Declarion’s infrastructure is operated in certified data centers within the European Union."
           }
         ]
       },
       {
-        "title": "Data Security and Privacy (GDPR Compliant)",
+        "title": "Data Security and Data Protection (GDPR-compliant)",
         "items": [
           {
             "label": "Zero-Trust Architecture:",
-            "text": "AES-256 encryption at rest and TLS 1.2+ in transit"
+            "text": "AES-256 encryption at rest and TLS 1.2+ for data in transit."
           },
           {
-            "label": "Data Minimization:",
-            "text": "Only necessary data processed per GDPR"
+            "label": "Regular Audits",
+            "text": "Independent third-party security audits (SOC 2 readiness)."
           },
           {
-            "label": "Regular Audits:",
-            "text": "Independent third-party security audits (SOC 2 readiness)"
+            "label": "Purpose Limitation & Data Minimization",
+            "text": "Data is processed exclusively for defined compliance and governance processes."
+          },
+          {
+            "label": "Integrity and Confidentiality",
+            "text": "Ensured through technical and organizational measures."
+          },
+          {
+            "label": "Audit-Proof Evidence",
+            "text": "The platform is designed to ensure that audit-relevant evidence is documented in a tamper-proof and traceable manner. This includes versioning of documents and evidence, complete audit trails, traceable changes and approvals, and structured evidence storage for audits and certifications. This enables organizations to demonstrate at any time that compliance processes have been properly implemented.  Customers retain full control over their data at all times. Clear role and permission concepts, controlled approval of evidence and documentation, traceable data access, and defined retention and deletion policies."
+          },
+          {
+            "label": "Protection of Corporate Data",
+            "text": "Declarion follows a security-by-design and privacy-by-design approach at the architectural level."
           }
         ]
       }
@@ -94,22 +130,22 @@
   },
   "secureApi": {
     "title": "Secure API and Infrastructure",
-    "description": "Our integration is designed to integrate seamlessly without compromising your existing security posture.",
+    "description": "Declarion integrates seamlessly into existing systems and supports a secure, scalable infrastructure.",
     "features": [
       {
         "title": "Token-Based Authentication",
-        "description": "Secure API interactions"
+        "description": "Secure API interactions and controlled access to platform functions."
       },
       {
         "title": "Cloud Infrastructure",
-        "description": "Certified environments with redundancy"
+        "description": "Certified cloud environments with redundant infrastructure."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Get Started?",
-    "description": "See how VATGenius can help your business customers recover foreign VAT and manage their VAT obligations worldwide.",
-    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "title": "Ready to get started?",
+    "description": "Experience the platform in a live demo.",
+    "buttonText": "Book a demo / Explore the platform",
     "buttonLink": "/demo"
   }
 }
