@@ -1,27 +1,27 @@
 {
   "seo": {
-    "metaTitle": "Équipe",
-    "metaDescription": "Rencontrez l’équipe VATGenius. Spécialistes du remboursement de TVA qui accompagnent les entreprises avec des solutions financières innovantes pour récupérer le maximum de TVA remboursable."
+    "metaTitle": "Declarion – Plateforme de Continuous Compliance & Third-Party Risk Management",
+    "metaDescription": "Declarion est une plateforme de continuous compliance et de gestion des risques liés aux tiers. Surveillez les contrôles en continu, documentez automatiquement des preuves auditables et gardez à tout moment une vue d’ensemble des risques."
   },
   "hero": {
-    "title": "Les spécialistes du remboursement de TVA pour vos clients professionnels",
-    "description": "Nous accompagnons les entreprises qui utilisent des solutions financières innovantes, notamment celles qui travaillent avec des néobanques, pour récupérer de manière transparente le maximum de TVA remboursable via la procédure de remboursement de TVA déductible.",
+    "title": "Pourquoi Declarion",
+    "description": "La continuous compliance pour les entreprises modernes. Declarion permet aux entreprises de surveiller la conformité en continu, d’identifier les risques à un stade précoce et de documenter de manière structurée des preuves auditables. Notre plateforme relie les exigences réglementaires aux technologies modernes. Les équipes Compliance et Risk peuvent piloter efficacement les processus, évaluer de manière transparente les risques liés aux tiers et travailler à tout moment en toute conformité avec les exigences d’audit.",
     "heroImage": "/images/hero-team.png"
   },
   "niche": {
-    "title": "Notre niche et expertise",
+    "title": "Declarion a été conçu pour aider les entreprises à faire face à l’augmentation des exigences réglementaires – avec un accent clair sur la continuous compliance et la gestion des risques liés aux tiers.",
     "items": [
       {
         "title": "Le défi",
-        "description": "Les processus traditionnels de remboursement de TVA sont souvent difficiles à intégrer efficacement dans l’infrastructure et la documentation uniques des néobanques numériques. Cela peut entraîner des demandes manquées, des retards ou une surcharge administrative."
+        "description": "Les entreprises font aujourd’hui face à un nombre croissant d’exigences réglementaires. Les preuves de conformité, les mécanismes de contrôle et les risques liés aux tiers doivent être documentés, surveillés et démontrés à tout moment de manière audit-proof. Dans de nombreuses organisations, ces informations sont toutefois dispersées entre différents systèmes, documents et processus. Cela entraîne un manque de transparence sur le statut de conformité actuel, un effort manuel élevé lors des audits et contrôles, des chaînes de preuves difficiles à retracer, ainsi qu’une augmentation des risques liés aux tiers et aux fournisseurs."
       },
       {
         "title": "Notre solution",
-        "description": "Nous avons adapté notre processus à cette réalité. Nous sommes spécialisés dans le traitement de la procédure de remboursement de TVA déductible et avons une connaissance approfondie de la documentation des néobanques, ce qui nous permet d’assurer des remboursements de TVA plus rapides, plus conformes et plus efficaces."
+        "description": "Declarion crée une plateforme centralisée pour la continuous compliance et la gestion des risques liés aux tiers. Notre solution permet aux entreprises de surveiller en continu les contrôles de conformité, de recenser et d’évaluer de manière structurée les risques liés aux tiers, de documenter automatiquement les preuves pertinentes pour les audits et de représenter les exigences réglementaires de manière transparente et traçable. Grâce à des workflows structurés, des responsabilités clairement définies et une documentation conforme aux exigences d’audit, la compliance passe d’un processus réactif à un véritable outil de pilotage continu."
       },
       {
         "title": "Notre promesse",
-        "description": "Nous maximisons la liquidité de vos clients professionnels en garantissant qu’ils récupèrent avec succès chaque euro de TVA auquel ils ont droit. Notre technologie propriétaire comble le fossé entre les exigences légales de TVA et l’agilité de la banque numérique."
+        "description": "Nous aidons les organisations à rendre la compliance plus simple, plus transparente et plus scalable. Avec Declarion, les entreprises peuvent répondre efficacement aux exigences réglementaires, maîtriser les audits et contrôles avec assurance, identifier et piloter les risques en amont et digitaliser durablement leurs processus de conformité. Notre plateforme associe expertise réglementaire et technologie moderne afin que les équipes Compliance puissent se concentrer sur l’essentiel : comprendre les risques et prendre des décisions éclairées."
       }
     ]
   },
@@ -29,23 +29,23 @@
     "title": "L’équipe",
     "members": [
       {
-        "name": "Philipp Tranacher",
-        "role": "Fiscalité et juridique",
-        "bio": "Doctorat, Expert-comptable, Conseiller fiscal, Avocat. Plus de 15 ans en fiscalité internationale.",
+        "name": "Dr. Philipp Tranacher",
+        "role": "Fiscalité, réglementation & gouvernance",
+        "bio": "Doctorat, expert-comptable, conseiller fiscal et avocat. Plus de 15 ans d’expérience dans l’environnement fiscal et réglementaire international ainsi que dans le conseil en structures complexes de compliance et de gouvernance.",
         "image": "/images/team/philipp.jpg",
         "linkedin": "https://www.linkedin.com/in/philipp-tranacher/"
       },
       {
         "name": "Nils Lowe",
-        "role": "IT et développement produit",
-        "bio": "Master en informatique, génie électrique et technologies de l’information. Plus de 10 ans en développement logiciel.",
+        "role": "Technologie & développement produit",
+        "bio": "Master en ingénierie informatique et électrique ainsi qu’en technologies de l’information. Plus de 10 ans d’expérience en architecture logicielle, développement de plateformes et digitalisation des processus réglementaires.",
         "image": "/images/team/nils.png",
         "linkedin": "https://www.linkedin.com/in/nilsloewe/"
       },
       {
-        "name": "Juliane Tranacher",
-        "role": "Marketing et ventes",
-        "bio": "Doctorat. 15 ans d’expérience en marketing, presse et relations publiques avec une spécialisation dans le secteur financier/immobilier.",
+        "name": "Dr. Juliane Tranacher",
+        "role": "Marketing & stratégie",
+        "bio": "Doctorat. Plus de 15 ans d’expérience en marketing, communication et positionnement stratégique dans le secteur financier et des services.",
         "image": "/images/team/juliane.png",
         "linkedin": "https://www.linkedin.com/in/julianetranacher/"
       }
@@ -56,29 +56,29 @@
     "items": [
       {
         "title": "Précision",
-        "subtitle": "Garantir une exactitude absolue pour maximiser la TVA récupérable et minimiser le risque d’audit.",
-        "description": "Nous garantissons une exactitude absolue et une conformité aux lois fiscales internationales, minimisant les risques et maximisant le montant de TVA remboursable pour vos clients. Nos processus sont conçus pour gérer des données complexes provenant de différentes juridictions avec une précision sans faille."
+        "subtitle": "La compliance exige précision et fiabilité.",
+        "description": "Declarion est conçu pour représenter de manière structurée les exigences réglementaires et documenter les preuves de façon traçable. Les processus de conformité restent ainsi transparents, auditables et robustes."
       },
       {
-        "title": "Numérique d’abord",
-        "subtitle": "Transformer des processus complexes en une expérience numérique fluide, évolutive et pilotée par API.",
-        "description": "En utilisant des intégrations pilotées par API et une automatisation avancée, nous transformons le processus manuel et papier des remboursements de TVA en une expérience entièrement numérique et fluide. Cela garantit rapidité, évolutivité et une surcharge opérationnelle minimale pour votre plateforme bancaire."
+        "title": "Digital First",
+        "subtitle": "Les processus de compliance complexes sont rendus efficaces grâce à l’automatisation et aux workflows digitaux.",
+        "description": "Declarion transforme les processus manuels de documentation et de contrôle en flux structurés, scalables et numériques, qui s’intègrent parfaitement dans les processus existants de l’entreprise."
       },
       {
         "title": "Orientation client",
-        "subtitle": "Concevoir un service fluide qui améliore l’expérience bancaire mondiale de vos clients.",
-        "description": "Nos services sont adaptés aux besoins de vos clients professionnels, offrant un service fluide, facile à comprendre et accessible directement via votre interface bancaire, augmentant ainsi la fidélité et la satisfaction client."
+        "subtitle": "La compliance et la gestion des risques doivent non seulement répondre aux exigences réglementaires, mais aussi fonctionner au quotidien.",
+        "description": "Notre plateforme accompagne les équipes dans leur travail quotidien, facilite la prise de décision et apporte de la transparence sur les risques et les contrôles."
       },
       {
         "title": "Transparence",
-        "subtitle": "Fournir une transparence en temps réel et une communication claire tout au long du cycle de remboursement.",
-        "description": "Nous fournissons une piste d’audit claire et en temps réel pour chaque transaction et statut de remboursement. Nos frais et étapes de processus sont clairement définis dès le départ pour assurer une confiance et une transparence totales entre nous, la néobanque et le client final."
+        "subtitle": "La traçabilité est la base de toute structure de conformité réussie.",
+        "description": "Declarion permet une documentation claire des contrôles, des responsabilités et des preuves, afin que les entreprises disposent à tout moment d’une vue transparente de leur statut de conformité."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à travailler avec nous ?",
-    "buttonText": "Demander une démonstration en direct et une consultation partenariat",
+    "title": "Prêt à repenser la Continuous Compliance?",
+    "buttonText": "Demander une démo / Découvrir la plateforme",
     "buttonLink": "/demo"
   }
 }
