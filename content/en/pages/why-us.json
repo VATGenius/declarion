@@ -1,70 +1,69 @@
 {
   "seo": {
-    "metaTitle": "Why Us",
-    "metaDescription": "The VATGenius Partner Benefits: Revenue, Retention, Differentiation. Discover why leading neobanks choose VATGenius for automated VAT refund solutions."
+    "metaTitle": "Declarion Platform – Automating Continuous Compliance & Third-Party Risk Management",
+    "metaDescription": "The Declarion platform enables continuous compliance, efficient third-party risk management, and audit-proof evidence. Automate compliance processes and pass audits in a structured and efficient way at any time."
   },
   "hero": {
-    "title": "The VATGenius Partner Benefits:",
-    "titleHighlight": "Revenue, Retention, Differentiation",
+    "title": "The Declarion Advantages: Automate compliance, reduce risks, pass audits with confidence.",
+    "titleHighlight": "In many organizations, compliance is still manual, fragmented, and heavily audit-driven. Declarion provides a structured, automated approach to continuous compliance and third-party risk management – with clearly documented evidence and processes that are audit-ready at all times.",
     "heroImage": "/images/hero-why-us.png",
     "benefits": [
-      "Fees are only incurred when VAT is actually refunded. No financial risk for the customer.",
-      "You only incur costs for integration. Your income can exceed these costs many times over.",
-      "The service justifies a higher price point for the business account.",
-      "Increase customer loyalty. High-value service makes switching less attractive.",
-      "Option to label VAT recovery as your own service or third-party service.",
-      "Traditional accounts leave money on the table. You can improve your market position.",
-      "Plug-and-Play Integration. Go Live in Weeks."
+      "Central platform for compliance evidence, controls, and documentation.",
+      "Automated evidence collection instead of manual audit preparation.",
+      "Transparency over risks from third parties, suppliers, and service providers.",
+      "Structured processes that significantly reduce the workload for internal teams.",
+      "Audit-ready documentation of all relevant information at any time.",
+      "Scalable compliance structures for growing organizations."
     ]
   },
   "implementation": {
-    "title": "Partnership Implementation & Go-to-Market",
+    "title": "Partnership & Implementation",
     "items": [
       {
         "title": "Integration",
-        "description": "Ready for Pilot in 4-8 Weeks. Very low technical debt and resources needed from your side.",
+        "description": "Declarion can be quickly integrated into existing compliance and governance structures. The platform is ready for productive use within a few weeks – with clearly defined processes and minimal implementation effort for your team.",
         "icon": "lightning"
       },
       {
         "title": "Operational Support",
-        "description": "We handle all legal, compliance, and customer support related to the VAT process. Your workload is minimal.",
+        "description": "Our team supports you in setting up your compliance processes in a structured way within the platform. This includes, among other things, structuring controls and evidence, setting up third-party risk assessments, defining audit trails, and establishing clear documentation standards.",
         "icon": "support"
       },
       {
-        "title": "Marketing & Sales Enablement",
-        "description": "We provide materials and training to help your sales team effectively promote the new service.",
+        "title": "Onboarding & Enablement",
+        "description": "We guide your team through the successful introduction of the platform, including onboarding and training, best-practice structures for compliance processes, and integration into existing governance frameworks. The goal is fast operational use with minimal friction.",
         "icon": "chart"
       }
     ]
   },
   "whyPartner": {
-    "title": "Why Partner with Us?",
+    "title": "Why Declarion?",
     "items": [
       {
-        "title": "Neobank Integration Expertise",
-        "description": "We are experts in handling transaction data, statements, and documentation formats from leading Neobanks, significantly reducing preparation time and errors."
+        "title": "Continuous compliance instead of point-in-time preparation",
+        "description": "Many organizations only start compiling compliance evidence shortly before audits. Declarion enables continuous and structured evidence collection, ensuring you are always audit-ready."
       },
       {
         "title": "Pan-European Service",
-        "description": "Full support for cross-border Input Tax Reimbursement Claims (8th and 13th Directive VAT Refunds). We handle submission to final payout."
+        "description": "Declarion supports companies based within the European Union – regardless of industry, organizational structure, or company size."
       },
       {
-        "title": "Speed & Efficiency",
-        "description": "Our streamlined, digital-first approach means quicker claim filing and faster processing compared to manual, paper-based methods."
+        "title": "Transparency on Third-Party Risks",
+        "description": "Suppliers, service providers, and partners can pose significant regulatory risks. Declarion helps organizations systematically capture, assess, and document third-party risks in a transparent and traceable way."
       },
       {
-        "title": "Success-Based Model",
-        "description": "We often operate on a \"No Win, No Fee\" basis, ensuring our success is directly tied to yours."
+        "title": "Audit-Ready Evidence",
+        "description": "All relevant compliance evidence is documented in a structured manner, versioned, and stored in an audit-proof way. This creates a reliable foundation for both internal and external audits."
       },
       {
-        "title": "Compliance & Assurance",
-        "description": "We ensure every claim is 100% compliant with local and EU-wide regulations, protecting your business from future audits."
+        "title": "Efficiency for Compliance Teams",
+        "description": "Through structured workflows, centralized documentation, and automated evidence collection, Declarion significantly reduces the operational workload for compliance and governance teams."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Partner with VATGenius?",
-    "buttonText": "Request a Live Demo & Partnership Consultation",
+    "title": "Ready for Continuous Compliance?",
+    "buttonText": "Request a demo / Explore the platform",
     "buttonLink": "/demo"
   }
 }
