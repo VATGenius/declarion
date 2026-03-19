@@ -1,28 +1,32 @@
 {
   "seo": {
-    "metaTitle": "Demo anfragen | Declarion",
-    "metaDescription": "Null Integrationsaufwand. Maximaler finanzieller Nutzen. Fordern Sie eine Live-Demo und Partnerschaftsberatung an."
+    "metaTitle": "Declarion | Continuous Compliance Plattform",
+    "metaDescription": "Declarion unterstützt Unternehmen dabei, von reaktiver Compliance zu einem kontinuierlichen, Echtzeit-Ansatz überzugehen. In der heutigen regulatorischen Umgebung sind Geschwindigkeit, Transparenz und Prüfungsfähigkeit entscheidend. Declarion ermöglicht es Unternehmen, Compliance kontinuierlich zu überwachen, operative Komplexität zu reduzieren und Risiken jederzeit im Blick zu behalten."
   },
   "hero": {
-    "title": "Null Integrationsaufwand. Maximaler finanzieller Nutzen.",
-    "description": "Geschwindigkeit und nahtlose Erfahrung sind entscheidend für Ihre Geschäftskunden. Unsere API-Lösung garantiert eine reibungslose Integration in Ihre Kernbankenplattform."
+    "title": "Zero Integration Friction. Maximale Compliance-Transparenz.",
+    "description": "Unsere Plattform ist für eine nahtlose Einführung und sofortige Wirkung konzipiert – ohne bestehende Systeme oder Prozesse zu beeinträchtigen."
   },
   "features": [
     {
       "title": "Kein operativer Aufwand",
-      "description": "Wir verwalten den gesamten End-to-End-Rückforderungsprozess, von der Belegprüfung bis zur endgültigen Auszahlung."
+      "description": "Wir automatisieren Compliance-Monitoring, Evidenzsammlung und Dokumentation – reduzieren manuellen Aufwand und schaffen Freiraum für Ihre Teams, sich auf das Wesentliche zu konzentrieren."
     },
     {
-      "title": "Neue Einnahmequelle",
-      "description": "Generieren Sie eine neue, passive Umsatzbeteiligung basierend auf dem über Ihre Plattform verarbeiteten USt-Rückforderungsvolumen."
+      "title": "Kontinuierliche Transparenz & Kontrolle",
+      "description": "Behalten Sie Ihren Compliance-Status jederzeit im Blick. Erkennen Sie Risiken frühzeitig, verfolgen Sie Kontrollen in Echtzeit und stellen Sie vollständige Prüfungsfähigkeit durch strukturierte, nachvollziehbare Evidenz sicher."
     },
     {
-      "title": "Wettbewerbsvorteil",
-      "description": "Bieten Sie einen leistungsstarken, innovativen Service, der Sie von traditionellen Banken und Wettbewerbern abhebt."
+      "title": "Skalierbares Compliance-Management",
+      "description": "Transformieren Sie fragmentierte Prozesse in ein zentrales, digitales System, das mit Ihrem Unternehmen wächst und sich an steigende regulatorische Anforderungen anpasst."
+    },
+    {
+      "title": "Wettbewerbsvorteil durch Vertrauen",
+      "description": "Stärken Sie Ihre Governance, erhöhen Sie die Transparenz und positionieren Sie Ihr Unternehmen als verlässlichen und zukunftsorientierten Partner in einem regulierten Umfeld."
     }
   ],
   "form": {
-    "title": "Demo buchen",
+    "title": "Demo vereinbaren / Plattform entdecken",
     "subtitle": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen."
   }
 }
