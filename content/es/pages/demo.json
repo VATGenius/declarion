@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "metaTitle": "Solicitar una demo | Declarion",
+    "metaDescription": "Cero fricción en la integración. Máximo beneficio financiero. Solicite una demostración en vivo y una consulta de asociación."
+  },
+  "hero": {
+    "title": "Cero fricción en la integración. Máximo beneficio financiero.",
+    "description": "La velocidad y la experiencia fluida son fundamentales para sus clientes empresariales. Nuestra solución API garantiza una integración perfecta en su plataforma bancaria."
+  },
+  "features": [
+    {
+      "title": "Cero carga operativa",
+      "description": "Gestionamos todo el proceso de recuperación de principio a fin, desde la verificación de recibos hasta el desembolso final."
+    },
+    {
+      "title": "Nueva fuente de ingresos",
+      "description": "Genere una nueva fuente de ingresos pasiva basada en el volumen de IVA recuperado a través de su plataforma."
+    },
+    {
+      "title": "Ventaja competitiva",
+      "description": "Ofrezca un servicio potente e innovador que le diferencie de los bancos tradicionales y de la competencia."
+    }
+  ],
+  "form": {
+    "title": "Reserva tu demo",
+    "subtitle": "Completa el formulario a continuación y nos pondremos en contacto contigo en las próximas 24 horas."
+  }
+}

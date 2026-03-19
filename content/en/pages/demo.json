@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "metaTitle": "Request a Demo | Declarion",
+    "metaDescription": "Zero Integration Friction. Maximum Financial Upside. Request a live demo and partnership consultation."
+  },
+  "hero": {
+    "title": "Zero Integration Friction. Maximum Financial Upside.",
+    "description": "Speed and seamless experience are critical for your business customers. Our API solution guarantees smooth integration into your core banking platform."
+  },
+  "features": [
+    {
+      "title": "Zero Operational Overhead",
+      "description": "We manage the entire end-to-end recovery process, from receipt verification to final disbursement."
+    },
+    {
+      "title": "New Revenue Stream",
+      "description": "Generate a new, passive revenue share based on the recovered VAT volume processed through your platform."
+    },
+    {
+      "title": "Competitive Edge",
+      "description": "Provide a powerful, innovative service that sets you apart from traditional banks and competitors."
+    }
+  ],
+  "form": {
+    "title": "Book Your Demo",
+    "subtitle": "Fill out the form below and we will be in touch within 24 hours."
+  }
+}

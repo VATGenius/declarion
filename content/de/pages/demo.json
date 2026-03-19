@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "metaTitle": "Demo anfragen | Declarion",
+    "metaDescription": "Null Integrationsaufwand. Maximaler finanzieller Nutzen. Fordern Sie eine Live-Demo und Partnerschaftsberatung an."
+  },
+  "hero": {
+    "title": "Null Integrationsaufwand. Maximaler finanzieller Nutzen.",
+    "description": "Geschwindigkeit und nahtlose Erfahrung sind entscheidend für Ihre Geschäftskunden. Unsere API-Lösung garantiert eine reibungslose Integration in Ihre Kernbankenplattform."
+  },
+  "features": [
+    {
+      "title": "Kein operativer Aufwand",
+      "description": "Wir verwalten den gesamten End-to-End-Rückforderungsprozess, von der Belegprüfung bis zur endgültigen Auszahlung."
+    },
+    {
+      "title": "Neue Einnahmequelle",
+      "description": "Generieren Sie eine neue, passive Umsatzbeteiligung basierend auf dem über Ihre Plattform verarbeiteten USt-Rückforderungsvolumen."
+    },
+    {
+      "title": "Wettbewerbsvorteil",
+      "description": "Bieten Sie einen leistungsstarken, innovativen Service, der Sie von traditionellen Banken und Wettbewerbern abhebt."
+    }
+  ],
+  "form": {
+    "title": "Demo buchen",
+    "subtitle": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen."
+  }
+}

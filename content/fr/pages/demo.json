@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "metaTitle": "Demander une démo | Declarion",
+    "metaDescription": "Zéro friction d'intégration. Maximum d'avantages financiers. Demandez une démo en direct et une consultation de partenariat."
+  },
+  "hero": {
+    "title": "Zéro friction d'intégration. Maximum d'avantages financiers.",
+    "description": "La rapidité et l'expérience fluide sont essentielles pour vos clients professionnels. Notre solution API garantit une intégration transparente dans votre plateforme bancaire."
+  },
+  "features": [
+    {
+      "title": "Zéro charge opérationnelle",
+      "description": "Nous gérons l'ensemble du processus de récupération, de la vérification des reçus au versement final."
+    },
+    {
+      "title": "Nouvelle source de revenus",
+      "description": "Générez une nouvelle source de revenus passive basée sur le volume de TVA récupéré via votre plateforme."
+    },
+    {
+      "title": "Avantage concurrentiel",
+      "description": "Offrez un service puissant et innovant qui vous distingue des banques traditionnelles et de vos concurrents."
+    }
+  ],
+  "form": {
+    "title": "Réservez votre démo",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons dans les 24 heures."
+  }
+}
