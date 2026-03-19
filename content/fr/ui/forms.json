@@ -1,6 +1,6 @@
 {
   "signIn": {
-    "title": "Connectez-vous à votre compte VATGenius",
+    "title": "Connectez-vous à votre compte Declarion",
     "emailLabel": "Email",
     "emailPlaceholder": "jean@dupont.fr",
     "passwordLabel": "Mot de passe",
@@ -8,8 +8,8 @@
     "forgotPassword": "Mot de passe oublié ?",
     "submitButton": "Se connecter",
     "or": "ou",
-    "newToVatgenius": "Nouveau sur VATGenius ?",
-    "newToVatgeniusDescription": "La plateforme VATGenius est un moteur entièrement intégré, basé sur API, qui permet une récupération de TVA 100% automatisée en temps réel.",
+    "newToVatgenius": "Nouveau sur Declarion ?",
+    "newToVatgeniusDescription": "La plateforme Declarion est un moteur entièrement intégré, basé sur API, qui permet une récupération de TVA 100% automatisée en temps réel.",
     "requestDemo": "Demander une démo en direct et une consultation partenariat",
     "errorNotRegistered": "Cette adresse email n'est pas enregistrée. Veuillez vérifier l'orthographe ou vous inscrire.",
     "forgotPasswordTitle": "Réinitialisation du mot de passe",
@@ -48,7 +48,7 @@
   ],
   "demoPage": {
     "title": "Zéro friction d'intégration. Maximum d'avantages financiers.",
-    "description": "La rapidité et l'expérience fluide sont essentielles pour les néobanques. VATGenius s'intègre directement à votre plateforme, permettant à vos clients professionnels de débloquer facilement les remboursements de TVA cachés.",
+    "description": "La rapidité et l'expérience fluide sont essentielles pour les néobanques. Declarion s'intègre directement à votre plateforme, permettant à vos clients professionnels de débloquer facilement les remboursements de TVA cachés.",
     "feature1Title": "Zéro charge opérationnelle",
     "feature1Description": "Nous gérons tout, du dépôt de la demande au versement des fonds.",
     "feature2Title": "Nouvelle source de revenus",

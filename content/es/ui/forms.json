@@ -1,6 +1,6 @@
 {
   "signIn": {
-    "title": "Inicia sesión en tu cuenta VATGenius",
+    "title": "Inicia sesión en tu cuenta Declarion",
     "emailLabel": "Email",
     "emailPlaceholder": "juan@garcia.es",
     "passwordLabel": "Contraseña",
@@ -8,8 +8,8 @@
     "forgotPassword": "¿Olvidaste tu contraseña?",
     "submitButton": "Iniciar sesión",
     "or": "o",
-    "newToVatgenius": "¿Nuevo en VATGenius?",
-    "newToVatgeniusDescription": "La plataforma VATGenius es un motor totalmente integrado, basado en API, que permite la recuperación de IVA 100% automatizada en tiempo real.",
+    "newToVatgenius": "¿Nuevo en Declarion?",
+    "newToVatgeniusDescription": "La plataforma Declarion es un motor totalmente integrado, basado en API, que permite la recuperación de IVA 100% automatizada en tiempo real.",
     "requestDemo": "Solicita una demo en vivo y consulta de asociación",
     "errorNotRegistered": "Esta dirección de email no está registrada. Por favor, verifica la ortografía o regístrate.",
     "forgotPasswordTitle": "Restablecer contraseña",
@@ -48,7 +48,7 @@
   ],
   "demoPage": {
     "title": "Cero fricción en la integración. Máximo beneficio financiero.",
-    "description": "La velocidad y la experiencia fluida son críticas para los neobancos. VATGenius se integra directamente en tu plataforma, permitiendo a tus clientes empresariales desbloquear fácilmente las devoluciones de IVA ocultas.",
+    "description": "La velocidad y la experiencia fluida son críticas para los neobancos. Declarion se integra directamente en tu plataforma, permitiendo a tus clientes empresariales desbloquear fácilmente las devoluciones de IVA ocultas.",
     "feature1Title": "Cero carga operativa",
     "feature1Description": "Nos encargamos de todo, desde la presentación de la solicitud hasta el desembolso de los fondos.",
     "feature2Title": "Nueva fuente de ingresos",

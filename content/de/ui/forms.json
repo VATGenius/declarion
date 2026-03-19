@@ -1,6 +1,6 @@
 {
   "signIn": {
-    "title": "Melden Sie sich bei Ihrem VATGenius-Konto an",
+    "title": "Melden Sie sich bei Ihrem Declarion-Konto an",
     "emailLabel": "E-Mail",
     "emailPlaceholder": "max@mustermann.de",
     "passwordLabel": "Passwort",
@@ -8,8 +8,8 @@
     "forgotPassword": "Passwort vergessen?",
     "submitButton": "Anmelden",
     "or": "oder",
-    "newToVatgenius": "Neu bei VATGenius?",
-    "newToVatgeniusDescription": "Die VATGenius-Plattform ist eine vollständig integrierte, API-basierte Engine, die 100% automatisierte USt-Rückerstattung in Echtzeit ermöglicht.",
+    "newToVatgenius": "Neu bei Declarion?",
+    "newToVatgeniusDescription": "Die Declarion-Plattform ist eine vollständig integrierte, API-basierte Engine, die 100% automatisierte USt-Rückerstattung in Echtzeit ermöglicht.",
     "requestDemo": "Live-Demo & Partnerschaftsberatung anfordern",
     "errorNotRegistered": "Diese E-Mail-Adresse ist nicht registriert. Bitte überprüfen Sie die Schreibweise oder registrieren Sie sich.",
     "forgotPasswordTitle": "Passwort zurücksetzen",
@@ -48,7 +48,7 @@
   ],
   "demoPage": {
     "title": "Null Integrationsaufwand. Maximaler finanzieller Nutzen.",
-    "description": "Geschwindigkeit und nahtlose Erfahrung sind entscheidend für Neobanken. VATGenius integriert sich direkt in Ihre Plattform und ermöglicht Ihren Geschäftskunden mühelos versteckte USt-Rückerstattungen freizuschalten.",
+    "description": "Geschwindigkeit und nahtlose Erfahrung sind entscheidend für Neobanken. Declarion integriert sich direkt in Ihre Plattform und ermöglicht Ihren Geschäftskunden mühelos versteckte USt-Rückerstattungen freizuschalten.",
     "feature1Title": "Kein operativer Aufwand",
     "feature1Description": "Wir kümmern uns um alles, von der Antragsstellung bis zur Auszahlung.",
     "feature2Title": "Neue Einnahmequelle",

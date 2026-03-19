@@ -69,7 +69,7 @@ export function Footer({ locale, ui }: FooterProps) {
                   info@declarion.tech
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/declarion"
+                  href="https://www.linkedin.com/company/declarion-tech"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center gap-2 text-sm text-gray-600 hover:text-brand"

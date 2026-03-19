@@ -14,7 +14,7 @@
     "companyTitle": "Company",
     "legalTitle": "Legal",
     "contactUs": "Contact Us",
-    "copyright": "VATGenius. All rights reserved.",
+    "copyright": "Declarion. All rights reserved.",
     "productLinks": [
       { "name": "Product", "href": "/product" },
       { "name": "Integration", "href": "/integration" },

@@ -235,7 +235,7 @@ export default async function HomePage({ params }: Props) {
               <h3 className="mt-6 text-xl font-semibold text-gray-900">
                 {feature.title}
               </h3>
-              {feature.title === 'VATGenius Engine' ? (
+              {feature.title === 'Declarion Engine' ? (
                 <ul className="mt-3 space-y-2 text-gray-600">
                   {feature.description.split(', ').map((item, i) => (
                     <li key={i}>{item}</li>

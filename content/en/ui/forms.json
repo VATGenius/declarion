@@ -1,6 +1,6 @@
 {
   "signIn": {
-    "title": "Log in to your VATGenius account",
+    "title": "Log in to your Declarion account",
     "emailLabel": "Email",
     "emailPlaceholder": "john@doe.com",
     "passwordLabel": "Password",
@@ -8,8 +8,8 @@
     "forgotPassword": "Forgot your password?",
     "submitButton": "Sign In",
     "or": "or",
-    "newToVatgenius": "New to VATGenius?",
-    "newToVatgeniusDescription": "The VATGenius Platform is a fully integrated, API-based engine that enables 100% automated VAT recovery in real-time.",
+    "newToVatgenius": "New to Declarion?",
+    "newToVatgeniusDescription": "The Declarion Platform is a fully integrated, API-based engine that enables 100% automated VAT recovery in real-time.",
     "requestDemo": "Request a Live Demo & Partnership Consultation",
     "errorNotRegistered": "This email address is not registered. Please check the spelling or sign up.",
     "forgotPasswordTitle": "Password Reset",
@@ -48,7 +48,7 @@
   ],
   "demoPage": {
     "title": "Zero Integration Friction. Maximum Financial Upside.",
-    "description": "Speed and seamless experience are critical for neobanks. VATGenius integrates directly into your platform, letting your business customers unlock hidden VAT refunds effortlessly.",
+    "description": "Speed and seamless experience are critical for neobanks. Declarion integrates directly into your platform, letting your business customers unlock hidden VAT refunds effortlessly.",
     "feature1Title": "Zero Operational Overhead",
     "feature1Description": "We handle everything from claim filing to fund disbursement.",
     "feature2Title": "New Revenue Stream",
