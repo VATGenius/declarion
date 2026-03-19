@@ -192,14 +192,14 @@ export default async function HomePage({ params }: Props) {
             {content.hero.titleEnd}
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-            {content.hero.description.split('(')[0]}(
+            {content.hero.description.split('(')[0]}
             <Link
-              href={`/${lang}/knowledge/vat-refund-basics`}
+              href={`/${lang}/news/learn-more`}
               className="text-brand hover:underline"
             >
-              Navigating Foreign VAT Refunds
+              Learn more
             </Link>
-            ). {content.hero.description.split(').')[1] || ''}
+            {content.hero.description.split(').')[1] || ''}
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             {content.hero.secondaryDescription}
