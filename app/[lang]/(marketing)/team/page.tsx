@@ -93,7 +93,7 @@ export default async function TeamPage({ params }: Props) {
           <p className="mt-6 text-lg text-gray-600">
             {content.hero.description.split('(')[0]}
 
-            <Link href={`/${lang}/knowledge/vat-refund-basics`} className="text-brand hover:underline">
+            <Link href={`/${lang}/news/learn-more`} className="text-brand hover:underline">
               Learn more
             </Link>
 
