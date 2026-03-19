@@ -1,28 +1,32 @@
 {
   "seo": {
-    "metaTitle": "Request a Demo | Declarion",
-    "metaDescription": "Zero Integration Friction. Maximum Financial Upside. Request a live demo and partnership consultation."
+    "metaTitle": "Declarion | Continuous Compliance Platform",
+    "metaDescription": "Declarion helps organizations move from reactive compliance to a continuous, real-time approach. In today’s regulatory environment, speed, transparency, and audit readiness are critical. Declarion enables companies to monitor compliance continuously, reduce operational complexity, and stay in control of risks at all times."
   },
   "hero": {
-    "title": "Zero Integration Friction. Maximum Financial Upside.",
-    "description": "Speed and seamless experience are critical for your business customers. Our API solution guarantees smooth integration into your core banking platform."
+    "title": "Zero Integration Friction. Maximum Compliance Clarity.",
+    "description": "Our platform is designed for seamless adoption and immediate impact—without disrupting existing systems or processes."
   },
   "features": [
     {
       "title": "Zero Operational Overhead",
-      "description": "We manage the entire end-to-end recovery process, from receipt verification to final disbursement."
+      "description": "We automate compliance monitoring, evidence collection, and documentation—reducing manual effort and freeing up your teams to focus on what matters."
     },
     {
-      "title": "New Revenue Stream",
-      "description": "Generate a new, passive revenue share based on the recovered VAT volume processed through your platform."
+      "title": "Continuous Visibility & Control",
+      "description": "Stay on top of your compliance status at all times. Identify risks early, track controls in real time, and ensure full audit readiness with structured, traceable evidence."
     },
     {
-      "title": "Competitive Edge",
-      "description": "Provide a powerful, innovative service that sets you apart from traditional banks and competitors."
+      "title": "Scalable Compliance Management",
+      "description": "Transform fragmented processes into a centralized, digital system that grows with your organization and adapts to evolving regulatory requirements."
+    },
+    {
+      "title": "Competitive Edge Through Trust",
+      "description": "Strengthen your governance, increase transparency, and position your organization as a reliable and forward-thinking partner in a regulated environment."
     }
   ],
   "form": {
-    "title": "Book Your Demo",
+    "title": "Book a demo / Explore the platform",
     "subtitle": "Fill out the form below and we will be in touch within 24 hours."
   }
 }
