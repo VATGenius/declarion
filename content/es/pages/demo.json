@@ -1,28 +1,32 @@
 {
   "seo": {
-    "metaTitle": "Solicitar una demo | Declarion",
-    "metaDescription": "Cero fricción en la integración. Máximo beneficio financiero. Solicite una demostración en vivo y una consulta de asociación."
+    "metaTitle": "Declarion | Plataforma de Continuous Compliance",
+    "metaDescription": "Declarion ayuda a las organizaciones a pasar de un enfoque reactivo del compliance a un enfoque continuo y en tiempo real. En el entorno regulatorio actual, la velocidad, la transparencia y la preparación para auditorías son fundamentales. Declarion permite a las empresas supervisar el compliance de forma continua, reducir la complejidad operativa y mantener el control de los riesgos en todo momento."
   },
   "hero": {
-    "title": "Cero fricción en la integración. Máximo beneficio financiero.",
-    "description": "La velocidad y la experiencia fluida son fundamentales para sus clientes empresariales. Nuestra solución API garantiza una integración perfecta en su plataforma bancaria."
+    "title": "Zero Integration Friction. Maximum Compliance Clarity.",
+    "description": "Nuestra plataforma está diseñada para una adopción sin fricciones y un impacto inmediato, sin interrumpir los sistemas o procesos existentes."
   },
   "features": [
     {
-      "title": "Cero carga operativa",
-      "description": "Gestionamos todo el proceso de recuperación de principio a fin, desde la verificación de recibos hasta el desembolso final."
+      "title": "Zero Operational Overhead",
+      "description": "Automatizamos la supervisión del compliance, la recopilación de evidencia y la documentación, reduciendo el esfuerzo manual y permitiendo que sus equipos se concentren en lo que realmente importa."
     },
     {
-      "title": "Nueva fuente de ingresos",
-      "description": "Genere una nueva fuente de ingresos pasiva basada en el volumen de IVA recuperado a través de su plataforma."
+      "title": "Continuous Visibility & Control",
+      "description": "Mantenga el control de su estado de compliance en todo momento. Identifique riesgos de forma temprana, supervise controles en tiempo real y garantice plena preparación para auditorías con evidencia estructurada y trazable."
     },
     {
-      "title": "Ventaja competitiva",
-      "description": "Ofrezca un servicio potente e innovador que le diferencie de los bancos tradicionales y de la competencia."
+      "title": "Scalable Compliance Management",
+      "description": "Transforme procesos fragmentados en un sistema digital centralizado que crece con su organización y se adapta a los requisitos regulatorios en constante evolución."
+    },
+    {
+      "description": "Refuerce su gobernanza, aumente la transparencia y posicione su organización como un socio fiable y con visión de futuro en un entorno regulado.",
+      "title": "Competitive Edge Through Trust"
     }
   ],
   "form": {
-    "title": "Reserva tu demo",
+    "title": "Book a demo / Explore the platform",
     "subtitle": "Completa el formulario a continuación y nos pondremos en contacto contigo en las próximas 24 horas."
   }
 }
