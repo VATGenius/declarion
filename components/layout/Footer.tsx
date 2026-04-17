@@ -15,6 +15,9 @@ export interface FooterUI {
   legalTitle: string;
   contactUs: string;
   copyright: string;
+  email: string;
+  linkedinUrl: string;
+  logoAlt: string;
   productLinks: FooterLink[];
   companyLinks: FooterLink[];
   legalLinks: FooterLink[];
@@ -51,7 +54,7 @@ export function Footer({ locale, ui }: FooterProps) {
               <Link href={`/${locale}`} className="flex items-center gap-2">
                 <Image
                   src="/images/logo.png"
-                  alt="Declarion"
+                  alt={ui.logoAlt}
                   width={120}
                   height={30}
                   className="h-8 w-auto"
@@ -63,13 +66,13 @@ export function Footer({ locale, ui }: FooterProps) {
                   {ui.contactUs}
                 </p>
                 <a
-                  href="mailto:info@declarion.tech"
+                  href={`mailto:${ui.email}`}
                   className="mt-1 block text-sm text-gray-600 hover:text-brand"
                 >
-                  info@declarion.tech
+                  {ui.email}
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/declarion-tech"
+                  href={ui.linkedinUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center gap-2 text-sm text-gray-600 hover:text-brand"

@@ -56,7 +56,10 @@
     ],
     "description": "Compliance-Überwachung, Drittparteien-Risikomanagement und auditfähige Evidenz.",
     "contactUs": "Kontakt",
-    "legalTitle": "Rechtliches"
+    "legalTitle": "Rechtliches",
+    "email": "info@declarion.tech",
+    "linkedinUrl": "https://www.linkedin.com/company/declarion-tech",
+    "logoAlt": "Declarion"
   },
   "articles": {
     "backToNews": "Zurück zu News",

@@ -15,6 +15,9 @@
     "legalTitle": "Legal",
     "contactUs": "Contact Us",
     "copyright": "Declarion. All rights reserved.",
+    "email": "info@declarion.tech",
+    "linkedinUrl": "https://www.linkedin.com/company/declarion-tech",
+    "logoAlt": "Declarion",
     "productLinks": [
       { "name": "Product", "href": "/product" },
       { "name": "Integration", "href": "/integration" },

@@ -19,6 +19,9 @@ interface CommonUI {
     legalTitle: string;
     contactUs: string;
     copyright: string;
+    email: string;
+    linkedinUrl: string;
+    logoAlt: string;
     productLinks: Array<{ name: string; href: string }>;
     companyLinks: Array<{ name: string; href: string }>;
     legalLinks: Array<{ name: string; href: string }>;

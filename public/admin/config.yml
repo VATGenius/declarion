@@ -191,6 +191,9 @@ collections:
               - { label: Legal Title, name: legalTitle, widget: string }
               - { label: Contact Us, name: contactUs, widget: string }
               - { label: Copyright, name: copyright, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: LinkedIn URL, name: linkedinUrl, widget: string }
+              - { label: Logo Alt Text, name: logoAlt, widget: string }
               - label: Product Links
                 name: productLinks
                 widget: list
@@ -321,6 +324,9 @@ collections:
               - { label: Rechtliches-Titel, name: legalTitle, widget: string }
               - { label: Kontakt, name: contactUs, widget: string }
               - { label: Copyright, name: copyright, widget: string }
+              - { label: E-Mail, name: email, widget: string }
+              - { label: LinkedIn-URL, name: linkedinUrl, widget: string }
+              - { label: Logo-Alt-Text, name: logoAlt, widget: string }
               - label: Produkt-Links
                 name: productLinks
                 widget: list
@@ -380,6 +386,9 @@ collections:
               - { label: Titre Légal, name: legalTitle, widget: string }
               - { label: Contact, name: contactUs, widget: string }
               - { label: Copyright, name: copyright, widget: string }
+              - { label: E-mail, name: email, widget: string }
+              - { label: URL LinkedIn, name: linkedinUrl, widget: string }
+              - { label: Texte alternatif du logo, name: logoAlt, widget: string }
               - label: Liens Produit
                 name: productLinks
                 widget: list
@@ -427,6 +436,9 @@ collections:
               - { label: Título Legal, name: legalTitle, widget: string }
               - { label: Contacto, name: contactUs, widget: string }
               - { label: Copyright, name: copyright, widget: string }
+              - { label: Correo electrónico, name: email, widget: string }
+              - { label: URL de LinkedIn, name: linkedinUrl, widget: string }
+              - { label: Texto alternativo del logo, name: logoAlt, widget: string }
               - label: Enlaces Producto
                 name: productLinks
                 widget: list
